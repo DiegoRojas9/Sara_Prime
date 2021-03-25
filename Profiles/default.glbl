@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>G_timeout largo</description>
+      <initValue>10</initValue>
+      <name>G_timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>G_TimeShort corto</description>
+      <initValue>5</initValue>
+      <name>G_TimeShort</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL_PrimeFace</description>
+      <initValue>'http://190.85.173.173:8093/saraprimeweb/webcommon/acceso.jsf'</initValue>
+      <name>G_LoginPrime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>INDICE ARL</description>
+      <initValue>0</initValue>
+      <name>N_INDICE</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
