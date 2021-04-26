@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Cuenta_btn-miniadicionar</name>
+   <name>a_Fecha Vigencia_btn-miniadicionar</name>
    <tag></tag>
-   <elementGuidId>4153f512-5be9-4ccf-84b4-52cc73741c2e</elementGuidId>
+   <elementGuidId>3bab12ab-6283-4eb4-beb7-036c793e8aff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530':'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530'},'');return false&quot;]</value>
+         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569':'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569'},'');return false&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.btn-miniadicionar</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @title = 'Agregar' and @class = 'btn-miniadicionar']</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,21 +31,14 @@
       <value>#</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Agregar</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530':'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530'},'');return false</value>
+      <value>mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569':'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569'},'');return false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -60,34 +49,34 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;detalleEmpleadoPrime_form:tablaEntidadesAFC_foot&quot;)/tr[1]/td[@class=&quot;ui-state-default&quot;]/a[@class=&quot;btn-miniadicionar&quot;]</value>
+      <value>id(&quot;detalleEmpleadoPrime_form:tablaEntidadesAPV_foot&quot;)/tr[1]/td[@class=&quot;ui-state-default&quot;]/a[@class=&quot;btn-miniadicionar&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530':'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530'},'');return false&quot;]</value>
+      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569':'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569'},'');return false&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tfoot[@id='detalleEmpleadoPrime_form:tablaEntidadesAFC_foot']/tr/td[5]/a</value>
+      <value>//tfoot[@id='detalleEmpleadoPrime_form:tablaEntidadesAPV_foot']/tr/td[5]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[10]</value>
+      <value>(//a[contains(@href, '#')])[11]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[5]/a</value>
+      <value>//div[9]/span/div/div/table/tfoot/tr/td[5]/a</value>
    </webElementXpaths>
 </WebElementEntity>

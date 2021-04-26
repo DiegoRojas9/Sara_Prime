@@ -18,27 +18,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/a_Configuracin'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/a_Configuracin'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/a_Configuracin'))
+WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_Configuracin'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/a_'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/a_'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/a_'))
+WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/input_archivo_cargar_j_idt962subir'), 
+WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/input_Seleccionar Archivo_j_idt888subir'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/input_archivo_cargar_j_idt962subir'))
+WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/input_Seleccionar Archivo_j_idt888subir'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/a_Union Soluciones 2019_close'), 
+WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/a_Union Soluciones 2019_ui-dialog-titlebar-close'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/a_Union Soluciones 2019_close'))
+WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_Union Soluciones 2019_ui-dialog-titlebar-close'))
 
 //WebUI.waitForElementClickable(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/select_-- Seleccione --ARL -'),  GlobalVariable.G_timeout)
 //WebUI.click(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/select_-- Seleccione --ARL -'))
-int max = WebUI.getNumberOfTotalOption(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/select_-- Seleccione --ARL -'))
+int max = WebUI.getNumberOfTotalOption(findTestObject('6_Configuración/1_Empresa/Page_/select_-- Seleccione --Arl - Colmena Riesgos ProfesionalesArl'))
 
 double random_double = (Math.random() * max) + 1
 
@@ -52,11 +52,11 @@ if (indice > max) {
     indice = 1
 }
 
-WebUI.selectOptionByIndex(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/select_-- Seleccione --ARL -'), 
+WebUI.selectOptionByIndex(findTestObject('6_Configuración/1_Empresa/Page_/select_-- Seleccione --Arl - Colmena Riesgos ProfesionalesArl'), 
     indice.toString())
 
 try {
-    WebUI.waitForElementClickable(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'), 
+    WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'), 
         GlobalVariable.G_timeout, FailureHandling.CONTINUE_ON_FAILURE)
 }
 catch (Exception e) {
@@ -70,7 +70,7 @@ catch (Exception e) {
         indice = 1
     }
     
-    WebUI.selectOptionByIndex(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/select_-- Seleccione --ARL -'), 
+    WebUI.selectOptionByIndex(findTestObject('6_Configuración/1_Empresa/Page_/select_-- Seleccione --Arl - Colmena Riesgos ProfesionalesArl'), 
         indice.toString())
 } 
 
@@ -78,17 +78,16 @@ catch (Exception e) {
 //WebUI.click(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/label_Informacin Empresa'))
 //WebUI.delay(2)
 //WebUI.waitForElementClickable(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'), GlobalVariable.G_timeout)
-WebUI.click(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'))
+WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'))
 
-WebUI.setText(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'), 
+WebUI.setText(findTestObject('6_Configuración/1_Empresa/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'), 
     '30/12/2020')
 
-WebUI.selectOptionByIndex(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/select_-- Seleccione --NO RELACIONADAPAGO'), 
-    7)
+//WebUI.selectOptionByIndex(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/select_-- Seleccione --NO RELACIONADAPAGO'), 
+//    7)
+WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/a_Guardar'), GlobalVariable.G_timeout)
 
-WebUI.waitForElementClickable(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/a_Guardar'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/a_Guardar'))
+WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_Guardar'))
 
 WebUI.closeBrowser()
 
