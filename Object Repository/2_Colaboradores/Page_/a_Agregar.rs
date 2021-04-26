@@ -6,18 +6,22 @@
    <elementGuidId>86efced9-70b5-494f-81da-b8bb8828fb7d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('listadoEmpleadoPrime_form'),{'listadoEmpleadoPrime_form:j_idt310:j_idt312:j_idt318':'listadoEmpleadoPrime_form:j_idt310:j_idt312:j_idt318'},'');return false&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>td.menuLatOpcion > a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('listadoEmpleadoPrime_form'),{'listadoEmpleadoPrime_form:j_idt310:j_idt312:j_idt318':'listadoEmpleadoPrime_form:j_idt310:j_idt312:j_idt318'},'');return false&quot;]</value>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and (text() = 'Agregar' or . = 'Agregar')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

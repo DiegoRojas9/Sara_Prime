@@ -6,18 +6,21 @@
    <elementGuidId>d4c4d819-b971-4fc3-ae58-bd5c30db26ba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//form[@id='j_idt44']/ul/li[2]/a</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/saraprimeweb/compensacion/empleados/listadoEmpleadosPrime.jsf' and (text() = 'Colaboradores' or . = 'Colaboradores')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

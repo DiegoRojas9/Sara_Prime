@@ -142,7 +142,7 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Cont
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Contrato --APRENDIZ'), '5')
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), '25/12/2020')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), '10/02/2021')
 
 try {
     WebUI.selectOptionByIndex(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Centro Costo --Gerencia'), 
@@ -372,9 +372,9 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPr
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAPVvalorAPV'), '56000')
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionarAPV'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('null'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionarAPV'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Finalizar registro'), GlobalVariable.G_timeout)
 

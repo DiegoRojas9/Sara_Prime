@@ -6,18 +6,22 @@
    <elementGuidId>7612f0f2-f4b1-4669-9e68-7a568b837009</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popupBeneficiariosUpc_form:j_idt882']/div/a</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-corner-all</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='popupBeneficiariosUpc_form:j_idt882']/div/a</value>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @aria-label = 'Close' and @role = 'button']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,14 +42,14 @@
       <value>ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
       <value>Close</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>

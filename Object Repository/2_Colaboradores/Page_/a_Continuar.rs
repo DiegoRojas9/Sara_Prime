@@ -6,18 +6,22 @@
    <elementGuidId>facacb92-2037-4a00-9418-79317d61a4a2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:j_idt569':'detalleEmpleadoPrime_form:j_idt569'},'');return false&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.us-boton</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:j_idt569':'detalleEmpleadoPrime_form:j_idt569'},'');return false&quot;]</value>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'us-boton' and (text() = 'Continuar' or . = 'Continuar')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value>mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:j_idt569':'detalleEmpleadoPrime_form:j_idt569'},'');return false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
