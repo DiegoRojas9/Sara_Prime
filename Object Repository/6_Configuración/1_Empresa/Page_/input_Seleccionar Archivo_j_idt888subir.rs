@@ -6,12 +6,11 @@
    <elementGuidId>db246d6d-d4bd-426b-a566-3602201d4fb6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='j_idt888:subir']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[2]/div[2]/table/tbody/tr/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

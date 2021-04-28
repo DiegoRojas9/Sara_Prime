@@ -6,12 +6,12 @@
    <elementGuidId>d07ae8d4-576e-4c2a-9560-519517ae06f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='form_cuentasContables:tabsConfigCuentasContables:tablaSeguridadSocial:0:j_idt691']/a/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.ui-row-editor-pencil.ui-row-editor-outline > span.ui-icon.ui-icon-pencil</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[10]/div/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

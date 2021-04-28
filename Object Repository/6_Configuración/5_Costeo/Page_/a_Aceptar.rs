@@ -6,12 +6,12 @@
    <elementGuidId>7dfd7058-00c7-437f-9195-e97020645171</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('popupConfirmacionDialog'),{'popupConfirmacionDialog:j_idt1461':'popupConfirmacionDialog:j_idt1461'},'');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.us-btn-si.us-btn-popup</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

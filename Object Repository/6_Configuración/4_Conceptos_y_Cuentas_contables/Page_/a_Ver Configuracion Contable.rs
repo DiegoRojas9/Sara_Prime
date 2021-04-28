@@ -6,12 +6,11 @@
    <elementGuidId>3548e6a5-cd4a-4b70-8307-eb0409373a31</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('formulario_interfazcontable'),{'formulario_interfazcontable:j_idt1394:j_idt1396:j_idt2586':'formulario_interfazcontable:j_idt1394:j_idt1396:j_idt2586'},'');return false&quot;]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//table[2]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

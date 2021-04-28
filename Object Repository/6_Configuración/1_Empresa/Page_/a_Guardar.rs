@@ -6,12 +6,12 @@
    <elementGuidId>99478156-4f4c-48df-9188-e7de5ed58463</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_informacionEmpresa'),{'form_informacionEmpresa:j_idt348':'form_informacionEmpresa:j_idt348'},'');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.us-boton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

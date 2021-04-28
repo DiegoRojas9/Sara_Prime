@@ -6,12 +6,12 @@
    <elementGuidId>40bf3ffe-031d-4813-8d5f-072fdff9a7cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='j_idt888:dialog_popupImagenEmpresa']/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-corner-all.ui-state-hover</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form/div/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

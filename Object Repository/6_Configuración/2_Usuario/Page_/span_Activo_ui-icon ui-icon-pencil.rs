@@ -6,12 +6,12 @@
    <elementGuidId>add105df-f7a2-4253-a0b2-9f79e4f9f97c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='consultausuarios:usuarios:0:j_idt463']/a/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-icon.ui-icon-pencil</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

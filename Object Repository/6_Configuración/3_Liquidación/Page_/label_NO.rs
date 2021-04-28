@@ -6,12 +6,11 @@
    <elementGuidId>4259da54-3f1b-472b-a232-a2019d566f5e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='form_informacionLiquidacion:j_idt517']/tbody/tr/td/label</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[2]/div[3]/div[2]/div[2]/table/tbody/tr/td/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,11 @@
    <elementGuidId>392fccdd-2a91-4daf-8ad3-667d38a7007d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='consultausuarios:usuarios:0:selectRoles:0:j_idt449']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

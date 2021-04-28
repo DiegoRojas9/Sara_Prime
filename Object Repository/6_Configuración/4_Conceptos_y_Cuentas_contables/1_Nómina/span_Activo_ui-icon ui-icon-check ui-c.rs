@@ -6,12 +6,12 @@
    <elementGuidId>46ea10b9-ee47-472b-9a4b-4686002da474</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='form_cuentasContables:tabsConfigCuentasContables:tablaNomina:0:j_idt636']/a[2]/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.ui-row-editor-check.ui-row-editor-outline > span.ui-icon.ui-icon-check.ui-c</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

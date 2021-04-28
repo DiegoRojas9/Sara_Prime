@@ -6,12 +6,11 @@
    <elementGuidId>c2dfd50a-cee8-4137-a2cb-3faeb431c0dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_configuracionCosteo:j_idt755:2:j_idt765']/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[3]/td[4]/a[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
