@@ -34,19 +34,23 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Agregar'),
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar'))
 
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/label_Documento'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/label_Documento'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Documento  _detalleEmpleadoPrime'), identificacion)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), 'Mariana' + identificacion)
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Primer Apellido  _detalleEmpleadoPrime'), 'Urrego')
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Segundo Apellido _detalleEmpleadoPrime'), 'Camacho')
-
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Documento --CEDULA'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Documento --CEDULA'))
-
-WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Documento --CEDULA'), '2')
-
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Documento  _detalleEmpleadoPrime'), identificacion)
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha Nacimiento  _detalleEmpleadoPrime'), '16/10/1995')
 
@@ -96,6 +100,12 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/select_-- Se
 WebUI.click(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Nivel Academico --Bachiller'))
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Nivel Academico --Bachiller'), '4 ')
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Documento --CEDULA'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Documento --CEDULA'), GlobalVariable.G_timeout)
+
+WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Documento --CEDULA'), '2')
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Continuar'), GlobalVariable.G_timeout)
 
@@ -242,7 +252,8 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo de C
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo de Cuenta --Cuenta Ahorros'), 
     '1')
 
-WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Agregar Beneficiarios UPC'))
+//Usuario UPC
+/*WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Agregar Beneficiarios UPC'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Nuevo'), GlobalVariable.G_timeout)
 
@@ -313,7 +324,7 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/P
     GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Union Soluciones 2019_ui-dialog-titlebar-icon ui-dialog'))
-
+*/
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Continuar2'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Continuar2'))
@@ -372,18 +383,19 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPr
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAPVvalorAPV'), '56000')
 
-WebUI.waitForElementClickable(findTestObject('null'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Finalizar registro'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Finalizar registro'))
 
-//if (WebUI.waitForElementClickable(findTestObject('Page_/Create_colaborador/Page_/Page_/Page_/PrimeFace/Page_/label_Proxima Nmina'), 
-//  GlobalVariable.G_timeout)) {
-//  WebUI.click(findTestObject('Page_/Create_colaborador/Page_/Page_/Page_/PrimeFace/Page_/label_Proxima Nmina'))
-//}
+if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/label_Proxima Nmina'), 
+    GlobalVariable.G_timeout)) {
+    WebUI.click(findTestObject('2_Colaboradores/Page_/label_Proxima Nmina'))
+}
+
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Aceptar'), GlobalVariable.G_TimeShort)
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Aceptar'))

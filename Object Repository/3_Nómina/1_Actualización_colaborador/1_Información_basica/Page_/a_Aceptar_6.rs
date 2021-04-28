@@ -6,12 +6,11 @@
    <elementGuidId>88d6e2ac-e375-4ad2-8399-16a1943969e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='popupConfirmarInformacion:j_idt1221']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//form[20]/div/div[2]/div[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

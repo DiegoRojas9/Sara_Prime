@@ -6,12 +6,11 @@
    <elementGuidId>94fd2b32-2d1b-443b-bef0-8bdb1666a3a3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='popupEditarTipoPeriodo:nacimiento_input']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[5]/span[2]/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

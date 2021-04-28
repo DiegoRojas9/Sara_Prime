@@ -60,7 +60,7 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Sueldo_popupEditarTipoPeriodosueldo'))
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Sueldo_popupEditarTipoPeriodosueldo'), 
-    '5700000')
+    '4700000')
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio_popupEditarTipoPeriodonacimiento_input'), 
     GlobalVariable.G_timeout)
@@ -68,7 +68,7 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio_popupEditarTipoPeriodonacimiento_input'))
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio_popupEditarTipoPeriodonacimiento_input'), 
-    '10/02/2021')
+    '10/03/2021')
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/label_Cargo'), 
     GlobalVariable.G_timeout)
@@ -101,13 +101,13 @@ WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Informació
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/select_-- Seleccione Linea Costo --DesarrollardorGestin'), 
     2)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio_popupEditarTipoPeriodonacimiento_2'), 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio_popupEditarTipoPeriodonacimiento_input_2'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio_popupEditarTipoPeriodonacimiento_2'))
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio_popupEditarTipoPeriodonacimiento_input_2'))
 
-WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio_popupEditarTipoPeriodonacimiento_2'), 
-    '10/02/2021')
+WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio_popupEditarTipoPeriodonacimiento_input_2'), 
+    '10/03/2021')
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/label_Centro de Costo'), 
     GlobalVariable.G_timeout)
@@ -118,6 +118,8 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
     GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_Actualizar_2'))
+
+WebUI.delay(2)
 
 //EPS
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_Eps _us-icon-edit'), 
@@ -139,7 +141,7 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_3'))
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_3'), 
-    '10/02/2021')
+    '10/03/2021')
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_Eps _us-icon-yes'), 
     GlobalVariable.G_timeout)
@@ -168,7 +170,7 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_4'))
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_4'), 
-    '10/02/2021')
+    '10/03/2021')
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_Fondo de Pensiones _us-icon-yes'), 
     GlobalVariable.G_timeout)
@@ -195,7 +197,7 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_5'))
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_5'), 
-    '10/02/2021')
+    '10/03/2021')
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_Fondo de Cesantas _us-icon-yes'), 
     GlobalVariable.G_timeout)

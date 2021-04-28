@@ -6,12 +6,12 @@
    <elementGuidId>9c7a1154-6b6c-43e3-8e84-17dbe7841cc9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt586':'consultarInformacionBasica_form:j_idt586'},'');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.us-icon-yes</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt596':'consultarInformacionBasica_form:j_idt596'},'');return false&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt586':'consultarInformacionBasica_form:j_idt586'},'');return false</value>
+      <value>mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt596':'consultarInformacionBasica_form:j_idt596'},'');return false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt586':'consultarInformacionBasica_form:j_idt586'},'');return false&quot;]</value>
+      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt596':'consultarInformacionBasica_form:j_idt596'},'');return false&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='consultarInformacionBasica_form']/div/div[2]/div/div[29]/div[2]/a</value>
+      <value>//form[@id='consultarInformacionBasica_form']/div/div[2]/div/div[29]/div[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +77,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[29]/div[2]/a</value>
+      <value>//div[29]/div[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

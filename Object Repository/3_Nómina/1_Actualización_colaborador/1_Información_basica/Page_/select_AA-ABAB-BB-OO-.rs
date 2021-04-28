@@ -6,12 +6,11 @@
    <elementGuidId>2f16d85f-4c84-40e3-8282-bc2cac7a6ce8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='consultarInformacionBasica_form:grupoSanguineo']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

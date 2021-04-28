@@ -6,12 +6,12 @@
    <elementGuidId>247dce42-355d-4149-8aaa-86ebcd4c00b3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_popupCalendarioBean'),{'form_popupCalendarioBean:j_idt329':'form_popupCalendarioBean:j_idt329'},'');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.us-btn-si.us-btn-popup</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[6]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

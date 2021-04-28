@@ -6,12 +6,12 @@
    <elementGuidId>454c9958-5e19-4826-8c85-dc99bc5978dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='popupEditarTipoPeriodo:centrocosto']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='popupEditarTipoPeriodo:centrocosto']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -81,7 +81,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='popupEditarTipoPeriodo:j_idt898_content']/div[2]/div[2]/span[3]/select</value>
+      <value>//div[@id='popupEditarTipoPeriodo:j_idt901_content']/div[2]/div[2]/span[3]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

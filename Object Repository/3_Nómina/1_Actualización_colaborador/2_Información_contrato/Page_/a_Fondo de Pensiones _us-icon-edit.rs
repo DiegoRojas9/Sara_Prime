@@ -6,8 +6,12 @@
    <elementGuidId>d89bfdfd-52e6-44cd-a1ba-6076ae7ceb26</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'us-icon-edit']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt550':'consultarInformacionBasica_form:j_idt550'},'');return false&quot;]</value>
+         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt560':'consultarInformacionBasica_form:j_idt560'},'');return false&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt550':'consultarInformacionBasica_form:j_idt550'},'');return false</value>
+      <value>mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt560':'consultarInformacionBasica_form:j_idt560'},'');return false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt550':'consultarInformacionBasica_form:j_idt550'},'');return false&quot;]</value>
+      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt560':'consultarInformacionBasica_form:j_idt560'},'');return false&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

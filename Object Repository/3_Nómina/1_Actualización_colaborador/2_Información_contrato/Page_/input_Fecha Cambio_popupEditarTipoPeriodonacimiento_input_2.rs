@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Fecha Cambio_popupEditarTipoPeriodonacimiento_2</name>
+   <name>input_Fecha Cambio_popupEditarTipoPeriodonacimiento_input_2</name>
    <tag></tag>
-   <elementGuidId>76df9b6e-8147-4338-bfd5-22c104e3e5a3</elementGuidId>
+   <elementGuidId>6763d052-8058-4893-bed9-e43e92ce07ca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

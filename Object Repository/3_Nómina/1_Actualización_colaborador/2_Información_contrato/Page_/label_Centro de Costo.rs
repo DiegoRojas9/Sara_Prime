@@ -6,12 +6,12 @@
    <elementGuidId>474bc655-38dc-44bf-94f7-c9b32851d15f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='popupEditarTipoPeriodo:j_idt898_content']/div[2]/div[2]/span/label</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.col-md-12 > span.col-md-2 > label.titulo_campo</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div[2]/span/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Porcentaje Retencin _us-icon-edit</name>
+   <name>a_Mtodo de retencin _us-icon-edit</name>
    <tag></tag>
-   <elementGuidId>3d96f6c0-45ad-49ee-8788-96866bfc3841</elementGuidId>
+   <elementGuidId>4dae739b-fc3e-4b6b-87f4-466fb0d584a2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt666':'consultarInformacionBasica_form:j_idt666'},'');return false&quot;]</value>
+         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt671':'consultarInformacionBasica_form:j_idt671'},'');return false&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt666':'consultarInformacionBasica_form:j_idt666'},'');return false</value>
+      <value>mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt671':'consultarInformacionBasica_form:j_idt671'},'');return false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,34 +49,34 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;consultarInformacionBasica_form:mensajePorcentaje&quot;)/a[@class=&quot;us-icon-edit&quot;]</value>
+      <value>id(&quot;consultarInformacionBasica_form&quot;)/div[@class=&quot;row caja_contenido&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/a[@class=&quot;us-icon-edit&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt666':'consultarInformacionBasica_form:j_idt666'},'');return false&quot;]</value>
+      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt671':'consultarInformacionBasica_form:j_idt671'},'');return false&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='consultarInformacionBasica_form:mensajePorcentaje']/a</value>
+      <value>//form[@id='consultarInformacionBasica_form']/div/div[2]/div/div[37]/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[47]</value>
+      <value>(//a[contains(@href, '#')])[45]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[38]/div/a</value>
+      <value>//div[37]/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

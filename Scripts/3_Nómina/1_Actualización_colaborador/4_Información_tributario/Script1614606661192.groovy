@@ -39,10 +39,10 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Informacin Tributaria'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Porcentaje Retencin _us-icon-edit'), 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Mtodo de retencin _us-icon-edit'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Porcentaje Retencin _us-icon-edit'))
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Mtodo de retencin _us-icon-edit'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/label_2'), 
     GlobalVariable.G_timeout)

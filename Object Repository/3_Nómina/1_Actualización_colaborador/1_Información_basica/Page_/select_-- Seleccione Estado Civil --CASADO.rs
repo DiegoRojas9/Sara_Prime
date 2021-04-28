@@ -6,12 +6,11 @@
    <elementGuidId>513d5535-3cfd-486e-bd6e-648dc3ce5441</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='consultarInformacionBasica_form:estadoCivilD']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

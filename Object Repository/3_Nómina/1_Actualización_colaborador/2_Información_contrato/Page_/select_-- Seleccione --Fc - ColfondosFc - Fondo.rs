@@ -6,12 +6,11 @@
    <elementGuidId>3ca34c65-b84b-4a92-a2c2-d0809b0814c0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='consultarInformacionBasica_form:fondoCesantias2']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[29]/div/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

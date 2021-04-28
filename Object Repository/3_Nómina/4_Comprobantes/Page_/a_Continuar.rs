@@ -6,12 +6,12 @@
    <elementGuidId>179fa8a3-7017-43ec-9e44-34f866c9078a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('frmInfo_popupEspera'),{'frmInfo_popupEspera:j_idt2124':'frmInfo_popupEspera:j_idt2124'},'');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.us-boton.btn-continuar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/table/tbody/tr[2]/td/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

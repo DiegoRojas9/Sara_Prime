@@ -6,12 +6,12 @@
    <elementGuidId>9d05ed09-34a5-454b-8752-4e0ec0a6d367</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('popupComprobanteNom'),{'popupComprobanteNom:j_idt1875':'popupComprobanteNom:j_idt1875'},'_black');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.popupBody > a.us-boton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

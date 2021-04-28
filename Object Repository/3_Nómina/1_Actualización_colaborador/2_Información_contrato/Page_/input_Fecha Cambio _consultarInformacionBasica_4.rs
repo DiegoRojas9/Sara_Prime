@@ -6,12 +6,11 @@
    <elementGuidId>97553f0c-09ed-43ad-add8-03eb6310d570</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='consultarInformacionBasica_form:fechacambiofondopension2_input']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[28]/div/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

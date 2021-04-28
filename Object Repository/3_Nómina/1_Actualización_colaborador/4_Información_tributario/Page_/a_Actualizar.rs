@@ -6,12 +6,12 @@
    <elementGuidId>0bafbee8-e3cb-47b0-8cac-67d4416459e5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('popupEditarInformacionTributaria_form'),{'popupEditarInformacionTributaria_form:j_idt1041':'popupEditarInformacionTributaria_form:j_idt1041'},'');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.col-md-12.text-center.form-group > a.us-boton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[7]/div/div[2]/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

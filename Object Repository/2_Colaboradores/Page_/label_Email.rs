@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='detalleEmpleadoPrime_form']/div/div/div[2]/div/div/div[2]/div[8]/div/label</value>
+         <value>//div[8]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

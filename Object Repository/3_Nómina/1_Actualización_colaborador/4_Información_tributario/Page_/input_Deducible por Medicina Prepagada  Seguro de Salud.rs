@@ -6,12 +6,12 @@
    <elementGuidId>19823d32-5c43-4c13-a4fc-b90402e1d440</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='popupEditarInformacionTributaria_form:j_idt1029']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;popupEditarInformacionTributaria_form:j_idt1029&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div[5]/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
