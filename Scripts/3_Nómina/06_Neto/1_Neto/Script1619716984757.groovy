@@ -16,21 +16,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Page_/Neto1.1/PrimeFace/Page_/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/6_Neto/a_Nmina'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Neto1.1/PrimeFace/Page_/a_Nmina'))
+WebUI.click(findTestObject('3_Nómina/6_Neto/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Neto1.1/PrimeFace/Page_/span_597433300'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/6_Neto/span_454100000'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Neto1.1/PrimeFace/Page_/span_597433300'))
+WebUI.click(findTestObject('3_Nómina/6_Neto/span_454100000'))
 
 WebUI.delay(5)
 
-WebUI.waitForElementClickable(findTestObject('Page_/Neto1.1/PrimeFace/Page_/a_Union Soluciones 2019_ui-dialog-titlebar-'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/6_Neto/span_E_ui-icon ui-icon-closethick'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Neto1.1/PrimeFace/Page_/a_Union Soluciones 2019_ui-dialog-titlebar-'))
+WebUI.click(findTestObject('3_Nómina/6_Neto/span_E_ui-icon ui-icon-closethick'))
 
 WebUI.closeBrowser()
+

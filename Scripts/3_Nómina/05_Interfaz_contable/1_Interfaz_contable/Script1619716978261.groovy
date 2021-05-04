@@ -16,35 +16,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Page_/Interfaz_Contable1.1/Page_/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Nmina'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Page_/Interfaz_Contable1.1/Page_/a_Nmina'))
+WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Interfaz_Contable1.1/Page_/a_Interfaz Contable'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Interfaz_Contable1.1/Page_/a_Interfaz Contable'))
+WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Interfaz_Contable1.1/Page_/input_Procesos_formulario_interfazcontablej_idt1402'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/input_Seleccione Todos_formulario_interfazcontablej'), 
+    GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Interfaz_Contable1.1/Page_/input_Procesos_formulario_interfazcontablej_idt1402'))
+WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/input_Seleccione Todos_formulario_interfazcontablej'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Interfaz_Contable1.1/Page_/a_Generar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Generar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Page_/Interfaz_Contable1.1/Page_/a_Generar'))
+WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Generar'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Interfaz_Contable1.1/Page_/a_Confirmar contabilizacin'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Confirmar contabilizacin'), GlobalVariable.G_timeout)
 
-WebUI.waitForElementClickable(findTestObject('Page_/Interfaz_Contable1.1/Page_/a_Interfaz Contable_formulario_interfazcontabledataExportContable'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable_formulario_ExportContable'), 
+    GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Interfaz_Contable1.1/Page_/a_Interfaz Contable_formulario_interfazcontabledataExportContable'))
+WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable_formulario_ExportContable'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Interfaz_Contable1.1/Page_/span_Seguridad Social - 30-noviembre-2020_f_bcd5c8'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/input_Seguridad Social - 31-agosto-2020'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Page_/Interfaz_Contable1.1/Page_/span_Seguridad Social - 30-noviembre-2020_f_bcd5c8'))
+WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/input_Seguridad Social - 31-agosto-2020'))
 
 WebUI.closeBrowser()
+

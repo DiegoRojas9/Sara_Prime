@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt880':'dialog_popupFinalizacionEmpleado:j_idt880'},'');return false&quot;]</value>
+         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt658':'dialog_popupFinalizacionEmpleado:j_idt658'},'');return false&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt880':'dialog_popupFinalizacionEmpleado:j_idt880'},'');return false</value>
+      <value>mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt658':'dialog_popupFinalizacionEmpleado:j_idt658'},'');return false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,21 +56,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dialog_popupFinalizacionEmpleado:j_idt862_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/a[@class=&quot;us-btn-si us-btn-popup&quot;]</value>
+      <value>id(&quot;dialog_popupFinalizacionEmpleado:j_idt640_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/a[@class=&quot;us-btn-si us-btn-popup&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt880':'dialog_popupFinalizacionEmpleado:j_idt880'},'');return false&quot;]</value>
+      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt658':'dialog_popupFinalizacionEmpleado:j_idt658'},'');return false&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dialog_popupFinalizacionEmpleado:j_idt862_content']/div[5]/a</value>
+      <value>//div[@id='dialog_popupFinalizacionEmpleado:j_idt640_content']/div[5]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,28 +84,28 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fue incluida su información de liquidación en el período actual.'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proxima Nómina'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tu colaborador GABRIELA MARIN SOLANO ha sido registrado satisfactoriamente'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cheque, Transferencia'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambio de empresa'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[8]</value>
+      <value>(//a[contains(@href, '#')])[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

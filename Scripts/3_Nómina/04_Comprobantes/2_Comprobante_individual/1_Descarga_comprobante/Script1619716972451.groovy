@@ -16,31 +16,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Page_/Descarga_Comprobante1.1/PrimeFace/Page_/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Nmina'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Descarga_Comprobante1.1/PrimeFace/Page_/a_Nmina'))
+WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Descarga_Comprobante1.1/PrimeFace/Page_/a_GALINDO  PRADA GERMN ANDRES_formulario_nominaj'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_GALINDO BERMUDEZ GERMAN_formulario'), 
+    GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Descarga_Comprobante1.1/PrimeFace/Page_/a_GALINDO  PRADA GERMN ANDRES_formulario_nominaj'))
+WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_GALINDO BERMUDEZ GERMAN_formulario'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Descarga_Comprobante1.1/PrimeFace/Page_/a_Continuar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Continuar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Descarga_Comprobante1.1/PrimeFace/Page_/a_Continuar'))
+WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Continuar'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Descarga_Comprobante1.1/PrimeFace/Page_/a_Descargar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Descargar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Descarga_Comprobante1.1/PrimeFace/Page_/a_Descargar'))
+WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Descargar'))
 
 WebUI.delay(5)
 
-WebUI.waitForElementClickable(findTestObject('Page_/Descarga_Comprobante1.1/PrimeFace/Page_/a_Cancelar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Cancelar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Descarga_Comprobante1.1/PrimeFace/Page_/a_Cancelar'))
+WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Cancelar'))
 
 WebUI.delay(2)
 
 WebUI.closeBrowser()
+

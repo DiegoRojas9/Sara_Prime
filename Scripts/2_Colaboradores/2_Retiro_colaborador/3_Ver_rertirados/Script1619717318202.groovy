@@ -16,35 +16,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Retiro_colaborador/Ver_Retirados1.1/Page_/a_Colaboradores'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/a_Colaboradores'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/a_Ver Retirados'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Retirados'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/a_Ver Retirados'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Retirados'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/a_RETIRADO_us-icon-descargar us-color-white_a1d84b'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar us-color-white'), 
+    GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/a_RETIRADO_us-icon-descargar us-color-white_a1d84b'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar us-color-white'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_Liquidacin de Contrato/span_Total Devengos'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Total Devengos'), 
+    GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_Liquidacin de Contrato/span_Total Devengos'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Total Devengos'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_Liquidacin de Contrato/a_Colaboradores'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_Liquidacin de Contrato/a_Colaboradores'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/span_Activos'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Activos'), GlobalVariable.G_timeout)
 
 WebUI.closeBrowser()
+

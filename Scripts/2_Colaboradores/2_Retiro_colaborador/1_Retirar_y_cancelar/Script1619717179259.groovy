@@ -16,54 +16,65 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Colaboradores'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Colaboradores'), 
+    GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Colaboradores'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Colaboradores'))
 
-WebUI.waitForElementClickable(findTestObject('Retiro_colaborador/Page_/a_ACTIVO_us-icon-remover'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_ACTIVO_us-icon-remover'), 
+    GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Retiro_colaborador/Page_/a_ACTIVO_us-icon-remover'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_ACTIVO_us-icon-remover'))
 
-WebUI.setText(findTestObject('Object Repository/Retiro_colaborador/Page_/input_Fecha ultimo da Laborado _consultarCo_5ef00d'),
-	'26/12/2020')
+WebUI.setText(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/input_Fecha ultimo da Laborado'), 
+    '30/04/2021')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Retiro_colaborador/Page_/select_-- Seleccione --FALLECIMIENTOJUSTA C_a197b1'),
-	'T.1                             ', true)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/select_-- Seleccione --FALLECIMIENTOJUSTA'), 
+    GlobalVariable.G_timeout, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Aplicar Retiro'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/select_-- Seleccione --FALLECIMIENTOJUSTA'))
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Aplicar Retiro'))
+WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/select_-- Seleccione --FALLECIMIENTOJUSTA'), 
+    '4', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Retiro_colaborador/Ver_Retirados/Page_/a_Aceptar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aplicar Retiro'), 
+    GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Retiro_colaborador/Ver_Retirados/Page_/a_Aceptar'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aplicar Retiro'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Si'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Si'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Continuar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Continuar'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Cancelar proceso'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Cancelar proceso'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
-WebUI.waitForElementClickable(findTestObject('Retiro_colaborador/Ver_Retirados/Page_/a_Aceptar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
+    GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Retiro_colaborador/Ver_Retirados/Page_/a_Aceptar'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Page_/span_INFO'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Page_/span_INFO'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Regresar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_INFO'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Page_/a_Regresar'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_INFO'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Page_/span_Activos'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
+    GlobalVariable.G_timeout)
 
 WebUI.closeBrowser()
+

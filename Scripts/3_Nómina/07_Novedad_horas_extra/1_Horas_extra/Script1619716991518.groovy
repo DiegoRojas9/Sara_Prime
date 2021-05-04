@@ -16,22 +16,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Carpeta_General_PrimeFace/Page_/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Nmina'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Carpeta_General_PrimeFace/Page_/a_Nmina'))
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/Page_/a_(Valor 2000000)_formulario_nominaj_idt4866verConceptosNomina'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/Page_/a_(Valor 2000000)_formulario_nominaj_idt4866verConceptosNomina'), 
+    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/Page_/a_(Valor 2000000)_formulario_nominaj_idt4866verConceptosNomina'))
 
-WebUI.setText(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/input_COMISIONES_popup_agregarNovedadConceptotabla0valor'),
-	'100000')
+WebUI.setText(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/input_COMISIONES_popup_agregarNovedadConceptotabla0valor'), 
+    '100000')
 
-WebUI.setText(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/input_Auxilio Movilizacin_popup_agregarNovedadConceptotabla1valor'),
-	'200000')
+WebUI.setText(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/input_Auxilio Movilizacin_popup_agregarNovedadConceptotabla1valor'), 
+    '200000')
 
 WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Aplicar'), GlobalVariable.G_timeout)
 
@@ -55,8 +55,8 @@ WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/Page_/a
 
 WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/Page_/a_ ver ms'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Auxilio Movilizacin_us-icon-deleted'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Auxilio Movilizacin_us-icon-deleted'), 
+    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Auxilio Movilizacin_us-icon-deleted'))
 
@@ -64,8 +64,8 @@ WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFa
 
 WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Aceptar_Aux'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_COMISIONES_us-icon-deleted'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_COMISIONES_us-icon-deleted'), 
+    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_COMISIONES_us-icon-deleted'))
 
