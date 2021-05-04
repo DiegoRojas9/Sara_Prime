@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.junit.After as After
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Page_/Informes1.1/PrimeFace/Page_/a_Informes'), GlobalVariable.G_timeout)
 
@@ -31,23 +31,23 @@ WebUI.waitForElementClickable(findTestObject('Page_/Informes1.1/PrimeFace/Page_/
 
 WebUI.click(findTestObject('Page_/Informes1.1/PrimeFace/Page_/td_2 GT - Reporte Programacin'))
 
-WebUI.setText(findTestObject('Page_/Informes1.1/PrimeFace/Page_/input_CONTRATO_popupReportetablaParametroReporte0j_idt653'),
-	'0')
+WebUI.setText(findTestObject('Page_/Informes1.1/PrimeFace/Page_/input_CONTRATO_popupReportetablaParametroReporte0j_idt653'), 
+    '0')
 
-WebUI.waitForElementClickable(findTestObject('Page_/Informes1.1/PrimeFace/Page_/input_Fecha Inicial_popupReportetablaParametroReporte1fecha_input'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('Page_/Informes1.1/PrimeFace/Page_/input_Fecha Inicial_popupReportetablaParametroReporte1fecha_input'), 
+    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('Page_/Informes1.1/PrimeFace/Page_/input_Fecha Inicial_popupReportetablaParametroReporte1fecha_input'))
 
-WebUI.setText(findTestObject('Page_/Informes1.1/PrimeFace/Page_/input_Fecha Inicial_popupReportetablaParametroReporte1fecha_input'),
-	'03/12/2020')
+WebUI.setText(findTestObject('Page_/Informes1.1/PrimeFace/Page_/input_Fecha Inicial_popupReportetablaParametroReporte1fecha_input'), 
+    '03/12/2020')
 
 WebUI.waitForElementClickable(findTestObject('Page_/Informes1.1/PrimeFace/Page_/label_Reportes Generales'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('Page_/Informes1.1/PrimeFace/Page_/label_Reportes Generales'))
 
-WebUI.setText(findTestObject('Page_/Informes1.1/PrimeFace/Page_/input_Fecha Final_popupReportetablaParametroReporte2fecha_input'),
-	'10/12/2020')
+WebUI.setText(findTestObject('Page_/Informes1.1/PrimeFace/Page_/input_Fecha Final_popupReportetablaParametroReporte2fecha_input'), 
+    '10/12/2020')
 
 WebUI.waitForElementClickable(findTestObject('Page_/Informes1.1/PrimeFace/Page_/label_Excel'), GlobalVariable.G_timeout)
 
@@ -70,10 +70,10 @@ WebUI.waitForElementClickable(findTestObject('Page_/Informes1.1/PrimeFace/Page_/
 WebUI.click(findTestObject('Page_/Informes1.1/PrimeFace/Page_/a_Descargar'))
 
 if (WebUI.waitForElementClickable(findTestObject('Page_/Informes1.1/PrimeFace/Page_/a_Descargar_REPORTE'), GlobalVariable.G_timeout)) {
-	WebUI.waitForElementClickable(findTestObject('Page_/Informes1.1/PrimeFace/Page_/span_Union Soluciones 2019_ui-icon ui-icon-closethick'),
-		GlobalVariable.G_timeout)
+    WebUI.waitForElementClickable(findTestObject('Page_/Informes1.1/PrimeFace/Page_/span_Union Soluciones 2019_ui-icon ui-icon-closethick'), 
+        GlobalVariable.G_timeout)
 
-	WebUI.click(findTestObject('Page_/Informes1.1/PrimeFace/Page_/span_Union Soluciones 2019_ui-icon ui-icon-closethick'))
+    WebUI.click(findTestObject('Page_/Informes1.1/PrimeFace/Page_/span_Union Soluciones 2019_ui-icon ui-icon-closethick'))
 }
 
 WebUI.closeBrowser()

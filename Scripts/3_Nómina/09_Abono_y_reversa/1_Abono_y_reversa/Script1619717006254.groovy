@@ -16,54 +16,55 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Nmina_NV'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Nmina'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Nmina_NV'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Aprobar Nmina'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aprobar Nmina'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Aprobar Nmina'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aprobar Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_AceptarAprobar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aceptar_'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_AceptarAprobar'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aceptar_'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Abonar Periodo'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Abonar Periodo'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Abonar Periodo'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Abonar Periodo'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_AceptarAbono'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aceptar_1'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_AceptarAbono'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aceptar_1'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Nmina_1'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Nmina'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Nmina_1'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Archivo Para Pagos'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Archivo Para Pagos'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Archivo Para Pagos'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Archivo Para Pagos'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Reversar Abono'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Reversar Abono'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Reversar Abono'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Reversar Abono'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_AceptarReAbon'), GlobalVariable.G_TimeShort)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aceptar_2'), GlobalVariable.G_TimeShort)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_AceptarReAbon'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aceptar_2'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Nmina_1'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Nmina_1'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Nmina_1'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Nmina_1'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Reversar Confirmacin'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Reversar Confirmacin'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_Reversar Confirmacin'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Reversar Confirmacin'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_AceptarReApro'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aceptar_3'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Pago_Reversa_Nomina1.1/PrimeFace/Page_/a_AceptarReApro'))
+WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aceptar_3'))
 
 WebUI.closeBrowser()
+

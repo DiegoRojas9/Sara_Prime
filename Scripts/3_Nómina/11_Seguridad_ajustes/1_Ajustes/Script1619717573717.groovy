@@ -18,34 +18,44 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Retiro_colaborador/Ver_Retirados1.1/Page_/a_Colaboradores'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Nmina'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/a_Colaboradores'))
+WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/a_Ver Retirados'), 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Seguridad Social'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Seguridad Social'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Ajustes'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Ajustes'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/11_Seguridad_ajustes/div_ARANGO CAMACHO CAMILA_formulario'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/div_ARANGO CAMACHO CAMILA_formulario'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Eps - Aliansalud EpsEps'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/a_Ver Retirados'))
+WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Eps - Aliansalud EpsEps'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/a_RETIRADO_us-icon-descargar us-color-white_a1d84b'), 
+WebUI.selectOptionByIndex(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Eps - Aliansalud EpsEps'), 
+    44)
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Afp - Caja De Auxilios'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/a_RETIRADO_us-icon-descargar us-color-white_a1d84b'))
+WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Afp - Caja De Auxilios'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_Liquidacin de Contrato/span_Total Devengos'), 
+WebUI.selectOptionByIndex(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Afp - Caja De Auxilios'), 
+    3)
+
+WebUI.setText(findTestObject('3_Nómina/11_Seguridad_ajustes/input_ARANGO CAMACHO CAMILA_fecha_input'), '10/03/2021')
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/11_Seguridad_ajustes/span_ARANGO CAMACHO CAMILA_ui-icon ui-icon-check ui-c'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_Liquidacin de Contrato/span_Total Devengos'))
-
-WebUI.delay(3)
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_Liquidacin de Contrato/a_Colaboradores'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_Liquidacin de Contrato/a_Colaboradores'))
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/Retiro_colaborador/Ver_Retirados1.1/Page_/span_Activos'), 
-    GlobalVariable.G_timeout)
+WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/span_ARANGO CAMACHO CAMILA_ui-icon ui-icon-check ui-c'))
 
 WebUI.closeBrowser()
 

@@ -22,60 +22,68 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_
 
 WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/Page_/a_(Valor 2000000)_formulario_nominaj_idt4866verConceptosNomina'), 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/td_URREGO CAMACHO ANGELA MARA'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/td_URREGO CAMACHO ANGELA MARA'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_ ver ms'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_ ver ms'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_AUXILIO DE MOVILIZACION_popupDetalleNovedades'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/Page_/a_(Valor 2000000)_formulario_nominaj_idt4866verConceptosNomina'))
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_AUXILIO DE MOVILIZACION_popupDetalleNovedades'))
 
-WebUI.setText(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/input_COMISIONES_popup_agregarNovedadConceptotabla0valor'), 
-    '100000')
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'), GlobalVariable.G_timeout)
 
-WebUI.setText(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/input_Auxilio Movilizacin_popup_agregarNovedadConceptotabla1valor'), 
-    '200000')
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Aplicar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_COMISIONES_popupDetalleNovedadesj'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Aplicar'))
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_COMISIONES_popupDetalleNovedadesj'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar_1'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar_1'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementClickable(findTestObject('Carpeta_General_PrimeFace/Page_/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Nmina'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Carpeta_General_PrimeFace/Page_/a_Nmina'))
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/td_PARRA GUZMAN ALEXANDRA'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/td_PARRA GUZMAN ALEXANDRA'))
-
-WebUI.waitForElementClickable(findTestObject('Carpeta_General_PrimeFace/Page_/a_Nmina'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('Carpeta_General_PrimeFace/Page_/a_Nmina'))
-
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/Page_/a_ ver ms'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/Page_/a_ ver ms'))
-
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Auxilio Movilizacin_us-icon-deleted'), 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Fecha 10022021_formulario_nominaj_ConceptosNomina'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Auxilio Movilizacin_us-icon-deleted'))
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Fecha 10022021_formulario_nominaj_ConceptosNomina'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Aceptar_Aux'), GlobalVariable.G_timeout)
+WebUI.setText(findTestObject('3_Nómina/7_Novedad_horas_extra/input_COMISIONES_popup_agregarNovedadConceptotabla0valor'), 
+    '100000')
 
-WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Aceptar_Aux'))
+WebUI.setText(findTestObject('3_Nómina/7_Novedad_horas_extra/input_AUXILIO DE MOVILIZACION_popup_valor'), '200000')
 
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_COMISIONES_us-icon-deleted'), 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/input_AUXILIO DE MOVILIZACION_fechainicial_input'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_COMISIONES_us-icon-deleted'))
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/input_AUXILIO DE MOVILIZACION_fechainicial_input'))
 
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Aceptar_Comi'), GlobalVariable.G_timeout)
+WebUI.setText(findTestObject('3_Nómina/7_Novedad_horas_extra/input_AUXILIO DE MOVILIZACION_fechainicial_input'), '05/03/2021')
 
-WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Aceptar_Comi'))
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/input_Obligatorio_popup_fechafinal_input'), 
+    GlobalVariable.G_timeout)
 
-WebUI.waitForElementClickable(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Cerrar'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/input_Obligatorio_popup_fechafinal_input'))
 
-WebUI.click(findTestObject('Page_/Novedad_HoraExtra1.1/PrimeFace/Page_/a_Cerrar'))
+WebUI.setText(findTestObject('3_Nómina/7_Novedad_horas_extra/input_Obligatorio_popup_fechafinal_input'), '10/04/2021')
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'))
 
 WebUI.closeBrowser()
 
