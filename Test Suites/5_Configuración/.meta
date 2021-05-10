@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FolderEntity>
    <description>folder</description>
-   <name>2_Retirar_y_cancelar</name>
+   <name>5_Configuración</name>
    <tag></tag>
-   <folderType>WEBELEMENT</folderType>
+   <folderType>TESTSUITE</folderType>
 </FolderEntity>

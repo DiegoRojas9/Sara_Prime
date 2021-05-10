@@ -6,18 +6,22 @@
    <elementGuidId>4e43d1e8-e5ec-41aa-ae71-8040b5b37b04</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'us-boton' and (text() = 'Abonar Periodo' or . = 'Abonar Periodo')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.us-boton</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('formulario_archivoPagos'),{'formulario_archivoPagos:j_idt841':'formulario_archivoPagos:j_idt841'},'');return false&quot;]</value>
+         <value>//div[3]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value>mojarra.jsfcljs(document.getElementById('formulario_archivoPagos'),{'formulario_archivoPagos:j_idt841':'formulario_archivoPagos:j_idt841'},'');return false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

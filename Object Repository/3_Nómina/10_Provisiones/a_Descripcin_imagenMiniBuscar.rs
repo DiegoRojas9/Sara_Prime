@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('formulario_provisiones'),{'formulario_provisiones:j_idt1259':'formulario_provisiones:j_idt1259'},'');return false&quot;]</value>
+         <value>//div[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

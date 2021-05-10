@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('popupComprobanteNom'),{'popupComprobanteNom:j_idt1872':'popupComprobanteNom:j_idt1872'},'_black');return false&quot;]</value>
+         <value>//div[3]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

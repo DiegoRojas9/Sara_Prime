@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('popupConfirmacionDialog'),{'popupConfirmacionDialog:j_idt2338':'popupConfirmacionDialog:j_idt2338'},'');return false&quot;]</value>
+         <value>//form[30]/div/div[2]/div[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='consultarColaborador']/div[4]/table/tbody/tr/td/div/div[6]/table[2]/tbody/tr/td[2]/span</value>
+         <value>//table[2]/tbody/tr/td[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

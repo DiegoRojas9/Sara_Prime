@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569':'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569'},'');return false&quot;]</value>
+         <value>//div[9]/span/div/div/table/tfoot/tr/td[5]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

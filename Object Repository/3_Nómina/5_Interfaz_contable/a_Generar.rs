@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('formulario_interfazcontable'),{'formulario_interfazcontable:j_idt1358':'formulario_interfazcontable:j_idt1358'},'');return false&quot;]</value>
+         <value>//div/div/div/div/div[2]/div/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

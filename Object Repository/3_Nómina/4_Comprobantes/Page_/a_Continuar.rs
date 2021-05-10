@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('frmInfo_popupEspera'),{'frmInfo_popupEspera:j_idt2124':'frmInfo_popupEspera:j_idt2124'},'');return false&quot;]</value>
+         <value>//div[2]/table/tbody/tr[2]/td/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>

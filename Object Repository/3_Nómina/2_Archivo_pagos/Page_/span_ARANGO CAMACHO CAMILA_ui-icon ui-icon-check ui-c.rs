@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='formulario_archivoPagos:tablaAjuste2:0:j_idt944']/a[2]/span</value>
+         <value>//a[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>

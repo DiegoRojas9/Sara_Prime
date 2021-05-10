@@ -22,6 +22,10 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_N
 
 WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Nmina'))
 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_2'), 0)
+
+WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_2'))
+
 WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'))

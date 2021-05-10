@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='confirmacionGenerar:j_idt2179']/div/a/span</value>
+         <value>//div/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>

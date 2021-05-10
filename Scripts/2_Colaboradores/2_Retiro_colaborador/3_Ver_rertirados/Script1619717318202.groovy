@@ -26,10 +26,10 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborad
 
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Retirados'))
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar us-color-white'), 
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar-colaborador'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar us-color-white'))
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar-colaborador'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Total Devengos'), 
     GlobalVariable.G_timeout)

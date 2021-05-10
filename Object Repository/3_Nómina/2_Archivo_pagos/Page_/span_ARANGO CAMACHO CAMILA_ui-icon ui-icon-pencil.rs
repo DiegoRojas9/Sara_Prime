@@ -6,32 +6,36 @@
    <elementGuidId>df0ab87e-de33-463e-90f1-c62f7b894104</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'ui-icon ui-icon-pencil']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='formulario_archivoPagos:tablaAjuste2:0:j_idt944']/a/span</value>
+         <value>//div/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.ui-icon.ui-icon-pencil</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-pencil</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

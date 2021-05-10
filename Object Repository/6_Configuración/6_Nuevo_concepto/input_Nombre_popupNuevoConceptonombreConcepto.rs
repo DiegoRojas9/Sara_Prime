@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Identificacin _popupRegistroBeneficiariosUpc_formDoc</name>
+   <name>input_Nombre_popupNuevoConceptonombreConcepto</name>
    <tag></tag>
-   <elementGuidId>dd70a5f9-7d7e-4695-ac12-7739b73fd260</elementGuidId>
+   <elementGuidId>c765d61b-f4cf-433f-ac65-5ec5dfefa83d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='popupRegistroBeneficiariosUpc_form:Doc']</value>
+         <value>//input[@id='popupNuevoConcepto:nombreConcepto']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>popupRegistroBeneficiariosUpc_form:Doc</value>
+      <value>popupNuevoConcepto:nombreConcepto</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>popupNuevoConcepto:nombreConcepto</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,45 +45,59 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>popupRegistroBeneficiariosUpc_form:Doc</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>valor_campo_estandar</value>
+      <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all caja_texto ui-state-focus</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>textbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-readonly</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupRegistroBeneficiariosUpc_form:Doc&quot;)</value>
+      <value>id(&quot;popupNuevoConcepto:nombreConcepto&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='popupRegistroBeneficiariosUpc_form:Doc']</value>
+      <value>//input[@id='popupNuevoConcepto:nombreConcepto']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='popupRegistroBeneficiariosUpc_form:j_idt911_content']/span/div/span[6]/input</value>
+      <value>//span[@id='popupNuevoConcepto:panelNombreConcepto']/span[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[6]/input</value>
+      <value>//span[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

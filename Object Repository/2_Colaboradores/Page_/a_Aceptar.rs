@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt658':'dialog_popupFinalizacionEmpleado:j_idt658'},'');return false&quot;]</value>
+         <value>//div[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

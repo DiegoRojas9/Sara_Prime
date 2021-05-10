@@ -250,7 +250,6 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo de C
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo de Cuenta --Cuenta Ahorros'), 
     '1')
 
-/*
 WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Agregar Beneficiarios UPC'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Nuevo'), GlobalVariable.G_timeout)
@@ -267,14 +266,14 @@ WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_
 WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Valor a Aportar _popupRegistroBeneficiariosUpc'), 
     '86000')
 
-WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Identificacin _popupRegistroBeneficiariosUpc_formDoc'))
+WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Identificacin _popupRegistroBeneficiariosUpc'))
 
 WebUI.delay(2)
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Identificacin _popupRegistroBeneficiariosUpc_formDoc'), 
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Identificacin _popupRegistroBeneficiariosUpc'), 
     GlobalVariable.G_timeout)
 
-WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Identificacin _popupRegistroBeneficiariosUpc_formDoc'), 
+WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Identificacin _popupRegistroBeneficiariosUpc'), 
     '1022987456')
 
 WebUI.delay(2)
@@ -322,7 +321,7 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/P
     GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Union Soluciones 2019_ui-dialog-titlebar-icon ui-dialog'))
-*/
+
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Continuar2'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Continuar2'))
@@ -389,8 +388,7 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Finalizar 
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Finalizar registro'))
 
-if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/label_Proxima Nmina'), 
-    GlobalVariable.G_timeout)) {
+if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/label_Proxima Nmina'), GlobalVariable.G_timeout)) {
     WebUI.click(findTestObject('2_Colaboradores/Page_/label_Proxima Nmina'))
 }
 

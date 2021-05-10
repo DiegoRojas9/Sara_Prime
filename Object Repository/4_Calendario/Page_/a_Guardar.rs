@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_popupCalendarioBean'),{'form_popupCalendarioBean:j_idt329':'form_popupCalendarioBean:j_idt329'},'');return false&quot;]</value>
+         <value>//div[6]/a</value>
       </entry>
       <entry>
          <key>CSS</key>

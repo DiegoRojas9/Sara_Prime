@@ -61,6 +61,10 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/sp
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO CAMACHO CAMILA_ui-icon ui-icon-check ui-c'))
 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'))
+
 WebUI.delay(3)
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO OBREGON MARIAM_ui-icon ui-icon-pencil'), 
@@ -95,9 +99,14 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/sp
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO OBREGON MARIAM_ui-icon ui-icon-check ui-c'))
 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar_1'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar_1'))
+
 WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Filtro_us-icon-regresar us-accion-icono'), 
     GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Filtro_us-icon-regresar us-accion-icono'))
 
 WebUI.closeBrowser()
+

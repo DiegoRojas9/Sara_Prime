@@ -22,9 +22,9 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_
 
 WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/td_URREGO CAMACHO ANGELA MARA'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/td_URREGO CAMACHO ANGELA MARA'))
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_ ver ms'), GlobalVariable.G_timeout)
 
@@ -56,6 +56,10 @@ WebUI.delay(3)
 WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Nmina'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Nmina'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Fecha 10022021_formulario_nominaj_ConceptosNomina'), 
     GlobalVariable.G_timeout)
