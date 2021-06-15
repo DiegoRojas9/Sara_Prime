@@ -6,18 +6,18 @@
    <elementGuidId>51db60c3-423e-4eb1-89e9-c260aba874ae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:j_idt569':'detalleEmpleadoPrime_form:j_idt569'},'');return false&quot;]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//a[@href = '#' and @class = 'us-boton' and (text() = 'Continuar' or . = 'Continuar')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

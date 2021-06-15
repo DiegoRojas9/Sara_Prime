@@ -6,19 +6,19 @@
    <elementGuidId>4153f512-5be9-4ccf-84b4-52cc73741c2e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530':'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530'},'');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn-miniadicionar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[5]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//a[@href = '#' and @title = 'Agregar' and @class = 'btn-miniadicionar']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

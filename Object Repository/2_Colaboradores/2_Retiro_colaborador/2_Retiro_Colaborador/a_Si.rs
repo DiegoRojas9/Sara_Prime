@@ -7,11 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarColaborador'),{'consultarColaborador:j_idt283':'consultarColaborador:j_idt283'},'');return false&quot;]</value>
+         <value>//a[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'Si' or . = 'Si')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

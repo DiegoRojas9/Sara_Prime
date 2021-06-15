@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='popupReporte:j_idt449']/tbody/tr/td/div/div[2]/span</value>
+         <value>//tr[2]/td/div/div[2]/table/tbody/tr/td/div/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

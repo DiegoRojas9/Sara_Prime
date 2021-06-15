@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarColaborador'),{'consultarColaborador:j_idt264':'consultarColaborador:j_idt264'},'');return false&quot;]</value>
+         <value>//div[4]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

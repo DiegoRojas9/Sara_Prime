@@ -6,16 +6,16 @@
    <elementGuidId>b1170657-1db2-4492-8ee1-45513931381e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'ui-icon ui-icon-pencil']</value>
+         <key>CSS</key>
+         <value>a.ui-row-editor-pencil.ui-row-editor-outline > span.ui-icon.ui-icon-pencil</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt754']/a/span</value>
+         <value>//div[@id='form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt774']/a/span</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>a.ui-row-editor-pencil.ui-row-editor-outline > span.ui-icon.ui-icon-pencil</value>
+         <key>BASIC</key>
+         <value>id(&quot;form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt754&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;][count(. | //*[@class = 'ui-icon ui-icon-pencil']) = count(//*[@class = 'ui-icon ui-icon-pencil'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -39,14 +39,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt754&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;]</value>
+      <value>id(&quot;form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt774&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt754']/a/span</value>
+      <value>//div[@id='form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt774']/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

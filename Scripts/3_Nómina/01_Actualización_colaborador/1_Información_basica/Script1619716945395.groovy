@@ -29,10 +29,12 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_BOLIVAR RESTREPO ANGELA MARA_'), 
+WebUI.delay(3)
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_PARRA GUZMAN ANGELA MARA'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_BOLIVAR RESTREPO ANGELA MARA_'))
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_PARRA GUZMAN ANGELA MARA'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_Nombres_consultarInformacionBasica_formj_idt311'), 
     GlobalVariable.G_timeout)
@@ -100,6 +102,9 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
     GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_Direccin_consultarInformacionBasica_formj_idt402'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Direccin_consultarInformacionBasica_formdireccionD'), 
+    GlobalVariable.G_timeout)
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Direccin_consultarInformacionBasica_formdireccionD'), 
     'Av Cll 158 # 57-11 SUR')

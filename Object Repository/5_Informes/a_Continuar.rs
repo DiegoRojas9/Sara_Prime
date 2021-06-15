@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('frmInfo_popupEspera'),{'frmInfo_popupEspera:j_idt331':'frmInfo_popupEspera:j_idt331'},'');return false&quot;]</value>
+         <value>//td/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

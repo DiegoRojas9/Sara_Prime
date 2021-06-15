@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_BOLIVAR RESTREPO ANGELA MARA_</name>
+   <name>input_Direccin _form_crearNuevaEmpresaInfodireccion</name>
    <tag></tag>
-   <elementGuidId>9ec463c3-d2f3-43a4-8eb6-6ac3ddbf3f23</elementGuidId>
+   <elementGuidId>c303da8b-a17d-4fe5-a886-06e66e8761e4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='formulario_nomina:j_idt486:2:verCambioEmpleado']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='form_crearNuevaEmpresaInfo:direccion']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formulario_nomina:j_idt486:2:verCambioEmpleado</value>
+      <value>form_crearNuevaEmpresaInfo:direccion</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>#</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>name</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('formulario_nomina'),{'formulario_nomina:j_idt486:2:verCambioEmpleado':'formulario_nomina:j_idt486:2:verCambioEmpleado','empleadoVer':'co.com.unionsoluciones.saraprime.logica.dto.EmpleadoPeriodoNominaDTO@4de91343'},'');return false</value>
+      <value>form_crearNuevaEmpresaInfo:direccion</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>glyphicons glyphicons-user-add</value>
+      <value>form-control valor_campo_estandar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formulario_nomina:j_idt486:2:verCambioEmpleado&quot;)</value>
+      <value>id(&quot;form_crearNuevaEmpresaInfo:direccion&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='formulario_nomina:j_idt486:2:verCambioEmpleado']</value>
+      <value>//input[@id='form_crearNuevaEmpresaInfo:direccion']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='formulario_nomina:j_idt486_data']/tr[3]/td[7]/a[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '#')])[38]</value>
+      <value>//form[@id='form_crearNuevaEmpresaInfo']/div/div[5]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[3]/td[7]/a[3]</value>
+      <value>//div[5]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

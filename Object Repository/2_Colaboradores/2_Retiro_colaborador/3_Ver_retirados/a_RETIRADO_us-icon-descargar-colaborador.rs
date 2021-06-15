@@ -3,7 +3,7 @@
    <description></description>
    <name>a_RETIRADO_us-icon-descargar-colaborador</name>
    <tag></tag>
-   <elementGuidId>70c40249-e66f-4043-a1d8-40bf396d368a</elementGuidId>
+   <elementGuidId>249a9cbe-fed2-4422-b8ba-4b327b48c870</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('listadoEmpleadoPrime_form'),{'listadoEmpleadoPrime_form:tablaRetirados:7:j_idt309':'listadoEmpleadoPrime_form:tablaRetirados:7:j_idt309'},'');return false&quot;]</value>
+         <value>//a[@id='listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,9 +26,37 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-icon-descargar us-color-white us-iconos-card-colaborador us-hover-active</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Ver Liquidación</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.addSubmitParam('listadoEmpleadoPrime_form',{'listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309':'listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309'}).submit('listadoEmpleadoPrime_form');return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,50 +68,36 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('listadoEmpleadoPrime_form'),{'listadoEmpleadoPrime_form:tablaRetirados:7:j_idt309':'listadoEmpleadoPrime_form:tablaRetirados:7:j_idt309'},'');return false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>us-icon-descargar us-color-white us-iconos-card-colaborador us-hover-active</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;listadoEmpleadoPrime_form:tablaRetirados_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable fila_tabla_ace&quot;]/td[1]/div[@class=&quot;us-w-100&quot;]/div[@class=&quot;col-md-1 col-sm-1 col-xs-1&quot;]/div[@class=&quot;button-bar button-bar-large&quot;]/a[@class=&quot;us-icon-descargar us-color-white us-iconos-card-colaborador us-hover-active&quot;]</value>
+      <value>id(&quot;listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('listadoEmpleadoPrime_form'),{'listadoEmpleadoPrime_form:tablaRetirados:7:j_idt309':'listadoEmpleadoPrime_form:tablaRetirados:7:j_idt309'},'');return false&quot;]</value>
+      <value>//a[@id='listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='listadoEmpleadoPrime_form:tablaRetirados_data']/tr[8]/td/div/div[2]/div/a[2]</value>
+      <value>//tbody[@id='listadoEmpleadoPrime_form:tablaRetirados_data']/tr[9]/td/div/div[2]/div/a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[27]</value>
+      <value>(//a[contains(@href, '#')])[29]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[8]/td/div/div[2]/div/a[2]</value>
+      <value>//tr[9]/td/div/div[2]/div/a[2]</value>
    </webElementXpaths>
 </WebElementEntity>

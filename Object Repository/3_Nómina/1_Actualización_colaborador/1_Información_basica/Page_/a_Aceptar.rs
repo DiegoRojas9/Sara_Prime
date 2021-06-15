@@ -12,18 +12,22 @@
          <key>XPATH</key>
          <value>//form[20]/div/div[2]/div[3]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'ui-commandlink ui-widget us-btn-si us-btn-popup' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -37,7 +41,7 @@
       <value>#</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

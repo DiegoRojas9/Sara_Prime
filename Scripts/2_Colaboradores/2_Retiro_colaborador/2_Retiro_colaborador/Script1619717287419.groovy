@@ -68,6 +68,18 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/label_Email'))
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Email  _detalleEmpleadoPrime_formemail'), identificacion + 'Mariana.urrego@gmail.com')
 
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/input_Ciudad de Residencia _formciudadResidencia_input'),
+	GlobalVariable.G_timeout)
+
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Ciudad de Residencia _formciudadResidencia_input'), 'Bogot')
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/li_BOGOT - CUNDINAMARCA'), GlobalVariable.G_timeout)
+
+WebElement element1 = WebUiCommonHelper.findWebElement(findTestObject('2_Colaboradores/Page_/li_BOGOT - CUNDINAMARCA'),
+	30)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element1))
+
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Direccin  _detalleEmpleadoPrime_formdireccion'), 'Cll 179H # 85-56')
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Estado Civil --CASADODIVORCIADONO'), 
@@ -137,6 +149,15 @@ try {
 catch (Exception e) {
     WebUI.click(findTestObject('Object Repository/2_Colaboradores/Page_/a_Unidad  _btn-miniadicionar'))
 
+	WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Asignar Jefe _detalleEmpleadoPrime_formj_idt378'),
+		GlobalVariable.G_timeout)
+	
+	WebUI.click(findTestObject('2_Colaboradores/Page_/a_Asignar Jefe _detalleEmpleadoPrime_formj_idt378'))
+	
+	WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/td_PARRA GUZMAN ANGELA MARA'), GlobalVariable.G_timeout)
+	
+	WebUI.click(findTestObject('2_Colaboradores/Page_/td_PARRA GUZMAN ANGELA MARA'))
+	
     WebUI.setText(findTestObject('Object Repository/2_Colaboradores/Page_/input_Descripcin_form_popupCrearUnidaddescripcionUnidad'), 
         'Desarrollo')
 

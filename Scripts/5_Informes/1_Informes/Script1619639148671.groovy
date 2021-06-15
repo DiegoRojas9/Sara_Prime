@@ -23,9 +23,11 @@ WebUI.waitForElementClickable(findTestObject('5_Informes/a_Informes'), GlobalVar
 
 WebUI.click(findTestObject('5_Informes/a_Informes'))
 
-WebUI.waitForElementClickable(findTestObject('5_Informes/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('5_Informes/a_Nmina'))
+WebUI.waitForElementClickable(findTestObject('5_Informes/a_Ir'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('5_Informes/a_Ir'))
 
 WebUI.waitForElementClickable(findTestObject('5_Informes/td_2 GT - Reporte Programacin'), GlobalVariable.G_timeout)
 

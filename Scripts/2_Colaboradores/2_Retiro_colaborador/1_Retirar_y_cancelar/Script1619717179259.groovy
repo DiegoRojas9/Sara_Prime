@@ -23,6 +23,11 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborad
 
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Colaboradores'))
 
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
+    0)
+
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'))
+
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_ACTIVO_us-icon-remover'), 
     GlobalVariable.G_timeout)
 
@@ -64,10 +69,6 @@ WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_can
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
-
-WebUI.waitForElementClickable(findTestObject('null'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'), GlobalVariable.G_timeout)
 

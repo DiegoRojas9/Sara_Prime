@@ -6,18 +6,18 @@
    <elementGuidId>de2b44e3-6882-4a33-a9fa-0f8039fc45e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//form[9]/div/div[2]/div[3]/span/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//a[@class = 'us-boton' and (text() = 'Agregar' or . = 'Agregar')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('popupEditarFormaPagoLiq'),{'popupEditarFormaPagoLiq:j_idt510':'popupEditarFormaPagoLiq:j_idt510'},'');return false&quot;]</value>
+         <value>//div[3]/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

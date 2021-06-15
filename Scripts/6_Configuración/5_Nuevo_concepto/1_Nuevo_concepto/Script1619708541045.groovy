@@ -65,6 +65,10 @@ WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/select_NOSI'))
 
 WebUI.selectOptionByIndex(findTestObject('6_Configuración/6_Nuevo_concepto/select_NOSI'), 1)
 
+WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/label_Nuevo Concepto'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/label_Nuevo Concepto'))
+
 WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/a_Agregar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/a_Agregar'))

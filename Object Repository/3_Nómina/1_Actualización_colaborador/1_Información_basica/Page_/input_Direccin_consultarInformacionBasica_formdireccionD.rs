@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[9]/div[2]/input</value>
+         <value>//div[10]/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -97,6 +97,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[9]/div[2]/input</value>
+      <value>//div[10]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
