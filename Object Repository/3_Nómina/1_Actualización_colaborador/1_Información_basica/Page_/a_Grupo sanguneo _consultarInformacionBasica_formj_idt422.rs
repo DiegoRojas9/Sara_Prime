@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[11]/div[3]/a</value>
+         <value>//div[12]/div[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -62,7 +62,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='consultarInformacionBasica_form:j_idt422']</value>
+      <value>//a[@id='consultarInformacionBasica_form:j_idt442']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,13 +76,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[17]</value>
+      <value>(//a[contains(@href, '#')])[18]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div[3]/a</value>
+      <value>//div[12]/div[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

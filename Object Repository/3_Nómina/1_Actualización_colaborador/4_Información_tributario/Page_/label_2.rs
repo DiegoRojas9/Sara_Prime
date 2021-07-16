@@ -6,12 +6,11 @@
    <elementGuidId>a9693e15-65f7-45d8-9c94-e5721947a059</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='popupEditarInformacionTributaria_form:metodoRetencion']/tbody/tr/td[2]/label</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[3]/table/tbody/tr/td[2]/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

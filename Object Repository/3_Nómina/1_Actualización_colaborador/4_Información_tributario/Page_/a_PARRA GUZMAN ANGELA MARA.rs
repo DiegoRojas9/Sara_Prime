@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_BOLIVAR RESTREPO ANGELA MARA_</name>
+   <name>a_PARRA GUZMAN ANGELA MARA</name>
    <tag></tag>
-   <elementGuidId>e496baa3-41f3-4759-9bcd-8fe6a2b203ce</elementGuidId>
+   <elementGuidId>c929f6ae-c315-4b08-b956-0fd860a27c77</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='formulario_nomina:j_idt486:2:verCambioEmpleado']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[2]/td[7]/a[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +27,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formulario_nomina:j_idt486:2:verCambioEmpleado</value>
+      <value>formulario_nomina:j_idt529:1:verCambioEmpleado</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,50 +39,50 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>class</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('formulario_nomina'),{'formulario_nomina:j_idt486:2:verCambioEmpleado':'formulario_nomina:j_idt486:2:verCambioEmpleado','empleadoVer':'co.com.unionsoluciones.saraprime.logica.dto.EmpleadoPeriodoNominaDTO@7c4ec817'},'');return false</value>
+      <value>ui-commandlink ui-widget glyphicons glyphicons-user-add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>glyphicons glyphicons-user-add</value>
+      <value>PrimeFaces.ab({s:&quot;formulario_nomina:j_idt529:1:verCambioEmpleado&quot;,f:&quot;formulario_nomina&quot;,u:&quot;areaAplicacion&quot;,pa:[{name:&quot;empleadoVer&quot;,value:&quot;co.com.unionsoluciones.saraprime.logica.dto.EmpleadoPeriodoNominaDTO@37f6413d&quot;}]});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formulario_nomina:j_idt486:2:verCambioEmpleado&quot;)</value>
+      <value>id(&quot;formulario_nomina:j_idt529:1:verCambioEmpleado&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='formulario_nomina:j_idt486:2:verCambioEmpleado']</value>
+      <value>//a[@id='formulario_nomina:j_idt529:1:verCambioEmpleado']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='formulario_nomina:j_idt486_data']/tr[3]/td[7]/a[3]</value>
+      <value>//tbody[@id='formulario_nomina:j_idt529_data']/tr[2]/td[7]/a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[38]</value>
+      <value>(//a[contains(@href, '#')])[33]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[3]/td[7]/a[3]</value>
+      <value>//tr[2]/td[7]/a[3]</value>
    </webElementXpaths>
 </WebElementEntity>

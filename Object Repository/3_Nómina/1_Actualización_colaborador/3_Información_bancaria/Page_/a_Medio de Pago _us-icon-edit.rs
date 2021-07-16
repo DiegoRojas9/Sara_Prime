@@ -6,12 +6,11 @@
    <elementGuidId>9cc5092d-bcd4-403b-bf4b-c69d6e5eff6b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt623':'consultarInformacionBasica_form:j_idt623'},'');return false&quot;]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[33]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,27 +55,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt623':'consultarInformacionBasica_form:j_idt623'},'');return false&quot;]</value>
+      <value>//a[@id='consultarInformacionBasica_form:j_idt638']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='consultarInformacionBasica_form']/div/div[2]/div/div[32]/div/a</value>
+      <value>//form[@id='consultarInformacionBasica_form']/div/div[2]/div/div[33]/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[41]</value>
+      <value>(//a[contains(@href, '#')])[42]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[32]/div/a</value>
+      <value>//div[33]/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

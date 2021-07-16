@@ -6,12 +6,11 @@
    <elementGuidId>fd84e2c3-52e4-42e6-bf23-2f0adef38171</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='consultarInformacionBasica_form:j_idt515']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[25]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,27 +62,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='consultarInformacionBasica_form:j_idt515']</value>
+      <value>//a[@id='consultarInformacionBasica_form:j_idt530']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='consultarInformacionBasica_form']/div/div[2]/div/div[24]/div/a</value>
+      <value>//form[@id='consultarInformacionBasica_form']/div/div[2]/div/div[25]/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[29]</value>
+      <value>(//a[contains(@href, '#')])[30]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[24]/div/a</value>
+      <value>//div[25]/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

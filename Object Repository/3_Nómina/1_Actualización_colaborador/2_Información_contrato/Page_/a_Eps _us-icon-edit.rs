@@ -6,12 +6,11 @@
    <elementGuidId>a1434e1d-1827-491f-beae-8d772bb0a2c2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt534':'consultarInformacionBasica_form:j_idt534'},'');return false&quot;]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,21 +55,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:j_idt534':'consultarInformacionBasica_form:j_idt534'},'');return false&quot;]</value>
+      <value>//a[@id='consultarInformacionBasica_form:j_idt549']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='consultarInformacionBasica_form']/div/div[2]/div/div[26]/div[2]/a</value>
+      <value>//form[@id='consultarInformacionBasica_form']/div/div[2]/div/div[27]/div[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[33]</value>
+      <value>(//a[contains(@href, '#')])[34]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

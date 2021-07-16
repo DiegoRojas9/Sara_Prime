@@ -6,12 +6,12 @@
    <elementGuidId>5609b264-4ca5-4c3d-8471-95d7c16b54f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:tablaEntidadesAFC:j_idt735':'consultarInformacionBasica_form:tablaEntidadesAFC:j_idt735'},'');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn-miniadicionar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:tablaEntidadesAFC:j_idt735':'consultarInformacionBasica_form:tablaEntidadesAFC:j_idt735'},'');return false&quot;]</value>
+      <value>//a[@id='consultarInformacionBasica_form:tablaEntidadesAFC:j_idt749']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[56]</value>
+      <value>(//a[contains(@href, '#')])[57]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

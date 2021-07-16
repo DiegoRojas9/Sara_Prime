@@ -103,9 +103,6 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_Direccin_consultarInformacionBasica_formj_idt402'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Direccin_consultarInformacionBasica_formdireccionD'), 
-    GlobalVariable.G_timeout)
-
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Direccin_consultarInformacionBasica_formdireccionD'), 
     'Av Cll 158 # 57-11 SUR')
 

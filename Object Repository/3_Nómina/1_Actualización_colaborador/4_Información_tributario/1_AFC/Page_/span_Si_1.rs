@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Cargo _consultarInformacionBasica_formj_idt452</name>
+   <name>span_Si_1</name>
    <tag></tag>
-   <elementGuidId>64de4c84-03a0-46fa-88c8-33f5544deb57</elementGuidId>
+   <elementGuidId>16ab56d8-8258-42f2-8cf4-b1855b702c9d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value>#j_idt1594 > span.ui-button-text.ui-c</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[17]/div/a</value>
+         <value>//button[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,69 +21,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>consultarInformacionBasica_form:j_idt452</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget us-icon-edit</value>
+      <value>ui-button-text ui-c</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>text</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;consultarInformacionBasica_form:j_idt452&quot;,f:&quot;consultarInformacionBasica_form&quot;,u:&quot;popupEditarTipoPeriodo&quot;});return false;</value>
+      <value>Si</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;consultarInformacionBasica_form:j_idt452&quot;)</value>
+      <value>id(&quot;j_idt1594&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='consultarInformacionBasica_form:j_idt472']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='consultarInformacionBasica_form:cargoConsultar']/div/a</value>
+      <value>//button[@id='j_idt1594']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[20]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[3]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[17]/div/a</value>
+      <value>//button[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>

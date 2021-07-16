@@ -6,12 +6,12 @@
    <elementGuidId>a7d19dc0-bd97-47c5-80da-8a9652d9c266</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('popupEditarTipoPeriodo'),{'popupEditarTipoPeriodo:j_idt969':'popupEditarTipoPeriodo:j_idt969'},'');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.col-md-12.text-center.form-group > a.us-boton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -126,6 +126,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form[5]/div/div[2]/span/a</value>
+      <value>//div[2]/span/a</value>
    </webElementXpaths>
 </WebElementEntity>

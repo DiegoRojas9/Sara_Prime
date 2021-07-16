@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Cargo _consultarInformacionBasica_formj_idt452</name>
+   <name>a_Cuenta_consultarInformacionBasica_Delete</name>
    <tag></tag>
-   <elementGuidId>64de4c84-03a0-46fa-88c8-33f5544deb57</elementGuidId>
+   <elementGuidId>f4c131b3-915d-4784-a427-4bc1137debdd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[17]/div/a</value>
+         <value>//tbody/tr/td[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>consultarInformacionBasica_form:j_idt452</value>
+      <value>consultarInformacionBasica_form:tablaEntidadesAFC:0:j_idt748</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,48 +42,55 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget us-icon-edit</value>
+      <value>ui-commandlink ui-widget us-icon-deleted</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pfconfirmcommand</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;consultarInformacionBasica_form:tablaEntidadesAFC:0:j_idt748&quot;,f:&quot;consultarInformacionBasica_form&quot;,u:&quot;consultarInformacionBasica_form&quot;});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;consultarInformacionBasica_form:j_idt452&quot;,f:&quot;consultarInformacionBasica_form&quot;,u:&quot;popupEditarTipoPeriodo&quot;});return false;</value>
+      <value>PrimeFaces.confirm({source:&quot;consultarInformacionBasica_form:tablaEntidadesAFC:0:j_idt748&quot;,escape:true,header:&quot;Eliminar&quot;,message:&quot;Desea eliminar el   registro?&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;consultarInformacionBasica_form:j_idt452&quot;)</value>
+      <value>id(&quot;consultarInformacionBasica_form:tablaEntidadesAFC:0:j_idt748&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='consultarInformacionBasica_form:j_idt472']</value>
+      <value>//a[@id='consultarInformacionBasica_form:tablaEntidadesAFC:0:j_idt748']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='consultarInformacionBasica_form:cargoConsultar']/div/a</value>
+      <value>//tbody[@id='consultarInformacionBasica_form:tablaEntidadesAFC_data']/tr/td[5]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[20]</value>
+      <value>(//a[contains(@href, '#')])[60]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[17]/div/a</value>
+      <value>//tbody/tr/td[5]/a</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,10 +23,10 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/3_Información_bancaria/Page_/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/3_Información_bancaria/Page_/a_BOLIVAR RESTREPO ANGELA MARA_'), 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/3_Información_bancaria/Page_/a_PARRA GUZMAN ANGELA MARA'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/3_Información_bancaria/Page_/a_BOLIVAR RESTREPO ANGELA MARA_'))
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/3_Información_bancaria/Page_/a_PARRA GUZMAN ANGELA MARA'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/3_Información_bancaria/Page_/a_Informacin Contratacin'), 
     GlobalVariable.G_timeout)
