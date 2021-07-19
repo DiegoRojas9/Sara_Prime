@@ -6,25 +6,29 @@
    <elementGuidId>f4c131b3-915d-4784-a427-4bc1137debdd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a[@id='consultarInformacionBasica_form:tablaEntidadesAFC:0:j_idt748']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody/tr/td[5]/a</value>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'ui-commandlink ui-widget us-icon-deleted']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value>#</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Fecha fin vigencia_btn-miniadicionar</name>
+   <name>a_Fecha fin vigencia_consultarInformacion</name>
    <tag></tag>
-   <elementGuidId>ed762f15-6708-4649-a634-4fc86f0abf07</elementGuidId>
+   <elementGuidId>4b143669-c36b-4cb3-bf63-5146989458f0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:tablaEntidadesAPV:j_idt773':'consultarInformacionBasica_form:tablaEntidadesAPV:j_idt773'},'');return false&quot;]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='consultarInformacionBasica_form:tablaEntidadesAPV:j_idt786']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,6 +26,13 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>consultarInformacionBasica_form:tablaEntidadesAPV:j_idt786</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#</value>
@@ -33,30 +40,44 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>class</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:tablaEntidadesAPV:j_idt773':'consultarInformacionBasica_form:tablaEntidadesAPV:j_idt773'},'');return false</value>
+      <value>ui-commandlink ui-widget btn-miniadicionar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>btn-miniadicionar</value>
+      <value>Agregar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;consultarInformacionBasica_form:tablaEntidadesAPV:j_idt786&quot;,f:&quot;consultarInformacionBasica_form&quot;,u:&quot;consultarInformacionBasica_form:tablaEntidadesAPV&quot;});return false;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Agregar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;consultarInformacionBasica_form:tablaEntidadesAPV_foot&quot;)/tr[1]/td[@class=&quot;ui-state-default&quot;]/a[@class=&quot;btn-miniadicionar&quot;]</value>
+      <value>id(&quot;consultarInformacionBasica_form:tablaEntidadesAPV:j_idt786&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:tablaEntidadesAPV:j_idt773':'consultarInformacionBasica_form:tablaEntidadesAPV:j_idt773'},'');return false&quot;]</value>
+      <value>//a[@id='consultarInformacionBasica_form:tablaEntidadesAPV:j_idt786']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,13 +91,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[58]</value>
+      <value>(//a[contains(@href, '#')])[59]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[45]/span/div/div/table/tfoot/tr/td[5]/a</value>
+      <value>//div[46]/span/div/div/table/tfoot/tr/td[5]/a</value>
    </webElementXpaths>
 </WebElementEntity>

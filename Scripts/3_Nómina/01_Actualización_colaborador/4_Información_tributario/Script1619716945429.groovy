@@ -83,8 +83,8 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Actualizar'))
 
-/*WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/a_Cuenta_consultarInformacionBasica_Delete'), 
-     GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/a_Cuenta_consultarInformacionBasica_Delete'), 
+    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/a_Cuenta_consultarInformacionBasica_Delete'))
 
@@ -104,7 +104,7 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
     GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/span_Si_2'))
-*/
+
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/select_-- Seleccione --Afc - Av VillasAfc - Banco'), 
     GlobalVariable.G_timeout)
 
@@ -179,6 +179,28 @@ WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Informació
 
 WebUI.delay(2)
 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Cuenta_consultarInformacionBasicaAPV'), 
+    GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Cuenta_consultarInformacionBasicaAPV'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/span_Si_3'), 
+    GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/span_Si_3'))
+
+WebUI.delay(3)
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Vigencia_consultarInformacionBasicaAPV'), 
+    GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Vigencia_consultarInformacionBasicaAPV'))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/span_Si_4'), 
+    GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/span_Si_4'))
+
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/select_-- Seleccione --Apv - Caja De Auxilios Y De Prestaciones'), 
     GlobalVariable.G_timeout)
 
@@ -215,10 +237,12 @@ WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Informaci
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha fin vigencia_consultarInformacionBasica_ValorAPV'), 
     '67000')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_btn-miniadicionar'), 
+WebUI.delay(3)
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_consultarInformacion'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_btn-miniadicionar'))
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_consultarInformacion'))
 
 WebUI.delay(3)
 
@@ -247,10 +271,10 @@ WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Informació
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha fin vigencia_consultarInformacionBasica_APV'), 
     todaysDate)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_btn-miniadicionar'), 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_consultarInformacion'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_btn-miniadicionar'))
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_consultarInformacion'))
 
 WebUI.closeBrowser()
 
