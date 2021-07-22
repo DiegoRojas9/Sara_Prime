@@ -48,7 +48,7 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/3_Archivo_seguridad/Page
 
 WebUI.click(findTestObject('3_Nómina/3_Archivo_seguridad/Page_/a_Descargar Archivo'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/3_Archivo_seguridad/Page_/a_Si'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/3_Archivo_seguridad/Page_/a_Descargar'), GlobalVariable.G_timeout)
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/3_Archivo_seguridad/Page_/span_Union Soluciones 2019_ui-icon ui-icon-closethick'), 
     GlobalVariable.G_timeout)

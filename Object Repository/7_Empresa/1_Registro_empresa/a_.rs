@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('j_idt53'),{'j_idt53:j_idt55':'j_idt53:j_idt55'},'');return false&quot;]</value>
+         <value>//div[2]/form/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

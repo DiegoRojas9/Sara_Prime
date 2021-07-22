@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ARANGO OBREGON MARIAM_formulario_numeroCuenta</name>
+   <name>a_Ajuste_formulario_archivoPagos</name>
    <tag></tag>
-   <elementGuidId>a1d0827f-f774-49a8-88e9-22750bb04f94</elementGuidId>
+   <elementGuidId>1755302c-c66f-4190-a024-9c81e16b7327</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='formulario_archivoPagos:tablaAjuste2:1:numeroCuenta']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='formulario_archivoPagos:j_idt872:0:j_idt885']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formulario_archivoPagos:tablaAjuste2:1:numeroCuenta</value>
+      <value>formulario_archivoPagos:j_idt872:0:j_idt885</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>formulario_archivoPagos:tablaAjuste2:1:numeroCuenta</value>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>class</name>
       <type>Main</type>
-      <value>200300400           </value>
+      <value>ui-commandlink ui-widget us-icon-edit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>20</value>
+      <value>PrimeFaces.ab({s:&quot;formulario_archivoPagos:j_idt872:0:j_idt885&quot;,f:&quot;formulario_archivoPagos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formulario_archivoPagos:tablaAjuste2:1:numeroCuenta&quot;)</value>
+      <value>id(&quot;formulario_archivoPagos:j_idt872:0:j_idt885&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='formulario_archivoPagos:tablaAjuste2:1:numeroCuenta']</value>
+      <value>//a[@id='formulario_archivoPagos:j_idt872:0:j_idt885']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='formulario_archivoPagos:tablaAjuste2:1:j_idt941']/div[2]/input</value>
+      <value>//tbody[@id='formulario_archivoPagos:j_idt872_data']/tr/td[5]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[22]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[6]/div/div[2]/input</value>
+      <value>//td[5]/a</value>
    </webElementXpaths>
 </WebElementEntity>

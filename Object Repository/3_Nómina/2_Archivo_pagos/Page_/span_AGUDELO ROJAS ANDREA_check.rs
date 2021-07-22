@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_ARANGO CAMACHO CAMILA_ui-icon ui-icon-check ui-c</name>
+   <name>span_AGUDELO ROJAS ANDREA_check</name>
    <tag></tag>
-   <elementGuidId>73b02154-9337-4ce9-9a53-03e20004ed85</elementGuidId>
+   <elementGuidId>8126b4ef-45b1-4772-a71f-dd4518489b36</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[2]/span</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>span.ui-icon.ui-icon-check.ui-c</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='formulario_archivoPagos:tablaAjuste2:0:j_idt944']/a[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

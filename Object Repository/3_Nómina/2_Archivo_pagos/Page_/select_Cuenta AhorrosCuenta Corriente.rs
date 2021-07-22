@@ -6,12 +6,12 @@
    <elementGuidId>0d1d1f61-5501-4094-bb53-1ee2c107a52b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='formulario_archivoPagos:tablaAjuste2:0:tipoCuenta']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[4]/td[5]/div/div[2]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formulario_archivoPagos:tablaAjuste2:0:tipoCuenta</value>
+      <value>formulario_archivoPagos:tablaAjuste2:4:tipoCuenta</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>formulario_archivoPagos:tablaAjuste2:0:tipoCuenta</value>
+      <value>formulario_archivoPagos:tablaAjuste2:4:tipoCuenta</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,55 +65,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formulario_archivoPagos:tablaAjuste2:0:tipoCuenta&quot;)</value>
+      <value>id(&quot;formulario_archivoPagos:tablaAjuste2:4:tipoCuenta&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='formulario_archivoPagos:tablaAjuste2:0:tipoCuenta']</value>
+      <value>//select[@id='formulario_archivoPagos:tablaAjuste2:4:tipoCuenta']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='formulario_archivoPagos:tablaAjuste2:0:j_idt935']/div[2]/select</value>
+      <value>//div[@id='formulario_archivoPagos:tablaAjuste2:4:j_idt935']/div[2]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ARANGO CAMACHO CAMILA'])[1]/following::select[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AGUDELO ROJAS ANGELA MARÍA'])[2]/following::select[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Num. Cuenta Bancaria'])[1]/following::select[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ARANGO OBREGON MARIAM'])[1]/preceding::select[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BOLIVAR RESTREPO ANGELA MARÍA'])[1]/preceding::select[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AGUDELO ROJAS ANGELA MARÍA'])[1]/following::select[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[5]/div/div[2]/select</value>
+      <value>//tr[4]/td[5]/div/div[2]/select</value>
    </webElementXpaths>
 </WebElementEntity>

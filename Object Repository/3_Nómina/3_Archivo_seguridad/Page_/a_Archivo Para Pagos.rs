@@ -6,12 +6,12 @@
    <elementGuidId>4edb9ffc-37b8-406d-9728-6bd7ab81624f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_breadcrumd'),{'form_breadcrumd:j_idt220:j_idt229':'form_breadcrumd:j_idt220:j_idt229'},'');return false&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.crumbsdisabled > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

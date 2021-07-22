@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form/div/div/a/span</value>
+         <value>//form/div/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,6 +49,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div/a/span</value>
+      <value>//form/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

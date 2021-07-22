@@ -22,9 +22,9 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/6_Neto/a_Nmina'), Global
 
 WebUI.click(findTestObject('3_Nómina/6_Neto/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/6_Neto/span_454100000'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/6_Neto/span_5.179.900,00'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/6_Neto/span_454100000'))
+WebUI.click(findTestObject('3_Nómina/6_Neto/span_5.179.900,00'))
 
 WebUI.delay(5)
 

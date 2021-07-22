@@ -1,58 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_ARANGO CAMACHO CAMILA_ui-icon ui-icon-pencil</name>
+   <name>span_AGUDELO ROJAS ANGELA MARA_check</name>
    <tag></tag>
-   <elementGuidId>df0ab87e-de33-463e-90f1-c62f7b894104</elementGuidId>
+   <elementGuidId>c8f1221b-5cce-4073-8357-6c743e96055b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'ui-icon ui-icon-pencil']</value>
+         <key>CSS</key>
+         <value>a.ui-row-editor-check.ui-row-editor-outline > span.ui-icon.ui-icon-check.ui-c</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div/a/span</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>span.ui-icon.ui-icon-pencil</value>
+         <value>//tr[4]/td[7]/div/a[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-icon ui-icon-pencil</value>
+      <value>ui-icon ui-icon-check ui-c</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formulario_archivoPagos:tablaAjuste2:0:j_idt944&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;]</value>
+      <value>id(&quot;formulario_archivoPagos:tablaAjuste2:3:j_idt944&quot;)/a[@class=&quot;ui-row-editor-check ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-check ui-c&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='formulario_archivoPagos:tablaAjuste2:0:j_idt944']/a/span</value>
+      <value>//div[@id='formulario_archivoPagos:tablaAjuste2:3:j_idt944']/a[2]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/a/span</value>
+      <value>//tr[4]/td[7]/div/a[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>

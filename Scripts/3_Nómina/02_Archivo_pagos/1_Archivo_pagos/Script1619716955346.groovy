@@ -26,14 +26,13 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Archivo Para Pagos'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_PAGO EN CHEQUE - BOGOTA_us-icon-edit'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Ajuste_formulario_archivoPagos'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_PAGO EN CHEQUE - BOGOTA_us-icon-edit'))
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Ajuste_formulario_archivoPagos'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO CAMACHO CAMILA_ui-icon ui-icon-pencil'), 
-    GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANDREA_pencil'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO CAMACHO CAMILA_ui-icon ui-icon-pencil'))
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANDREA_pencil'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_-- Seleccione --Av VillasBanco De Occidente'), 
     GlobalVariable.G_timeout)
@@ -43,23 +42,21 @@ WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_-- Seleccione
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_-- Seleccione --Av VillasBanco De Occidente'), 
     17)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta AhorrosCuenta Corriente'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta Ahorros Cuenta Corriente'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta AhorrosCuenta Corriente'))
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta Ahorros Cuenta Corriente'))
 
-WebUI.selectOptionByIndex(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta AhorrosCuenta Corriente'), '1')
+WebUI.selectOptionByIndex(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta Ahorros Cuenta Corriente'), '1')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_ARANGO CAMACHO CAMILA_numeroCuenta'), 
-    GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_AGUDELO ROJAS ANDREA_formulario'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_ARANGO CAMACHO CAMILA_numeroCuenta'))
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_AGUDELO ROJAS ANDREA_formulario'))
 
-WebUI.setText(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_ARANGO CAMACHO CAMILA_numeroCuenta'), '100900800')
+WebUI.setText(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_AGUDELO ROJAS ANDREA_formulario'), '100900800')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO CAMACHO CAMILA_ui-icon ui-icon-check ui-c'), 
-    GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANDREA_check'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO CAMACHO CAMILA_ui-icon ui-icon-check ui-c'))
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANDREA_check'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'), GlobalVariable.G_timeout)
 
@@ -67,10 +64,9 @@ WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO OBREGON MARIAM_ui-icon ui-icon-pencil'), 
-    GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANGELA MARA_pencil'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO OBREGON MARIAM_ui-icon ui-icon-pencil'))
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANGELA MARA_pencil'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_-- Seleccione --Av VillasBanco  De  Occidente'), 
     GlobalVariable.G_timeout)
@@ -80,24 +76,22 @@ WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_-- Seleccione
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_-- Seleccione --Av VillasBanco  De  Occidente'), 
     11)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta AhorrosCuenta Corriente_2'), 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta AhorrosCuenta Corriente'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta AhorrosCuenta Corriente'))
+
+WebUI.selectOptionByIndex(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta AhorrosCuenta Corriente'), '1')
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_AGUDELO ROJAS ANGELA MARA_numeroCuenta'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta AhorrosCuenta Corriente_2'))
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_AGUDELO ROJAS ANGELA MARA_numeroCuenta'))
 
-WebUI.selectOptionByIndex(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_Cuenta AhorrosCuenta Corriente_2'), '1')
+WebUI.setText(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_AGUDELO ROJAS ANGELA MARA_numeroCuenta'), '200300400')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_ARANGO OBREGON MARIAM_formulario_numeroCuenta'), 
-    GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANGELA MARA_check'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_ARANGO OBREGON MARIAM_formulario_numeroCuenta'))
-
-WebUI.setText(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_ARANGO OBREGON MARIAM_formulario_numeroCuenta'), '200300400')
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO OBREGON MARIAM_ui-icon ui-icon-check ui-c'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_ARANGO OBREGON MARIAM_ui-icon ui-icon-check ui-c'))
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANGELA MARA_check'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar_1'), GlobalVariable.G_timeout)
 

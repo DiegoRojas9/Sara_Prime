@@ -6,12 +6,11 @@
    <elementGuidId>82c7d6cc-6d55-425a-a6e2-2f07c39eb5db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='formulario_archivoPagos:tablaAjuste2:1:entidades']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[4]/td[4]/div/div[2]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -134,6 +133,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[4]/div/div[2]/select</value>
+      <value>//tr[4]/td[4]/div/div[2]/select</value>
    </webElementXpaths>
 </WebElementEntity>

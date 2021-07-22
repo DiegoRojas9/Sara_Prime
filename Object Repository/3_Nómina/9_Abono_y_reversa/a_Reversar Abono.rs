@@ -6,19 +6,19 @@
    <elementGuidId>2f685ee4-d43b-418d-90c5-251fb0996121</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @class = 'us-boton' and (text() = 'Reversar Abono' or . = 'Reversar Abono')]</value>
+         <key>XPATH</key>
+         <value>//div[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.us-boton</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[3]/a</value>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'us-boton' and (text() = 'Reversar Abono' or . = 'Reversar Abono')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

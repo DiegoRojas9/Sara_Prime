@@ -1,85 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_PAGO EN CHEQUE - BOGOTA_us-icon-edit</name>
+   <name>input_AGUDELO ROJAS ANGELA MARA_numeroCuenta</name>
    <tag></tag>
-   <elementGuidId>a63f94c9-c775-4b56-bb6f-880c7530c838</elementGuidId>
+   <elementGuidId>f513d072-9c03-4fb8-b708-e77610ccb347</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @class = 'us-icon-edit']</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td[5]/a</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//input[@id='formulario_archivoPagos:tablaAjuste2:3:numeroCuenta']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>#</value>
+      <value>formulario_archivoPagos:tablaAjuste2:3:numeroCuenta</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>formulario_archivoPagos:tablaAjuste2:3:numeroCuenta</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>value</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('formulario_archivoPagos'),{'formulario_archivoPagos:j_idt872:1:j_idt885':'formulario_archivoPagos:j_idt872:1:j_idt885'},'');return false</value>
+      <value>665432999           </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>us-icon-edit</value>
+      <value>20</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formulario_archivoPagos:j_idt872_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd fila_tabla_ace&quot;]/td[5]/a[@class=&quot;us-icon-edit&quot;]</value>
+      <value>id(&quot;formulario_archivoPagos:tablaAjuste2:3:numeroCuenta&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('formulario_archivoPagos'),{'formulario_archivoPagos:j_idt872:1:j_idt885':'formulario_archivoPagos:j_idt872:1:j_idt885'},'');return false&quot;]</value>
+      <value>//input[@id='formulario_archivoPagos:tablaAjuste2:3:numeroCuenta']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='formulario_archivoPagos:j_idt872_data']/tr[2]/td[5]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '#')])[23]</value>
+      <value>//div[@id='formulario_archivoPagos:tablaAjuste2:3:j_idt941']/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[5]/a</value>
+      <value>//tr[4]/td[6]/div/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

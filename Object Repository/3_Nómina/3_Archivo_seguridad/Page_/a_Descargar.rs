@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Si</name>
+   <name>a_Descargar</name>
    <tag></tag>
-   <elementGuidId>7dc2d3c1-3e00-4b5a-ac8a-e8ef75d29223</elementGuidId>
+   <elementGuidId>ac1d328c-28e3-4076-9567-ccb1cac0afde</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='confirmacionGenerar:j_idt2179_content']/div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>a.us-boton.btn-descargar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/table/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/saraprimeweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc64c35c39c32c30c37c66c63c39c32c36c38c34c38c30c38c61c37c65c65c34c32c34c36c39c65c38c64c63c65c33c30&amp;E=</value>
+      <value>/saraprimeweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc66c35c61c39c36c34c63c37c34c35c61c38c34c30c39c34c39c32c64c34c30c31c30c61c38c33c62c34c66c33c33c66&amp;E=</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,35 +49,28 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Si</value>
+      <value>Descargar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;confirmacionGenerar:j_idt2179_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton btn-descargar&quot;]</value>
+      <value>id(&quot;confirmacionGenerar:j_idt2174_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton btn-descargar&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='confirmacionGenerar:j_idt2179_content']/div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <value>//div[@id='confirmacionGenerar:j_idt2174_content']/div[2]/table/tbody/tr/td/table/tbody/tr/td/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'Si')])[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desea generar archivo'])[1]/following::a[1]</value>
+      <value>(//a[contains(text(),'Descargar')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +84,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='http://www.pagosimple.com'])[2]/following::a[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambio de empresa'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
@@ -98,21 +105,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Descargar']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/saraprimeweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc64c35c39c32c30c37c66c63c39c32c36c38c34c38c30c38c61c37c65c65c34c32c34c36c39c65c38c64c63c65c33c30&amp;E=')]</value>
+      <value>//a[contains(@href, '/saraprimeweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc66c35c61c39c36c34c63c37c34c35c61c38c34c30c39c34c39c32c64c34c30c31c30c61c38c33c62c34c66c33c33c66&amp;E=')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

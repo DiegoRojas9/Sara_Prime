@@ -22,10 +22,6 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_
 
 WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'))
-
 WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_ ver ms'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_ ver ms'))

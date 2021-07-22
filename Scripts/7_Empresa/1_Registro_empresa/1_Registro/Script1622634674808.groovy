@@ -122,6 +122,9 @@ WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione Ciudad --ABEJORRAL'), 
     '102')
 
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Ciudad_form_crearNuevaEmpresaInfocamposEntidadj_idt336'), 
+    GlobalVariable.G_timeout)
+
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Ciudad_form_crearNuevaEmpresaInfocamposEntidadj_idt336'))
 
 WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --No RelacionadaPago'), 

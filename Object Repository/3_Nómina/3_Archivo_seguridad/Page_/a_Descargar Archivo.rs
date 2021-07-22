@@ -6,12 +6,11 @@
    <elementGuidId>d7ddae11-64b8-44d0-8c7a-c1d913435b84</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('formulario_seguridadsocial'),{'formulario_seguridadsocial:j_idt695':'formulario_seguridadsocial:j_idt695'},'');return false&quot;]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
