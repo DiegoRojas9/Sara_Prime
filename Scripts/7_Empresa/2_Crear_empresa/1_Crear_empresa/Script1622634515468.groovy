@@ -20,46 +20,53 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://190.85.173.173:8093/saraprimeweb/registro/registro.jsf')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_/Crear_empresa/Page_/select_SeleccionarCedula CiudadaniaCedula E_687d20'),
-	'CE', true)
+WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/select_SeleccionarCedula Ciudadania'), GlobalVariable.G_timeout)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_/Crear_empresa/Page_/select_SeleccionarCedula CiudadaniaCedula E_687d20'),
-	'NI', true)
+WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/select_SeleccionarCedula Ciudadania'))
 
-WebUI.setText(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_Numero Documento_form_crear_cuentanum_076543'),
-	'900800150')
+WebUI.selectOptionByIndex(findTestObject('7_Empresa/2_Crear_empresa/select_SeleccionarCedula Ciudadania'), '3')
 
-WebUI.setText(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_DV_form_crear_cuentadigito_verificacion'),
-	'1')
+WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/input_Numero Documento_empresa'), GlobalVariable.G_timeout)
 
-WebUI.setText(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_Nombre o Razon Social _form_crear_cue_f5c662'),
-	'')
+WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/input_Numero Documento_empresa'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_/Crear_empresa/Page_/div_Informacin EmpresaTipo Documento Selecc_9c6fd9'))
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Numero Documento_empresa'), '900800150')
 
-WebUI.setText(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_Nombre o Razon Social _form_crear_cue_f5c662'),
-	'INSUMOS MEDICOS COMFAMA')
+WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/input_D.V_verificacion'), GlobalVariable.G_timeout)
 
-WebUI.setText(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_Direccin _form_crear_cuentadireccion'),
-	'CALLE 52 41 13')
+WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/input_D.V_verificacion'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_Telfono Fijo _form_crear_cuentatelefono'),
-	'5486215')
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_D.V_verificacion'), '1')
 
-WebUI.setText(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_Nombre _form_crear_cuentanombre'), 'EMILIA VARGAS MARTINEZ')
+WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/input_Nombre o Razon Social'), GlobalVariable.G_timeout)
 
-WebUI.setText(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_Documento_form_crear_cuentadocumentoA'),
-	'1098626095')
+WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/input_Nombre o Razon Social'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_Correo _form_crear_cuentacorreo'), 'autotestus1994@gmail.com')
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Nombre o Razon Social'), 'Soluciones moviles S.A.S.')
 
-WebUI.setText(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_Confirmar Correo _form_crear_cuentaco_117d3d'),
-	'autotestus1994@gmail.com')
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Direccin_form_crear_cuentadireccion'), 'CALLE 52 41 13')
 
-WebUI.click(findTestObject('Object Repository/Page_/Crear_empresa/Page_/input_Confirmar Correo _form_crear_cuentack_f8e92d'))
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Telfono Fijo_form_crear_cuentatelefono'), '5486215')
 
-WebUI.click(findTestObject('Object Repository/Page_/Crear_empresa/Page_/a_Crear Cuenta'))
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Nombre_form_crear_cuentanombre'), 'EMILIA VARGAS MARTINEZ')
 
-WebUI.click(findTestObject('Object Repository/Page_/Crear_empresa/Page_/span_Aceptar'))
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Documento_form_crear_cuentadocumentoA'), '1098626095')
+
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Correo_form_crear_cuentacorreo'), 'autotestus1994@gmail.com')
+
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Confirmar Correo_form_crear'), 'autotestus1994@gmail.com')
+
+WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/span_Confirmar Correo_ui-chkbox'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/span_Confirmar Correo_ui-chkbox'))
+
+WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/a_Crear Cuenta'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Crear Cuenta'))
+
+WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/a_Aceptar'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Aceptar'))
 
 WebUI.closeBrowser()
+
