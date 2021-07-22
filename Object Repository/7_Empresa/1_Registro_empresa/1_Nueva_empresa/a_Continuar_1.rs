@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Continuar</name>
+   <name>a_Continuar_1</name>
    <tag></tag>
-   <elementGuidId>e8cb2fc5-ba89-4eeb-a44d-f0bc024ea449</elementGuidId>
+   <elementGuidId>de53d35d-fdb0-4a4b-8082-5b8117f8314b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[2]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[19]/a</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_crearNuevaEmpresaInfo:j_idt386</value>
+      <value>form_crearNuevaEmpresaRelacion:j_idt528</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;form_crearNuevaEmpresaInfo:j_idt386&quot;,f:&quot;form_crearNuevaEmpresaInfo&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;form_crearNuevaEmpresaRelacion:j_idt528&quot;,f:&quot;form_crearNuevaEmpresaRelacion&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,21 +63,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_crearNuevaEmpresaInfo:j_idt386&quot;)</value>
+      <value>id(&quot;form_crearNuevaEmpresaRelacion:j_idt528&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='form_crearNuevaEmpresaInfo:j_idt386']</value>
+      <value>//a[@id='form_crearNuevaEmpresaRelacion:j_idt528']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='form_crearNuevaEmpresaInfo']/div/div[19]/a</value>
+      <value>//form[@id='form_crearNuevaEmpresaRelacion']/div/div[2]/div[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,14 +91,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccionar método de envío de los comprobantes de pago: *'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo de Cuenta *'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Relacionada'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,13 +126,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[11]</value>
+      <value>(//a[contains(@href, '#')])[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[19]/a</value>
+      <value>//div[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

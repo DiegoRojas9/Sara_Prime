@@ -173,61 +173,57 @@ WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nue
 
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Continuar'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_SI'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_1'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_SI'))
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_1'))
 
-WebUI.setText(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/input_Da Pago Primera Quincena_form_crearNu_afe6e6'), 
-    '14')
+WebUI.setText(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_Da Pago Primera Quincena'), '14')
 
-WebUI.setText(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/input_Da Pago Segunda Quincena_form_crearNu_476b2b'), 
-    '30')
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_Da Pago Segunda Quincena'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_NO'), GlobalVariable.G_timeout)
+WebUI.setText(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_Da Pago Segunda Quincena'), '30')
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_NO'))
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO_3'), GlobalVariable.G_timeout)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_No aplica'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO_3'))
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_No aplica'))
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_Anterior da hbil'), GlobalVariable.G_timeout)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_SI'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_Anterior da hbil'))
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_SI'))
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_2'), GlobalVariable.G_timeout)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_SI'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_2'))
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_SI'))
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO_4'), GlobalVariable.G_timeout)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_SI'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO_4'))
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_SI'))
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_3'), GlobalVariable.G_timeout)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_NO'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_3'))
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_NO'))
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/select_-- Seleccione --Ene 2021Feb 2021Mar _1fa232'), 
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --May 2021Jun'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/select_-- Seleccione --Ene 2021Feb 2021Mar _1fa232'))
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --May 2021Jun'))
 
-WebUI.selectOptionByIndex(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/select_-- Seleccione --Ene 2021Feb 2021Mar _1fa232'), 
+WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --May 2021Jun'), 
     '4')
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/a_Guardar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Guardar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/a_Guardar'))
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Guardar'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_No Relacionada'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_No Relacionada'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_No Relacionada'))
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_No Relacionada'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/a_Continuar'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Continuar_1'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/a_Continuar'))
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Continuar_1'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Crear_Nueva_Empresa/Page_/label_Tipo Documento'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_Tipo Documento'), GlobalVariable.G_timeout)
 
 WebUI.closeBrowser()
 
