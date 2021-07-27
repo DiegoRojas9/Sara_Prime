@@ -6,12 +6,11 @@
    <elementGuidId>5a50a030-eddb-47d8-bcdf-058abafc4f03</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

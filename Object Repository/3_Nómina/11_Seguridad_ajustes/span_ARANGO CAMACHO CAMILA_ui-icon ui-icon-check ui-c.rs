@@ -6,12 +6,12 @@
    <elementGuidId>79d2fca9-3fc7-484c-9828-3551700df218</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.ui-icon.ui-icon-check.ui-c</value>
+         <key>XPATH</key>
+         <value>//a[2]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='formulario_seguridadsocial:tablaAjuste:0:j_idt781']/a[2]/span</value>
+         <key>CSS</key>
+         <value>span.ui-icon.ui-icon-check.ui-c</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

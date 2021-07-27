@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Asignar Jefe _detalleEmpleadoPrime_formj_idt378</name>
+   <name>a_Fecha 10052021_formulario_nomin</name>
    <tag></tag>
-   <elementGuidId>8d28290f-4f6c-4bb6-aa00-9ab598bdac8f</elementGuidId>
+   <elementGuidId>da6db3b8-ac9b-444e-95e8-38b839d90a87</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[4]/div/a</value>
+         <value>//a[@id='formulario_nomina:j_idt492:1:generarComprobante']</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>detalleEmpleadoPrime_form:j_idt378</value>
+      <value>formulario_nomina:j_idt492:1:generarComprobante</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,48 +42,48 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget btn-miniadicionar</value>
+      <value>ui-commandlink ui-widget glyphicons glyphicons-download-alt</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;detalleEmpleadoPrime_form:j_idt378&quot;,f:&quot;detalleEmpleadoPrime_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;formulario_nomina:j_idt492:1:generarComprobante&quot;,f:&quot;formulario_nomina&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;detalleEmpleadoPrime_form:j_idt378&quot;)</value>
+      <value>id(&quot;formulario_nomina:j_idt492:1:generarComprobante&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='detalleEmpleadoPrime_form:j_idt378']</value>
+      <value>//a[@id='formulario_nomina:j_idt492:1:generarComprobante']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='detalleEmpleadoPrime_form:informacioncontratacion']/div[2]/div/div[4]/div/a</value>
+      <value>//tbody[@id='formulario_nomina:j_idt492_data']/tr[2]/td[8]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[12]</value>
+      <value>(//a[contains(@href, '#')])[36]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/a</value>
+      <value>//tr[2]/td[8]/a</value>
    </webElementXpaths>
 </WebElementEntity>

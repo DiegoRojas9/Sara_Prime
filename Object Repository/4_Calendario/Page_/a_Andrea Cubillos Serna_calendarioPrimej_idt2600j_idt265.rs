@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='calendarioPrime:j_idt260:0:j_idt265']</value>
+         <value>//div/div[2]/div/div/table/tbody/tr/td/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

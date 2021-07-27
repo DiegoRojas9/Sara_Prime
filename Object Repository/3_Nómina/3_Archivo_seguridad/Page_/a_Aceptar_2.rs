@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[30]/div/div[2]/div[3]/a</value>
+         <value>//form[32]/div/div[2]/div[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -126,6 +126,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form[30]/div/div[2]/div[3]/a</value>
+      <value>//form[32]/div/div[2]/div[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

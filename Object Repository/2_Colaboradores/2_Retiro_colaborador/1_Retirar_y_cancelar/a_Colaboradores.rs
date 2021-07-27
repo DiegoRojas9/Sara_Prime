@@ -6,12 +6,12 @@
    <elementGuidId>332a3cf3-e03c-46b2-8832-4652a9116b2c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.us-item-seleccionado > a</value>
+         <key>XPATH</key>
+         <value>//form/ul/li[2]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='j_idt47']/ul/li[2]/a</value>
+         <key>CSS</key>
+         <value>li.us-item-seleccionado > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

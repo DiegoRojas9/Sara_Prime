@@ -6,12 +6,11 @@
    <elementGuidId>ea1b8a30-3517-456c-8b91-4759b939acfe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//form/ul/li[5]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='j_idt47']/ul/li[5]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -105,6 +104,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[5]/a</value>
+      <value>//form/ul/li[5]/a</value>
    </webElementXpaths>
 </WebElementEntity>

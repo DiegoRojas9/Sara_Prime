@@ -6,12 +6,12 @@
    <elementGuidId>93dc68f1-c323-44e8-8762-5bd16eadaffe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.us-btn-si.us-btn-popup</value>
+         <key>XPATH</key>
+         <value>//form[32]/div/div[2]/div[3]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[30]/div/div[2]/div[3]/a</value>
+         <key>CSS</key>
+         <value>a.us-btn-si.us-btn-popup</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -126,6 +126,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form[30]/div/div[2]/div[3]/a</value>
+      <value>//form[32]/div/div[2]/div[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

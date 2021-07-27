@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_GALINDO BERMUDEZ GERMAN_formulario</name>
+   <name>a_Fecha 10052021_formulario_nomina</name>
    <tag></tag>
    <elementGuidId>cca26ba8-9ab4-4227-9f8d-7a16b633f47c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[2]/td[8]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='formulario_nomina:j_idt486:5:generarComprobante']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,27 +62,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='formulario_nomina:j_idt486:5:generarComprobante']</value>
+      <value>//a[@id='formulario_nomina:j_idt492:1:generarComprobante']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='formulario_nomina:j_idt486_data']/tr[6]/td[8]/a</value>
+      <value>//tbody[@id='formulario_nomina:j_idt492_data']/tr[2]/td[8]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[54]</value>
+      <value>(//a[contains(@href, '#')])[36]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[6]/td[8]/a</value>
+      <value>//tr[2]/td[8]/a</value>
    </webElementXpaths>
 </WebElementEntity>

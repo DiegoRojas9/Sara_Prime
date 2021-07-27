@@ -6,11 +6,11 @@
    <elementGuidId>86c604be-0947-4877-b514-53fb40568f91</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[2]/td[6]/div/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[6]/div/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -133,6 +133,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[6]/div/a</value>
+      <value>//tr[2]/td[6]/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

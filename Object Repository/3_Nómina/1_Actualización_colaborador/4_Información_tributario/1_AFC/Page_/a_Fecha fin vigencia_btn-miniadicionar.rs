@@ -6,12 +6,12 @@
    <elementGuidId>5609b264-4ca5-4c3d-8471-95d7c16b54f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn-miniadicionar</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//td[5]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn-miniadicionar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

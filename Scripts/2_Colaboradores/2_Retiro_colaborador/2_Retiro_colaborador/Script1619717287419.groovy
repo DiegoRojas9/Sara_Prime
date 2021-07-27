@@ -50,7 +50,7 @@ WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Primer Apellido  _deta
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/input_Segundo Apellido _detalleEmpleadoPrime'), GlobalVariable.G_timeout)
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Segundo Apellido _detalleEmpleadoPrime'), 'Rojas')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Segundo Apellido _detalleEmpleadoPrime'), 'Arango')
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha Nacimiento  _detalleEmpleadoPrime'), '16/10/1983')
 
@@ -68,15 +68,15 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/label_Email'))
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Email  _detalleEmpleadoPrime_formemail'), identificacion + 'Mariana.urrego@gmail.com')
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/input_Ciudad de Residencia _formciudadResidencia_input'),
-	GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/input_Ciudad de Residencia _formciudadResidencia_input'), 
+    GlobalVariable.G_timeout)
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Ciudad de Residencia _formciudadResidencia_input'), 'Bogot')
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/li_BOGOT - CUNDINAMARCA'), GlobalVariable.G_timeout)
 
-WebElement element1 = WebUiCommonHelper.findWebElement(findTestObject('2_Colaboradores/Page_/li_BOGOT - CUNDINAMARCA'),
-	30)
+WebElement element1 = WebUiCommonHelper.findWebElement(findTestObject('2_Colaboradores/Page_/li_BOGOT - CUNDINAMARCA'), 
+    30)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element1))
 
@@ -149,15 +149,15 @@ try {
 catch (Exception e) {
     WebUI.click(findTestObject('Object Repository/2_Colaboradores/Page_/a_Unidad  _btn-miniadicionar'))
 
-	WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Asignar Jefe _detalleEmpleadoPrime_formj_idt378'),
-		GlobalVariable.G_timeout)
-	
-	WebUI.click(findTestObject('2_Colaboradores/Page_/a_Asignar Jefe _detalleEmpleadoPrime_formj_idt378'))
-	
-	WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/td_PARRA GUZMAN ANGELA MARA'), GlobalVariable.G_timeout)
-	
-	WebUI.click(findTestObject('2_Colaboradores/Page_/td_PARRA GUZMAN ANGELA MARA'))
-	
+    WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Asignar Jefe _detalleEmpleadoPrime_formj_idt378'), 
+        GlobalVariable.G_timeout)
+
+    WebUI.click(findTestObject('2_Colaboradores/Page_/a_Asignar Jefe _detalleEmpleadoPrime_formj_idt378'))
+
+    WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/td_PARRA GUZMAN ANGELA MARA'), GlobalVariable.G_timeout)
+
+    WebUI.click(findTestObject('2_Colaboradores/Page_/td_PARRA GUZMAN ANGELA MARA'))
+
     WebUI.setText(findTestObject('Object Repository/2_Colaboradores/Page_/input_Descripcin_form_popupCrearUnidaddescripcionUnidad'), 
         'Desarrollo')
 
@@ -432,7 +432,7 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborad
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_ACTIVO_us-icon-remover'))
 
 WebUI.setText(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/input_Fecha ultimo da Laborado'), 
-    '30/03/2021')
+    '28/05/2021')
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/select_-- Seleccione --FALLECIMIENTO'), 
     GlobalVariable.G_timeout)
@@ -450,6 +450,10 @@ WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colabo
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_Aceptar_'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_Aceptar_'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_Si'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_Si'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_Si'), GlobalVariable.G_timeout)
 

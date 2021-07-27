@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='formulario_seguridadsocial:tablaAjuste:0:j_idt781']/a[2]/span</value>
+         <value>//a[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>

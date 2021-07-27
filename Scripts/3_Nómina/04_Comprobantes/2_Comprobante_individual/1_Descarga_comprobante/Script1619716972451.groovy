@@ -22,10 +22,10 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprob
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_GALINDO BERMUDEZ GERMAN_formulario'), 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Fecha 10052021_formulario_nomina'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_GALINDO BERMUDEZ GERMAN_formulario'))
+WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Fecha 10052021_formulario_nomina'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Continuar'), GlobalVariable.G_timeout)
 

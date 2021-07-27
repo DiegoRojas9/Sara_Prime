@@ -6,12 +6,11 @@
    <elementGuidId>1755302c-c66f-4190-a024-9c81e16b7327</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[5]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='formulario_archivoPagos:j_idt872:0:j_idt885']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

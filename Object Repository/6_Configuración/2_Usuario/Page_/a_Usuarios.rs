@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_breadcrumd'),{'form_breadcrumd:j_idt220:j_idt229':'form_breadcrumd:j_idt220:j_idt229'},'');return false&quot;]</value>
+         <value>//span[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>

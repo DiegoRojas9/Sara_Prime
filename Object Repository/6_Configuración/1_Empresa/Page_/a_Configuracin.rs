@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='j_idt47']/ul/li[6]/a</value>
+         <value>//li[6]/a</value>
       </entry>
       <entry>
          <key>CSS</key>

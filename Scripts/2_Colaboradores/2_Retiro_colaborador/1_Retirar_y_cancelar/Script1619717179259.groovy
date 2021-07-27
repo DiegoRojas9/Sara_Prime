@@ -34,7 +34,7 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborad
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_ACTIVO_us-icon-remover'))
 
 WebUI.setText(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/input_Fecha ultimo da Laborado'), 
-    '30/04/2021')
+    '28/05/2021')
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/select_-- Seleccione --FALLECIMIENTOJUSTA'), 
     GlobalVariable.G_timeout, FailureHandling.STOP_ON_FAILURE)
@@ -54,6 +54,10 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborad
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
+
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 

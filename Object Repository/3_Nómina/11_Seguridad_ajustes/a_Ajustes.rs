@@ -6,12 +6,11 @@
    <elementGuidId>af5b504d-b310-4ab6-ac37-8d22171e1e5d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[3]/div/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='formulario_seguridadsocial:j_idt706']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

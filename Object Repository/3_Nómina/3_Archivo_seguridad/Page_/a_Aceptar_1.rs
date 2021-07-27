@@ -6,18 +6,22 @@
    <elementGuidId>42cb50d1-a3fc-4ab4-a673-9daad57503a2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//form[30]/div/div[2]/div[3]/a</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.us-btn-si.us-btn-popup</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[30]/div/div[2]/div[3]/a</value>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'us-btn-si us-btn-popup' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value>mojarra.jsfcljs(document.getElementById('popupConfirmacionDialog'),{'popupConfirmacionDialog:j_idt2338':'popupConfirmacionDialog:j_idt2338'},'');return false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
