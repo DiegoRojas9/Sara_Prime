@@ -6,12 +6,11 @@
    <elementGuidId>249a9cbe-fed2-4422-b8ba-4b327b48c870</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[10]/td/div/div[2]/div/a[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -77,27 +76,28 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309']</value>
+      <value>//a[@id='listadoEmpleadoPrime_form:tablaRetirados:0:j_idt311']
+</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='listadoEmpleadoPrime_form:tablaRetirados_data']/tr[9]/td/div/div[2]/div/a[2]</value>
+      <value>//tbody[@id='listadoEmpleadoPrime_form:tablaRetirados_data']/tr/td/div/div[2]/div/a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[29]</value>
+      <value>(//a[contains(@href, '#')])[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[9]/td/div/div[2]/div/a[2]</value>
+      <value>//tr[10]/td/div/div[2]/div/a[2]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ver Retirados</name>
+   <name>a_Ver Activos</name>
    <tag></tag>
-   <elementGuidId>1e15943e-c6d7-47bc-8971-eb96c4a99a86</elementGuidId>
+   <elementGuidId>c1917325-2720-4440-b3d1-ecd35c58509c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[@id='listadoEmpleadoPrime_form:j_idt315:j_idt317:j_idt333']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table[3]/tbody/tr/td/a</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>listadoEmpleadoPrime_form:j_idt313:j_idt315:j_idt331</value>
+      <value>listadoEmpleadoPrime_form:j_idt315:j_idt317:j_idt333</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,42 +49,42 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;listadoEmpleadoPrime_form:j_idt313:j_idt315:j_idt331&quot;,f:&quot;listadoEmpleadoPrime_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;listadoEmpleadoPrime_form:j_idt315:j_idt317:j_idt333&quot;,f:&quot;listadoEmpleadoPrime_form&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ver Retirados </value>
+      <value>Ver Activos </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;listadoEmpleadoPrime_form:j_idt313:j_idt315:j_idt331&quot;)</value>
+      <value>id(&quot;listadoEmpleadoPrime_form:j_idt315:j_idt317:j_idt333&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='listadoEmpleadoPrime_form:j_idt313:j_idt315:j_idt331']</value>
+      <value>//a[@id='listadoEmpleadoPrime_form:j_idt315:j_idt317:j_idt333']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='listadoEmpleadoPrime_form:j_idt313:j_idt315:j_idt316']/table[3]/tbody/tr/td/a</value>
+      <value>//div[@id='listadoEmpleadoPrime_form:j_idt315:j_idt317:j_idt318']/table[3]/tbody/tr/td/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Ver Retirados')]</value>
+      <value>//a[contains(text(),'Ver Activos')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RETIRADO'])[11]/following::a[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,14 +119,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ver Retirados']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Ver Activos']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[58]</value>
+      <value>(//a[contains(@href, '#')])[36]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
