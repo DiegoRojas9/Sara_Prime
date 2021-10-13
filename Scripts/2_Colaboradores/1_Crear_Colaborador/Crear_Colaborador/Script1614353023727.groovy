@@ -38,8 +38,6 @@ WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Documento  _detalleEmp
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), GlobalVariable.G_timeout)
-
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), 'Mariana' + identificacion)
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/input_Primer Apellido  _detalleEmpleadoPrime'), GlobalVariable.G_timeout)
