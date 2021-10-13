@@ -92,11 +92,6 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/label_FEMENI
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/label_FEMENINO'))
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Grupo Sanguineo --AA-ABAB-BB-OO-'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Grupo Sanguineo --AA-ABAB-BB-OO-'))
-
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Grupo Sanguineo --AA-ABAB-BB-OO-'), 
     '7')
 
