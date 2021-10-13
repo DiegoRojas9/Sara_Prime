@@ -97,11 +97,6 @@ WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Selecc
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Telfono Fijo _detalleEmpleadoPrime_formtelefono'), '2980000')
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Nivel Academico --Bachiller'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Nivel Academico --Bachiller'))
-
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Nivel Academico --Bachiller'), '4 ')
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Documento --CEDULA'), GlobalVariable.G_timeout)
