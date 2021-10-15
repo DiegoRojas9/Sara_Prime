@@ -167,10 +167,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/6_Configuración/5_Nuevo_concepto/1_Nuevo_concepto</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>89398792-fc14-41b5-90f2-f134de866868</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/6_Configuración/6_Costeo/1_Costeo</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

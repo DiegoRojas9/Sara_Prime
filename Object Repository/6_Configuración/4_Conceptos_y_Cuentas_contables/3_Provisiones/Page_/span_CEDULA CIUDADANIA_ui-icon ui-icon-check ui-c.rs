@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt776']/a[2]/span</value>
+         <value>//div[3]/div/div/table/tbody/tr/td[7]/div/div[2]/div/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>

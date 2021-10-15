@@ -18,66 +18,33 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('3_Nómina/10_Provisiones/a_Nmina'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/a_Provisiones'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
 
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/a_Provisiones'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/a_Histrico Provisiones'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/a_Histrico Provisiones'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/select_Seleccione20212020'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/10_Provisiones/select_Seleccione20212020'))
 
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/10_Provisiones/select_Seleccione20212020'), 1)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/select_SeleccioneEneroFebreroMarzo'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/10_Provisiones/select_SeleccioneEneroFebreroMarzo'))
-
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/10_Provisiones/select_SeleccioneEneroFebreroMarzo'), 2)
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/a_Descripcin_imagenMiniBuscar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/a_Descripcin_imagenMiniBuscar'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/td_CAUSACION DE CESANTIAS'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/td_CAUSACION DE CESANTIAS'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/td_BALLESTEROS RIOS ANGELA MARA'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/td_BALLESTEROS RIOS ANGELA MARA'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/td_CAUSACION DE INTERESCESANTIA'), GlobalVariable.G_timeout, 
-    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/td_CAUSACION DE INTERESCESANTIA'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/td_BALLESTEROS RIOS ANGELA MARA'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/td_BALLESTEROS RIOS ANGELA MARA'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/td_CAUSACION DE PRIMA LEGAL'), GlobalVariable.G_timeout, 
-    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/td_CAUSACION DE PRIMA LEGAL'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/td_BALLESTEROS RIOS ANGELA MARA'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/td_BALLESTEROS RIOS ANGELA MARA'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/td_CAUSACION DE VACACIONES'), GlobalVariable.G_timeout, 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/td_CAUSACION DE VACACIONES'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/10_Provisiones/td_BALLESTEROS RIOS ANGELA MARA'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/td_BALLESTEROS RIOS ANGELA MARA'))
 

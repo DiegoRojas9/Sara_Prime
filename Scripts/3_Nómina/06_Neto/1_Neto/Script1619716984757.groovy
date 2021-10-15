@@ -18,15 +18,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/6_Neto/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('3_Nómina/6_Neto/a_Nmina'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/6_Neto/span_5.179.900,00'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
 
 WebUI.click(findTestObject('3_Nómina/6_Neto/span_5.179.900,00'))
-
-WebUI.delay(5)
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/6_Neto/span_E_ui-icon ui-icon-closethick'), GlobalVariable.G_timeout)
 

@@ -6,12 +6,12 @@
    <elementGuidId>0db92869-4b6d-48ba-b60e-805e025621cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.ui-icon.ui-icon-pencil</value>
+         <key>XPATH</key>
+         <value>//td[7]/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[7]/div/a/span</value>
+         <key>CSS</key>
+         <value>span.ui-icon.ui-icon-pencil</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>c8f1221b-5cce-4073-8357-6c743e96055b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.ui-row-editor-check.ui-row-editor-outline > span.ui-icon.ui-icon-check.ui-c</value>
+         <key>XPATH</key>
+         <value>//a[2]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[4]/td[7]/div/a[2]/span</value>
+         <key>CSS</key>
+         <value>a.ui-row-editor-check.ui-row-editor-outline > span.ui-icon.ui-icon-check.ui-c</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

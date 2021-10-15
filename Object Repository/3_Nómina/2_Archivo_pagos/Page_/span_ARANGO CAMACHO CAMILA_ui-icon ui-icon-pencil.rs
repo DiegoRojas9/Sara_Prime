@@ -6,12 +6,12 @@
    <elementGuidId>df0ab87e-de33-463e-90f1-c62f7b894104</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='formulario_archivoPagos:tablaAjuste2:0:j_idt944']/a/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-icon.ui-icon-pencil</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

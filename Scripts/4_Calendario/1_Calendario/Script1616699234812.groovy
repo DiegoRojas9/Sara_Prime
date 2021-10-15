@@ -18,11 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('4_Calendario/Page_/a_Calendario'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('4_Calendario/Page_/a_Calendario'))
-
-WebUI.waitForElementClickable(findTestObject('4_Calendario/Page_/a_Nueva actividad'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Calendario'))
 
 WebUI.click(findTestObject('4_Calendario/Page_/a_Nueva actividad'))
 
@@ -42,12 +40,7 @@ WebUI.setText(findTestObject('4_Calendario/Page_/input_Notificar_form_popupCalen
 
 WebUI.selectOptionByValue(findTestObject('4_Calendario/Page_/select_DiaSemanaMes'), '30', true)
 
-WebUI.waitForElementClickable(findTestObject('4_Calendario/Page_/a_Guardar'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('4_Calendario/Page_/a_Guardar'))
-
-WebUI.waitForElementClickable(findTestObject('4_Calendario/Page_/a_Andrea Cubillos Serna_calendarioPrimej_idt2600j_idt265'), 
-    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('4_Calendario/Page_/a_Andrea Cubillos Serna_calendarioPrimej_idt2600j_idt265'))
 

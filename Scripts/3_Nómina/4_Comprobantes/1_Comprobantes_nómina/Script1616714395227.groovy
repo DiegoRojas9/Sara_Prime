@@ -18,42 +18,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Nmina'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Nmina_1'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Nmina_1'))
-
-WebUI.delay(6)
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'))
 
-//if (WebUI.waitForElementClickable(findTestObject('Page_/Comprobantes_1.1/PrimeFace/Page_/input_Comprobante Zip_dnFormDialogdnDCbCancelar'),
-// GlobalVariable.G_timeout)) {
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Descargar'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Descargar'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Cancelar'), GlobalVariable.G_timeout)
 
 //}
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Cancelar'))
-
-WebUI.delay(2)
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Vacaciones'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Vacaciones'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'))
 
-WebUI.delay(10)
+WebUI.delay(2)
 
 //if (WebUI.waitForElementClickable(findTestObject('Page_/Comprobantes_1.1/PrimeFace/Page_/input_Comprobante Zip_dnFormDialogdnDCbCancelar'),
 //    GlobalVariable.G_timeout)) {

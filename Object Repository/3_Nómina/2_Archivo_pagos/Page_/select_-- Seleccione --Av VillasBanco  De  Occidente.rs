@@ -9,8 +9,70 @@
          <key>CSS</key>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'formulario_archivoPagos:tablaAjuste2:1:entidades' and @name = 'formulario_archivoPagos:tablaAjuste2:1:entidades' and (text() = '	-- Seleccione --
+	Av Villas
+	Banco  De  Occidente S.a.
+	Banco Agrario De Colombia S.a.
+	Banco Caja Social S.a.
+	Banco Compartir S.a.
+	Banco Coomeva S.a.
+	Banco Cooperativo Coopcentral
+	Banco Davivienda S.a.
+	Banco De Bogota
+	Banco De Las Microfinanzas -bancamía S.a.
+	Banco Falabella S.a.
+	Banco Finandina S.a.
+	Banco Gnb Sudameris S.a.
+	Banco Multibank S.a.
+	Banco Mundo Mujer S.a.
+	Banco Pichincha S.a.
+	Banco Popular S.a.
+	Banco Procredit Colombia S.a.
+	Banco Santander De Negocios Colombia S. A
+	Banco Serfinanza S.a.
+	Banco W S.a.
+	Bancolombia S.a.
+	Bbva
+	Citibank-colombia
+	Itaú Corpbanca Colombia S.a.
+	No Relacionada
+	Pago En Cheque
+	Scotiabank Colpatria S.a.
+' or . = '	-- Seleccione --
+	Av Villas
+	Banco  De  Occidente S.a.
+	Banco Agrario De Colombia S.a.
+	Banco Caja Social S.a.
+	Banco Compartir S.a.
+	Banco Coomeva S.a.
+	Banco Cooperativo Coopcentral
+	Banco Davivienda S.a.
+	Banco De Bogota
+	Banco De Las Microfinanzas -bancamía S.a.
+	Banco Falabella S.a.
+	Banco Finandina S.a.
+	Banco Gnb Sudameris S.a.
+	Banco Multibank S.a.
+	Banco Mundo Mujer S.a.
+	Banco Pichincha S.a.
+	Banco Popular S.a.
+	Banco Procredit Colombia S.a.
+	Banco Santander De Negocios Colombia S. A
+	Banco Serfinanza S.a.
+	Banco W S.a.
+	Bancolombia S.a.
+	Bbva
+	Citibank-colombia
+	Itaú Corpbanca Colombia S.a.
+	No Relacionada
+	Pago En Cheque
+	Scotiabank Colpatria S.a.
+')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//tr[4]/td[4]/div/div[2]/select</value>
+         <value>//tr[2]/td[4]/div/div[2]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

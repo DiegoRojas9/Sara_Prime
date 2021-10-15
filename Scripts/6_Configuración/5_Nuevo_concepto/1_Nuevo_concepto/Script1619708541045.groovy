@@ -18,9 +18,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/a_Configuracin'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/a_Configuracin'))
+WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Configuracin'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('1.1_General_Objects/a_Configuracin'))
 
 WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/a_Conceptos y Cuentas Contables'), GlobalVariable.G_timeout)
 
@@ -43,13 +45,13 @@ WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/label_Nuevo Concep
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --AUXILIO NO SALARIAL'))
-
 WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --AUXILIO NO SALARIAL'), 
     GlobalVariable.G_timeout)
 
+WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --AUXILIO NO SALARIAL'))
+
 WebUI.selectOptionByIndex(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --AUXILIO NO SALARIAL'), 
-    '1')
+    '0')
 
 WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/label_Nuevo Concepto'), GlobalVariable.G_timeout)
 

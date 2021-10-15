@@ -6,12 +6,11 @@
    <elementGuidId>f513d072-9c03-4fb8-b708-e77610ccb347</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[2]/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='formulario_archivoPagos:tablaAjuste2:3:numeroCuenta']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

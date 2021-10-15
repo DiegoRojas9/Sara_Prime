@@ -24,91 +24,46 @@ String projectName = 'Regression Project ' + todaysDate
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Nmina'), 
-    GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Nmina'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_BOLIVAR RESTREPO ANGELA MARA_'), 
-    GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_BOLIVAR RESTREPO ANGELA MARA_'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Informacin Tributaria'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Informacin Tributaria'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Mtodo de retencin _us-icon-edit'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Mtodo de retencin _us-icon-edit'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/label_2'), 
-    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/label_2'))
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/input_Porcentaje Retencin _popupEditarInformacionTributaria'), 
     '50')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/label_Si'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/label_Si'))
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/input_Deducible por Medicina Prepagada  Seguro de Salud'))
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/input_Deducible por Medicina Prepagada  Seguro de Salud'), 
     '67000')
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/input_Intereses Crdito Vivienda  _popupEditarInformacion'))
-
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/input_Intereses Crdito Vivienda  _popupEditarInformacion'), 
     '100000')
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/input_Fecha Cambio_popupEditarInformacionTributaria'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/input_Fecha Cambio_popupEditarInformacionTributaria'))
 
 //Fecha con variable
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/input_Fecha Cambio_popupEditarInformacionTributaria'), 
     todaysDate)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Actualizar'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Actualizar'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/select_-- Seleccione --Afc - Av VillasAfc - Banco'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/select_-- Seleccione --Afc - Av VillasAfc - Banco'))
 
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/select_-- Seleccione --Afc - Av VillasAfc - Banco'), 
     '4')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/span_Valor_ui-chkbox-icon ui-icon ui-c ui-icon-check'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/span_Valor_ui-chkbox-icon ui-icon ui-c ui-icon-check'))
-
-WebUI.delay(4)
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha Afiliacin_consultarInformacionBasica'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha Afiliacin_consultarInformacionBasica'))
-
 //Fecha con variable
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha Afiliacin_consultarInformacionBasica'), 
     todaysDate)
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Cuenta_consultarInformacionBasica_EntidadesAFCcuenta'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Cuenta_consultarInformacionBasica_EntidadesAFCcuenta'))
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Cuenta_consultarInformacionBasica_formtablaEntidadesAFC'), 
     '1112223334')
@@ -116,22 +71,10 @@ WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Informaci
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha fin vigencia_consultarInformacionBasica_AFCvalor'), 
     '67000')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/a_Fecha fin vigencia_btn-miniadicionar'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/a_Fecha fin vigencia_btn-miniadicionar'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/select_-- Seleccione --Afc - Av VillasAfc - Banco'))
 
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/select_-- Seleccione --Afc - Av VillasAfc - Banco'), 
     '6')
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha Afiliacin_consultarInformacionBasica'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha Afiliacin_consultarInformacionBasica'))
 
 //Fecha con variable
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha Afiliacin_consultarInformacionBasica'), 
@@ -140,50 +83,23 @@ WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Informaci
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha fin vigencia_consultarInformacionBasica_AFCvalor'), 
     '67000')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha fin vigencia_consultarInformacionBasica_AFC'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha fin vigencia_consultarInformacionBasica_AFC'))
-
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha fin vigencia_consultarInformacionBasica_AFC'), 
     todaysDate)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/a_Fecha fin vigencia_btn-miniadicionar'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/a_Fecha fin vigencia_btn-miniadicionar'))
-
-WebUI.delay(2)
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/select_-- Seleccione --Apv - Caja De Auxilios Y De Prestaciones'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/select_-- Seleccione --Apv - Caja De Auxilios Y De Prestaciones'))
-
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/select_-- Seleccione --Apv - Caja De Auxilios Y De Prestaciones'), 
     '2')
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/div_Valor_ui-chkbox-box ui-widget ui-corner-all'), 
-    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha Afiliacin_consultarInformacionBasica_APV_input'))
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/div_Valor_ui-chkbox-box ui-widget ui-corner-all'))
 
-WebUI.delay(3)
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha Afiliacin_consultarInformacionBasica_APV_input'), 
-    GlobalVariable.G_timeout)
-
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha Afiliacin_consultarInformacionBasica_APV_input'), 
     todaysDate)
-
-WebUI.delay(2)
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Cuenta_consultarInformacionBasica_cuentaAPV'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Cuenta_consultarInformacionBasica_cuentaAPV'))
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Cuenta_consultarInformacionBasica_cuentaAPV'), 
     '1112223334')
@@ -191,22 +107,10 @@ WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Informaci
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha fin vigencia_consultarInformacionBasica_ValorAPV'), 
     '67000')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_btn-miniadicionar'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_btn-miniadicionar'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/select_-- Seleccione --Apv - Caja De Auxilios Y De Prestaciones'))
 
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/select_-- Seleccione --Apv - Caja De Auxilios Y De Prestaciones'), 
     '3')
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha Afiliacin_consultarInformacionBasica_APV_input'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha Afiliacin_consultarInformacionBasica_APV_input'))
 
 //Fecha con variable
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha Afiliacin_consultarInformacionBasica_APV_input'), 
@@ -215,16 +119,8 @@ WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Informaci
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha fin vigencia_consultarInformacionBasica_ValorAPV'), 
     '67000')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha fin vigencia_consultarInformacionBasica_APV'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha fin vigencia_consultarInformacionBasica_APV'))
-
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha fin vigencia_consultarInformacionBasica_APV'), 
     todaysDate)
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_btn-miniadicionar'), 
-    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_btn-miniadicionar'))
 

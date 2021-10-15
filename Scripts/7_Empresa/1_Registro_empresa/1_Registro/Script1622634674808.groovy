@@ -34,24 +34,17 @@ WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/a_Ing
 
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/a_Ingresar'))
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/a_'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/a_'))
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/span_Nova Test Sa'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/span_Nova Test Sa'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/a_Crear nueva empresa'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_ cerrar ayuda'))
 
-WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/a_Crear nueva empresa'))
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --Cedula Ciudadania'), 
-    GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Crear Nueva Empresa'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --Cedula Ciudadania'))
+WebUI.click(findTestObject('1.1_General_Objects/a_Crear Nueva Empresa'))
 
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --Cedula Ciudadania'), 
     '3')
@@ -81,30 +74,19 @@ WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nue
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --Arl - Colmena Riesgos Profesional'), 
     '2')
 
-WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --ConsolidadoEspecialSucursalUnica'))
-
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --ConsolidadoEspecialSucursalUnica'), 
     '4')
 
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_Cdigo Actividad Econmica _form'))
-
-WebUI.delay(4)
 
 WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_Cdigo Actividad Econmica _form'), 
     GlobalVariable.G_timeout)
 
 WebUI.setText(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_Cdigo Actividad Econmica _form'), identificacion)
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO'))
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO_1'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO_1'))
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione Caja --Ccf - Caja De Subsidio Familiar'), 
-    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione Caja --Ccf - Caja De Subsidio Familiar'))
 
@@ -114,30 +96,15 @@ WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nue
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione Caja --Ccf - Caja De Subsidio Familiar'), 
     '1')
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione Ciudad --ABEJORRAL'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione Ciudad --ABEJORRAL'))
-
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione Ciudad --ABEJORRAL'), 
     '102')
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Ciudad_form_crearNuevaEmpresaInfocamposEntidadj_idt336'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Ciudad_form_crearNuevaEmpresaInfocamposEntidadj_idt336'))
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --No RelacionadaPago'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --No RelacionadaPago'))
 
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --No RelacionadaPago'), 
     '3')
 
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_Nmero de Cuenta _form_crearNueva'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
 
 WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_Nmero de Cuenta _form_crearNueva'), 
     GlobalVariable.G_timeout)
@@ -145,35 +112,16 @@ WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nue
 WebUI.setText(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_Nmero de Cuenta _form_crearNueva'), '90' + 
     identificacion)
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --APORTES EN LINEA'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --APORTES EN LINEA'))
-
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --APORTES EN LINEA'), 
     '2')
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --AhorrosCorriente'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --AhorrosCorriente'))
 
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --AhorrosCorriente'), 
     '2')
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --Enviar correo a solicitud'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --Enviar correo a solicitud'))
-
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --Enviar correo a solicitud'), 
     '1')
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Continuar'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Continuar'))
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_1'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_1'))
 
@@ -183,43 +131,22 @@ WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_D
 
 WebUI.setText(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/input_Da Pago Segunda Quincena'), '30')
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO_3'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO_3'))
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_Anterior da hbil'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_Anterior da hbil'))
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_2'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_2'))
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO_4'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_NO_4'))
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_3'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_SI_3'))
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --May 2021Jun'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --May 2021Jun'))
 
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/select_-- Seleccione --May 2021Jun'), 
     '4')
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Guardar'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Guardar'))
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_No Relacionada'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/label_No Relacionada'))
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Continuar_1'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('7_Empresa/1_Registro_empresa/1_Nueva_empresa/a_Continuar_1'))
 

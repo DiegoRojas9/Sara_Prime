@@ -6,12 +6,12 @@
    <elementGuidId>31fe0dc0-efc9-43fb-b302-75520cbd09d3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.us-btn-si.us-btn-popup</value>
+         <key>XPATH</key>
+         <value>//div[4]/div/div/div/table/tbody/tr/td[7]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[3]/a</value>
+         <key>CSS</key>
+         <value>a.us-btn-si.us-btn-popup</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

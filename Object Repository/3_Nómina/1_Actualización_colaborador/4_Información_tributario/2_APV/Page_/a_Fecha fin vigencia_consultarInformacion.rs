@@ -6,12 +6,11 @@
    <elementGuidId>4b143669-c36b-4cb3-bf63-5146989458f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[46]/span/div/div/table/tfoot/tr/td[5]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='consultarInformacionBasica_form:tablaEntidadesAPV:j_idt786']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

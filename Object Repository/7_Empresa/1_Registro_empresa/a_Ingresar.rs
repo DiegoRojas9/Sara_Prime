@@ -6,12 +6,11 @@
    <elementGuidId>5d7f8fae-5ed0-4aff-a14d-cab1335cc1d9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Ingresar')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='login:linkenviar']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

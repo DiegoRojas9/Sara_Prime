@@ -20,27 +20,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://190.85.173.173:8093/saraprimeweb/registro/registro.jsf')
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/select_SeleccionarCedula Ciudadania'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/select_SeleccionarCedula Ciudadania'))
-
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/2_Crear_empresa/select_SeleccionarCedula Ciudadania'), '3')
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/input_Numero Documento_empresa'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/input_Numero Documento_empresa'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Numero Documento_empresa'), '900800150')
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/input_D.V_verificacion'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/input_D.V_verificacion'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_D.V_verificacion'), '1')
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/input_Nombre o Razon Social'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/input_Nombre o Razon Social'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Nombre o Razon Social'), 'Soluciones moviles S.A.S.')
 
@@ -56,15 +40,9 @@ WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Correo_form_crear_
 
 WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Confirmar Correo_form_crear'), 'autotestus1994@gmail.com')
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/span_Confirmar Correo_ui-chkbox'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/span_Confirmar Correo_ui-chkbox'))
 
-WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/a_Crear Cuenta'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Crear Cuenta'))
-
-WebUI.waitForElementClickable(findTestObject('7_Empresa/2_Crear_empresa/a_Aceptar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Aceptar'))
 

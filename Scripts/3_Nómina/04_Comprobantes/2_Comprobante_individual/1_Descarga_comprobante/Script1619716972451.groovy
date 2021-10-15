@@ -18,26 +18,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Fecha 10052021_formulario_nomina'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Fecha 10052021_formulario_nomina'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Continuar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Continuar'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Descargar'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Descargar'))
-
-WebUI.delay(5)
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Cancelar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Cancelar'))
 

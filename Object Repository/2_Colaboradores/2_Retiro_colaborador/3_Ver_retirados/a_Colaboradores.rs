@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form/ul/li[2]/a</value>
+         <value>//a[contains(text(),'Colaboradores')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//a[@href = '/saraprimeweb/compensacion/empleados/listadoEmpleadosPrime.jsf' and (text() = 'Colaboradores' or . = 'Colaboradores')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

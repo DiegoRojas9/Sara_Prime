@@ -18,21 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/a_Configuracin'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_Configuracin'))
-
-WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/a_'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Configuracin'))
 
 WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_'))
 
-WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/input_Seleccionar Archivo_j_idt888subir'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/input_Seleccionar Archivo_j_idt888subir'))
-
-WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/a_Union Soluciones 2019_ui-dialog-titlebar-close'), 
-    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_Union Soluciones 2019_ui-dialog-titlebar-close'))
 
@@ -74,18 +66,8 @@ catch (Exception e) {
         indice.toString())
 } 
 
-//WebUI.waitForElementClickable(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/label_Informacin Empresa'), GlobalVariable.G_timeout)
-//WebUI.click(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/label_Informacin Empresa'))
-//WebUI.delay(2)
-//WebUI.waitForElementClickable(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'), GlobalVariable.G_timeout)
-WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'))
-
 WebUI.setText(findTestObject('6_Configuración/1_Empresa/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'), 
     '30/12/2020')
-
-//WebUI.selectOptionByIndex(findTestObject('Page_/Configuración_Empresa1.1/PrimeFace/Page_/select_-- Seleccione --NO RELACIONADAPAGO'), 
-//    7)
-WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/a_Guardar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_Guardar'))
 

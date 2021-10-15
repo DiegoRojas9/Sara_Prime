@@ -6,12 +6,12 @@
    <elementGuidId>0189d68b-2a1f-49f0-ba70-322f2209e6c5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='consultarInformacionBasica_form:tablaEntidadesAFC:cuentaAFC']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>
+//tr[3]/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

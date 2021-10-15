@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form/ul/li[3]/a</value>
+         <value>//*/text()[normalize-space(.)='Nómina']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

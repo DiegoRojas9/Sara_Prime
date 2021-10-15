@@ -6,12 +6,12 @@
    <elementGuidId>b57286eb-9b1d-4f54-9e94-789a6446c544</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form/ul/li[3]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@href = '/saraprimeweb/nomina/nomina.jsf' and (text() = 'Nómina' or . = 'Nómina')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Nómina']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

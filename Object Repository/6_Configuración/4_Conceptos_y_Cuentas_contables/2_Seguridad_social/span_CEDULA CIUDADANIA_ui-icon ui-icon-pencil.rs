@@ -6,12 +6,16 @@
    <elementGuidId>d07ae8d4-576e-4c2a-9560-519517ae06f2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/span/div/div/form[5]/div/div[3]/div/div/div[2]/div/div/table/tbody/tr[1]/td[9]/div/a[1]/span</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.ui-row-editor-pencil.ui-row-editor-outline > span.ui-icon.ui-icon-pencil</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[10]/div/a/span</value>
+         <key>BASIC</key>
+         <value>id(&quot;form_cuentasContables:tabsConfigCuentasContables:tablaSeguridadSocial:0:j_idt691&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

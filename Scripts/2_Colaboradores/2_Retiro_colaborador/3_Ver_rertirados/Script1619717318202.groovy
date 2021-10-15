@@ -18,9 +18,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'))
+WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Colaboradores'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('1.1_General_Objects/a_Colaboradores'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Activos'), GlobalVariable.G_timeout)
 
@@ -37,6 +39,8 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborad
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Total Devengos'))
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'), GlobalVariable.G_timeout)
 

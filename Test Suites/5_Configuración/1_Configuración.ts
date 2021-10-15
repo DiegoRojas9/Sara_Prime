@@ -41,10 +41,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/6_Configuración/5_Nuevo_concepto/1_Nuevo_concepto</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>02ae52c7-b64e-4edc-9793-49cde2f41241</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/6_Configuración/6_Costeo/1_Costeo</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

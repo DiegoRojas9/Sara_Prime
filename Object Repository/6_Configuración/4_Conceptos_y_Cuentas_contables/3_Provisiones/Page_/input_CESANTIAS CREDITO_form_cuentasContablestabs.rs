@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:cuenta']</value>
+         <value>//div[3]/div/div/table/tbody/tr/td[3]/div/div[2]/span[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

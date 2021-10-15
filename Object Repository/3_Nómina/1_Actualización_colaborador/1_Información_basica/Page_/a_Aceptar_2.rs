@@ -6,18 +6,18 @@
    <elementGuidId>0ab20543-0fb7-4d10-9e44-8811ca24b9b9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'ui-commandlink ui-widget us-btn-si us-btn-popup' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[20]/div/div[2]/div[3]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @class = 'ui-commandlink ui-widget us-btn-si us-btn-popup' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
+         <value>//a[contains(text(),'Aceptar')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

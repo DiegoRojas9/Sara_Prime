@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='listadoEmpleadoPrime_form:j_idt315:j_idt317:j_idt333']</value>
+         <value>//table[3]/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

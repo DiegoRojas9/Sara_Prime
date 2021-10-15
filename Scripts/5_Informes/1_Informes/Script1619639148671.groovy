@@ -19,25 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('5_Informes/a_Informes'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('5_Informes/a_Informes'))
-
-WebUI.delay(3)
+WebUI.click(findTestObject('1.1_General_Objects/a_Informes'))
 
 WebUI.waitForElementClickable(findTestObject('5_Informes/a_Ir'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('5_Informes/a_Ir'))
 
-WebUI.waitForElementClickable(findTestObject('5_Informes/td_2 GT - Reporte Programacin'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('5_Informes/td_2 GT - Reporte Programacin'))
 
 WebUI.setText(findTestObject('5_Informes/input_CONTRATO_popupReportetablaParametro'), '0')
-
-WebUI.waitForElementClickable(findTestObject('5_Informes/input_Fecha Inicial'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('5_Informes/input_Fecha Inicial'))
 
 WebUI.setText(findTestObject('5_Informes/input_Fecha Inicial'), '03/12/2020')
 
@@ -47,20 +39,11 @@ WebUI.click(findTestObject('5_Informes/span_Fecha Final'))
 
 WebUI.setText(findTestObject('5_Informes/input_Fecha Final'), '10/12/2020')
 
-WebUI.waitForElementClickable(findTestObject('5_Informes/span_Que desea hacer_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('5_Informes/span_Que desea hacer_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
-
-WebUI.waitForElementClickable(findTestObject('5_Informes/a_Generar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('5_Informes/a_Generar'))
 
-WebUI.waitForElementClickable(findTestObject('5_Informes/a_Continuar'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('5_Informes/a_Continuar'))
-
-WebUI.waitForElementClickable(findTestObject('5_Informes/a_Descargar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('5_Informes/a_Descargar'))
 

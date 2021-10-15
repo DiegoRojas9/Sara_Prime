@@ -18,6 +18,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
+
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Colaboradores'), 
     GlobalVariable.G_timeout)
 
@@ -31,7 +33,10 @@ WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_can
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_ACTIVO_us-icon-remover'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_ACTIVO_us-icon-remover'))
+WebUI.doubleClick(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_ACTIVO_us-icon-remover'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/input_Fecha ultimo da Laborado'), 
+    0)
 
 WebUI.setText(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/input_Fecha ultimo da Laborado'), 
     '28/05/2021')

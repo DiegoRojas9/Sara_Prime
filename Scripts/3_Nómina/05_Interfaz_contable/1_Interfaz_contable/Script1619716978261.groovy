@@ -18,31 +18,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Nmina'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/input_Seleccione Todos_formulario_interfazcontablej'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/input_Seleccione Todos_formulario_interfazcontablej'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Generar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Generar'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Confirmar contabilizacin'), GlobalVariable.G_timeout)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable_formulario_ExportContable'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable_formulario_ExportContable'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/input_Seguridad Social - 31-agosto-2020'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/input_Seguridad Social - 31-agosto-2020'))
 

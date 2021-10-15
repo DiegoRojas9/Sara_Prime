@@ -6,12 +6,12 @@
    <elementGuidId>ed762f15-6708-4649-a634-4fc86f0abf07</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarInformacionBasica_form'),{'consultarInformacionBasica_form:tablaEntidadesAPV:j_idt773':'consultarInformacionBasica_form:tablaEntidadesAPV:j_idt773'},'');return false&quot;]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>
+//div[46]/span/div/div/table/tfoot/tr/td[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

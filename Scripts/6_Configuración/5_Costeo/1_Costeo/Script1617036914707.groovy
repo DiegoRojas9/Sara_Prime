@@ -18,16 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Costeo/Page_/a_Configuracin'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('6_Configuración/5_Costeo/Page_/a_Configuracin'))
+WebUI.click(findTestObject('1.1_General_Objects/a_Configuracin'))
 
 WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Costeo/Page_/a_Costeo'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('6_Configuración/5_Costeo/Page_/a_Costeo'))
-
-WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Costeo/Page_/span_Activo_glyphicons glyphicons-remove-sign'), 
-    GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('6_Configuración/5_Costeo/Page_/span_Activo_glyphicons glyphicons-remove-sign'))
 
@@ -39,20 +36,13 @@ WebUI.setText(findTestObject('6_Configuración/5_Costeo/Page_/input_Cdigo _form_
 WebUI.setText(findTestObject('6_Configuración/5_Costeo/Page_/input_Descripcin _form_configuracionCosteodescripcionLineaCosto'), 
     'Marketing')
 
-WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Costeo/Page_/a_Descripcin _form_configuracionCosteoj_idt777'), 
-    GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('6_Configuración/5_Costeo/Page_/a_Descripcin _form_configuracionCosteoj_idt777'))
-
-WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Costeo/Page_/a_Aceptar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('6_Configuración/5_Costeo/Page_/a_Aceptar'))
 
-WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Costeo/Page_/a_Costeo'), GlobalVariable.G_timeout)
-
 WebUI.click(findTestObject('6_Configuración/5_Costeo/Page_/a_Costeo'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 

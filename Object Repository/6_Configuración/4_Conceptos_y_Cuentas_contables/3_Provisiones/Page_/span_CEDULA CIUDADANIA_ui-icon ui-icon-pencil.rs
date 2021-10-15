@@ -7,15 +7,16 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt776']/a/span</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt754&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;][count(. | //*[@class = 'ui-icon ui-icon-pencil']) = count(//*[@class = 'ui-icon ui-icon-pencil'])]</value>
+         <value>
+/html/body/div[1]/div[2]/span/div/div/form[5]/div/div[3]/div/div/div[3]/div/div/table/tbody/tr[1]/td[9]/div/a[1]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.ui-row-editor-pencil.ui-row-editor-outline > span.ui-icon.ui-icon-pencil</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;form_cuentasContables:tabsConfigCuentasContables:tablaProvisiones:0:j_idt754&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;][count(. | //*[@class = 'ui-icon ui-icon-pencil']) = count(//*[@class = 'ui-icon ui-icon-pencil'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

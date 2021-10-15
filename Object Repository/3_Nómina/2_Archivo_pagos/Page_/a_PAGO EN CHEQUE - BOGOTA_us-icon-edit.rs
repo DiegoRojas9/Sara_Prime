@@ -6,18 +6,18 @@
    <elementGuidId>a63f94c9-c775-4b56-bb6f-880c7530c838</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//a[@href = '#' and @class = 'us-icon-edit']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(@href, '#')])[23]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//td[5]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

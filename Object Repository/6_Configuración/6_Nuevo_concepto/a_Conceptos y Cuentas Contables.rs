@@ -6,12 +6,11 @@
    <elementGuidId>728dd294-91b4-491a-bf29-df3c00b8d557</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Conceptos y Cuentas Contables')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_breadcrumd'),{'form_breadcrumd:j_idt220:j_idt241':'form_breadcrumd:j_idt220:j_idt241'},'');return false&quot;]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

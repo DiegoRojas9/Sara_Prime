@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form/ul/li[2]/a</value>
+         <value>//*/text()[normalize-space(.)='Colaboradores']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

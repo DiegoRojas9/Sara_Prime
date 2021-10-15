@@ -6,12 +6,11 @@
    <elementGuidId>75a5cdbb-403c-43f9-bf9c-52932c019967</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='formulario_nomina:j_idt486:2:verCambioEmpleado']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[3]/td[7]/a[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

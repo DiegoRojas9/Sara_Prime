@@ -6,18 +6,18 @@
    <elementGuidId>15d858e8-3e6e-4866-bb8a-3c7ba89ba495</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>id(&quot;consultarColaborador:ultimoDiasD_input&quot;)[count(. | //input[@type = 'text' and @placeholder = 'dd/mm/yyyy' and @role = 'textbox']) = count(//input[@type = 'text' and @placeholder = 'dd/mm/yyyy' and @role = 'textbox'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

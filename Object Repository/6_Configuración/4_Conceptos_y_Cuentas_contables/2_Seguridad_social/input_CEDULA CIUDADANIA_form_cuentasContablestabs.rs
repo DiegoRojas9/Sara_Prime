@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='form_cuentasContables:tabsConfigCuentasContables:tablaSeguridadSocial:0:documento']</value>
+         <value>//td[7]/div/div[2]/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
