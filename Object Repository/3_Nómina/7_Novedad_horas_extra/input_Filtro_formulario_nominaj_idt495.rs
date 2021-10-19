@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_ACTIVO_us-icon-remover</name>
+   <name>input_Filtro_formulario_nominaj_idt495</name>
    <tag></tag>
-   <elementGuidId>5a50a030-eddb-47d8-bcdf-058abafc4f03</elementGuidId>
+   <elementGuidId>67ae9eea-e17d-4405-a9f3-07c2e9cf3c27</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(@href, '#')])[19]</value>
+         <value>//div[3]/div/div[2]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,83 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275</value>
+      <value>formulario_nomina:j_idt495</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>name</name>
       <type>Main</type>
-      <value>#</value>
+      <value>formulario_nomina:j_idt495</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget us-icon-remover us-color-white us-iconos-card-colaborador us-hover-active</value>
+      <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all caja_texto ui-state-hover ui-state-focus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>onchange</name>
       <type>Main</type>
-      <value>Retirar</value>
+      <value>PrimeFaces.ab({s:&quot;formulario_nomina:j_idt495&quot;,e:&quot;valueChange&quot;,f:&quot;formulario_nomina&quot;,p:&quot;formulario_nomina:j_idt495&quot;,u:&quot;formulario_nomina&quot;});</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>role</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275&quot;,f:&quot;listadoEmpleadoPrime_form&quot;,u:&quot;areaAplicacion&quot;,pa:[{name:&quot;empleadoLiquidar&quot;,value:&quot;co.com.unionsoluciones.saraprime.logica.dto.HojaEmpleadoDTO@26fcb64b&quot;}]});return false;</value>
+      <value>textbox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>aria-disabled</name>
       <type>Main</type>
-      <value>Retirar</value>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-readonly</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275&quot;)</value>
+      <value>id(&quot;formulario_nomina:j_idt495&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275']</value>
+      <value>//input[@id='formulario_nomina:j_idt495']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='listadoEmpleadoPrime_form:tablaEmpleados_data']/tr/td/div/div[2]/div/a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '#')])[13]</value>
+      <value>//div[@id='formulario_nomina:j_idt490_content']/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
+      <value>//div[3]/div/div[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

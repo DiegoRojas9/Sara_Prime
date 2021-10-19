@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_ACTIVO_us-icon-remover</name>
+   <name>input_AUXILIO DE MOVILIZACION_popup_agregarNovedadConceptotabla1valor</name>
    <tag></tag>
-   <elementGuidId>5a50a030-eddb-47d8-bcdf-058abafc4f03</elementGuidId>
+   <elementGuidId>3b334d8d-13c0-4912-9280-9a143fbbc724</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(@href, '#')])[19]</value>
+         <value>//input[@id='popup_agregarNovedadConcepto:tabla:1:valor']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,83 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275</value>
+      <value>popup_agregarNovedadConcepto:tabla:1:valor</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>#</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>popup_agregarNovedadConcepto:tabla:1:valor</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget us-icon-remover us-color-white us-iconos-card-colaborador us-hover-active</value>
+      <value>valor_campo_estandar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>Retirar</value>
+      <value>16</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>onkeypress</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275&quot;,f:&quot;listadoEmpleadoPrime_form&quot;,u:&quot;areaAplicacion&quot;,pa:[{name:&quot;empleadoLiquidar&quot;,value:&quot;co.com.unionsoluciones.saraprime.logica.dto.HojaEmpleadoDTO@26fcb64b&quot;}]});return false;</value>
+      <value>return decimal(event,this.value);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>size</name>
       <type>Main</type>
-      <value>Retirar</value>
+      <value>10</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>mojarra.ab(this,event,'blur','@this','@this')</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275&quot;)</value>
+      <value>id(&quot;popup_agregarNovedadConcepto:tabla:1:valor&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275']</value>
+      <value>//input[@id='popup_agregarNovedadConcepto:tabla:1:valor']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='listadoEmpleadoPrime_form:tablaEmpleados_data']/tr/td/div/div[2]/div/a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '#')])[13]</value>
+      <value>//tbody[@id='popup_agregarNovedadConcepto:tabla_data']/tr[2]/td[3]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
+      <value>//tr[2]/td[3]/input</value>
    </webElementXpaths>
 </WebElementEntity>

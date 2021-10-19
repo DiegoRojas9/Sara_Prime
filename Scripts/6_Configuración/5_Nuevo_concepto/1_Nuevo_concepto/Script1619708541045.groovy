@@ -32,48 +32,22 @@ WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/
 
 WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/a_Nuevo Concepto'))
 
-WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --DEVENGODEDUCCIN'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --DEVENGODEDUCCIN'))
-
-WebUI.selectOptionByIndex(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --DEVENGODEDUCCIN'), '1')
-
-WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/label_Nuevo Concepto'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/label_Nuevo Concepto'))
-
-WebUI.delay(2)
-
-WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --AUXILIO NO SALARIAL'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --AUXILIO NO SALARIAL'))
+WebUI.selectOptionByIndex(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --DEVENGODEDUCCIN'), '2')
 
 WebUI.selectOptionByIndex(findTestObject('6_Configuración/6_Nuevo_concepto/select_-- Seleccione --AUXILIO NO SALARIAL'), 
-    '0')
-
-WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/label_Nuevo Concepto'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/label_Nuevo Concepto'))
-
-WebUI.delay(2)
+    '2')
 
 WebUI.setText(findTestObject('6_Configuración/6_Nuevo_concepto/input_Nombre_popupNuevoConceptonombreConcepto'), 'DEVENGO PRIMER SEMESTRE')
 
-WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/select_NOSI'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/select_NOSI'))
-
 WebUI.selectOptionByIndex(findTestObject('6_Configuración/6_Nuevo_concepto/select_NOSI'), 1)
-
-WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/label_Nuevo Concepto'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/label_Nuevo Concepto'))
 
 WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/a_Agregar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/a_Agregar'))
+
+WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/a_icon_trash can'), 0)
+
+WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/a_icon_trash can'))
 
 WebUI.closeBrowser()
 

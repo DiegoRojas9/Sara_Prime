@@ -34,6 +34,8 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar'))
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Documento  _detalleEmpleadoPrime'), identificacion)
 
+WebUI.click(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), 'Andrea')
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Primer Apellido  _detalleEmpleadoPrime'), 'Agudelo')
@@ -241,6 +243,14 @@ WebUI.waitForElementPresent(findTestObject('1.1_General_Objects/a_Colaboradores'
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Colaboradores'))
 
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/span_Activos'))
+
+WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/input_Filtro_formulario_nominaj_idt495'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/input_Filtro_formulario_nominaj_idt495'), 
+    identificacion)
+
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_ACTIVO_us-icon-remover'), 
     GlobalVariable.G_timeout)
 
@@ -293,9 +303,11 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborad
 
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_Actualizar'))
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Colaboradores'), GlobalVariable.G_timeout)
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('2_Colaboradores/Page_/a_Colaboradores'))
+WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Colaboradores'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('1.1_General_Objects/a_Colaboradores'))
 
 WebUI.closeBrowser()
 
