@@ -31,10 +31,16 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_PARRA GUZMAN ANGELA MARA'), 
+WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/input_Filtro_formulario_nominaj_idt495'), 
+    '9525222')
+
+WebUI.sendKeys(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/input_Filtro_formulario_nominaj_idt495'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/a_AGUDELO ARANGO ANDREA_formulario_nominaj_idt5030verCambioEmpleado'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_PARRA GUZMAN ANGELA MARA'))
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/a_AGUDELO ARANGO ANDREA_formulario_nominaj_idt5030verCambioEmpleado'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Informacin Tributaria'), 
     GlobalVariable.G_timeout)
@@ -143,9 +149,9 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_col
         GlobalVariable.G_timeout)
 
     WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/span_Si_3'))
-
-    WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Vigencia_consultarInformacionBasicaAPV'), 
-        GlobalVariable.G_timeout)
+}
+if(WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Vigencia_consultarInformacionBasicaAPV'), 
+        GlobalVariable.G_timeout)) {
 
     WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Vigencia_consultarInformacionBasicaAPV'))
 

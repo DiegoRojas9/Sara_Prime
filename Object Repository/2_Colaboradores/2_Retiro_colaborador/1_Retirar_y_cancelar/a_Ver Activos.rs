@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Informacin Contratacin</name>
+   <name>a_Ver Activos</name>
    <tag></tag>
-   <elementGuidId>b2ce5504-3633-4f3a-8304-0567ba329c26</elementGuidId>
+   <elementGuidId>7727010b-6d15-4bb6-8545-97dfa20db360</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[2]/tbody/tr/td/a</value>
+         <value>//a[contains(text(),'Ver Activos')]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,78 +26,113 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>listadoEmpleadoPrime_form:j_idt323:j_idt325:j_idt341</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#consultarInformacionBasica_form:informacionContratacion</value>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.addSubmitParam('listadoEmpleadoPrime_form',{'listadoEmpleadoPrime_form:j_idt323:j_idt325:j_idt341':'listadoEmpleadoPrime_form:j_idt323:j_idt325:j_idt341'}).submit('listadoEmpleadoPrime_form');return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Información Contratación</value>
+      <value>Ver Activos </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;consultarInformacionBasica_form&quot;)/div[@class=&quot;row caja_contenido&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;menuPrime&quot;]/div[@class=&quot;us-opciones-menu&quot;]/table[2]/tbody[1]/tr[1]/td[1]/a[1]</value>
+      <value>id(&quot;listadoEmpleadoPrime_form:j_idt323:j_idt325:j_idt341&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='listadoEmpleadoPrime_form:j_idt323:j_idt325:j_idt341']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='consultarInformacionBasica_form']/div/div[2]/div[2]/div/div/div/table[2]/tbody/tr/td/a</value>
+      <value>//div[@id='listadoEmpleadoPrime_form:j_idt323:j_idt325:j_idt326']/table[3]/tbody/tr/td/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Información Contratación')]</value>
+      <value>//a[contains(text(),'Ver Activos')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Información Básica'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='seleccion'])[1]/following::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[2]/following::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Información Tributaria'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambio de empresa'])[1]/preceding::a[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ver Activos']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#consultarInformacionBasica_form:informacionContratacion')]</value>
+      <value>(//a[contains(@href, '#')])[56]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//table[2]/tbody/tr/td/a</value>
+      <value>//table[3]/tbody/tr/td/a</value>
    </webElementXpaths>
 </WebElementEntity>

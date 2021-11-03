@@ -6,9 +6,6 @@
    <elementGuidId>82c7d6cc-6d55-425a-a6e2-2f07c39eb5db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'formulario_archivoPagos:tablaAjuste2:1:entidades' and @name = 'formulario_archivoPagos:tablaAjuste2:1:entidades' and (text() = '	-- Seleccione --
 	Av Villas
@@ -72,7 +69,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td[4]/div/div[2]/select</value>
+         <value>//div[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

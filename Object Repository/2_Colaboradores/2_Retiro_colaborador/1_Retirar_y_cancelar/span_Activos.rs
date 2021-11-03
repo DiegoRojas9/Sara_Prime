@@ -6,12 +6,12 @@
    <elementGuidId>b8b9a99b-4655-40fe-a44a-79a7818e6536</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.titulo_Persona_titulo</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Activos:']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='listadoEmpleadoPrime_form']/div/div/div/span/a/span</value>
+         <key>CSS</key>
+         <value>span.titulo_Persona_titulo</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

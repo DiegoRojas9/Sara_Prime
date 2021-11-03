@@ -6,12 +6,12 @@
    <elementGuidId>49abf164-34bb-42a9-9ddc-6319def24f33</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.us-icon-remover.us-color-white.us-iconos-card-colaborador.us-hover-active</value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/span/div/form/div/div/div[3]/div[1]/div/div/table/tbody/tr/td/div/div[2]/div/a[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[2]</value>
+         <key>CSS</key>
+         <value>a.us-icon-remover.us-color-white.us-iconos-card-colaborador.us-hover-active</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

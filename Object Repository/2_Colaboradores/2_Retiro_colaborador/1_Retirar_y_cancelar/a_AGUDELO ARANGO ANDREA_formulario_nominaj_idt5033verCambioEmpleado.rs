@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_PARRA GUZMAN ANGELA MARA</name>
+   <name>a_AGUDELO ARANGO ANDREA_formulario_nominaj_idt5033verCambioEmpleado</name>
    <tag></tag>
-   <elementGuidId>36ad404a-eff4-48e4-b869-7e979b6ea4c1</elementGuidId>
+   <elementGuidId>0198decd-5fd6-413b-b660-73ddc9b5b918</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[3]/td[7]/a[3]</value>
+         <value>//tr[4]/td[7]/a[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formulario_nomina:j_idt529:1:verCambioEmpleado</value>
+      <value>formulario_nomina:j_idt503:3:verCambioEmpleado</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,41 +49,41 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;formulario_nomina:j_idt529:1:verCambioEmpleado&quot;,f:&quot;formulario_nomina&quot;,u:&quot;areaAplicacion&quot;,pa:[{name:&quot;empleadoVer&quot;,value:&quot;co.com.unionsoluciones.saraprime.logica.dto.EmpleadoPeriodoNominaDTO@37f6413d&quot;}]});return false;</value>
+      <value>PrimeFaces.addSubmitParam('formulario_nomina',{'formulario_nomina:j_idt503:3:verCambioEmpleado':'formulario_nomina:j_idt503:3:verCambioEmpleado','empleadoVer':'co.com.unionsoluciones.saraprime.logica.dto.EmpleadoPeriodoNominaDTO@36284f20'}).submit('formulario_nomina');return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formulario_nomina:j_idt529:1:verCambioEmpleado&quot;)</value>
+      <value>id(&quot;formulario_nomina:j_idt503:3:verCambioEmpleado&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='formulario_nomina:j_idt529:1:verCambioEmpleado']</value>
+      <value>//a[@id='formulario_nomina:j_idt503:3:verCambioEmpleado']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='formulario_nomina:j_idt529_data']/tr[2]/td[7]/a[3]</value>
+      <value>//tbody[@id='formulario_nomina:j_idt503_data']/tr[4]/td[7]/a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[33]</value>
+      <value>(//a[contains(@href, '#')])[50]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[7]/a[3]</value>
+      <value>//tr[4]/td[7]/a[3]</value>
    </webElementXpaths>
 </WebElementEntity>

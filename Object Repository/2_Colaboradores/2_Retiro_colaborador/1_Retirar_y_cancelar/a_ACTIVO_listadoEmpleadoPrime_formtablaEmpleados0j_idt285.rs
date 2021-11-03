@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_PARRA GUZMAN ANGELA MARA</name>
+   <name>a_ACTIVO_listadoEmpleadoPrime_formtablaEmpleados0j_idt285</name>
    <tag></tag>
-   <elementGuidId>36ad404a-eff4-48e4-b869-7e979b6ea4c1</elementGuidId>
+   <elementGuidId>f409abe0-cf86-428f-943c-4db318b8abf7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[3]/td[7]/a[3]</value>
+         <value>//a[@id='listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt285']</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formulario_nomina:j_idt529:1:verCambioEmpleado</value>
+      <value>listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt285</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,48 +42,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget glyphicons glyphicons-user-add</value>
+      <value>ui-commandlink ui-widget us-icon-remover us-color-white us-iconos-card-colaborador us-hover-active</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Retirar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;formulario_nomina:j_idt529:1:verCambioEmpleado&quot;,f:&quot;formulario_nomina&quot;,u:&quot;areaAplicacion&quot;,pa:[{name:&quot;empleadoVer&quot;,value:&quot;co.com.unionsoluciones.saraprime.logica.dto.EmpleadoPeriodoNominaDTO@37f6413d&quot;}]});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt285&quot;,f:&quot;listadoEmpleadoPrime_form&quot;,u:&quot;areaAplicacion&quot;,pa:[{name:&quot;empleadoLiquidar&quot;,value:&quot;co.com.unionsoluciones.saraprime.logica.dto.HojaEmpleadoDTO@2de6dab4&quot;}]});return false;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Retirar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formulario_nomina:j_idt529:1:verCambioEmpleado&quot;)</value>
+      <value>id(&quot;listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt285&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='formulario_nomina:j_idt529:1:verCambioEmpleado']</value>
+      <value>//a[@id='listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt285']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='formulario_nomina:j_idt529_data']/tr[2]/td[7]/a[3]</value>
+      <value>//tbody[@id='listadoEmpleadoPrime_form:tablaEmpleados_data']/tr/td/div/div[2]/div/a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[33]</value>
+      <value>(//a[contains(@href, '#')])[19]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[7]/a[3]</value>
+      <value>//a[2]</value>
    </webElementXpaths>
 </WebElementEntity>

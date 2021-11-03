@@ -31,12 +31,16 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_Nmina'))
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Filtro_formulario_nominaj_idt495'), 
+    '9525222')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_PARRA GUZMAN ANGELA MARA'), 
+WebUI.sendKeys(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Filtro_formulario_nominaj_idt495'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_AGUDELO ARANGO ANDREA_formulario_nominaj_idt5030verCambioEmpleado'), 
     GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_PARRA GUZMAN ANGELA MARA'))
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_AGUDELO ARANGO ANDREA_formulario_nominaj_idt5030verCambioEmpleado'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_Nombres_consultarInformacionBasica_formj_idt311'), 
     GlobalVariable.G_timeout)

@@ -6,16 +6,15 @@
    <elementGuidId>f4c131b3-915d-4784-a427-4bc1137debdd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'ui-commandlink ui-widget us-icon-deleted']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//a[@id='consultarInformacionBasica_form:tablaEntidadesAFC:0:j_idt748']</value>
+         <value>//tbody[@id='consultarInformacionBasica_form:tablaEntidadesAFC_data']/tr/td[5]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @class = 'ui-commandlink ui-widget us-icon-deleted']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
