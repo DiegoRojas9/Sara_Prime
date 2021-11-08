@@ -252,7 +252,7 @@ WebUI.setText(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Cola
     identificacion)
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_ACTIVO_us-icon-remover'), 
-    GlobalVariable.G_timeout)
+    0)
 
 WebUI.doubleClick(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_ACTIVO_us-icon-remover'))
 
