@@ -22,7 +22,9 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Nmina'))
 
-WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Nmina_1'))
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Nmina_1'), 0)
+
+WebUI.doubleClick(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Nmina_1'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'), GlobalVariable.G_timeout)
 

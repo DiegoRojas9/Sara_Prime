@@ -131,6 +131,9 @@ WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Informació
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha Afiliacin_consultarInformacionBasica'), 
     todaysDate)
 
+WebUI.sendKeys(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha Afiliacin_consultarInformacionBasica'), 
+    Keys.chord(Keys.ESCAPE))
+
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Cuenta_consultarInformacionBasica_EntidadesAFCcuenta'))
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Cuenta_consultarInformacionBasica_formtablaEntidadesAFC'), 
@@ -150,9 +153,9 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_col
 
     WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/span_Si_3'))
 }
-if(WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Vigencia_consultarInformacionBasicaAPV'), 
-        GlobalVariable.G_timeout)) {
 
+if (WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Vigencia_consultarInformacionBasicaAPV'), 
+    GlobalVariable.G_timeout)) {
     WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Vigencia_consultarInformacionBasicaAPV'))
 
     WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/span_Si_4'), 

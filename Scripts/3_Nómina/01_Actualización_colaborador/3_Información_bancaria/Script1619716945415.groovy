@@ -25,6 +25,12 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/3_Información_bancaria/Page_/a_Nmina'))
 
+WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Filtro_formulario_nominaj_idt495'), 
+    '9525222')
+
+WebUI.sendKeys(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Filtro_formulario_nominaj_idt495'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/3_Información_bancaria/Page_/a_PARRA GUZMAN ANGELA MARA'), 
     GlobalVariable.G_timeout)
 

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[3]/a</value>
+         <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

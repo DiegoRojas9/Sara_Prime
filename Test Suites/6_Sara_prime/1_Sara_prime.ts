@@ -90,28 +90,28 @@
       <testCaseId>Test Cases/3_Nómina/05_Interfaz_contable/1_Interfaz_contable</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>1b7ef898-e278-44a1-85ad-dbe3bc50dc0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3_Nómina/09_Abono_y_reversa/1_Abono_y_reversa</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>7fe2f43b-3fb4-418c-98bf-643b125d1496</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/3_Nómina/06_Neto/1_Neto</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7b26b5f-727e-4e77-8d96-2a8fbec56f17</guid>
+      <guid>71152f51-1f9f-4a45-a7f4-1021622ea944</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/3_Nómina/07_Novedad_horas_extra/1_Horas_extra</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b407ef07-2d82-432d-a4c5-0c9371491a5e</guid>
+      <guid>1259b9fc-4314-42e8-afaa-6b6fc38730ab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/3_Nómina/08_Novedad_vacaciones/1_Vacaciones</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1b7ef898-e278-44a1-85ad-dbe3bc50dc0d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/3_Nómina/09_Abono_y_reversa/1_Abono_y_reversa</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>16ee1cae-2c3e-4439-a12b-6e5c294853ac</guid>

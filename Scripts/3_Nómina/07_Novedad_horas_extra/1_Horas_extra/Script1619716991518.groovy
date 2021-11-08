@@ -37,14 +37,6 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_
 
 WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_COMISIONES_popupDetalleNovedadesj'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_COMISIONES_popupDetalleNovedadesj'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar_1'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar_1'))
-
 WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))

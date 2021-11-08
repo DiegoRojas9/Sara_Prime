@@ -130,7 +130,7 @@ WebUI.setText(findTestObject('Object Repository/2_Colaboradores/Page_/input_Suel
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Contrato --APRENDIZ'), '5')
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), '10/02/2021')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), '01/05/2021')
 
 try {
     WebUI.selectOptionByIndex(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Centro Costo --Gerencia'), 
@@ -215,7 +215,7 @@ WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Ident
     '1022987456')
 
 WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Aplicacin _popupRegistroBeneficiariosUpc'), 
-    '10/01/2021')
+    '10/05/2021')
 
 WebUI.sendKeys(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Aplicacin _popupRegistroBeneficiariosUpc'), 
     Keys.chord(Keys.ESCAPE))
@@ -232,7 +232,7 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/P
     GlobalVariable.G_timeout)
 
 WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Final _popupRegistroBeneficiariosUpc'), 
-    '27/01/2021')
+    '27/02/2021')
 
 WebUI.sendKeys(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Final _popupRegistroBeneficiariosUpc'), 
     Keys.chord(Keys.ESCAPE))

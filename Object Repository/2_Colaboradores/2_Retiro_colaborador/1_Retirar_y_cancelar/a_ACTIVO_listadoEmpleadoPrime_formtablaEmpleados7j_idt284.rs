@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_ACTIVO_us-icon-remover</name>
+   <name>a_ACTIVO_listadoEmpleadoPrime_formtablaEmpleados7j_idt284</name>
    <tag></tag>
-   <elementGuidId>5a50a030-eddb-47d8-bcdf-058abafc4f03</elementGuidId>
+   <elementGuidId>3ccbd76e-9070-41ad-aa95-0b6f34eef8e2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[9]/td/div/div[2]/div/a[2]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[8]/td/div/div[2]/div/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275</value>
+      <value>listadoEmpleadoPrime_form:tablaEmpleados:7:j_idt284</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,62 +42,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget us-icon-remover us-color-white us-iconos-card-colaborador us-hover-active</value>
+      <value>ui-commandlink ui-widget us-icon-deleted us-color-white us-iconos-card-colaborador us-hover-active</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Retirar</value>
+      <value>Eliminar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275&quot;,f:&quot;listadoEmpleadoPrime_form&quot;,u:&quot;areaAplicacion&quot;,pa:[{name:&quot;empleadoLiquidar&quot;,value:&quot;co.com.unionsoluciones.saraprime.logica.dto.HojaEmpleadoDTO@26fcb64b&quot;}]});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;listadoEmpleadoPrime_form:tablaEmpleados:7:j_idt284&quot;,f:&quot;listadoEmpleadoPrime_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Retirar</value>
+      <value>Eliminar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275&quot;)</value>
+      <value>id(&quot;listadoEmpleadoPrime_form:tablaEmpleados:7:j_idt284&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275']</value>
+      <value>//a[@id='listadoEmpleadoPrime_form:tablaEmpleados:7:j_idt284']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='listadoEmpleadoPrime_form:tablaEmpleados_data']/tr/td/div/div[2]/div/a[2]</value>
+      <value>//tbody[@id='listadoEmpleadoPrime_form:tablaEmpleados_data']/tr[8]/td/div/div[2]/div/a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[13]</value>
+      <value>(//a[contains(@href, '#')])[33]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
+      <value>//tr[8]/td/div/div[2]/div/a[2]</value>
    </webElementXpaths>
 </WebElementEntity>

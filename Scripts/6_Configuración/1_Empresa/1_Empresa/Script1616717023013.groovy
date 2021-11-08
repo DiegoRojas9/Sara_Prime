@@ -22,6 +22,8 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Configuracin'))
 
+WebUI.waitForElementClickable(findTestObject('6_Configuración/1_Empresa/Page_/a_'), 15)
+
 WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_'))
 
 WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/input_Seleccionar Archivo_j_idt888subir'))
@@ -66,8 +68,9 @@ catch (Exception e) {
         indice.toString())
 } 
 
-WebUI.setText(findTestObject('6_Configuración/1_Empresa/Page_/input_Fecha Afiliacin_form_informacionEmpresafechaAfiliacion_input'), 
-    '30/12/2020')
+WebUI.selectOptionByIndex(findTestObject('6_Configuración/1_Empresa/Page_/select_-- Seleccione --mes'), '12')
+
+WebUI.setText(findTestObject('6_Configuración/1_Empresa/Page_/input_Ao_form_informacionEmpresaarlAnioVigencia'), '2020')
 
 WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_Guardar'))
 

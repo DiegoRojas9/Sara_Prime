@@ -26,6 +26,8 @@ String identificacion = random_double.toString().replace('.0', '')
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
+
 WebUI.waitForElementPresent(findTestObject('2_Colaboradores/Page_/a_Colaboradores'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Colaboradores'))
@@ -52,7 +54,7 @@ WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Primer Apellido  _deta
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Segundo Apellido _detalleEmpleadoPrime'), 'Camacho')
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha Nacimiento  _detalleEmpleadoPrime'), '16/10/1995')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha Nacimiento  _detalleEmpleadoPrime'), '28/05/1990')
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/input_Pas Nacimiento  _detalleEmpleadoPrime'), GlobalVariable.G_timeout)
 
@@ -107,6 +109,11 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/select_-- Se
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Documento --CEDULA'), '2')
 
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Ciudad de Residencia _formciudadResidencia_input'), 'Bogotá')
+
+WebUI.sendKeys(findTestObject('2_Colaboradores/Page_/input_Ciudad de Residencia _formciudadResidencia_input'), Keys.chord(
+        Keys.ENTER))
+
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Continuar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Continuar'))
@@ -152,7 +159,7 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Cont
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Contrato --APRENDIZ'), '5')
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), '10/02/2021')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), '28/05/2021')
 
 try {
     WebUI.selectOptionByIndex(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Centro Costo --Gerencia'), 
@@ -391,8 +398,7 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Finalizar 
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Finalizar registro'))
 
-if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/label_Proxima Nmina'), 
-    GlobalVariable.G_timeout)) {
+if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/label_Proxima Nmina'), GlobalVariable.G_timeout)) {
     WebUI.click(findTestObject('2_Colaboradores/Page_/label_Proxima Nmina'))
 }
 

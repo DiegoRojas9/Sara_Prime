@@ -6,12 +6,12 @@
    <elementGuidId>f409abe0-cf86-428f-943c-4db318b8abf7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt285']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt285&quot;,f:&quot;listadoEmpleadoPrime_form&quot;,u:&quot;areaAplicacion&quot;,pa:[{name:&quot;empleadoLiquidar&quot;,value:&quot;co.com.unionsoluciones.saraprime.logica.dto.HojaEmpleadoDTO@2de6dab4&quot;}]});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt285&quot;,f:&quot;listadoEmpleadoPrime_form&quot;,u:&quot;areaAplicacion&quot;,pa:[{name:&quot;empleadoLiquidar&quot;,value:&quot;co.com.unionsoluciones.saraprime.logica.dto.HojaEmpleadoDTO@61205d37&quot;}]});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

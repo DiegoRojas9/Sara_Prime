@@ -25,16 +25,22 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_Nmina'))
 
-if(WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_ver ms'), 1))
-{
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_verCambioEmpleado'))
-}
-else {
-WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_PARRA GUZMAN ANGELA MARA'), 
-    GlobalVariable.G_timeout)
+WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Filtro_formulario_nominaj_idt495'), 
+    '9525222')
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_PARRA GUZMAN ANGELA MARA'))
+WebUI.sendKeys(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Filtro_formulario_nominaj_idt495'), 
+    Keys.chord(Keys.ENTER))
+
+if (WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_ver ms'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_verCambioEmpleado'))
+} else {
+    WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_PARRA GUZMAN ANGELA MARA'), 
+        GlobalVariable.G_timeout)
+
+    WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_PARRA GUZMAN ANGELA MARA'))
 }
+
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_Informacin Contratacin'), 
     GlobalVariable.G_timeout)
 
