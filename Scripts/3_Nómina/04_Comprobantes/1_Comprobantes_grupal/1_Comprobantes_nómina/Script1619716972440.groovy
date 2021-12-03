@@ -26,6 +26,8 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_N
 
 WebUI.doubleClick(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Nmina_1'))
 
+WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'))
+
 WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'))

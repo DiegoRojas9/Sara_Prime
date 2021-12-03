@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('popup_agregarNovedadConcepto'),{'popup_agregarNovedadConcepto:j_idt1622':'popup_agregarNovedadConcepto:j_idt1622'},'');return false&quot;]</value>
+         <value>//a[contains(text(),'Aplicar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

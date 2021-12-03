@@ -24,25 +24,27 @@ WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Nmina'), Glo
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'), GlobalVariable.G_timeout)
+if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'), GlobalVariable.G_timeout)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'))
 
-WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'))
+    WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_LICENCIA DE LUTO_popupDetalle_eliminar'), 
+        GlobalVariable.G_timeout)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_LICENCIA DE LUTO_popupDetalle_eliminar'), 
-    GlobalVariable.G_timeout)
+    if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_LICENCIA DE LUTO_popupDetalle_eliminar'), 
+        GlobalVariable.G_timeout, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_LICENCIA DE LUTO_popupDetalle_eliminar'))
 
-if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_LICENCIA DE LUTO_popupDetalle_eliminar'), 
-    GlobalVariable.G_timeout, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_LICENCIA DE LUTO_popupDetalle_eliminar'))
+        WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aceptar'), GlobalVariable.G_timeout)
 
-    WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aceptar'), GlobalVariable.G_timeout)
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aceptar'))
+    }
+    
+    WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Cerrar'), GlobalVariable.G_timeout)
 
-    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aceptar'))
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Cerrar'))
 }
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Cerrar'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Cerrar'))
+WebUI.scrollToElement(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Fecha 10022021_formulario_nominaj'), 0)
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Fecha 10022021_formulario_nominaj'), GlobalVariable.G_timeout)
 

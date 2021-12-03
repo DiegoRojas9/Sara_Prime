@@ -13,6 +13,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import ch.qos.logback.core.joran.conditional.ElseAction as ElseAction
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -24,22 +25,45 @@ WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Nmina'), Glo
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_ ver ms'), GlobalVariable.G_timeout)
+if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_ ver ms'), 1)) {
+    WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_ ver ms'))
 
-WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_ ver ms'))
+    if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_AUXILIO DE MOVILIZACION_popupDetalleNovedades'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_AUXILIO DE MOVILIZACION_popupDetalleNovedades'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_AUXILIO DE MOVILIZACION_popupDetalleNovedades'), 
-    GlobalVariable.G_timeout)
+        WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_AUXILIO DE MOVILIZACION_popupDetalleNovedades'))
+        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'), GlobalVariable.G_timeout)
+        WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'))
+        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
+    } else {
+        WebUI.click(findTestObject('1.1_General_Objects/a_AUXILIO DE MOVILIZACION_popupDetalleNovedadesj_idt17530j_idt1765'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), GlobalVariable.G_timeout)
+        WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
+        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'))
+
+        WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), GlobalVariable.G_timeout)
+
+        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
+    }
+    
+    if (WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_AUXILIO DE MOVILIZACION_popupDetalleNovedadesj_idt17530j_idt1765'), 
+        1)) {
+        WebUI.click(findTestObject('1.1_General_Objects/a_AUXILIO DE MOVILIZACION_popupDetalleNovedadesj_idt17530j_idt1765'))
+
+        WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'), GlobalVariable.G_timeout)
+
+        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'))
+
+        WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), GlobalVariable.G_timeout)
+
+        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
+    }
+}
 
 WebUI.delay(3)
 
@@ -48,10 +72,6 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Nmina'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
-
-WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'), GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Fecha 10022021_formulario_nominaj_ConceptosNomina'), 
     GlobalVariable.G_timeout)

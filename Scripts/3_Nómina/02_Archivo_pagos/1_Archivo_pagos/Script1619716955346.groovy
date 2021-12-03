@@ -52,6 +52,8 @@ WebUI.setText(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_AGUDELO ROJA
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANGELA MARA_check'))
 
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'))
+
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Filtro_us-icon-regresar us-accion-icono'))
 
 WebUI.closeBrowser()
