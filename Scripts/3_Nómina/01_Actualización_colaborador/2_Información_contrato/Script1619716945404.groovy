@@ -99,10 +99,32 @@ WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Informació
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/select_-- Seleccione --Eps - Aliansalud EpsEps'), 
     10)
 
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_Fecha de Ingreso_consultarInformacionBasica_formj_idt543'))
+
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_3'), 
     '10/05/2021')
 
-WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_Eps _us-icon-yes'))
+WebUI.sendKeys(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_3'), 
+    Keys.chord(Keys.ESCAPE))
+
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_Guardar'))
+
+WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_Aceptar'))
+
+if (WebUI.waitForElementPresent(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/label_Empleado con mas de una entidad del mismto servicio              9525222 ES'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_Aceptar'))
+
+    WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_3'), 
+        '09/05/2021')
+
+    WebUI.sendKeys(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_3'), 
+        Keys.chord(Keys.ESCAPE))
+
+    WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_Guardar'))
+
+    WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_Aceptar'))
+}
 
 WebUI.delay(3)
 
