@@ -6,12 +6,11 @@
    <elementGuidId>072ac5aa-fee7-4cd3-8e9c-76c399c15b35</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='popupRegistroBeneficiariosUpc_form:nombre']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

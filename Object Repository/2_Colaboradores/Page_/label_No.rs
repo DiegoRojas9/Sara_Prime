@@ -6,12 +6,11 @@
    <elementGuidId>f07f05a4-a053-4ed2-8e4e-1dde74961b8a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='No']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='detalleEmpleadoPrime_form:dependiente']/tbody/tr/td/label</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

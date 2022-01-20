@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='popupBeneficiariosUpc_form:j_idt882']/div/a</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>a.ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-corner-all</value>
+         <value>//form[7]/div/div/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//a[@href = '#' and @aria-label = 'Close' and @role = 'button']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-corner-all</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

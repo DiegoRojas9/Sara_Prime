@@ -250,10 +250,7 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/P
 
 WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Agregar'))
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Union Soluciones 2019_ui-dialog-titlebar-icon ui-dialog'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Union Soluciones 2019_ui-dialog-titlebar-icon ui-dialog'))
+WebUI.click(findTestObject('2_Colaboradores/Page_/span_Medio de Pago_ui-icon ui-icon-closethick'))
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Continuar2'), GlobalVariable.G_timeout)
 

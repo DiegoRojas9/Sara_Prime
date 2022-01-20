@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Fecha Final _popupRegistroBeneficiariosUpc</name>
+   <name>a_RETIRADO_us-icon-descargar-colaborador - Copy</name>
    <tag></tag>
-   <elementGuidId>dd3b70d1-396a-469b-9ccf-fe9255b9bd00</elementGuidId>
+   <elementGuidId>af28fa96-d9fc-4d57-92ca-085ee83cbeac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[3]/div[2]/span/input</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[12]/td/div/div[2]/div/a[2]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,83 +21,84 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>popupRegistroBeneficiariosUpc_form:fechaFinal_input</value>
+      <value>listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>href</name>
       <type>Main</type>
-      <value>popupRegistroBeneficiariosUpc_form:fechaFinal_input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <value>ui-commandlink ui-widget us-icon-descargar us-color-white us-iconos-card-colaborador us-hover-active</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>textbox</value>
+      <value>Ver Liquidación</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-disabled</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>false</value>
+      <value>PrimeFaces.addSubmitParam('listadoEmpleadoPrime_form',{'listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309':'listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309'}).submit('listadoEmpleadoPrime_form');return false;</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-readonly</name>
+      <name>title</name>
       <type>Main</type>
-      <value>false</value>
+      <value>Ver Liquidación</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupRegistroBeneficiariosUpc_form:fechaFinal_input&quot;)</value>
+      <value>id(&quot;listadoEmpleadoPrime_form:tablaRetirados:8:j_idt309&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='popupRegistroBeneficiariosUpc_form:fechaFinal_input']</value>
+      <value>//a[@id='listadoEmpleadoPrime_form:tablaRetirados:0:j_idt311']
+</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='popupRegistroBeneficiariosUpc_form:fechaFinal']/input</value>
+      <value>//tbody[@id='listadoEmpleadoPrime_form:tablaRetirados_data']/tr/td/div/div[2]/div/a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[12]/span/input</value>
+      <value>//tr[10]/td/div/div[2]/div/a[2]</value>
    </webElementXpaths>
 </WebElementEntity>
