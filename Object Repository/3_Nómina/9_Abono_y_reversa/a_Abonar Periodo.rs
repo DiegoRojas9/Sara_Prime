@@ -6,16 +6,16 @@
    <elementGuidId>4e43d1e8-e5ec-41aa-ae71-8040b5b37b04</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[3]/a</value>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'us-boton' and (text() = 'Abonar Periodo' or . = 'Abonar Periodo')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.us-boton</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @class = 'us-boton' and (text() = 'Abonar Periodo' or . = 'Abonar Periodo')]</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Abonar Periodo')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

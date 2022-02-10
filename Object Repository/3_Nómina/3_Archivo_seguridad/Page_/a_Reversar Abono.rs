@@ -6,16 +6,16 @@
    <elementGuidId>000d7494-5e3f-47b2-b465-3bbda3f133c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[3]/a</value>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'us-boton' and (text() = 'Reversar Abono' or . = 'Reversar Abono')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.us-boton</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @class = 'us-boton' and (text() = 'Reversar Abono' or . = 'Reversar Abono')]</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Reversar Abono')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
