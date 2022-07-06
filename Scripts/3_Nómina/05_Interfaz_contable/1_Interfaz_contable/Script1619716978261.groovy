@@ -22,17 +22,31 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Nmina'))
 
-WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable'))
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable'), 1)) {
+    WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable'))
+} else {
+    WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Aprobar Nmina'))
+
+    WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Aceptar'))
+
+    WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable'))
+}
 
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/input_Seleccione Todos_formulario_interfazcontablej'))
 
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Generar'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/5_Interfaz_contable/a_Confirmar contabilizacin'), GlobalVariable.G_timeout)
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
 
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/a_Interfaz Contable_formulario_ExportContable'))
 
 WebUI.click(findTestObject('3_Nómina/5_Interfaz_contable/input_Seguridad Social - 31-agosto-2020'))
 
-WebUI.closeBrowser()
+if (Result == 'Generado correctamente') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

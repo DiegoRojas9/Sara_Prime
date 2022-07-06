@@ -3,15 +3,15 @@
    <description></description>
    <name>label_No Relacionada</name>
    <tag></tag>
-   <elementGuidId>27a7d52d-b1e8-4439-a933-b3453a5d3ab3</elementGuidId>
+   <elementGuidId>ed292ea9-3d67-412f-b49d-6f0efd342faf</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//td[2]/label</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='No Relacionada']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>841d45e6-5e36-46f4-9c3b-fbbea4c99ade</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>form_crearNuevaEmpresaRelacion:relacionEmpresa:1</value>
+      <webElementGuid>bcb9ea43-ae0d-4bb6-a2ca-380a66bb3d1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> No Relacionada</value>
+      <webElementGuid>5cbdbb8a-66ca-4c8c-9bb8-4073a045c97b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_crearNuevaEmpresaRelacion:relacionEmpresa&quot;)/tbody[1]/tr[1]/td[2]/label[1]</value>
+      <webElementGuid>90222a32-51ae-4d91-ad9b-f35c3a1e1540</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_crearNuevaEmpresaRelacion:relacionEmpresa']/tbody/tr/td[2]/label</value>
+      <webElementGuid>ce075b36-1621-4766-987f-06f437bdd05e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Relacionada'])[1]/following::label[1]</value>
+      <webElementGuid>ae00ee73-4522-40ad-b93e-00319044eab3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Relacionar Empresa'])[1]/following::label[2]</value>
+      <webElementGuid>dd84f84b-cfad-4f79-9c44-42c480d29ab5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,13 +78,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/preceding::label[1]</value>
+      <webElementGuid>15191cba-abbe-4dcc-bbe4-5f1f42fb1ace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructivos'])[1]/preceding::label[2]</value>
+      <webElementGuid>c589f831-7fef-400b-b8c3-a1d287082951</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='No Relacionada']/parent::*</value>
+      <webElementGuid>2a62fab6-5356-41f4-8a70-5688d2168703</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/label</value>
+      <webElementGuid>bb3cee74-f5d8-43b2-b672-050f266d0a89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' No Relacionada' or . = ' No Relacionada')]</value>
+      <webElementGuid>344644bb-1eff-4175-8f83-b2a727e95ab6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

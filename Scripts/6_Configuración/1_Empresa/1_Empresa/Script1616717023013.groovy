@@ -74,5 +74,13 @@ WebUI.setText(findTestObject('6_Configuración/1_Empresa/Page_/input_Ao_form_inf
 
 WebUI.click(findTestObject('6_Configuración/1_Empresa/Page_/a_Guardar'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
+if (Result == 'Registro Actualizado') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

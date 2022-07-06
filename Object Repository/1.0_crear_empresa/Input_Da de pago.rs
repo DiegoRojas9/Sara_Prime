@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input_Da de pago</name>
+   <tag></tag>
+   <elementGuidId>f3cdb590-a92f-4843-8fc2-094cc0808933</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[1]/div[2]/span/div/form/div/div[3]/div/div[3]/div[2]/input
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>3d89af8b-2ef1-4e62-b065-991f417a08b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657057796086</value>
+      <webElementGuid>577b00e7-425c-490b-987d-7db519107300</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

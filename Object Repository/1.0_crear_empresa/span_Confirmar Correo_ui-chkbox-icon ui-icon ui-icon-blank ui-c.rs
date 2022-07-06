@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Confirmar Correo_ui-chkbox-icon ui-icon ui-icon-blank ui-c</name>
+   <tag></tag>
+   <elementGuidId>edc36d40-41e6-4942-b841-832d9391c86e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-chkbox-icon.ui-icon.ui-icon-blank.ui-c</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>514731f9-a627-43bc-9688-797a20c8b843</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-chkbox-icon ui-icon ui-icon-blank ui-c</value>
+      <webElementGuid>2e6a23af-8290-46c7-bdd1-20fe9e81ef72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crear_cuenta:ck-terminos-condiciones&quot;)/div[@class=&quot;ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]/span[@class=&quot;ui-chkbox-icon ui-icon ui-icon-blank ui-c&quot;]</value>
+      <webElementGuid>cf6554b6-2da7-48b9-b856-a1c15ee161de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_crear_cuenta:ck-terminos-condiciones']/div[2]/span</value>
+      <webElementGuid>72fc4e99-b6a4-4aca-8d92-f4e0e583c41f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/span</value>
+      <webElementGuid>8dac1266-f91e-49ba-b49e-89716729cf47</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

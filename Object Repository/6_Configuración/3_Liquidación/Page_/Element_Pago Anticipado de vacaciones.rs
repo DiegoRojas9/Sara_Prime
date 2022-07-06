@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_Pago Anticipado de vacaciones</name>
+   <tag></tag>
+   <elementGuidId>87378450-994c-46a1-a4d5-c5b05acf8a7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>
+/html/body/div[1]/div[2]/span/div/div/form[4]/div/div[3]/div[2]/div[2]/table/tbody/tr/td[1]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>8a119bf5-7108-4167-9e2c-1608a04c52f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1653515251490</value>
+      <webElementGuid>d5f916b9-e881-4fa4-aaa9-634d9c54c0ad</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

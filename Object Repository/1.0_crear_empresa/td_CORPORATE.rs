@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_CORPORATE</name>
+   <tag></tag>
+   <elementGuidId>181ae523-b90a-41c1-9f57-8d91bb9425c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.ui-state-hover > td</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>
+/html/body/div[1]/div[1]/div[2]/span/div/div[2]/div/form/div/div[3]/div/div[1]/div/table/tbody/tr[5]/td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>6e1d93e1-27c0-4062-a1ba-40d491bc9e7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>d830ecf0-36db-4161-850e-37464f4ebffd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CORPORATE</value>
+      <webElementGuid>1412d6e6-6726-42f3-a1d6-ec989605f1f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_registro_planes_produccion:tablaPlanesMensuales_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-hover&quot;]/td[1]</value>
+      <webElementGuid>6fea3346-4e2c-43b8-b545-55fafacacf43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='form_registro_planes_produccion:tablaPlanesMensuales_data']/tr[5]/td</value>
+      <webElementGuid>28d8aee7-5649-4139-8969-f43e6c16ecaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PLUS'])[1]/following::td[4]</value>
+      <webElementGuid>b176f7fa-06d2-42eb-b7d5-7dd855e3a8a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AGILE'])[1]/following::td[8]</value>
+      <webElementGuid>ce701072-f3bb-4e70-897d-18371e081f4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='debe seleccionar un plan'])[1]/preceding::td[4]</value>
+      <webElementGuid>5d3ed688-3e21-4d44-a85a-a83dc11b7412</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registra tu forma de pago:'])[1]/preceding::td[4]</value>
+      <webElementGuid>2d86cb52-7cad-495a-9894-d398bb5bf1f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CORPORATE']/parent::*</value>
+      <webElementGuid>76967788-c226-40ef-b8d5-e85990a23b74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td</value>
+      <webElementGuid>6453c99a-d0f4-4d01-910e-a20a0fe4a740</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'CORPORATE' or . = 'CORPORATE')]</value>
+      <webElementGuid>c17c8931-93ea-4d7e-b891-b96af9b26bf0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -26,7 +26,7 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/3_Archivo_seguridad/
     FailureHandling.STOP_ON_FAILURE)) {
     WebUI.click(findTestObject('3_Nómina/3_Archivo_seguridad/Page_/a_Aprobar Nmina'))
 
-    WebUI.waitForElementClickable(findTestObject('3_Nómina/3_Archivo_seguridad/Page_/a_Aceptar_'), GlobalVariable.G_TimeShort)
+    WebUI.waitForElementClickable(findTestObject('3_Nómina/3_Archivo_seguridad/Page_/a_Aceptar_'), 0)
 
     WebUI.click(findTestObject('3_Nómina/3_Archivo_seguridad/Page_/a_Aceptar_'))
 } else {
@@ -92,5 +92,13 @@ WebUI.click(findTestObject('3_Nómina/3_Archivo_seguridad/Page_/a_Reversar Confi
 
 WebUI.click(findTestObject('3_Nómina/3_Archivo_seguridad/Page_/a_Aceptar_3'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
+if (Result == 'Registro Actualizado') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ Banco Dispersor</name>
+   <tag></tag>
+   <elementGuidId>7416b054-6332-49ff-979d-5e856294047f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[2]/span/div/form/div/div[3]/div/div[1]/div[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>dd39d45c-d7be-46b0-8fed-0af1c0e6d554</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657056403995</value>
+      <webElementGuid>539ed200-92c4-41b8-b864-1347e16f8b87</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

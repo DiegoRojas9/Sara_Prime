@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Anterior da habil</name>
+   <tag></tag>
+   <elementGuidId>0f1ac140-55ea-4e62-9b3c-ba5880980769</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[5]/div/div[2]/table/tbody/tr/td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>a35b4570-9218-40cb-8d2f-448f5140a80e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaLiq:manejodiahabil:0</value>
+      <webElementGuid>309c88e8-aa46-43fe-8b43-efe60833297d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Anterior día hábil</value>
+      <webElementGuid>cebbfbb3-0acb-4113-8d30-a83b118272bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaLiq:manejodiahabil&quot;)/tbody[1]/tr[1]/td[1]/label[1]</value>
+      <webElementGuid>8456ed41-acfa-44ed-9811-2898d3651a85</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_crearNuevaEmpresaLiq:manejodiahabil']/tbody/tr/td/label</value>
+      <webElementGuid>020c7213-4f9e-412f-9b47-b8a5f52380b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Día Hábil de Pago *'])[1]/following::label[1]</value>
+      <webElementGuid>dd978ddd-5a58-4a3c-8d9a-b74ecc5d3afa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SI'])[2]/following::label[2]</value>
+      <webElementGuid>d577d6f5-ee98-42a9-b189-46900dfdf30b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No aplica'])[1]/preceding::label[1]</value>
+      <webElementGuid>1b4c5b85-e219-4427-afce-3d802aab8d81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Siguiente día hábil'])[1]/preceding::label[2]</value>
+      <webElementGuid>dfefda4f-4098-47a2-b2c3-370b86c3f469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Anterior día hábil']/parent::*</value>
+      <webElementGuid>da910b9f-cb30-47db-8697-cb115b09e47d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[2]/table/tbody/tr/td/label</value>
+      <webElementGuid>21fd6bbb-31f9-4ca8-a527-728b018aa214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Anterior día hábil' or . = ' Anterior día hábil')]</value>
+      <webElementGuid>c3b2f99e-0b17-458e-a440-8c42ff84ef2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

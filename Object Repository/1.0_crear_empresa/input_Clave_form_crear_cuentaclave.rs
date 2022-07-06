@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Clave_form_crear_cuentaclave</name>
+   <tag></tag>
+   <elementGuidId>1239d7e3-6188-4ac2-a557-6b9aa4fdab57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'form_crear_cuenta:clave' and @type = 'password' and @name = 'form_crear_cuenta:clave']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/input
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='form_crear_cuenta:clave']</value>
+      <webElementGuid>4d64d9ad-c55c-4456-917d-8fc455c789a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form_crear_cuenta']/div/div[3]/div/div/div[2]/input</value>
+      <webElementGuid>8a7c474b-ca27-41ab-a74d-47a4fc5421d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+      <webElementGuid>5a2a24d4-885d-4366-82e8-616374f6484e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'form_crear_cuenta:clave' and @type = 'password' and @name = 'form_crear_cuenta:clave']</value>
+      <webElementGuid>0d7fb855-79a3-4151-adce-0f11ec78b3b4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>07055f82-ad3c-44f2-a51c-a712abcf56eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#j_idt1594 > span.ui-button-text.ui-c</value>
+         <key>XPATH</key>
+         <value>/html/body/div[24]/div[3]/button[2]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='j_idt1594']/span</value>
+         <key>CSS</key>
+         <value>#j_idt1594 > span.ui-button-text.ui-c</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>32b20bd4-94aa-4fa2-9092-db82b7906f4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-button-text ui-c</value>
+      <webElementGuid>fd260ab0-5aea-42dd-8bd3-73908173ecc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Si</value>
+      <webElementGuid>82131288-dc3f-4ced-9471-8bfd714bf5d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt1594&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
+      <webElementGuid>eac51d91-6e7a-49d5-804c-c5aae87fd891</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='j_idt1594']/span</value>
+      <webElementGuid>a65ce66a-280d-4fab-a0b4-fec1b541afb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/following::span[1]</value>
+      <webElementGuid>7a0d753b-a816-4557-be34-055b54db8c8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,5 +70,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span</value>
+      <webElementGuid>fb756b95-4c92-42af-9acb-247daa3fce60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

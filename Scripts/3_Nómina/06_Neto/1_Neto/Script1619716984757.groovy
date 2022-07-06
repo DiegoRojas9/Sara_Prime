@@ -24,9 +24,13 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
 
 WebUI.click(findTestObject('3_Nómina/6_Neto/span_5.179.900,00'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/6_Neto/span_E_ui-icon ui-icon-closethick'), GlobalVariable.G_timeout)
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/6_Neto/div_AGUDELO ARANGO ANDREADocumento5038140'), 1)) {
+    String Resultado = 'PRUEBA OK'
 
-WebUI.click(findTestObject('3_Nómina/6_Neto/span_E_ui-icon ui-icon-closethick'))
+    WebUI.click(findTestObject('3_Nómina/6_Neto/span_E_ui-icon ui-icon-closethick'))
 
-WebUI.closeBrowser()
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

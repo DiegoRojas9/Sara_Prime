@@ -46,5 +46,13 @@ WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Reversar Confirmacin')
 
 WebUI.click(findTestObject('3_Nómina/9_Abono_y_reversa/a_Aceptar_3'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+if(Result == 'Registro Actualizado') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}
+
 

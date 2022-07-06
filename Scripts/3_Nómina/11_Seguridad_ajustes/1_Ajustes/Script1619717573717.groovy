@@ -22,21 +22,55 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
 
-WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Seguridad Social'))
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Seguridad Social'), 1)) {
+    WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Seguridad Social'))
+} else {
+    WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Aprobar Nmina'))
+
+    WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Aceptar'))
+
+    WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Seguridad Social'))
+}
 
 WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/a_Ajustes'))
 
+filepath = WebUI.getAttribute(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Eps - Aliansalud EpsEps'), 
+    'value')
+
+String EPS = filepath
+
 WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/div_ARANGO CAMACHO CAMILA_formulario'))
 
+if(EPS == 'S12       |1') {
+WebUI.selectOptionByIndex(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Eps - Aliansalud EpsEps'), 
+    43)
+}
+else {
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Eps - Aliansalud EpsEps'), 
     44)
+}
 
+filepath =WebUI.getAttribute(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Afp - Caja De Auxilios'),'value')
+String AFP = filepath
+
+if(AFP == 'P02       |1') {
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Afp - Caja De Auxilios'), 
-    3)
-
+    4)
+}
+else {
+WebUI.selectOptionByIndex(findTestObject('3_Nómina/11_Seguridad_ajustes/select_-- Seleccione --Afp - Caja De Auxilios'),
+	3)
+}
 WebUI.setText(findTestObject('3_Nómina/11_Seguridad_ajustes/input_ARANGO CAMACHO CAMILA_fecha_input'), '10/03/2021')
 
 WebUI.click(findTestObject('3_Nómina/11_Seguridad_ajustes/span_ARANGO CAMACHO CAMILA_ui-icon ui-icon-check ui-c'))
 
-WebUI.closeBrowser()
+if(WebUI.waitForElementVisible(findTestObject('3_Nómina/11_Seguridad_ajustes/div_ARANGO CAMACHO CAMILA_formulario'), 1)) {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}
+
 

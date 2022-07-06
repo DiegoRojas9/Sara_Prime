@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_CAUSACION DE CESANTIAS</name>
+   <tag></tag>
+   <elementGuidId>5f28e828-c5dd-4eb3-9807-517344bb6aaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7d762b74-c337-4246-a986-9aa45b1d4947</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formulario_provisiones:j_idt1109_header</value>
+      <webElementGuid>131d43ff-9823-4066-bee2-2a27c1ee9936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all</value>
+      <webElementGuid>8889cd3e-eaed-4422-86a2-72b75d25d12d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CAUSACION DE CESANTIAS</value>
+      <webElementGuid>fde7b36c-b605-4a63-adce-9ef3968e9e72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formulario_provisiones:j_idt1109_header&quot;)</value>
+      <webElementGuid>8baa5c73-4bca-4904-9307-389dba64203a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='formulario_provisiones:j_idt1109_header']</value>
+      <webElementGuid>4a87798e-fb6d-431d-9696-8cd68958c019</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formulario_provisiones:j_idt1109']/div</value>
+      <webElementGuid>48bbb58d-0900-4819-9996-e5f014af3a08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::div[3]</value>
+      <webElementGuid>93f5d534-a012-4bfd-b55b-934437c9e238</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N'])[1]/following::div[3]</value>
+      <webElementGuid>4b9e0553-49ee-4728-b203-7af862442da5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/preceding::div[1]</value>
+      <webElementGuid>8b660fae-63a1-4387-b743-8fbedef40b67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div</value>
+      <webElementGuid>9e3ae4fa-503a-4944-9c58-1b0aab49ccaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'formulario_provisiones:j_idt1109_header' and (text() = 'CAUSACION DE CESANTIAS' or . = 'CAUSACION DE CESANTIAS')]</value>
+      <webElementGuid>eaa7dfe1-9e3f-4f77-86f5-f93a06ae9019</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

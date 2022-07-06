@@ -16,7 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('pendiente ventana de confirmacion no funciona')
+
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('6_Configuración/3_Liquidación/Page_/span_Insumos Medicos Comfama Sas'))
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
@@ -24,8 +28,16 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Configuracin'))
 
 WebUI.click(findTestObject('6_Configuración/3_Liquidación/Page_/a_Liquidacin'))
 
-WebUI.setText(findTestObject('6_Configuración/3_Liquidación/Page_/input_Da De Pago _form_informacionLiquidaciondiames'), 
-    '30')
+filepath = WebUI.getAttribute(findTestObject('6_Configuración/3_Liquidación/Page_/input_Da De Pago _form_informacionLiquidaciondiames'), 
+    'value')
+
+if (filepath == '30') {
+    WebUI.setText(findTestObject('6_Configuración/3_Liquidación/Page_/input_Da De Pago _form_informacionLiquidaciondiames'), 
+        '29')
+} else {
+    WebUI.setText(findTestObject('6_Configuración/3_Liquidación/Page_/input_Da De Pago _form_informacionLiquidaciondiames'), 
+        '30')
+}
 
 WebUI.click(findTestObject('6_Configuración/3_Liquidación/Page_/label_NO'))
 
@@ -43,9 +55,19 @@ WebUI.setText(findTestObject('6_Configuración/3_Liquidación/Page_/input_Porcen
 WebUI.setText(findTestObject('6_Configuración/3_Liquidación/Page_/input_Da De Pago_form_informacionLiquidaciondiaanticipo'), 
     '15')
 
-WebUI.click(findTestObject('6_Configuración/3_Liquidación/Page_/a_Guardar'))
+WebUI.click(findTestObject('6_Configuración/3_Liquidación/Page_/Element_Pago Anticipado de vacaciones'))
 
-WebUI.click(findTestObject('6_Configuración/3_Liquidación/Page_/a_Liquidacin'))
+WebUI.click(findTestObject('6_Configuración/3_Liquidación/Page_/a_NO_sabado_habil'))
+
+WebUI.doubleClick(findTestObject('6_Configuración/3_Liquidación/Page_/a_Guardar'))
+
+WebUI.click(findTestObject('6_Configuración/3_Liquidación/Page_/a_NO_manejo anticipo mensual'))
+
+WebUI.doubleClick(findTestObject('6_Configuración/3_Liquidación/Page_/a_Guardar'))
+
+WebUI.waitForElementVisible(findTestObject('Result/p_Resultado'), 0)
+
+WebUI.getText(findTestObject('Result/p_Resultado'))
 
 WebUI.closeBrowser()
 

@@ -3,7 +3,7 @@
    <description></description>
    <name>select_-- Seleccione --AhorrosCorriente</name>
    <tag></tag>
-   <elementGuidId>96fb3cea-4edc-45ea-9940-8356b9697db9</elementGuidId>
+   <elementGuidId>7d63fbd3-620b-4e2a-88ea-e63dc65244ab</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='form_crearNuevaEmpresaInfo:tipocuenta']</value>
+         <value>//div[17]/div[2]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,20 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>f873e823-e8d1-432b-abe6-9901db3cde63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>form_crearNuevaEmpresaInfo:tipocuenta</value>
+      <webElementGuid>8c758384-1477-4b09-af8c-ccc4ac939575</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>form_crearNuevaEmpresaInfo:tipocuenta</value>
+      <webElementGuid>68ad9d07-0715-4282-a4b1-fc1d77940b2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control valor_campo_estandar</value>
+      <webElementGuid>31d0a53b-adfc-4295-bde5-dd68e4de2718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>de6a58fd-0f12-458f-80bd-856a02a5dd98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,9 +62,10 @@
       <name>onchange</name>
       <type>Main</type>
       <value>mojarra.ab(this,event,'change','@form','@form')</value>
+      <webElementGuid>57150217-5c30-4c06-988a-7142a97ad4bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -67,6 +73,7 @@
 	Ahorros
 	Corriente
 </value>
+      <webElementGuid>c98a8f4f-36e3-42db-bf61-89e6cf40f2b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,13 +81,149 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_crearNuevaEmpresaInfo:tipocuenta&quot;)</value>
+      <webElementGuid>b6a7c3d1-1858-437e-9cfd-5424fedf9590</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b9f2a93b-369a-4512-99a4-b4b786dd9281</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:tipocuenta</value>
+      <webElementGuid>4ea302cf-5a2f-4c6c-82fc-b5854ecfc220</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:tipocuenta</value>
+      <webElementGuid>5145ed25-591c-4fe0-8f71-f7dde8919676</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control valor_campo_estandar</value>
+      <webElementGuid>66311f49-a0ff-45cf-8152-0d2a332da481</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>bd0256a3-ca9d-436f-9b42-b9fa984967c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>mojarra.ab(this,event,'change','@form','@form')</value>
+      <webElementGuid>0f9154d0-747e-4a68-81ae-414577ededb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	-- Seleccione --
+	Ahorros
+	Corriente
+</value>
+      <webElementGuid>241c493e-cd26-4da2-a4dc-f52467195e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaInfo:tipocuenta&quot;)</value>
+      <webElementGuid>d8e42268-6c21-499a-a282-bfd2a4ce7756</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b66a6b8f-46f7-450e-ad60-76b3f995ba84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:tipocuenta</value>
+      <webElementGuid>146c4341-c341-4ae4-826c-23df96aca6e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:tipocuenta</value>
+      <webElementGuid>8d6e758e-dae9-4013-9d0b-1929702ad263</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control valor_campo_estandar</value>
+      <webElementGuid>bfb755be-6e5b-4ab4-aa01-5bb9aa121041</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>bba2dce9-0b45-4781-b244-0fcf2295e518</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>mojarra.ab(this,event,'change','@form','@form')</value>
+      <webElementGuid>58c0c0c1-4fc4-4279-9b1b-f1314e88b78d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	-- Seleccione --
+	Ahorros
+	Corriente
+</value>
+      <webElementGuid>df7c9e58-2273-40fa-9fe1-959ab5f89e0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaInfo:tipocuenta&quot;)</value>
+      <webElementGuid>d2f0b3c9-d86e-4f65-95be-3cb6c568ae27</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_crearNuevaEmpresaInfo:tipocuenta']</value>
+      <webElementGuid>88dfc308-4158-43d8-9eb4-a483ec3cca80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +231,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_crearNuevaEmpresaInfo']/div/div[17]/div[2]/select</value>
+      <webElementGuid>681f5308-19fc-4edf-bcea-72db50883607</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +239,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo de Cuenta *'])[1]/following::select[1]</value>
+      <webElementGuid>64baac83-3cb5-4e2b-81a7-5bd06874040d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +247,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[6]/following::select[1]</value>
+      <webElementGuid>d72a8885-75b5-464f-bbe9-946ea0e814e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,13 +255,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccionar método de envío de los comprobantes de pago: *'])[1]/preceding::select[1]</value>
+      <webElementGuid>2f77128c-fe6a-4dfc-9a15-3476c2c9e1a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructivos'])[1]/preceding::select[2]</value>
+      <webElementGuid>5d2dfa85-1845-41b2-87ab-b53a8c37233f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,5 +271,20 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[17]/div[2]/select</value>
+      <webElementGuid>300ead9f-2ceb-4db0-8720-77e6781202a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'form_crearNuevaEmpresaInfo:tipocuenta' and @name = 'form_crearNuevaEmpresaInfo:tipocuenta' and (text() = '	-- Seleccione --
+	Ahorros
+	Corriente
+' or . = '	-- Seleccione --
+	Ahorros
+	Corriente
+')]</value>
+      <webElementGuid>0def562b-7a29-40ee-ac5e-3a195d07c376</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

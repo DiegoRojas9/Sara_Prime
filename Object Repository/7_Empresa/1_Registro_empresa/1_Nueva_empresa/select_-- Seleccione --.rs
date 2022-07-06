@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_-- Seleccione --</name>
+   <tag></tag>
+   <elementGuidId>23caa9c9-9e93-414b-adc3-e464472cdd85</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[2]/span/div/div/form[3]/div/div[8]/div/div[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>94a22f45-d28a-4996-a2be-481d846a8459</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaLiq:primeranominaB</value>
+      <webElementGuid>379d876f-5db8-4e65-8464-d402f3d5e47d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaLiq:primeranominaB</value>
+      <webElementGuid>67cf427f-4839-46fe-b193-0cadad4ef1da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control valor_campo_estandar</value>
+      <webElementGuid>a235b0a1-21fa-45c0-aedc-97993351b1ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>bf52e7d5-46c1-40e3-94e8-78d30bece881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_crearNuevaEmpresaLiq&quot;,p:&quot;form_crearNuevaEmpresaLiq:primeranominaB&quot;,u:&quot;form_crearNuevaEmpresaLiq:primeranominaA&quot;});</value>
+      <webElementGuid>ecf7b783-8ed6-4ea9-a6ef-fc908b10c5f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	-- Seleccione --
+</value>
+      <webElementGuid>6c0edd39-e294-4727-a7ef-087d5c198ccb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaLiq:primeranominaB&quot;)</value>
+      <webElementGuid>1a7eb511-e364-4725-9bab-6f8fb56157d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_crearNuevaEmpresaLiq:primeranominaB']</value>
+      <webElementGuid>0afd1efa-0e16-41a4-b25a-42513f1e98ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_crearNuevaEmpresaLiq:primeranominaA']/div[2]/select</value>
+      <webElementGuid>56a2b818-0f8f-495b-828d-31953fa3df1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pago Primera Nómina *'])[1]/following::select[1]</value>
+      <webElementGuid>6aa641c5-0ef9-4a52-a577-8ba8ffb1546f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[4]/following::select[1]</value>
+      <webElementGuid>cf13d750-1e65-460f-91da-586bc9b55982</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[5]/preceding::select[1]</value>
+      <webElementGuid>93ccedec-e502-41fe-b1ff-732a5eeced32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructivos'])[1]/preceding::select[1]</value>
+      <webElementGuid>62a201bb-b481-4ae6-82c8-a62ad3f366a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>2691dc04-bb2e-4700-ad77-569b4ad42ea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'form_crearNuevaEmpresaLiq:primeranominaB' and @name = 'form_crearNuevaEmpresaLiq:primeranominaB' and (text() = '	-- Seleccione --
+' or . = '	-- Seleccione --
+')]</value>
+      <webElementGuid>66c30af9-293e-46d5-a6eb-68da1732e877</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

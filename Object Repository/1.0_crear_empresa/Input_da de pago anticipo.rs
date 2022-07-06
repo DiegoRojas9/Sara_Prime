@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input_da de pago anticipo</name>
+   <tag></tag>
+   <elementGuidId>03270796-5989-4ee9-a3c0-042c7257075d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[1]/div[2]/span/div/form/div/div[3]/div/div[5]/div[5]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>fe4c4f5a-8e27-4c2f-8e29-36dc8009538c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657058020743</value>
+      <webElementGuid>53f249bd-8ced-484b-926e-f5f799a1a6c1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

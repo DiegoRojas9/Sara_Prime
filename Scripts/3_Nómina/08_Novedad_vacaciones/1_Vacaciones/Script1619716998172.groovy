@@ -16,6 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String dato = ''
+
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
@@ -46,7 +48,20 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones
 
 WebUI.scrollToElement(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Fecha 10022021_formulario_nominaj'), 0)
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Fecha 10022021_formulario_nominaj'), GlobalVariable.G_timeout)
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/8_Novedad_vacaciones/td_LICENCIA DE LUTO'), 0)) {
+    dato = WebUI.getText(findTestObject('3_Nómina/8_Novedad_vacaciones/td_LICENCIA DE LUTO'), FailureHandling.CONTINUE_ON_FAILURE)
+	
+	}
+
+if (dato == 'LICENCIA DE LUTO') {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'))
+
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_LICENCIA DE LUTO_popupDetalleNovedadestablaNovedades0j_idt1554'))
+
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aceptar'))
+}
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Fecha 10022021_formulario_nominaj'), 0)
 
 WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Fecha 10022021_formulario_nominaj'))
 
@@ -55,7 +70,7 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/inp
 
 WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/input_LICENCIA DE LUTO_fechainicial_input'))
 
-WebUI.setText(findTestObject('3_Nómina/8_Novedad_vacaciones/input_LICENCIA DE LUTO_fechainicial_input'), '03/02/2021')
+WebUI.setText(findTestObject('3_Nómina/8_Novedad_vacaciones/input_LICENCIA DE LUTO_fechainicial_input'), '10/05/2021')
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/input_LICENCIA DE LUTO_Novedad_dias'), GlobalVariable.G_timeout)
 
@@ -67,5 +82,15 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_A
 
 WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aplicar'))
 
-WebUI.closeBrowser()
+WebUI.waitForElementVisible(findTestObject('Result/p_Resultado'), 0)
+
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
+if (Result == 'Registro guardado') {
+    String Resultado1 = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

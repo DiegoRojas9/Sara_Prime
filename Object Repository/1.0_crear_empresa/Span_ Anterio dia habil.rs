@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Span_ Anterio dia habil</name>
+   <tag></tag>
+   <elementGuidId>aaa45839-3ef3-4a6b-8cbd-73f04cfa44e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[1]/div[2]/span/div/form/div/div[3]/div/div[6]/div[2]/table/tbody/tr/td[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>d98043c8-92a7-460b-a40d-bed859bd30f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657058321543</value>
+      <webElementGuid>fa45e68d-870c-46fa-90dd-6911c02d75c2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

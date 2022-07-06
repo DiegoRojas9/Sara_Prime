@@ -24,13 +24,14 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Configuracin'))
 
 WebUI.click(findTestObject('6_Configuración/2_Usuario/Page_/a_Usuarios'))
 
-WebUI.click(findTestObject('6_Configuración/2_Usuario/Page_/select_-- Seleccione --ActivoInactivo'))
-
 WebUI.selectOptionByIndex(findTestObject('6_Configuración/2_Usuario/Page_/select_-- Seleccione --ActivoInactivo'), '1')
 
 WebUI.waitForElementClickable(findTestObject('6_Configuración/2_Usuario/Page_/span_Activo_ui-icon ui-icon-pencil'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('6_Configuración/2_Usuario/Page_/span_Activo_ui-icon ui-icon-pencil'))
+
+WebUI.waitForElementClickable(findTestObject('6_Configuración/2_Usuario/Page_/select_-- Seleccione --AdministradorAdministrador 2'), 
+    0)
 
 WebUI.selectOptionByIndex(findTestObject('6_Configuración/2_Usuario/Page_/select_-- Seleccione --AdministradorAdministrador 2'), 
     '1')
@@ -45,6 +46,4 @@ WebUI.waitForElementClickable(findTestObject('6_Configuración/2_Usuario/Page_/s
 WebUI.click(findTestObject('6_Configuración/2_Usuario/Page_/span_Activo_ui-icon ui-icon-pencil'))
 
 WebUI.click(findTestObject('6_Configuración/2_Usuario/Page_/a_Administrador_consultausuariosusuarios0selectRoles0j_idt449'))
-
-WebUI.closeBrowser()
 

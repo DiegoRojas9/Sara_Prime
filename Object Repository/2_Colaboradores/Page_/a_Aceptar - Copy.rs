@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Aceptar - Copy</name>
+   <tag></tag>
+   <elementGuidId>92487e9d-a919-441b-bcb6-38b1d0d2006e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.us-btn-si.us-btn-popup</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Aceptar')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>29384e8e-8397-4383-b82d-cba751bb3f14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>e4d20829-d06a-4c8b-8c9c-5e366978428c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt658':'dialog_popupFinalizacionEmpleado:j_idt658'},'');return false</value>
+      <webElementGuid>a6e133f5-f8b2-47c2-bcba-ef3c0b7abd16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>us-btn-si us-btn-popup</value>
+      <webElementGuid>391a47b2-5634-4c92-aa59-ab7af5ab141f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aceptar</value>
+      <webElementGuid>c3c272ea-82a3-4186-940d-5aaf9dbc69d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dialog_popupFinalizacionEmpleado:j_idt640_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/a[@class=&quot;us-btn-si us-btn-popup&quot;]</value>
+      <webElementGuid>b80eceaa-0f6d-4d79-8a44-4fa254bb945d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt658':'dialog_popupFinalizacionEmpleado:j_idt658'},'');return false&quot;]</value>
+      <webElementGuid>769f54bb-feb9-4d92-9e5b-3ba88fdc4c9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dialog_popupFinalizacionEmpleado:j_idt640_content']/div[5]/a</value>
+      <webElementGuid>74fe974e-71e6-4c13-b419-0d0a9a3f0f59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Aceptar')]</value>
+      <webElementGuid>5baa5ae3-5b77-4081-ac7c-c5c547876c16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proxima Nómina'])[1]/following::a[1]</value>
+      <webElementGuid>fa58d336-58c1-4ee2-a218-25d152dab3a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cheque, Transferencia'])[1]/following::a[1]</value>
+      <webElementGuid>1ab1d918-c858-4786-aea8-5b0583f8520b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[1]</value>
+      <webElementGuid>941ec40c-8d2e-4f7d-9831-3a71cec08aff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambio de empresa'])[1]/preceding::a[2]</value>
+      <webElementGuid>e9167d75-13fd-43f7-97e6-09e468f51886</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
+      <webElementGuid>02388e18-d3bb-4b05-a35f-12002cbd17a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[7]</value>
+      <webElementGuid>52f54204-9044-473b-a424-ca9589d862ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/a</value>
+      <webElementGuid>d9bf2e24-f2b4-41e0-8a44-0ac5844b9486</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

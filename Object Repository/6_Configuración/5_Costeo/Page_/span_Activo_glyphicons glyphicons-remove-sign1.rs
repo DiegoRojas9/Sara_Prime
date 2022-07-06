@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Activo_glyphicons glyphicons-remove-sign1</name>
+   <tag></tag>
+   <elementGuidId>ab30dace-ca2c-4759-81b9-1262f0543572</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.glyphicons.glyphicons-remove-sign</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d750fcf0-a932-4b2b-92a1-5ed3f551b1b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicons glyphicons-remove-sign</value>
+      <webElementGuid>781687a8-30ff-4ef1-b615-d4e506e612da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_configuracionCosteo:j_idt702:0:j_idt712&quot;)/span[@class=&quot;glyphicons glyphicons-remove-sign&quot;]</value>
+      <webElementGuid>4c089866-8a54-40b1-9bc9-b735e0198e28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='form_configuracionCosteo:j_idt702:0:j_idt712']/span</value>
+      <webElementGuid>ccb20eed-b15a-48c0-8ce5-f4e295d7e3f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/span</value>
+      <webElementGuid>b7f4a3aa-f8dc-46fe-a3c1-8993058ac848</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

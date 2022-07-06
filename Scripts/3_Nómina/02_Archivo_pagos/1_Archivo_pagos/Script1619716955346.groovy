@@ -22,9 +22,15 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Nmina'))
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Archivo Para Pagos'), GlobalVariable.G_timeout)
+if (WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Archivo Para Pagos'), 1)) {
+    WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Archivo Para Pagos'))
+} else {
+    WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Archivo Para Pagos'))
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Archivo Para Pagos'))
+    WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'))
+
+    WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Archivo Para Pagos'))
+}
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Ajuste_formulario_archivoPagos'))
 
@@ -52,9 +58,17 @@ WebUI.setText(findTestObject('3_Nómina/2_Archivo_pagos/Page_/input_AGUDELO ROJA
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANGELA MARA_check'))
 
+String Result = WebUI.getText(findTestObject('3_Nómina/2_Archivo_pagos/Page_/label_Has modificado la cuenta del colaborador'))
+
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'))
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Filtro_us-icon-regresar us-accion-icono'))
 
-WebUI.closeBrowser()
+if (Result == 'Has modificado la cuenta del colaborador, ten en cuenta que este cambio es permanente, por lo cual los próximos archivos de banco serán generados para este colaborador con esta cuenta.') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_NO_quincenal</name>
+   <tag></tag>
+   <elementGuidId>900c06b5-d5a6-4db8-8bfc-6c26c3cf50f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>f318de01-7feb-4926-9cea-46197f0a9535</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaLiq:tipoquincena:0</value>
+      <webElementGuid>e4574bf4-d7cc-450b-8447-641809fd64d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> NO</value>
+      <webElementGuid>58027087-79f6-4722-86f9-16ddc4ba1b53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaLiq:tipoquincena&quot;)/tbody[1]/tr[1]/td[1]/label[1]</value>
+      <webElementGuid>6d894dff-f55e-4a9a-8fd3-1348938a3d7e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_crearNuevaEmpresaLiq:tipoquincena']/tbody/tr/td/label</value>
+      <webElementGuid>93129f05-5901-4fa2-8fdc-828dbed1fec9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pago Nómina Quincenal ? *'])[1]/following::label[1]</value>
+      <webElementGuid>71562549-b34c-4b19-8bb3-20df991a2c70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Información Liquidación'])[2]/following::label[2]</value>
+      <webElementGuid>b2fa7968-8a06-4709-b4b8-7ad7a722fbe1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SI'])[1]/preceding::label[1]</value>
+      <webElementGuid>5a20f96b-f206-4ca3-b666-07b2e96ddc49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pago Nómina Mensual ? *'])[1]/preceding::label[2]</value>
+      <webElementGuid>e40b8eb9-05c3-4378-be5b-24af7e487b35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='NO']/parent::*</value>
+      <webElementGuid>79b5f4b3-89a8-4e1e-b6be-ee23e0e0bc3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/label</value>
+      <webElementGuid>4c37704c-9249-427f-b9f3-06c99c009ba0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' NO' or . = ' NO')]</value>
+      <webElementGuid>b9e30a0b-d4df-411c-916d-da2d83a6520e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

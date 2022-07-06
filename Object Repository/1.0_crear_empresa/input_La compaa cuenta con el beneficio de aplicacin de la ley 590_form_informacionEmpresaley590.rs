@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_La compaa cuenta con el beneficio de aplicacin de la ley 590_form_informacionEmpresaley590</name>
+   <tag></tag>
+   <elementGuidId>19876050-3119-41ea-8a61-59ea1236ba18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @name = 'form_informacionEmpresa:ley590' and @id = 'form_informacionEmpresa:ley590:0']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/table/tbody/tr/td/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='form_informacionEmpresa:ley590:0']</value>
+      <webElementGuid>4f189623-2791-4a4c-a6e2-c88c47485ce4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_informacionEmpresa:ley590']/tbody/tr/td/input</value>
+      <webElementGuid>6de2d7dc-12bb-41e4-9380-c3cae40ba814</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>601a8627-86ad-485b-87e8-82f704724109</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'radio' and @name = 'form_informacionEmpresa:ley590' and @id = 'form_informacionEmpresa:ley590:0']</value>
+      <webElementGuid>84c2fddf-9664-47dc-8154-667b55a81553</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

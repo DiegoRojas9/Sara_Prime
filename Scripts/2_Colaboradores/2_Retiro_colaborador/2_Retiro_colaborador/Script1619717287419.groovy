@@ -256,8 +256,6 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborad
 
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_ACTIVO_us-icon-remover'))
 
-WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_ACTIVO_us-icon-remover'))
-
 WebUI.setText(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/input_Fecha ultimo da Laborado'), 
     '28/05/2021')
 
@@ -305,11 +303,18 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborad
 
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_Actualizar'))
 
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Colaboradores'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Colaboradores'))
 
+
+if(Result == 'liquidación realizada con exito.') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+	}else {WebUI.acceptAlert()}
 WebUI.closeBrowser()
 

@@ -154,5 +154,12 @@ WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Informaci
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/a_Fondo de Cesantas _us-icon-yes'))
 
-WebUI.closeBrowser()
+String Result =WebUI.getText(findTestObject('Result/p_Resultado'), FailureHandling.STOP_ON_FAILURE)
 
+if (Result == 'Registro guardado') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}

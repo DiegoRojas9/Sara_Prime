@@ -16,6 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/*---------------------------------------------*/
 Date today = new Date()
 
 String todaysDate = today.format('dd/MM/yyyy')
@@ -26,6 +27,16 @@ WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
+/*--------------------------------------------------------------------*/
+String DiayMes = today.format('dd/MM')
+
+Number Año = ((today.format('yyyy')) as Integer)
+
+Number AñoS = Año + 1
+
+String Fecha = (DiayMes + '/') + AñoS
+
+/*--------------------------------------------------------------------*/
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Nmina'), 
     GlobalVariable.G_timeout)
 
@@ -41,6 +52,13 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
     GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/a_AGUDELO ARANGO ANDREA_formulario_nominaj_idt5030verCambioEmpleado'))
+
+while (WebUI.waitForElementVisible(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/label_10052021_2'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/a_Fecha fin vigencia_consultarInformacionBasica_formtablaEntidadesAPV1j_idt669_2'))
+
+    WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/span_Si'))
+}
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/Page_/a_Informacin Tributaria'), 
     GlobalVariable.G_timeout)
@@ -202,9 +220,16 @@ WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Informaci
     '67000')
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/input_Fecha fin vigencia_consultarInformacionBasica_APV'), 
-    todaysDate)
+    Fecha)
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/2_APV/Page_/a_Fecha fin vigencia_consultarInformacion'))
 
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/label_10052021_2'), 
+    1)) {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

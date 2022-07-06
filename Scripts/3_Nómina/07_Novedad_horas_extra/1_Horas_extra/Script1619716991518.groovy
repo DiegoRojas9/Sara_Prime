@@ -39,16 +39,6 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extr
         WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), GlobalVariable.G_timeout)
 
         WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
-    } else {
-        WebUI.click(findTestObject('1.1_General_Objects/a_AUXILIO DE MOVILIZACION_popupDetalleNovedadesj_idt17530j_idt1765'))
-
-        WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'), GlobalVariable.G_timeout)
-
-        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'))
-
-        WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), GlobalVariable.G_timeout)
-
-        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
     }
     
     if (WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_AUXILIO DE MOVILIZACION_popupDetalleNovedadesj_idt17530j_idt1765'), 
@@ -63,9 +53,11 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extr
 
         WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
     }
+	else if(WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), 0)) {
+		WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
+	}
 }
 
-WebUI.delay(3)
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
@@ -101,5 +93,13 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_
 
 WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+if(Result == 'Registro guardado') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()	
+}
+
 

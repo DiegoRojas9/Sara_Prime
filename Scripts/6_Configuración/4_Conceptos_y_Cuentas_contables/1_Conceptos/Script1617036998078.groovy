@@ -80,5 +80,15 @@ WebUI.setText(findTestObject('6_Configuración/4_Conceptos_y_Cuentas_contables/3
 
 WebUI.click(findTestObject('6_Configuración/4_Conceptos_y_Cuentas_contables/3_Provisiones/Page_/span_CEDULA CIUDADANIA_ui-icon ui-icon-check ui-c'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('6_Configuración/4_Conceptos_y_Cuentas_contables/3_Provisiones/Page_/check'))
+
+Result = WebUI.getText(findTestObject('6_Configuración/4_Conceptos_y_Cuentas_contables/3_Provisiones/Page_/Element_'))
+
+if (Result == '999333444') {
+    String Resultado = 'Prueba ok'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

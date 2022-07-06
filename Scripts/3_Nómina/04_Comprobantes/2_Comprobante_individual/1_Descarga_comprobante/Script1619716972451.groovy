@@ -32,7 +32,13 @@ WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Cancelar'))
 
-WebUI.delay(2)
+WebUI.switchToWindowIndex(1)
 
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Descarga'), 1)) {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

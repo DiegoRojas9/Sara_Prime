@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_NO_anticipo vacaciones</name>
+   <tag></tag>
+   <elementGuidId>c9eb673a-e3c9-4024-8f05-b5a1945a8351</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[6]/div/div[2]/table/tbody/tr/td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>fe9cf531-59be-4d64-b4d9-3d12003ac423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaLiq:pagoanticipo:0</value>
+      <webElementGuid>a69beceb-b785-407d-be03-ea9a34036074</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> NO</value>
+      <webElementGuid>f7b09017-a454-4b06-8262-1ff20e523f02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaLiq:pagoanticipo&quot;)/tbody[1]/tr[1]/td[1]/label[1]</value>
+      <webElementGuid>0ee8c274-5287-4e87-a8de-d492d1039998</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_crearNuevaEmpresaLiq:pagoanticipo']/tbody/tr/td/label</value>
+      <webElementGuid>a7d09bbd-0dcb-4ba8-bafd-9e9e133b6dbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pago Anticipado De Vacaciones ? *'])[1]/following::label[1]</value>
+      <webElementGuid>1e05794d-cf88-4bcb-9b12-0b4bc8a5c2b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/following::label[2]</value>
+      <webElementGuid>6f5f3613-78c6-4c66-bcf9-a50c8a8cf4eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SI'])[3]/preceding::label[1]</value>
+      <webElementGuid>062f4084-840a-4101-8a42-dec671507597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[2]/preceding::label[2]</value>
+      <webElementGuid>e0be8626-2cb9-4a41-af0e-672f10b01101</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div[2]/table/tbody/tr/td/label</value>
+      <webElementGuid>7696fe9a-3103-4d39-8e49-69578c602c1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' NO' or . = ' NO')]</value>
+      <webElementGuid>02ce3d9b-aef9-4299-bed5-14dcac815a77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

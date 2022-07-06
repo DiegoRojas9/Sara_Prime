@@ -30,7 +30,13 @@ WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'), GlobalVariable.G_timeout)
 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'), GlobalVariable.G_timeout)
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'), GlobalVariable.G_timeout)
+
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'))
+
+WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Descargar'), 0)
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Descargar'))
 
@@ -43,13 +49,19 @@ WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Vacaciones'))
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'))
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/descarga'), 0)
 
-//if (WebUI.waitForElementClickable(findTestObject('Page_/Comprobantes_1.1/PrimeFace/Page_/input_Comprobante Zip_dnFormDialogdnDCbCancelar'),
-//    GlobalVariable.G_timeout)) {
-//   WebUI.waitForElementClickable(findTestObject('Page_/Comprobantes_1.1/PrimeFace/Page_/a_Comprobante Zip'), GlobalVariable.G_timeout)
-//    WebUI.waitForElementClickable(findTestObject('Page_/Comprobantes_1.1/PrimeFace/Page_/a_Cancelar'), GlobalVariable.G_timeout)
-//}
-//WebUI.click(findTestObject('Page_/Comprobantes_1.1/PrimeFace/Page_/a_Cancelar'))
-WebUI.closeBrowser()
+WebUI.switchToWindowIndex(1)
+
+WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/descarga'), 0)
+
+WebUI.click(findTestObject('3_Nómina/4_Comprobantes/descarga'), FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/descarga'), 1)) {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

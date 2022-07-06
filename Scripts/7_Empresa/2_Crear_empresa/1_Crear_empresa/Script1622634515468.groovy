@@ -18,11 +18,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://190.85.173.173:8093/saraprimeweb/registro/registro.jsf')
+WebUI.navigateToUrl('http://186.86.125.178:8093/saraprimeweb/registro/registro.jsf')
+
+WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/td_CORPORATE'))
+
+WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Siguiente'))
 
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/2_Crear_empresa/select_SeleccionarCedula Ciudadania'), '3')
 
-WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Numero Documento_empresa'), '900800150')
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Numero Documento_empresa') /*'900800150'*/ , numAleatorio())
 
 WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_D.V_verificacion'), '1')
 
@@ -36,15 +40,39 @@ WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Nombre_form_crear_
 
 WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Documento_form_crear_cuentadocumentoA'), '1098626095')
 
-WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Correo_form_crear_cuentacorreo'), 'autotestus1994@gmail.com')
+String correo = ('autotestus' + numAleatorio()) + '@gmail.com'
 
-WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Confirmar Correo_form_crear'), 'autotestus1994@gmail.com')
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Correo_form_crear_cuentacorreo'), correo)
+
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Confirmar Correo_form_crear'), correo)
 
 WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/span_Confirmar Correo_ui-chkbox'))
 
 WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Crear Cuenta'))
 
-WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Aceptar'))
+String  Result = WebUI.getText(findTestObject('7_Empresa/2_Crear_empresa/a_result'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Aceptar'))
+if(Result == 'Hemos enviado un correo a aut***************************.com con las instruciones para seguir con el proceso de registro.') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else if(Result == 'Hemos enviado un correo a aut****************************.com con las instruciones para seguir con el proceso de registro.')
+{	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()}
+
+else if(Result == 'Hemos enviado un correo a aut**************************.com con las instruciones para seguir con el proceso de registro.')
+	{	String Resultado = 'PRUEBA OK'
+		WebUI.closeBrowser()}
+else {WebUI.acceptAlert()}
+
+
+
+def numAleatorio() {
+    double random_double = (Math.random() * 9999) + 999
+
+    random_double = Math.round(random_double * 1000)
+
+    String identificacion = random_double.toString().replace('.0', '')
+}
 

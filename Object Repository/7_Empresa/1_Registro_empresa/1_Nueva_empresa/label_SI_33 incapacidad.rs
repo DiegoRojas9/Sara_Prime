@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_SI_33 incapacidad</name>
+   <tag></tag>
+   <elementGuidId>5566b0f6-a752-408a-8285-649dd0706f6d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[7]/div/div[2]/table/tbody/tr/td[2]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c73be04d-d650-4a97-afcb-f30c04fd7386</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaLiq:incapacidad1:1</value>
+      <webElementGuid>5f2e76eb-2fe4-46fc-92c3-96d0d29a07d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> SI</value>
+      <webElementGuid>6b78f1f2-724f-4970-8339-fb38017a6d70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaLiq:incapacidad1&quot;)/tbody[1]/tr[1]/td[2]/label[1]</value>
+      <webElementGuid>9f1b519c-533c-4d61-81d7-091ed550fb75</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_crearNuevaEmpresaLiq:incapacidad1']/tbody/tr/td[2]/label</value>
+      <webElementGuid>7c3f5488-45b2-4a7b-899a-974d18a18311</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NO'])[4]/following::label[1]</value>
+      <webElementGuid>3b871ed3-6b04-43cd-942a-7ef12e9a2991</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='La empresa reconoce el 33% de la incapacidad de enfermedad general los 2 primeros días. ? *'])[1]/following::label[2]</value>
+      <webElementGuid>6e690ca5-854a-4226-a148-0fe49c18382a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[3]/preceding::label[1]</value>
+      <webElementGuid>fe0077d2-1bf7-4ae8-b033-8a33d780e917</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='La empresa reconoce el 33% de la incapacidad de enfermedad general desde el 3 día. ? *'])[1]/preceding::label[2]</value>
+      <webElementGuid>b7312027-76c5-4c15-82f5-4f20fdafe56d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div[2]/table/tbody/tr/td[2]/label</value>
+      <webElementGuid>a803a8ea-7388-4711-9730-dca60fc59b18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' SI' or . = ' SI')]</value>
+      <webElementGuid>a7a8a015-3815-4877-9ed8-7a49dae3696a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

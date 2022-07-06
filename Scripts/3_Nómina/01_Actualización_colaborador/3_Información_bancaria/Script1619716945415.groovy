@@ -57,9 +57,17 @@ WebUI.selectOptionByIndex(findTestObject('3_Nómina/1_Actualización_colaborador
     2)
 
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/3_Información_bancaria/Page_/input_Fecha Cambio _consultarInformacionBasica_'), 
-    '27/11/2020')
+    '27/05/2021')
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/3_Información_bancaria/Page_/a_Medio de Pago _us-icon-yes'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+if(Result == 'Registro guardado') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}
+
 

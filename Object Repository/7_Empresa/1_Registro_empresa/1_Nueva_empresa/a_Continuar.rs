@@ -3,14 +3,15 @@
    <description></description>
    <name>a_Continuar</name>
    <tag></tag>
-   <elementGuidId>e8cb2fc5-ba89-4eeb-a44d-f0bc024ea449</elementGuidId>
+   <elementGuidId>3ee54cb4-ce3b-4b21-88fd-4f4f6fdbf812</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[19]/a</value>
+         <value>//a[contains(text(),'Continuar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,20 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>0aaea765-b1b3-4e3f-8e49-3a8a62105225</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_crearNuevaEmpresaInfo:j_idt386</value>
+      <value>form_crearNuevaEmpresaInfo:j_idt249</value>
+      <webElementGuid>4449a58c-7205-43e3-bbe2-961b3e4f9771</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>81fbb2ed-aeb5-483e-84df-120693dd6af2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,34 +46,151 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton</value>
+      <webElementGuid>210d63a9-d55b-49e2-a401-21c3fee94ac9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;form_crearNuevaEmpresaInfo:j_idt386&quot;,f:&quot;form_crearNuevaEmpresaInfo&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;form_crearNuevaEmpresaInfo:j_idt249&quot;,f:&quot;form_crearNuevaEmpresaInfo&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>74f06458-2830-4af7-9d9f-1b7c247a35a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Continuar</value>
+      <webElementGuid>830242b0-0889-4bdf-803f-7d2fa094c21d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_crearNuevaEmpresaInfo:j_idt386&quot;)</value>
+      <value>id(&quot;form_crearNuevaEmpresaInfo:j_idt249&quot;)</value>
+      <webElementGuid>9ba4f8c6-6478-41c4-8960-50d394187d27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8f9e43c8-53ff-4b5c-8553-3a6006d4f20a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:j_idt249</value>
+      <webElementGuid>d2c270ab-1403-425b-a02a-ba698bec608b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>13143e42-a36c-4a78-974b-dadd9a297ee0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton</value>
+      <webElementGuid>104434e6-f137-43ee-bcd7-10e47e27e53f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_crearNuevaEmpresaInfo:j_idt249&quot;,f:&quot;form_crearNuevaEmpresaInfo&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>4b7b2353-9ed6-41e3-b557-343342cf941c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continuar</value>
+      <webElementGuid>6c10229d-d1b5-46d7-b07f-c7d182008993</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaInfo:j_idt249&quot;)</value>
+      <webElementGuid>c6c90815-1175-42d0-b5a2-3f8dd67c5ffa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6779acf4-2efd-4b76-88f9-72dcd08f8f67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:j_idt249</value>
+      <webElementGuid>0cff5b0e-6cfc-4b31-9788-ff613a58a0c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>63b0c696-ab5d-43a7-b6d9-ecffd093cd31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton</value>
+      <webElementGuid>a4ccd4b8-7c5e-4a6d-8777-951265eb776a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_crearNuevaEmpresaInfo:j_idt249&quot;,f:&quot;form_crearNuevaEmpresaInfo&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>7c7235ba-334d-4dd9-a83c-2bc73e7de8a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continuar</value>
+      <webElementGuid>86527680-55bb-4584-92cf-3f77e5073d0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaInfo:j_idt249&quot;)</value>
+      <webElementGuid>6b31ea21-a20d-4eb6-ba01-1fb1d1cf09c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='form_crearNuevaEmpresaInfo:j_idt386']</value>
+      <value>//a[@id='form_crearNuevaEmpresaInfo:j_idt249']</value>
+      <webElementGuid>ab1389b8-a020-4990-bbcd-c66007e75617</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +198,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_crearNuevaEmpresaInfo']/div/div[19]/a</value>
+      <webElementGuid>bdc056c3-40a6-4d79-afc7-d9f328043dc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +206,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Continuar')]</value>
+      <webElementGuid>42f72dcc-36b1-4dc2-abc8-a986ab16a394</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +214,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccionar método de envío de los comprobantes de pago: *'])[1]/following::a[1]</value>
+      <webElementGuid>f52fe08b-a3f9-4be4-ae2e-e9d684531c70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,20 +222,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo de Cuenta *'])[1]/following::a[1]</value>
+      <webElementGuid>d8204913-ada3-43db-9d00-3dcdefa6a756</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructivos'])[1]/preceding::a[1]</value>
+      <webElementGuid>fffc8824-b88d-4aa7-a671-66ab2a77641e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambio de empresa'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte Técnico'])[1]/preceding::a[2]</value>
+      <webElementGuid>8c9eb4b7-462a-493a-85e9-410de9b7b5c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,13 +246,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
+      <webElementGuid>81a5e9e6-efaa-44e4-97ad-83985977bcda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[11]</value>
+      <value>(//a[contains(@href, '#')])[16]</value>
+      <webElementGuid>9eff6851-96b2-4f9d-ba12-bed0737bb37e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +262,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[19]/a</value>
+      <webElementGuid>fcddf0da-6400-4801-81f4-d1334800c8e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'form_crearNuevaEmpresaInfo:j_idt249' and @href = '#' and (text() = 'Continuar' or . = 'Continuar')]</value>
+      <webElementGuid>10efbc15-e445-4c96-820a-d414b7ddc63f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Generar_ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover</name>
+   <tag></tag>
+   <elementGuidId>26aad332-d5f5-4fa9-9d4f-d9044497fac1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/table/tbody/tr/td/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-radiobutton-box.ui-widget.ui-corner-all.ui-state-default.ui-state-active.ui-state-hover</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3a1e55c2-98fd-436f-af62-c511a7f522ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover</value>
+      <webElementGuid>318437d7-bcfa-44e3-b0e8-f608c2213095</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupReporte:j_idt1973&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;ui-radiobutton ui-widget&quot;]/div[@class=&quot;ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover&quot;]</value>
+      <webElementGuid>20563e4c-13ae-47cf-8fe3-b808ea000734</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='popupReporte:j_idt1973']/tbody/tr/td/div/div[2]</value>
+      <webElementGuid>a7c5604d-9138-45f0-81a1-80f062e5da5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generar'])[1]/following::div[4]</value>
+      <webElementGuid>7333097a-d376-47a2-90cd-cd1915bb740a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='codempresa'])[1]/following::div[6]</value>
+      <webElementGuid>203f0937-5364-4d37-a7e3-48c18235bcee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Excel'])[1]/preceding::div[1]</value>
+      <webElementGuid>893fe254-6e71-45f4-a1ec-b81ec55999fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Que desea hacer'])[1]/preceding::div[1]</value>
+      <webElementGuid>93511e57-b9a2-4841-b0f8-64ac7ffd6b55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/table/tbody/tr/td/div/div[2]</value>
+      <webElementGuid>b9fd631e-4cf7-4d6d-8155-b1b1ac7ba81b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

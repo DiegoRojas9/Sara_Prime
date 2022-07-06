@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Frame_1657033437936</name>
+   <tag></tag>
+   <elementGuidId>f10459fb-1fe5-432b-882d-a3c806c4edbf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ifmail&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>IFRAME</value>
+      <webElementGuid>42eec684-6a14-4ef7-a0bf-e033ae04c5e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657033437936</value>
+      <webElementGuid>4b288a52-7922-438d-9892-371327e2887b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -54,5 +54,13 @@ WebUI.waitForElementClickable(findTestObject('4_Calendario/Page_/a_Editar'), Glo
 
 WebUI.click(findTestObject('4_Calendario/Page_/a_Editar'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+if(Result == 'La actividad ha sido actualizada')
+{
+	String  Resultadio = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}
 

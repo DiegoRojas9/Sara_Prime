@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Span_Si Maneja Anticipo Mensual</name>
+   <tag></tag>
+   <elementGuidId>c9518294-9eb3-4f36-bb5b-7d7f85f41291</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[1]/div[2]/span/div/form/div/div[3]/div/div[4]/div[2]/table/tbody/tr/td[2]/input
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>72b4907f-91e4-4893-b062-16b2cc9248fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657057910916</value>
+      <webElementGuid>fe96bb5a-4d77-4f5f-beea-a922e21909ae</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

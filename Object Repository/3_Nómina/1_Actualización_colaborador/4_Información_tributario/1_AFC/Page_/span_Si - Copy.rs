@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Si - Copy</name>
+   <tag></tag>
+   <elementGuidId>11d40389-6284-46b3-b749-496d0e9db742</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#j_idt1594 > span.ui-button-text.ui-c</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>95ab9355-8733-4bf9-b8ba-e223b522b057</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-button-text ui-c</value>
+      <webElementGuid>1b90c6f5-2a61-4674-88a5-1f0cfb86ca67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Si</value>
+      <webElementGuid>08d89a5a-20a3-4975-9ae4-ea9548113b87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;j_idt1594&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
+      <webElementGuid>2215d6eb-70e3-4bcf-a02d-67285ca4ab44</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='j_idt1594']/span</value>
+      <webElementGuid>00e5b4ea-8467-4cd7-b789-f4963594bba2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/following::span[1]</value>
+      <webElementGuid>ba4173ab-6f48-4548-b9e3-be57028cdc1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>034a8bc2-b29f-487d-bdc3-8eb372724233</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

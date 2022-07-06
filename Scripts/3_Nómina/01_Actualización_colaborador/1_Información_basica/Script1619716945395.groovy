@@ -111,5 +111,13 @@ WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Informació
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_Aceptar_6'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
+if (Result == 'Registro Actualizado') {
+    String Resultado = 'PRUEBA  OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

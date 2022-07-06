@@ -14,15 +14,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.By.ByXPath as ByXPath
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
-
-double random_double = (Math.random() * 9999) + 999
-
-random_double = Math.round(random_double * 1000)
-
-String identificacion = random_double.toString().replace('.0', '')
+import java.io.File as File
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -36,11 +33,23 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Agregar'),
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar'))
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Documento  _detalleEmpleadoPrime'), identificacion)
+WebUI.click(findTestObject('2_Colaboradores/Page_/a_Comprobar'))
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar foto'))
+
+String ruta = GlobalVariable.G_rutaarchivos + 'Anonymous.jpg'
+
+println(ruta)
+
+WebUI.uploadFileWithDragAndDrop(findTestObject('2_Colaboradores/Page_/a_Seleccionar Archivo'), ruta)
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/a_Aceptar - Copy'))
+
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Documento  _detalleEmpleadoPrime'), ID())
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), 'Mariana' + identificacion)
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), 'Mariana' + ID())
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Primer Apellido  _detalleEmpleadoPrime'), 'Urrego')
 
@@ -58,7 +67,7 @@ WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/label_Email'))
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Email  _detalleEmpleadoPrime_formemail'), identificacion + 'Mariana.urrego@gmail.com')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Email  _detalleEmpleadoPrime_formemail'), ID() + 'Mariana.urrego@gmail.com')
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Ciudad de Residencia _formciudadResidencia_input'), 'Bogot')
 
@@ -232,7 +241,7 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/P
     GlobalVariable.G_timeout)
 
 WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Final _popupRegistroBeneficiariosUpc'), 
-    '27/02/2021')
+    '27/06/2021')
 
 WebUI.sendKeys(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Final _popupRegistroBeneficiariosUpc'), 
     Keys.chord(Keys.ESCAPE))
@@ -316,5 +325,19 @@ WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Aceptar'),
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Aceptar'))
 
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/Page_/a_Comprobar'), 3)) {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
+
+def ID() {
+    double random_double = (Math.random() * 9999) + 999
+
+    random_double = Math.round(random_double * 1000)
+
+    String identificacion = random_double.toString().replace('.0', '')
+}
 

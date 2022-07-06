@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Pago Anual</name>
+   <tag></tag>
+   <elementGuidId>71829bf5-eba6-4218-a936-004d96b04004</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='form_registro_planes_produccion:tipoPagoPlan']/tbody/tr/td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>aed821ef-313f-41ea-a024-e0db72fbd4d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>form_registro_planes_produccion:tipoPagoPlan:0</value>
+      <webElementGuid>e1cfeaf1-2862-4ae5-b293-fc66df9d0bdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Pago Anual</value>
+      <webElementGuid>3f26d42d-062f-4e0d-8735-343948a19a11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_registro_planes_produccion:tipoPagoPlan&quot;)/tbody[1]/tr[1]/td[1]/label[1]</value>
+      <webElementGuid>4378f709-3f40-4aae-afbe-9fb5ea0b8dfa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_registro_planes_produccion:tipoPagoPlan']/tbody/tr/td/label</value>
+      <webElementGuid>7c700251-13c1-40d8-b028-497e26eb4b51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selecciona el plan ideal para tu empresa:'])[1]/following::label[1]</value>
+      <webElementGuid>6d0b1c74-d480-4994-8d06-9ce85dc6c9c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PLAN CORPORATIVO'])[1]/following::label[2]</value>
+      <webElementGuid>6b7de47c-83ff-49bb-a64a-d8343003d77a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pago por Mes'])[1]/preceding::label[1]</value>
+      <webElementGuid>f8104b2e-6f1a-449c-b0b0-4da792bd58fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rango'])[1]/preceding::label[2]</value>
+      <webElementGuid>c0fc4212-f187-4475-b1cb-5053c669274c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pago Anual']/parent::*</value>
+      <webElementGuid>3c982316-8534-4625-9333-d2145ca9e7dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/label</value>
+      <webElementGuid>9dd3d8b3-319c-435c-ae23-7aab250693f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Pago Anual' or . = ' Pago Anual')]</value>
+      <webElementGuid>80910f06-4bb3-44ce-b955-ec2c0c7031aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

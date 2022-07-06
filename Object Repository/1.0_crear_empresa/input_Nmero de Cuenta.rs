@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Nmero de Cuenta</name>
+   <tag></tag>
+   <elementGuidId>57428cf0-9065-47b4-b984-4f5fd2cf068b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[2]/span/div/form/div/div[3]/div/div[2]/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>2049cd72-6bf9-4df9-b7b2-fd9ed0fa5bbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657056468792</value>
+      <webElementGuid>06b9f95c-2e3d-485e-a98d-11e155ebec5a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

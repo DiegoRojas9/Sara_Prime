@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_-- Seleccione --Cedula CiudadaniaCedula ExtranjeriaNIT</name>
+   <tag></tag>
+   <elementGuidId>52ca4d36-1e9b-4c65-ab29-4b54e4021b15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b6f2a8be-98cb-4708-9726-cea067afb7b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:tipo_documento</value>
+      <webElementGuid>1bc774b2-5c9f-43f7-88a7-2e28f86e09fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:tipo_documento</value>
+      <webElementGuid>88815981-0bc0-4910-83bd-bbacd6619b6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control valor_campo_estandar</value>
+      <webElementGuid>334a5e42-5239-491f-a738-cf9e865dd3ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>5d37216d-9545-46da-801a-a1dd53cc6901</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	-- Seleccione --
+	Cedula Ciudadania
+	Cedula Extranjeria
+	NIT
+</value>
+      <webElementGuid>1595a027-b9e1-4fbf-a58f-e39a1669fac7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaInfo:tipo_documento&quot;)</value>
+      <webElementGuid>6823d96a-6ffc-4f5a-ab7c-f33c027d2c7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1af1f189-c1d2-4407-8e3d-6cf8d790e67d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:tipo_documento</value>
+      <webElementGuid>2cb8fd99-6d51-406b-ad90-9c1b00dfb525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:tipo_documento</value>
+      <webElementGuid>d8bba4a7-fca5-441b-8763-d61b2dd33c7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control valor_campo_estandar</value>
+      <webElementGuid>2a95437d-fa50-43a8-b46e-7c51801991b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>3909fc2e-1dd9-479a-8fb5-049e3157ee97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	-- Seleccione --
+	Cedula Ciudadania
+	Cedula Extranjeria
+	NIT
+</value>
+      <webElementGuid>2a5ba4cf-5c36-47e4-b1dd-4af49604a3a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaInfo:tipo_documento&quot;)</value>
+      <webElementGuid>c0c0b6c6-4aa0-45d1-90f0-31970a243be5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1acc1237-bb77-4f77-9bbe-a6443b1cf372</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:tipo_documento</value>
+      <webElementGuid>bb19df9c-7a0e-4c1c-99b3-be07883eb0c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaInfo:tipo_documento</value>
+      <webElementGuid>18e44d87-4c9a-4ad0-8616-b727f2fdbc98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control valor_campo_estandar</value>
+      <webElementGuid>a87f8a25-8a5a-41a4-8677-3fac080442cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>d62dce99-af23-46e8-8fae-86f63b67dc98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	-- Seleccione --
+	Cedula Ciudadania
+	Cedula Extranjeria
+	NIT
+</value>
+      <webElementGuid>9117b0e7-736d-4389-a66a-e69f65e5360d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaInfo:tipo_documento&quot;)</value>
+      <webElementGuid>be6be0fa-cccc-4828-96e7-db35af3b8d92</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_crearNuevaEmpresaInfo:tipo_documento']</value>
+      <webElementGuid>3899542c-d8b9-4380-899d-eae797032449</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form_crearNuevaEmpresaInfo']/div/div[2]/div[2]/select</value>
+      <webElementGuid>569f5660-e708-4d6b-a7ac-9a64cb3d86e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Documento *'])[1]/following::select[1]</value>
+      <webElementGuid>e286c9cb-211e-4598-a965-ea8dfcb48e7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Información Empresa'])[2]/following::select[1]</value>
+      <webElementGuid>1a1f801b-3005-4fb7-9a34-25d0af73b0b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Numero Documento*'])[1]/preceding::select[1]</value>
+      <webElementGuid>8876f842-9ecf-4450-a797-3b6a5dacedf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='D.V.'])[1]/preceding::select[1]</value>
+      <webElementGuid>4fcc55d8-0650-4e9b-9b28-d516c47a6779</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>b94ab764-3a4a-4afa-a195-88e921c6c6e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'form_crearNuevaEmpresaInfo:tipo_documento' and @name = 'form_crearNuevaEmpresaInfo:tipo_documento' and (text() = '	-- Seleccione --
+	Cedula Ciudadania
+	Cedula Extranjeria
+	NIT
+' or . = '	-- Seleccione --
+	Cedula Ciudadania
+	Cedula Extranjeria
+	NIT
+')]</value>
+      <webElementGuid>e3cfd7c9-9d17-4ee7-9a75-04671c599aac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

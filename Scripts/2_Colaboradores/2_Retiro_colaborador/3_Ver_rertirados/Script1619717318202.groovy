@@ -20,26 +20,26 @@ WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Colaboradores'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Colaboradores'), 0)
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Colaboradores'))
 
 String Estado = WebUI.getText(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Activos'), FailureHandling.STOP_ON_FAILURE)
 
-if (Estado == 'Ver Activos') {
+if (Estado == 'Ver Retirados') {
     WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Activos'), 
-        GlobalVariable.G_timeout)
+        1)
 
     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Activos'))
 }
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar-colaborador'), 
-    GlobalVariable.G_timeout)
+    0)
 
 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar-colaborador'))
 
 if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Total Devengos'), 
-    GlobalVariable.G_timeout)) {
+    1)) {
     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Total Devengos'))
 
     WebUI.delay(3)
@@ -47,20 +47,20 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
     WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
     WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'), 
-        GlobalVariable.G_timeout)
+        0)
 
     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'))
 
-    WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Activos'), GlobalVariable.G_timeout)
+    WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Activos'), 0)
 } else if (WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Regresar'))) {
     WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar-colaborador - Copy'), 
-        0)
+        1)
 
     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar-colaborador - Copy'), 
-        FailureHandling.STOP_ON_FAILURE)
+        0)
 
     if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Total Devengos'), 
-        GlobalVariable.G_timeout)) {
+        1)) {
         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Total Devengos'))
 
         WebUI.delay(3)
@@ -68,29 +68,29 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
         WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
         WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'), 
-            GlobalVariable.G_timeout)
+            0)
 
         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Colaboradores'))
 
         WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/span_Activos'), 
-            GlobalVariable.G_timeout)
-    }
- else {
-    WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Regresar'))
+            0)
+    } else {
+        WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Regresar'))
 
-    WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar-colaborador - Copy - Copy'), 
-        0)
+        WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar-colaborador - Copy - Copy'), 
+            0)
 
-    WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar-colaborador - Copy - Copy'), 
-        FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_RETIRADO_us-icon-descargar-colaborador - Copy - Copy'), 
+            0)
 
-    if (Estado == 'Ver Activos') {
-        WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Activos'), 
-            GlobalVariable.G_timeout)
+        if (Estado == 'Ver Activos') {
+            WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Activos'), 
+                GlobalVariable.G_timeout)
 
-        WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Activos'))
+            WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados/a_Ver Activos'))
+        }
     }
 }
-}
+
 WebUI.closeBrowser()
 

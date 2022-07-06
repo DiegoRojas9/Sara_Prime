@@ -16,12 +16,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>URL_PrimeFace</description>
-      <initValue>'http://190.25.51.123:8093/saraprimeweb'</initValue>
+      <initValue>'http://186.86.125.178:8093/saraprimeweb/'</initValue>
       <name>G_LoginPrime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>INDICE ARL</description>
       <initValue>0</initValue>
       <name>N_INDICE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'E:\\unionweb14\\'</initValue>
+      <name>G_rutaarchivos</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

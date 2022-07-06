@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Span_ No pago nmina quincenal</name>
+   <tag></tag>
+   <elementGuidId>1ecdb7d1-5867-4300-843a-80f9322332e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[1]/div[2]/span/div/form/div/div[3]/div/div[1]/div[2]/table/tbody/tr/td[1]/input
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>fddad04f-29f7-4fdf-8277-4eec2e74edf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657057549842</value>
+      <webElementGuid>5672a0b1-ed9c-438d-abcf-6248a0d03352</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

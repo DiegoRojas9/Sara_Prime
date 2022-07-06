@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_La compaa se adhiere a la aplicacin de la ley 1607_form_informacionEmpresaley1607</name>
+   <tag></tag>
+   <elementGuidId>3e933b6d-09c8-4c2e-a1d3-2a045d31a4ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='form_informacionEmpresa:ley1607:0']</value>
+      <webElementGuid>464d6c7b-76f5-48aa-90f8-d9c439c7f62f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_informacionEmpresa:ley1607']/tbody/tr/td/input</value>
+      <webElementGuid>18719643-5957-4a37-9bd8-3e66507f914d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/input</value>
+      <webElementGuid>ce1bb458-43da-401d-b90b-bc3be9dbad3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'radio' and @name = 'form_informacionEmpresa:ley1607' and @id = 'form_informacionEmpresa:ley1607:0']</value>
+      <webElementGuid>155c223f-1619-4cf1-8ccd-059189c86de3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

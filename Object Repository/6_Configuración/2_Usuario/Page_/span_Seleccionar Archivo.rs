@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Seleccionar Archivo</name>
+   <tag></tag>
+   <elementGuidId>9b3e42a3-d103-43e3-b2d5-1190854fed69</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>
+/html/body/div[1]/div[2]/span/form[1]/div/div[2]/div[2]/table/tbody/tr/td[1]/div/div[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>175c2d12-e80e-429b-8a6f-7e60313aa9c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>j_idt455:inputFileName_label</value>
+      <webElementGuid>d37ef372-3adf-49d1-b1fc-ae563b86cd30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-button-text ui-c</value>
+      <webElementGuid>ebd179d7-e42b-48e6-850c-752a78f6115e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Seleccionar Archivo</value>
+      <webElementGuid>c539db1a-f524-4498-afe0-39c35063fb56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;j_idt455:inputFileName_label&quot;)</value>
+      <webElementGuid>fffdcc5b-8ed9-4c8c-b06b-4000089a6fe9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='j_idt455:inputFileName_label']</value>
+      <webElementGuid>9fb922cc-5feb-4155-a012-463132c8be02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='j_idt455:inputFileName']/div/span/span[2]</value>
+      <webElementGuid>5aeffadb-e36c-4d8d-906b-62abd884c91a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Editar'])[1]/following::span[3]</value>
+      <webElementGuid>fb123c5c-4abc-4e66-9c22-e18448de0056</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nivel académico * :'])[1]/following::span[5]</value>
+      <webElementGuid>f5636632-3085-40f8-aacd-6800824234d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte Técnico'])[1]/preceding::span[4]</value>
+      <webElementGuid>b36d562d-7a6b-477d-8f6b-43a5cfaf678b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::span[5]</value>
+      <webElementGuid>11cc721c-45f5-4842-9553-166dbc4bbba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Seleccionar Archivo']/parent::*</value>
+      <webElementGuid>e9e72b5a-5620-463d-9b9c-d8bc6afc71f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span[2]</value>
+      <webElementGuid>cab6c77e-af58-4648-afc6-d547801f8c0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'j_idt455:inputFileName_label' and (text() = 'Seleccionar Archivo' or . = 'Seleccionar Archivo')]</value>
+      <webElementGuid>ef9ede80-61c2-41b7-92cd-e77d30a2c224</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

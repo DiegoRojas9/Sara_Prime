@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_SI_Mensual</name>
+   <tag></tag>
+   <elementGuidId>db8a4405-4435-4dda-95fa-817f8454f063</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/div[2]/table/tbody/tr/td[2]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>77c94b4b-d6a1-46e3-9454-988ce4cb9baa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>form_crearNuevaEmpresaLiq:tipomensual:1</value>
+      <webElementGuid>30de874d-01c2-47cc-9b4a-b2f1633dd22e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> SI</value>
+      <webElementGuid>a59821b3-0c14-4700-acb5-3c075089101c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_crearNuevaEmpresaLiq:tipomensual&quot;)/tbody[1]/tr[1]/td[2]/label[1]</value>
+      <webElementGuid>41d34cbf-f3f7-42bc-8036-fa62fce209ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_crearNuevaEmpresaLiq:tipomensual']/tbody/tr/td[2]/label</value>
+      <webElementGuid>c9b495d5-4e7a-4523-979a-5da08af2067a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NO'])[2]/following::label[1]</value>
+      <webElementGuid>c6b78a87-a61f-4864-b935-f391a69556da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pago Nómina Mensual ? *'])[1]/following::label[2]</value>
+      <webElementGuid>c277665d-4663-4fce-ad1c-7ba854543eb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Día Hábil de Pago *'])[1]/preceding::label[1]</value>
+      <webElementGuid>0dcbd95c-8e7f-4833-a059-afd6a579e98d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Anterior día hábil'])[1]/preceding::label[2]</value>
+      <webElementGuid>751ff07f-8381-48a5-aecc-6f085ad4e90b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/table/tbody/tr/td[2]/label</value>
+      <webElementGuid>3d06bf8d-0879-4161-99e7-4a83d3e47987</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' SI' or . = ' SI')]</value>
+      <webElementGuid>852b06a7-775f-4216-a5f0-b7d0518a1e27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

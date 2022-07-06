@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_10052021_2</name>
+   <tag></tag>
+   <elementGuidId>8f098bf4-3eff-4228-96f3-5e0354148250</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='APV - COLPENSIONES']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>dad4bf3f-0aaf-434b-bb2e-548b459fe009</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>10/05/2023</value>
+      <webElementGuid>93ec0cac-e40a-4d20-a406-3ba49759778a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;consultarInformacionBasica_form:tablaEntidadesAPV:1:j_idt648&quot;)/div[@class=&quot;ui-cell-editor-output&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;arribaCont&quot;]/label[1]</value>
+      <webElementGuid>3543c8fc-1d3f-47f1-8a3d-65a02ce6f373</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='consultarInformacionBasica_form:tablaEntidadesAPV:1:j_idt648']/div/table/tbody/tr/td[2]/label</value>
+      <webElementGuid>34194d44-e559-49aa-bd86-ffa27b298cce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha fin vigencia'])[4]/following::label[1]</value>
+      <webElementGuid>23789b97-c035-4c25-a056-1600201de416</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/following::label[2]</value>
+      <webElementGuid>3784cdd1-3be0-40c6-8472-48b8faf25cc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha fin vigencia'])[5]/preceding::label[1]</value>
+      <webElementGuid>5c0c66ad-75c3-40a0-afc5-e35db1dd4922</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='APV - COLPENSIONES'])[2]/preceding::label[3]</value>
+      <webElementGuid>9efdd97a-ae05-4332-a61b-8f494a926c98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='10/05/2023']/parent::*</value>
+      <webElementGuid>0dfb8c8f-e879-4b93-9ab6-a5a44e281351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[3]/div/div/table/tbody/tr/td[2]/label</value>
+      <webElementGuid>dfe07c73-859c-4321-ab5f-db8520dab87a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = '10/05/2023' or . = '10/05/2023')]</value>
+      <webElementGuid>00070b18-b431-48aa-ba27-bf1241947140</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

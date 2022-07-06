@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td/a</value>
+         <value>//a[contains(text(),'Histórico Provisiones')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,13 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>7aaf40e3-9549-440a-9347-6df4061f545e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>formulario_provisiones:j_idt1329:j_idt1331:j_idt2626</value>
+      <value>formulario_provisiones:j_idt1145:j_idt1147:j_idt2299</value>
+      <webElementGuid>502409d3-c9b5-47ad-804f-29c381fc6700</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>c1582bea-812f-403e-9a83-1a345e0d882d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,13 +46,15 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>6ab04e2f-7b26-468d-a803-dd65ba3757fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;formulario_provisiones:j_idt1329:j_idt1331:j_idt2626&quot;,f:&quot;formulario_provisiones&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;formulario_provisiones:j_idt1145:j_idt1147:j_idt2299&quot;,f:&quot;formulario_provisiones&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>7ff80074-6391-46a8-a409-f8e0e4eb0291</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +62,63 @@
       <name>text</name>
       <type>Main</type>
       <value>Histórico Provisiones </value>
+      <webElementGuid>27eb9ee9-b942-4d16-8dd1-f4090c205e07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formulario_provisiones:j_idt1145:j_idt1147:j_idt2299&quot;)</value>
+      <webElementGuid>1ae0ba1c-e512-4781-a35b-d0729eaab026</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>aabaa0d6-d800-46d1-8b8b-f7cae2f1a2df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formulario_provisiones:j_idt1329:j_idt1331:j_idt2626</value>
+      <webElementGuid>92c0f457-3a8f-4e4d-b655-d790520ba9a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>504d220d-2d48-4871-a7d4-050a0c3588dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>16766dab-643e-4b52-92c0-3c9b5eb0e8de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;formulario_provisiones:j_idt1329:j_idt1331:j_idt2626&quot;,f:&quot;formulario_provisiones&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>54047a9e-c114-451e-b656-623f2810e615</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Histórico Provisiones </value>
+      <webElementGuid>f1f96866-25c0-4167-abff-9ba3910bd4e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,20 +126,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formulario_provisiones:j_idt1329:j_idt1331:j_idt2626&quot;)</value>
+      <webElementGuid>7346b1b8-5899-4f3b-9f8c-28ba93451aed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='formulario_provisiones:j_idt1329:j_idt1331:j_idt2626']</value>
+      <value>//a[@id='formulario_provisiones:j_idt1145:j_idt1147:j_idt2299']</value>
+      <webElementGuid>ba7375d3-5406-4623-974f-9146f3abd527</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='formulario_provisiones:j_idt1329:j_idt1331:j_idt2621']/table/tbody/tr/td/a</value>
+      <value>//div[@id='formulario_provisiones:j_idt1145:j_idt1147:j_idt2294']/table/tbody/tr/td/a</value>
+      <webElementGuid>61eafbfa-e4c8-4aa3-8bf1-3bfc2715fc07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +150,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Histórico Provisiones')]</value>
+      <webElementGuid>786758a4-915b-4c9c-94ae-3dc48dfeff31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,27 +158,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='provisiones'])[1]/following::a[1]</value>
+      <webElementGuid>9a591bdc-6574-4243-b362-b4a663b0799e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detalle'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[2]/following::a[1]</value>
+      <webElementGuid>4ede3cbe-9e58-4062-9d29-7a11be46c36c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructivos'])[1]/preceding::a[2]</value>
+      <webElementGuid>be65f54d-cc09-4eec-a4fb-82792dca68c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambio de empresa'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte Técnico'])[1]/preceding::a[3]</value>
+      <webElementGuid>5de846c8-88e8-401e-a470-864cee60a121</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,13 +190,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Histórico Provisiones']/parent::*</value>
+      <webElementGuid>2d59c0ad-0175-4fea-9673-452a7feaa9d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[24]</value>
+      <value>(//a[contains(@href, '#')])[32]</value>
+      <webElementGuid>ea5e2ad7-54f5-4df2-a2a9-5e655cbd8292</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +206,62 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/a</value>
+      <webElementGuid>de4cc5e7-6ff1-4d27-8e65-a7d48d21de9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'formulario_provisiones:j_idt1145:j_idt1147:j_idt2299' and @href = '#' and (text() = 'Histórico Provisiones ' or . = 'Histórico Provisiones ')]</value>
+      <webElementGuid>94e1f058-3420-41eb-a9cb-0e9b28c807f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='formulario_provisiones:j_idt1329:j_idt1331:j_idt2626']</value>
+      <webElementGuid>387994b8-a6c8-40ea-bbe7-f3bdc51b81a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formulario_provisiones:j_idt1329:j_idt1331:j_idt2621']/table/tbody/tr/td/a</value>
+      <webElementGuid>6341d6e3-e518-4491-ae62-a89fff43a5a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detalle'])[1]/following::a[2]</value>
+      <webElementGuid>ccf996f5-56e2-44c7-8f43-6d196d40325f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[2]</value>
+      <webElementGuid>40679b08-8e77-4317-a5d3-3569390ab919</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambio de empresa'])[1]/preceding::a[3]</value>
+      <webElementGuid>02774e30-304f-4a7b-9ce9-4bbbca739004</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[24]</value>
+      <webElementGuid>8df1a46a-88c9-4fe5-9f0f-c6d84506fadc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_SI_ley 590</name>
+   <tag></tag>
+   <elementGuidId>4130ece6-4f7e-4181-bd9c-8f2657bb3e78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[10]/div/div[2]/table/tbody/tr/td/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_crearNuevaEmpresaInfo:ley590']/tbody/tr/td[2]/label</value>
+      <webElementGuid>8ec03d37-4622-4190-aaf6-44b0506d2f25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NO'])[2]/following::label[1]</value>
+      <webElementGuid>50cf8f05-4038-4a55-827e-81c1ba15dedb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿La compañía cuenta con el beneficio de aplicación de la ley 590?'])[1]/following::label[2]</value>
+      <webElementGuid>d6395288-4268-45f2-8b6c-c22c58c73b7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[3]/preceding::label[1]</value>
+      <webElementGuid>06af0d2a-2e89-4bb2-8734-73499af0fc2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Trabaja Sábado?'])[1]/preceding::label[2]</value>
+      <webElementGuid>fee276b5-9c4f-4109-83a2-ba73cfa43716</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div[2]/table/tbody/tr/td[2]/label</value>
+      <webElementGuid>666958cd-27cb-4bd2-aefd-ddb3e5ac6bc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' SI' or . = ' SI')]</value>
+      <webElementGuid>9e0b8c77-5e80-4cf5-bf66-c8e9c03c708a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

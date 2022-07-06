@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_1657033461508</name>
+   <tag></tag>
+   <elementGuidId>0e20eb50-5933-4cdf-ac76-e8d8ada15bbc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/main/div/div/div/p[1]/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>e0f831df-32ce-40c6-b5c9-3b3711da822b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657033461508</value>
+      <webElementGuid>ad6ee24a-b6df-496f-969e-d820498bc79c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/1.0_crear_empresa/Frame_1657033437936</value>
+      <webElementGuid>5f2604cc-645a-450d-a1c4-83e09f110ee0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
