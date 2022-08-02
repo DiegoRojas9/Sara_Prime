@@ -20,8 +20,6 @@ WebUI.comment('pendiente ventana de confirmacion no funciona')
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('6_Configuración/3_Liquidación/Page_/span_Insumos Medicos Comfama Sas'))
-
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Configuracin'))

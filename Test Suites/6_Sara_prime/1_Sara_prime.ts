@@ -12,6 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>817d3818-f634-4574-a820-a23089b6d635</testSuiteGuid>
    <testCaseLink>
+      <guid>f932413f-e0c0-4ffc-8123-9ab94dbffb1f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.0_crear_empresa/Crear_empresa</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>b2982553-70be-4b9a-9f05-3e49c4fc8b99</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

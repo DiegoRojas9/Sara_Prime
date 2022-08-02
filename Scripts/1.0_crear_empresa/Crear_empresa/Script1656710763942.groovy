@@ -133,7 +133,9 @@ WebUI.selectOptionByIndex(findTestObject('1.0_crear_empresa/select_-- Seleccione
 
 WebUI.click(findTestObject('1.0_crear_empresa/a_mas'))
 
-/* invalido hasta que se repare subir imagen
+
+/*
+// invalido hasta que se repare subir imagen
 WebUI.click(findTestObject('1.0_crear_empresa/a_ mas imagen'))
 
 String ruta = GlobalVariable.G_rutaarchivos + 'Anonymous.jpg'
@@ -146,6 +148,9 @@ WebUI.uploadFileWithDragAndDrop(findTestObject('1.0_crear_empresa/span_Cargar Ar
 
 WebUI.click(findTestObject('1.0_crear_empresa/a_Aceptar'))
 */
+
+
+
 WebUI.click(findTestObject('1.0_crear_empresa/a_Siguiente'))
 
 WebUI.selectOptionByIndex(findTestObject('1.0_crear_empresa/select_ Banco Dispersor'), 4)

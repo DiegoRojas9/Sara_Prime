@@ -38,6 +38,8 @@ WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'))
 
 WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Descargar'), 0)
 
+WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Descargar'), 0)
+
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Descargar'))
 
 //}

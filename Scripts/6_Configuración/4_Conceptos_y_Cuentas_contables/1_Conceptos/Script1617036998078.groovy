@@ -26,6 +26,10 @@ WebUI.click(findTestObject('6_Configuración/4_Conceptos_y_Cuentas_contables/Pag
 
 WebUI.click(findTestObject('6_Configuración/4_Conceptos_y_Cuentas_contables/Page_/a_Ver Configuracion Contable'))
 
+WebUI.setText(findTestObject('6_Configuración/4_Conceptos_y_Cuentas_contables/2_Seguridad_social/a_filtro'), 'ABONO CUENTA')
+
+WebUI.click(findTestObject('6_Configuración/4_Conceptos_y_Cuentas_contables/2_Seguridad_social/a_lupa'))
+
 WebUI.click(findTestObject('6_Configuración/4_Conceptos_y_Cuentas_contables/1_Nómina/span_Activo_ui-icon ui-icon-pencil'))
 
 WebUI.setText(findTestObject('6_Configuración/4_Conceptos_y_Cuentas_contables/1_Nómina/input_ABONO CUENTA_form_cuentasContables'), 
