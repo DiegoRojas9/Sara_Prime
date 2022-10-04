@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td/a</value>
+         <value>//a[contains(text(),'Generar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>c10cf912-a880-4de3-8be2-d830a013d208</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupReporte:j_idt457</value>
+      <webElementGuid>346a3efb-4720-47ed-8570-4a4e29e690d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>2663ef54-daab-4d66-b101-3fe36510ba2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-solo</value>
+      <webElementGuid>e0d3fdef-29de-46e8-b5f9-ae550329a5d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupReporte:j_idt457&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte:j_idt457&quot;,u:&quot;popupReporte&quot;});return false;</value>
+      <webElementGuid>b71fb82b-5b87-47d4-acb4-6d3643b3db61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Generar</value>
+      <webElementGuid>c4370ecd-e3d9-4b39-b0a7-5ca34d6d1d55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt457&quot;)</value>
+      <webElementGuid>b5418fee-5720-4681-b263-5da977da8f81</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupReporte:j_idt457']</value>
+      <webElementGuid>16c4f11c-cba5-4c42-95ba-0f9ecfd00a2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:idEjecutar']/tbody/tr/td/a</value>
+      <webElementGuid>6bd1e2f2-fb1b-45ad-9e20-215067b6b907</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Generar')]</value>
+      <webElementGuid>734cba43-682f-463b-b1a0-1472cf593354</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Segundo Plano'])[1]/following::a[1]</value>
+      <webElementGuid>7452b013-0056-437e-a8c3-c051dc12a1e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar correo'])[1]/following::a[1]</value>
+      <webElementGuid>3cbd2dbe-4132-439b-8704-da6c0dbe85dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='recurso'])[1]/preceding::a[3]</value>
+      <webElementGuid>e7d4c5a5-67ab-4475-b17e-7d95ee027838</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[11]</value>
+      <webElementGuid>3400bb77-f327-47bd-9351-45f765196a16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,5 +133,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/a</value>
+      <webElementGuid>9ea3b419-a5d6-4562-a543-ce34ccbb6bb0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

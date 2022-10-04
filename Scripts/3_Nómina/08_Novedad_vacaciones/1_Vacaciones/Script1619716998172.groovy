@@ -15,6 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 String dato = ''
 
@@ -50,8 +52,7 @@ WebUI.scrollToElement(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Fecha 100
 
 if (WebUI.waitForElementVisible(findTestObject('3_Nómina/8_Novedad_vacaciones/td_LICENCIA DE LUTO'), 0)) {
     dato = WebUI.getText(findTestObject('3_Nómina/8_Novedad_vacaciones/td_LICENCIA DE LUTO'), FailureHandling.CONTINUE_ON_FAILURE)
-	
-	}
+}
 
 if (dato == 'LICENCIA DE LUTO') {
     WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'))
@@ -78,9 +79,17 @@ WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/input_LICENCIA DE LUT
 
 WebUI.setText(findTestObject('3_Nómina/8_Novedad_vacaciones/input_LICENCIA DE LUTO_Novedad_dias'), '1')
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aplicar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aplicar'))
+WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aplicar'), 0)
+
+/*------------------------Estructura----------------------*/
+
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aplicar'),
+	30)
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
+
 
 WebUI.waitForElementVisible(findTestObject('Result/p_Resultado'), 0)
 

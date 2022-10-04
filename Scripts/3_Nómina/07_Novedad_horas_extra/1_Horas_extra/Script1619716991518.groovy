@@ -16,6 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import ch.qos.logback.core.joran.conditional.ElseAction as ElseAction
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -52,12 +54,10 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extr
         WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), GlobalVariable.G_timeout)
 
         WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
+    } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), 1)) {
+        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
     }
-	else if(WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), 0)) {
-		WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
-	}
 }
-
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
@@ -82,6 +82,9 @@ WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/input_AUXILIO DE MOV
 
 WebUI.setText(findTestObject('3_Nómina/7_Novedad_horas_extra/input_AUXILIO DE MOVILIZACION_fechainicial_input'), '05/03/2021')
 
+WebUI.sendKeys(findTestObject('3_Nómina/7_Novedad_horas_extra/input_AUXILIO DE MOVILIZACION_fechainicial_input'), Keys.chord(
+        Keys.ESCAPE))
+
 WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/input_Obligatorio_popup_fechafinal_input'), 
     GlobalVariable.G_timeout)
 
@@ -91,15 +94,18 @@ WebUI.setText(findTestObject('3_Nómina/7_Novedad_horas_extra/input_Obligatorio_
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'))
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'),
+	30)
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
 String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-if(Result == 'Registro guardado') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
-else {
-	WebUI.acceptAlert()	
-}
 
+if (Result == 'Registro guardado') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

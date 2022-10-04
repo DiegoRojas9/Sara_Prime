@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/a</value>
+         <value>
+/html/body/div[1]/div[2]/span/div[2]/div/form[4]/div/div[5]/div[1]/div[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>2c4b1d6b-f4d4-4099-ad34-16461283e64f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>a7a26518-dde7-4f95-9589-2dcc615a5499</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Regresar</value>
+      <webElementGuid>7cbdf6d8-e514-4373-bc48-accd172e0763</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +47,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('formulario_archivoPagos'),{'formulario_archivoPagos:j_idt919':'formulario_archivoPagos:j_idt919'},'');return false</value>
+      <webElementGuid>5108b2ea-6d9c-4b93-a0ac-6149685cbac0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-icon-regresar us-accion-icono</value>
+      <webElementGuid>1a869f29-a093-40f5-b49b-7bf06d1ff167</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formulario_archivoPagos&quot;)/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-1 text-right&quot;]/a[@class=&quot;us-icon-regresar us-accion-icono&quot;]</value>
+      <webElementGuid>fbfe125f-3c4c-415a-8c54-02273840a4b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('formulario_archivoPagos'),{'formulario_archivoPagos:j_idt919':'formulario_archivoPagos:j_idt919'},'');return false&quot;]</value>
+      <webElementGuid>8667a5a2-9ff3-4099-b7e1-b99759a13687</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='formulario_archivoPagos']/div/div[5]/div/div[2]/a</value>
+      <webElementGuid>07c6fc29-7bdb-4862-a2e4-5a8ebb3f7ed5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[24]</value>
+      <webElementGuid>f0142651-b0ce-49fe-83ce-e10311de7aca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +95,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
+      <webElementGuid>8b907488-8590-46bf-8ebd-226b695496a7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

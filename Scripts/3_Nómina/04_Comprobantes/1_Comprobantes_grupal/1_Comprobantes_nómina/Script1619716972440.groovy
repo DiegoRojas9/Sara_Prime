@@ -49,8 +49,10 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_V
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Vacaciones'))
 
+if(WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'), 1))
+{
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'))
-
+}
 WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/descarga'), 0)
 
 WebUI.switchToWindowIndex(1)

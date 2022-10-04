@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='popupReporte:tablaParametroReporte:1:fecha_input']</value>
+         <value>
+/html/body/div[1]/div[2]/span/form[6]/div/div[2]/table/tbody/tr[1]/td/table/tbody/tr[3]/td/table/tbody/tr[1]/td[2]/table/tbody/tr/td/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>3fe09e92-6752-49dd-928d-11ec70db9fb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupReporte:tablaParametroReporte:1:fecha_input</value>
+      <webElementGuid>5815bdd1-395b-4df3-85e4-9e87be8cd8da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popupReporte:tablaParametroReporte:1:fecha_input</value>
+      <webElementGuid>38e9c37e-6d60-45dc-b136-eee7188228f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>0613b306-c7aa-4367-ab3a-a9272e5138d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus</value>
+      <webElementGuid>1d72b991-afe8-4cd8-a025-ef9324fc3ce9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>dd/mm/yyyy</value>
+      <webElementGuid>2b0306d7-b6ad-4933-9acb-9857e931151a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupReporte:tablaParametroReporte:1:fecha&quot;,e:&quot;change&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte:tablaParametroReporte:1:fecha&quot;});</value>
+      <webElementGuid>0f79fb5f-733c-4993-bcd7-d64d2378784a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>1b8e72c3-39e8-41d1-9069-27f74cf99450</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>de0c723c-3c44-4a9b-a8aa-8181121a7da7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>5224a1ac-f057-40a8-b251-88073dcb2d7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:tablaParametroReporte:1:fecha_input&quot;)</value>
+      <webElementGuid>4e2c39d2-9d39-43a0-a232-c748565c796b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='popupReporte:tablaParametroReporte:1:fecha_input']</value>
+      <webElementGuid>6d588278-83ab-433f-bf7b-f7131482912a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='popupReporte:tablaParametroReporte:1:fecha']/input</value>
+      <webElementGuid>cdbbb0f3-ebc7-49a9-88de-263bfeb2aa9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/input</value>
+      <webElementGuid>cfbfbd80-d530-4ac7-af67-578bdcbb41fc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

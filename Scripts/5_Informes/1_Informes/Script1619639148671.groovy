@@ -15,7 +15,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword as WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.junit.After as After
@@ -26,12 +26,15 @@ import org.testng.Assert as Assert
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import java.io.File as File
 
-
 String RutaA = WebUI.callTestCase(findTestCase('5_Informes/1_detector_carpeta_downloads'), [:], FailureHandling.STOP_ON_FAILURE)
-String rutaA = RutaA
-String Archivo = '2_GT_-_Reporte_Programación.xls'
-System.out.println(rutaA)
 
+String rutaA = RutaA
+
+String Archivo = 'Reporte_Maestro_Empleados.xls'
+
+String Archivo1 = 'Reporte_de_historico_de_salario.xls'
+
+System.out.println(rutaA)
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -45,19 +48,51 @@ WebUI.click(findTestObject('5_Informes/a_Ir'))
 
 WebUI.click(findTestObject('5_Informes/td_2 GT - Reporte Programacin'))
 
-WebUI.setText(findTestObject('5_Informes/input_CONTRATO_popupReportetablaParametro'), '0')
+WebUI.selectOptionByIndex(findTestObject('5_Informes/select_Estado Laboral'), 2)
 
-WebUI.setText(findTestObject('5_Informes/input_Fecha Inicial'), '03/12/2020')
+WebUI.click(findTestObject('5_Informes/radiob_Descargar'))
+
+WebUI.click(findTestObject('5_Informes/a_Generar'))
+
+WebUI.click(findTestObject('5_Informes/a_Continuar'))
+
+WebUI.click(findTestObject('5_Informes/a_Descargar'))
+
+WebUI.click(findTestObject('5_Informes/a_Cerrar'))
+
+WebUI.waitForElementNotVisible(findTestObject('5_Informes/a_Cerrar'), 2)
+
+WebUI.click(findTestObject('5_Informes/a_ ir Gestion'))
+
+WebUI.click(findTestObject('5_Informes/a_Numero De Empleados'))
+
+WebUI.setText(findTestObject('5_Informes/input_Fecha Inicial'), '03/07/2017')
 
 WebUI.sendKeys(findTestObject('5_Informes/input_Fecha Inicial'), Keys.chord(Keys.ESCAPE))
 
-WebUI.waitForElementClickable(findTestObject('5_Informes/span_Fecha Final'), GlobalVariable.G_timeout)
+WebUI.setText(findTestObject('5_Informes/input_Fecha Final'), '10/07/2017')
 
-WebUI.click(findTestObject('5_Informes/span_Fecha Final'))
+WebUI.sendKeys(findTestObject('5_Informes/input_Fecha Final'), Keys.chord(Keys.ESCAPE))
 
-WebUI.setText(findTestObject('5_Informes/input_Fecha Final'), '10/12/2020')
+WebUI.click(findTestObject('5_Informes/a_Generar'))
 
-WebUI.click(findTestObject('5_Informes/span_Que desea hacer_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
+WebUI.click(findTestObject('5_Informes/a_formato'))
+
+WebUI.click(findTestObject('5_Informes/a_Cerrar'))
+
+WebUI.waitForElementNotVisible(findTestObject('5_Informes/a_Cerrar'), 2)
+
+WebUI.click(findTestObject('5_Informes/a_ir Especiales'))
+
+WebUI.click(findTestObject('5_Informes/a_Cambio De Sueldo Para Validacion De La Base De Sueldo De Cesantias'))
+
+WebUI.setText(findTestObject('5_Informes/input_Fecha inicial Especiales'), '03/07/2017')
+
+WebUI.sendKeys(findTestObject('5_Informes/input_Fecha inicial Especiales'), Keys.chord(Keys.ESCAPE))
+
+WebUI.click(findTestObject('5_Informes/radiob_Descargar'))
+
+WebUI.click(findTestObject('5_Informes/radiob_Descargar - Copy'))
 
 WebUI.click(findTestObject('5_Informes/a_Generar'))
 
@@ -67,27 +102,41 @@ WebUI.click(findTestObject('5_Informes/a_Descargar'))
 
 // remove this line if you want to keep the file
 if (WebUI.waitForElementClickable(findTestObject('5_Informes/a_Descargar'), GlobalVariable.G_timeout)) {
-	WebUI.waitForElementClickable(findTestObject('5_Informes/span_Informes_ui-icon ui-icon-closethick'), GlobalVariable.G_timeout)
+    WebUI.waitForElementClickable(findTestObject('5_Informes/span_Informes_ui-icon ui-icon-closethick'), GlobalVariable.G_timeout)
 
-	WebUI.click(findTestObject('5_Informes/span_Informes_ui-icon ui-icon-closethick'))
+    WebUI.click(findTestObject('5_Informes/span_Informes_ui-icon ui-icon-closethick'))
 }
 
+Assert.assertTrue(archivoDescargado(rutaA, Archivo, Archivo1))
 
-Assert.assertTrue(archivoDescargado(rutaA,Archivo))
-boolean archivoDescargado(String RutaA,String Archivo){
-	File dir = new File (RutaA)
-	File[] dirContentenidos=dir.listFiles()
-	for(int i= 0;i< dirContentenidos.length;i++) {
-		if(dirContentenidos[i].getName().equals(Archivo)) {
-			dirContentenidos[i].delete();
-			String ResultF='PRUEBA OK'
-			WebUI.closeBrowser()
+boolean archivoDescargado(String RutaA, String Archivo,String Archivo1) {
+    File dir = new File(RutaA)
+
+    File[] dirContentenidos = dir.listFiles()
+	String result0='0'
+	
+	for (int i = 0; i < dirContentenidos.length; i++) {
+		if((dirContentenidos[i]).getName().equals(Archivo)) {
+			(dirContentenidos[i]).delete()
 			
-			return true
 		}
-		
 	}
-	return false
-	WebUI.acceptAlert()
-	}
+	
+	
+    for (int i = 0; i < dirContentenidos.length; i++) {
+        if ((dirContentenidos[i]).getName().equals(Archivo1)) {
+            (dirContentenidos[i]).delete()
+
+            String ResultF = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+
+            return true
+        }
+    }
+    
+    return false
+    
+    WebUI.acceptAlert()
+}
 

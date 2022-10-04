@@ -15,6 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -62,7 +64,11 @@ String Result = WebUI.getText(findTestObject('3_Nómina/2_Archivo_pagos/Page_/la
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'))
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Filtro_us-icon-regresar us-accion-icono'))
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Filtro_us-icon-regresar us-accion-icono'),
+	30)
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
 
 if (Result == 'Has modificado la cuenta del colaborador, ten en cuenta que este cambio es permanente, por lo cual los próximos archivos de banco serán generados para este colaborador con esta cuenta.') {
     String Resultado = 'PRUEBA OK'

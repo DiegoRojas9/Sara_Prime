@@ -6,12 +6,12 @@
    <elementGuidId>9a0a9f73-1ff6-493b-97d6-0e22d2b5c435</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td > a.us-boton</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Guardar')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_popupCrearCargo'),{'form_popupCrearCargo:j_idt818':'form_popupCrearCargo:j_idt818'},'');return false&quot;]</value>
+         <key>CSS</key>
+         <value>td > a.us-boton</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>5f4b0a4e-b826-4599-b2fd-11f30ece625c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>3f6d19c6-3318-431b-9739-19bebc02138a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('form_popupCrearCargo'),{'form_popupCrearCargo:j_idt818':'form_popupCrearCargo:j_idt818'},'');return false</value>
+      <webElementGuid>faa77d85-d091-4b16-830a-d2e89eff40e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton</value>
+      <webElementGuid>1855c546-1fdc-4026-a7e1-fd0cd5af26b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
+      <webElementGuid>a81e97c0-e8e9-4bea-a112-2a949eaee908</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupCrearCargo:j_idt808_content&quot;)/table[@class=&quot;popupBody&quot;]/tbody[1]/tr[2]/td[1]/a[@class=&quot;us-boton&quot;]</value>
+      <webElementGuid>1c30ec28-a360-4efa-b2ae-66ceea0e03e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_popupCrearCargo'),{'form_popupCrearCargo:j_idt818':'form_popupCrearCargo:j_idt818'},'');return false&quot;]</value>
+      <webElementGuid>b36df08f-a0c0-414f-a5f6-36fa44b36052</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupCrearCargo:j_idt808_content']/table/tbody/tr[2]/td/a</value>
+      <webElementGuid>6de54006-fd5a-45a5-b720-5b0b07a2bc95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Guardar')]</value>
+      <webElementGuid>5ca8cc0f-e14e-4406-86a7-14f7458bd38b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/following::a[1]</value>
+      <webElementGuid>a5c16d98-9b03-407e-ba8a-211246485807</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear nuevo cargo'])[1]/following::a[1]</value>
+      <webElementGuid>01f61987-2e43-45ff-96be-3ac5ba84f5ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <webElementGuid>27e9a70a-7c32-4d44-93e8-9b5f4ce15898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <webElementGuid>26140bfd-6503-4586-af05-1d93b08ade49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
+      <webElementGuid>7918280f-265e-463d-a250-602f0c5588e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[19]</value>
+      <webElementGuid>19b7b299-0761-4a9a-a0a9-b331bce22d83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +142,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/a</value>
+      <webElementGuid>47ef82b3-2124-4a3f-a246-7771088b4228</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

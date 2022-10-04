@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://186.86.125.178:8093/saraprimeweb/registro/registro.jsf')
+WebUI.navigateToUrl(GlobalVariable.G_Inscripcion)
 
 WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/td_CORPORATE'))
 
@@ -26,7 +26,7 @@ WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Siguiente'))
 
 WebUI.selectOptionByIndex(findTestObject('7_Empresa/2_Crear_empresa/select_SeleccionarCedula Ciudadania'), '3')
 
-WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Numero Documento_empresa') /*'900800150'*/ , numAleatorio())
+WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_Numero Documento_empresa' /*'900800150'*/ ), numAleatorio())
 
 WebUI.setText(findTestObject('7_Empresa/2_Crear_empresa/input_D.V_verificacion'), '1')
 
@@ -50,23 +50,25 @@ WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/span_Confirmar Correo_ui-c
 
 WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Crear Cuenta'))
 
-String  Result = WebUI.getText(findTestObject('7_Empresa/2_Crear_empresa/a_result'))
+String Result = WebUI.getText(findTestObject('7_Empresa/2_Crear_empresa/a_result'))
 
 WebUI.click(findTestObject('7_Empresa/2_Crear_empresa/a_Aceptar'))
-if(Result == 'Hemos enviado un correo a aut***************************.com con las instruciones para seguir con el proceso de registro.') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
+
+if (Result == 'Hemos enviado un correo a aut***************************.com con las instruciones para seguir con el proceso de registro.') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else if (Result == 'Hemos enviado un correo a aut****************************.com con las instruciones para seguir con el proceso de registro.') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else if (Result == 'Hemos enviado un correo a aut**************************.com con las instruciones para seguir con el proceso de registro.') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else if(Result == 'Hemos enviado un correo a aut****************************.com con las instruciones para seguir con el proceso de registro.')
-{	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()}
-
-else if(Result == 'Hemos enviado un correo a aut**************************.com con las instruciones para seguir con el proceso de registro.')
-	{	String Resultado = 'PRUEBA OK'
-		WebUI.closeBrowser()}
-else {WebUI.acceptAlert()}
-
-
 
 def numAleatorio() {
     double random_double = (Math.random() * 9999) + 999

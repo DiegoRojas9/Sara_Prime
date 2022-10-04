@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>URL_PrimeFace</description>
-      <initValue>'http://186.86.125.178:8093/saraprimeweb/'</initValue>
+      <initValue>'http://192.168.2.19:8580/saraprimeweb/webcommon/acceso.jsf\n'</initValue>
       <name>G_LoginPrime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -28,5 +28,10 @@
       <description></description>
       <initValue>'E:\\unionweb14\\'</initValue>
       <name>G_rutaarchivos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.2.19:8580/saraprimeweb/registro/registro.jsf'</initValue>
+      <name>G_Inscripcion</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
