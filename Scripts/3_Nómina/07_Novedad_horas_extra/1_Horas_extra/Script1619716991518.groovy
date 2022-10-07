@@ -37,10 +37,6 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extr
         WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'), GlobalVariable.G_timeout)
 
         WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'))
-
-        WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), GlobalVariable.G_timeout)
-
-        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
     }
     
     if (WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_AUXILIO DE MOVILIZACION_popupDetalleNovedadesj_idt17530j_idt1765'), 
@@ -94,8 +90,8 @@ WebUI.setText(findTestObject('3_Nómina/7_Novedad_horas_extra/input_Obligatorio_
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'), GlobalVariable.G_timeout)
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'),
-	30)
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'), 30)
+
 /*--------------------------------------------------*/
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 

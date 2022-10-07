@@ -24,8 +24,6 @@ WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Fecha 10052021_formulario_nomina'))
 
-WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'))
-
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Continuar'))
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/2_Comprobante_individual/a_Descargar'))

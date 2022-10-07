@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Nmina</name>
+   <name>a_Proceso de Nomina</name>
    <tag></tag>
-   <elementGuidId>515f5e29-049b-4f32-b784-b52bedb7903b</elementGuidId>
+   <elementGuidId>3d607fbb-abd5-429b-a78c-da9b0a957fcf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -12,111 +12,115 @@
       <entry>
          <key>CSS</key>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/saraprimeweb/compensacion/empleados/listadoEmpleadosPrime.jsf' and (text() = 'Colaboradores' or . = 'Colaboradores')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>87784d22-edae-4da7-abd5-49fb566cdcb6</webElementGuid>
+      <webElementGuid>f926c9fb-f19d-44cb-b6b7-2fba7a08d452</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/saraprimeweb/nomina/nomina.jsf</value>
-      <webElementGuid>391738a3-cc5e-4bd0-9e63-19e71d63c75a</webElementGuid>
+      <value>/saraprimeweb/compensacion/empleados/listadoEmpleadosPrime.jsf</value>
+      <webElementGuid>053fb96a-147a-4d8d-8167-022940049440</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Nómina</value>
-      <webElementGuid>2feb3436-0615-4f17-8f94-117a6a9527a6</webElementGuid>
+      <value>Colaboradores</value>
+      <webElementGuid>2c40a660-1ef9-4532-b86a-9152f2b74733</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;j_idt47&quot;)/ul[@class=&quot;list-group us-select-menu&quot;]/li[3]/a[1]</value>
-      <webElementGuid>255beed6-696f-4e85-be39-b2f9c1a5eddd</webElementGuid>
+      <value>id(&quot;j_idt44&quot;)/ul[@class=&quot;list-group us-select-menu&quot;]/li[2]/a[1]</value>
+      <webElementGuid>2a9c9513-973b-4b2c-9b94-b5462d5c45ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='j_idt47']/ul/li[3]/a</value>
-      <webElementGuid>a57597d7-83fb-44d8-982c-f61b3046decc</webElementGuid>
+      <value>//form[@id='j_idt44']/ul/li[2]/a</value>
+      <webElementGuid>42318517-44cc-43a0-9a1c-8ac386015b6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Nómina')]</value>
-      <webElementGuid>23c262f3-0c19-4bd3-923b-04a879912764</webElementGuid>
+      <value>//a[contains(text(),'Colaboradores')]</value>
+      <webElementGuid>c6fbbcfe-91bf-4a87-9037-4bf038566c8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Colaboradores'])[1]/following::a[1]</value>
-      <webElementGuid>fc32d95b-11a8-4b5f-8705-1bf65734b986</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estadísticas'])[1]/following::a[1]</value>
+      <webElementGuid>a87a3566-87de-4cf4-8482-df8b49ce4bfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estadísticas'])[1]/following::a[2]</value>
-      <webElementGuid>d753a5e0-d171-4666-8942-86cceb42979c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADMINISTRADOR_MASIVO'])[1]/following::a[2]</value>
+      <webElementGuid>311d3815-ae0e-47e2-a850-e97d99278616</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendario'])[1]/preceding::a[1]</value>
-      <webElementGuid>51b7b9de-9552-4ef0-acc8-5bd4a2096d9b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nómina'])[1]/preceding::a[1]</value>
+      <webElementGuid>5fce66ca-9a08-405b-974c-3399661f68f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informes'])[1]/preceding::a[2]</value>
-      <webElementGuid>862df696-1b86-45eb-8817-5338c4b03df3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendario'])[1]/preceding::a[2]</value>
+      <webElementGuid>4862d556-568b-4705-9dc5-98956b1fd1b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Nómina']/parent::*</value>
-      <webElementGuid>f1e6c331-43a3-41d3-9f9a-7fa5995a6e41</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Colaboradores']/parent::*</value>
+      <webElementGuid>9389c1e0-bd1a-489c-8534-27714846873a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/saraprimeweb/nomina/nomina.jsf')]</value>
-      <webElementGuid>1e68b150-8e70-42f2-b582-66cebb1faf7f</webElementGuid>
+      <value>//a[contains(@href, '/saraprimeweb/compensacion/empleados/listadoEmpleadosPrime.jsf')]</value>
+      <webElementGuid>5847e89d-64d3-412a-9426-d811c09efa72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/ul/li[3]/a</value>
-      <webElementGuid>30fa492c-3318-47b6-8e1b-95cceac39331</webElementGuid>
+      <value>//form/ul/li[2]/a</value>
+      <webElementGuid>f64851c9-44f2-415a-8fda-acb6a99fd482</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

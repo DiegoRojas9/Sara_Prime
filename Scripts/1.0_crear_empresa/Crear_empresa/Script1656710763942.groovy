@@ -191,9 +191,8 @@ if (WebUI.waitForElementVisible(findTestObject('1.0_crear_empresa/finalizacion')
 
     WebUI.click(findTestObject('1.0_crear_empresa/a_Aceptar'))
 
-    CrearColaborador()
-} //PENDIENTE  POR REPARAR SUBIR  FOTO
-/*
+    CrearColaborador() //PENDIENTE  POR REPARAR SUBIR  FOTO
+    /*
     WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar foto'))
 
     String ruta = GlobalVariable.G_rutaarchivos + 'Anonymous.jpg'
@@ -204,7 +203,7 @@ if (WebUI.waitForElementVisible(findTestObject('1.0_crear_empresa/finalizacion')
 
     WebUI.click(findTestObject('2_Colaboradores/Page_/a_Aceptar - Copy'))
 	*/
-else {
+} else {
     WebUI.acceptAlert()
 }
 
@@ -217,6 +216,14 @@ def numAleatorio() {
 }
 
 def CrearColaborador() {
+    WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
+
+    WebUI.click(findTestObject('2_Colaboradores/Page_/a_Proceso de Nomina'))
+	
+	String filepath0 = WebUI.getAttribute(findTestObject('2_Colaboradores/Page_/span_Fecha Inicial'),'value')
+	
+	String filepath1 = WebUI.getAttribute(findTestObject('2_Colaboradores/Page_/span_Fecha Final'),'value')
+	
     WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
     WebUI.waitForElementPresent(findTestObject('2_Colaboradores/Page_/a_Colaboradores'), GlobalVariable.G_timeout)
@@ -320,7 +327,7 @@ def CrearColaborador() {
 
     WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Contrato --APRENDIZ'), '5')
 
-    WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), '01/07/2022')
+    WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), filepath0 )
 
     try {
         WebUI.selectOptionByIndex(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Centro Costo --Gerencia'), 
@@ -409,7 +416,7 @@ def CrearColaborador() {
         '1022987456')
 
     WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Aplicacin _popupRegistroBeneficiariosUpc'), 
-        '10/07/2022')
+        filepath0)
 
     WebUI.sendKeys(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Aplicacin _popupRegistroBeneficiariosUpc'), 
         Keys.chord(Keys.ESCAPE))
@@ -426,7 +433,7 @@ def CrearColaborador() {
         GlobalVariable.G_timeout)
 
     WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Final _popupRegistroBeneficiariosUpc'), 
-        '29/07/2022')
+        filepath1 )
 
     WebUI.sendKeys(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Final _popupRegistroBeneficiariosUpc'), 
         Keys.chord(Keys.ESCAPE))

@@ -38,7 +38,7 @@ WebUI.sendKeys(findTestObject('3_Nómina/1_Actualización_colaborador/1_Informac
     Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_AGUDELO ARANGO ANDREA_formulario_nominaj_idt5030verCambioEmpleado'), 
-    GlobalVariable.G_timeout)
+    0)
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_AGUDELO ARANGO ANDREA_formulario_nominaj_idt5030verCambioEmpleado'))
 

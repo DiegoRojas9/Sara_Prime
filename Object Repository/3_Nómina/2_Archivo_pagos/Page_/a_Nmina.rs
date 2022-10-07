@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Nómina']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Proceso de Nómina']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>55c5b3b3-e135-4c4b-adbe-d0325820d0b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/saraprimeweb/nomina/nomina.jsf</value>
+      <webElementGuid>a3b82582-291f-4248-8b97-73dfb0ff4135</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nómina</value>
+      <webElementGuid>65ba2da6-b9c1-4947-822a-8798e1007f2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt47&quot;)/ul[@class=&quot;list-group us-select-menu&quot;]/li[3]/a[1]</value>
+      <webElementGuid>3e33fc0f-c3d5-49f9-8049-64a37cc967d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='j_idt47']/ul/li[3]/a</value>
+      <webElementGuid>038c7eb1-863e-4da0-9b97-45b175429437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Nómina')]</value>
+      <webElementGuid>310074e0-5ee8-48bb-935d-c86d3c8e1fd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Colaboradores'])[1]/following::a[1]</value>
+      <webElementGuid>87ac0c91-3939-4082-9b4a-6b5c935e2f63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estadísticas'])[1]/following::a[2]</value>
+      <webElementGuid>b7494839-9856-4dba-b27a-675b46863222</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendario'])[1]/preceding::a[1]</value>
+      <webElementGuid>77d0c62e-a402-4aa1-b692-f34b6f38ce18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informes'])[1]/preceding::a[2]</value>
+      <webElementGuid>d62e7550-5efb-44f7-b2c2-6131b0d7b481</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nómina']/parent::*</value>
+      <webElementGuid>8ab29850-35d3-4741-b646-1afc58abbcab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/saraprimeweb/nomina/nomina.jsf')]</value>
+      <webElementGuid>a2898803-fbfe-414a-8e14-bd50a7d5a748</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +117,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/ul/li[3]/a</value>
+      <webElementGuid>a5336c03-b3d8-4b36-95c0-79f80f06c54b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

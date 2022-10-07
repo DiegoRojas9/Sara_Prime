@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Nómina']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Proceso de Nómina']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>aa233daf-1084-409a-a0c4-6b5c8b64ca81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>ea077dfd-a6fa-44d5-95e9-12562b80ca2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +37,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.ab('j_idt56:main',event,'click','@this',0,{'params':{'co.com.unionsoluciones.custommenu.url':'9041037410e44a40aa9df780a55ee331'}}); return false</value>
+      <webElementGuid>9b3eff7f-cbd2-44ce-b89b-c26ad4b2ce6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nómina</value>
+      <webElementGuid>64967bab-263c-48fa-8b75-9f8fedd38c8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt56:main&quot;)/ul[@class=&quot;us-main-menu&quot;]/li[@class=&quot;principales&quot;]/a[1]</value>
+      <webElementGuid>8a67785a-fde4-49fa-90f4-a2cbae88f8db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.ab('j_idt56:main',event,'click','@this',0,{'params':{'co.com.unionsoluciones.custommenu.url':'9041037410e44a40aa9df780a55ee331'}}); return false&quot;]</value>
+      <webElementGuid>ab5d7838-6935-4b06-b8b4-d1c634fda1e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='j_idt56:main']/ul/li[7]/a</value>
+      <webElementGuid>a5cbfc91-976a-40bf-af4d-8b3bc77b0367</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Nómina')]</value>
+      <webElementGuid>37096626-b1ae-4e2c-910d-d291acb543de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Insumos Medicos Comfama Sas'])[2]/following::a[7]</value>
+      <webElementGuid>b8a1e1c1-e810-4f0e-8e71-cd6067849889</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMILIA VARGAS MARTINEZ'])[2]/following::a[7]</value>
+      <webElementGuid>5e1b097d-f7f6-4ee6-8b2a-fc7611f99aaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bienvenido a'])[1]/preceding::a[2]</value>
+      <webElementGuid>0457b028-cf1c-429d-9675-6ceb0cf4e104</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SARAPRIME'])[1]/preceding::a[2]</value>
+      <webElementGuid>5f8f46c8-dd77-4e36-ae75-ea16ec7c158c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nómina']/parent::*</value>
+      <webElementGuid>08b1321b-add3-493c-96ef-5fe74dfd357f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[12]</value>
+      <webElementGuid>780c9eac-936c-4f2d-9f8a-01985f3feee4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +133,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[7]/a</value>
+      <webElementGuid>b35a638b-7dae-41be-b9c6-91783875d383</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       <entry>
          <key>XPATH</key>
          <value>
-/html/body/div[1]/div[2]/span/div/div/form[2]/div[3]/div[2]/div/table/tbody/tr/td[7]/a[3]</value>
+/html/body/div[1]/div[2]/span/div[2]/div/form[2]/div[3]/div[2]/div/table/tbody/tr/td[2]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0c1c55ad-66d7-4572-a4e7-4a15cbf638d9</webElementGuid>
+      <webElementGuid>ff7235ce-60d8-49b0-b95d-0e28746805b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formulario_nomina:j_idt503:0:verCambioEmpleado</value>
-      <webElementGuid>38cff19a-9029-4e13-926e-27d0f5ec9baa</webElementGuid>
+      <webElementGuid>4a99133e-3845-4aa2-aecc-93cdcde7c202</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>526481a2-b37f-40ed-8d83-6d5cb63361e2</webElementGuid>
+      <webElementGuid>8d9d5ca4-03f9-4183-9212-655ddfdfd16f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget glyphicons glyphicons-user-add</value>
-      <webElementGuid>23348a92-db1b-42b6-ad51-1651c7d69f2a</webElementGuid>
+      <webElementGuid>b129f577-66e3-4587-b8d5-e8bc07a5dd54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.addSubmitParam('formulario_nomina',{'formulario_nomina:j_idt503:0:verCambioEmpleado':'formulario_nomina:j_idt503:0:verCambioEmpleado','empleadoVer':'co.com.unionsoluciones.saraprime.logica.dto.EmpleadoPeriodoNominaDTO@6ea9b824'}).submit('formulario_nomina');return false;</value>
-      <webElementGuid>93ef1d96-6c6c-4e6f-9a9f-1ca3354c8919</webElementGuid>
+      <webElementGuid>e854982a-dee7-4fec-8d9c-48638cc49568</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formulario_nomina:j_idt503:0:verCambioEmpleado&quot;)</value>
-      <webElementGuid>183e0539-f85b-4f1c-9823-c06869234a1e</webElementGuid>
+      <webElementGuid>169b600e-9279-4f83-ac03-dfbf9488e12f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='formulario_nomina:j_idt503:0:verCambioEmpleado']</value>
-      <webElementGuid>a6dbd90f-58a2-4f50-b5fe-1d25ac4b9f76</webElementGuid>
+      <webElementGuid>a9c14974-7bf5-4774-a7b0-649084e71581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formulario_nomina:j_idt503_data']/tr/td[7]/a[3]</value>
-      <webElementGuid>bf2c2d10-a00c-4248-b281-dd4ef732d043</webElementGuid>
+      <webElementGuid>8ffa7260-d156-4521-86ad-ce0261c09dcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[34]</value>
-      <webElementGuid>6a3a801a-0ccc-41c5-ab37-f9045a9edd84</webElementGuid>
+      <webElementGuid>9d7eeafd-58ab-478e-9938-8646d418d667</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]</value>
-      <webElementGuid>662a0cf1-e7ca-4a69-ac14-b07bc9847a22</webElementGuid>
+      <webElementGuid>c685772a-0734-47dd-a4ba-a33f23a0c76e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
