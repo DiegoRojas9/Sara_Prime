@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Habilitar para Transmitir</name>
+   <tag></tag>
+   <elementGuidId>2dd494b4-4021-4dc3-88a7-a5551e295201</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Habilitar para Transmitir')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>56bc8e37-7252-4ea4-aa8a-d2729680a8a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>habilitar_nominaelectronica:j_idt131</value>
+      <webElementGuid>f58a725f-5892-4694-b032-09a24e3fc4fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>b8b7d3d7-db62-4421-8602-4eaa8317498b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton btn-regresar</value>
+      <webElementGuid>a6c93c23-99e8-4a88-a775-67387d4e9da0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;habilitar_nominaelectronica:j_idt131&quot;,f:&quot;habilitar_nominaelectronica&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>a2ea43d3-ff7e-4481-a5c3-be0282915c0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Habilitar para Transmitir</value>
+      <webElementGuid>5fe00393-d418-456b-8e18-91e568356e7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;habilitar_nominaelectronica:j_idt131&quot;)</value>
+      <webElementGuid>b6f90db8-029e-4085-9d65-9b0cceb49b4f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='habilitar_nominaelectronica:j_idt131']</value>
+      <webElementGuid>0fa5366c-41d9-48a4-ab93-0d0d4610dd4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='habilitar_nominaelectronica:j_idt102_content']/table[3]/tbody/tr[3]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>34d15d11-ce15-4422-baff-09efcb1d8027</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Habilitar para Transmitir')]</value>
+      <webElementGuid>8cdb4813-0a84-4517-a169-52bada964dc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingresar TestSetID'])[1]/following::a[1]</value>
+      <webElementGuid>69ed2286-908e-4cba-a507-52e6a8125327</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingresar ID'])[1]/following::a[1]</value>
+      <webElementGuid>182f4242-6da5-4d98-a617-af611d55c2dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte Técnico'])[1]/preceding::a[1]</value>
+      <webElementGuid>829dae15-36d2-4291-b519-3e8af010123c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[2]</value>
+      <webElementGuid>0bfd7725-b112-45e3-908e-f822a2d28670</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Habilitar para Transmitir']/parent::*</value>
+      <webElementGuid>b80045e4-4916-4e36-9d42-ccdef92f8304</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[14]</value>
+      <webElementGuid>dc8ac8c4-f2f0-4f70-8d92-6917fae7ec1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/a</value>
+      <webElementGuid>9f695e3e-c864-4515-83a6-b4f7929a01e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'habilitar_nominaelectronica:j_idt131' and @href = '#' and (text() = 'Habilitar para Transmitir' or . = 'Habilitar para Transmitir')]</value>
+      <webElementGuid>16170e80-143f-4561-b751-1f42415159f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

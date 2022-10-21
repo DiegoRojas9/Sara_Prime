@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>URL_PrimeFace</description>
-      <initValue>'http://186.86.125.178:8093/saraprimeweb/webcommon/acceso.jsf\r\n'</initValue>
+      <initValue>'http://186.86.125.178:8093/saraprimeweb/webcommon/acceso.jsf'</initValue>
       <name>G_LoginPrime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

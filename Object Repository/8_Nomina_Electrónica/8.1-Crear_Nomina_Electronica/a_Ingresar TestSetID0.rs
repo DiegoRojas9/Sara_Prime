@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Ingresar TestSetID0</name>
+   <tag></tag>
+   <elementGuidId>6d377674-cf5e-4db8-8480-29b0eb034083</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b3920421-98cf-4afc-b7a8-2db55065dff8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>habilitar_nominaelectronica:j_idt122</value>
+      <webElementGuid>1ecfb55f-7a83-4c9d-ae0d-599c42c83e38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>c3186c9c-1d03-49f5-8df7-ee114d294602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton btn-regresar</value>
+      <webElementGuid>6a595f79-a463-4b87-a993-f324deed2ef9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;habilitar_nominaelectronica:j_idt122&quot;,f:&quot;habilitar_nominaelectronica&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>f8d1eec4-442b-4961-ae9f-5ec3e0e9323c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ingresar TestSetID</value>
+      <webElementGuid>e57e9562-da4f-46a0-842f-bcea1237c56f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;habilitar_nominaelectronica:j_idt122&quot;)</value>
+      <webElementGuid>f31a8cb3-2d82-49e4-92c2-98f19793d22b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='habilitar_nominaelectronica:j_idt122']</value>
+      <webElementGuid>e875d17e-8afb-4e34-882b-04d07c4498ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='habilitar_nominaelectronica:j_idt102_content']/table[2]/tbody/tr[3]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>e623a758-385c-498b-8f1d-fa32d3d2f97d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Ingresar TestSetID')]</value>
+      <webElementGuid>bd72d31a-4748-4711-92ae-ab8d8882a423</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingresar ID'])[1]/following::a[1]</value>
+      <webElementGuid>02c8f900-ec0b-4f86-ad44-91a75e36554f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mira el video y sigue las instruccciones'])[1]/following::a[1]</value>
+      <webElementGuid>8a88123c-e156-444d-8b52-1a1d6f21dd50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Habilitar para Transmitir'])[1]/preceding::a[1]</value>
+      <webElementGuid>2e3d938f-a6d4-46ee-ae36-e279200a648f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte Técnico'])[1]/preceding::a[1]</value>
+      <webElementGuid>922be541-1ad9-47fd-9175-7a6155767684</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ingresar TestSetID']/parent::*</value>
+      <webElementGuid>d81082c4-af46-4309-abd7-c70b6bfe9c32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[14]</value>
+      <webElementGuid>df33eb70-9ff5-45d8-892c-70c5b71ae0c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/a</value>
+      <webElementGuid>9c15e42c-f3bb-457f-8743-cc2eb13707d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'habilitar_nominaelectronica:j_idt122' and @href = '#' and (text() = 'Ingresar TestSetID' or . = 'Ingresar TestSetID')]</value>
+      <webElementGuid>e8b241a1-adfe-4876-b870-cc2572ca47fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
