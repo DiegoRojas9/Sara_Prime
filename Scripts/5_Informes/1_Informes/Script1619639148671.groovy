@@ -36,7 +36,7 @@ String Archivo1 = 'Reporte_de_historico_de_salario.xls'
 
 System.out.println(rutaA)
 
-WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.0_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
@@ -46,6 +46,10 @@ WebUI.waitForElementClickable(findTestObject('5_Informes/a_Ir'), GlobalVariable.
 
 WebUI.click(findTestObject('5_Informes/a_Ir'))
 
+WebUI.setText(findTestObject('5_Informes/input_filtroEmpleado'), 'Maestro')
+
+WebUI.sendKeys(findTestObject('5_Informes/input_filtroEmpleado'), Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('5_Informes/td_2 GT - Reporte Programacin'))
 
 WebUI.selectOptionByIndex(findTestObject('5_Informes/select_Estado Laboral'), 2)
@@ -54,8 +58,12 @@ WebUI.click(findTestObject('5_Informes/radiob_Descargar'))
 
 WebUI.click(findTestObject('5_Informes/a_Generar'))
 
-WebUI.click(findTestObject('5_Informes/a_Continuar'))
 
+
+if(WebUI.waitForElementVisible(findTestObject('5_Informes/a_Continuar'), 1)) {
+
+WebUI.click(findTestObject('5_Informes/a_Continuar'))
+}
 WebUI.click(findTestObject('5_Informes/a_Descargar'))
 
 WebUI.click(findTestObject('5_Informes/a_Cerrar'))
@@ -109,20 +117,19 @@ if (WebUI.waitForElementClickable(findTestObject('5_Informes/a_Descargar'), Glob
 
 Assert.assertTrue(archivoDescargado(rutaA, Archivo, Archivo1))
 
-boolean archivoDescargado(String RutaA, String Archivo,String Archivo1) {
+boolean archivoDescargado(String RutaA, String Archivo, String Archivo1) {
     File dir = new File(RutaA)
 
     File[] dirContentenidos = dir.listFiles()
-	String result0='0'
-	
-	for (int i = 0; i < dirContentenidos.length; i++) {
-		if((dirContentenidos[i]).getName().equals(Archivo)) {
-			(dirContentenidos[i]).delete()
-			
-		}
-	}
-	
-	
+
+    String result0 = '0'
+
+    for (int i = 0; i < dirContentenidos.length; i++) {
+        if ((dirContentenidos[i]).getName().equals(Archivo)) {
+            (dirContentenidos[i]).delete()
+        }
+    }
+    
     for (int i = 0; i < dirContentenidos.length; i++) {
         if ((dirContentenidos[i]).getName().equals(Archivo1)) {
             (dirContentenidos[i]).delete()

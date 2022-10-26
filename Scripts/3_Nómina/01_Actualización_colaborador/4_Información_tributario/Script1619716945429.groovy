@@ -23,7 +23,7 @@ String todaysDate = today.format('dd/MM/yyyy')
 
 String projectName = 'Regression Project ' + todaysDate
 
-WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.0_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 

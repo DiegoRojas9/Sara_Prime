@@ -15,7 +15,7 @@
       <guid>f932413f-e0c0-4ffc-8123-9ab94dbffb1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.0_crear_empresa/Crear_empresa</testCaseId>
+      <testCaseId>Test Cases/1_crear_empresa/Crear_empresa</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -43,7 +43,7 @@
       <guid>10277ff8-1279-4bc1-a5ce-51e7acdf5e50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2_Colaboradores/2_Retiro_colaborador/3_Ver_rertirados</testCaseId>
+      <testCaseId>Test Cases/2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

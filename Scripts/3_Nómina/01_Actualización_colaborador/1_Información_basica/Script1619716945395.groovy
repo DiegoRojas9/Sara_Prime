@@ -22,7 +22,7 @@ random_double = Math.round(random_double * 1000)
 
 String identificacion = random_double.toString().replace('.0', '')
 
-WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.0_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 

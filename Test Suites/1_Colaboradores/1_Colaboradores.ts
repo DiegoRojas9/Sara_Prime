@@ -36,7 +36,7 @@
       <guid>33ea8900-28a8-485b-bfe7-a6e52e78995b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2_Colaboradores/2_Retiro_colaborador/3_Ver_rertirados</testCaseId>
+      <testCaseId>Test Cases/2_Colaboradores/2_Retiro_colaborador/3_Ver_retirados</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.comment('no hay reporte existente')
 
-WebUI.callTestCase(findTestCase('1_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.0_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('8_Nomina_Electrónica/8.2-Reporte_Nomina_Electronica/a_Administrador_masivo_cerrar_menu'))
 

@@ -532,7 +532,7 @@ def CrearColaborador() {
     if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/Page_/a_Comprobar'), 3)) {
         String Resultado = 'PRUEBA OK'
 
-        WebUI.acceptAlert()
+
 
         WebUI.closeBrowser()
     } else {
