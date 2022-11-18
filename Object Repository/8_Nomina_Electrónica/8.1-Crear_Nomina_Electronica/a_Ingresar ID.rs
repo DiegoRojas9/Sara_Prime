@@ -6,12 +6,12 @@
    <elementGuidId>4e5a72af-4548-4480-8c27-fc620f620757</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>
+//body/div[1]/div[2]/span/form[2]/div/div[2]/span[2]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/span[2]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>fb4c3925-5884-40f9-bb7c-cc72ab67d08a</webElementGuid>
+      <webElementGuid>04010232-12f5-48f1-b38c-dcd9ef4d6787</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupIngresarTestID:j_idt152</value>
-      <webElementGuid>8c4b2a90-267f-4f58-9e82-a50e06b5bc9c</webElementGuid>
+      <webElementGuid>e384d785-e1df-45f0-9aa8-834311217c60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>5701395b-604f-49b6-b634-b5ddea5c7db8</webElementGuid>
+      <webElementGuid>f6da5620-b649-4437-ba51-d8d2ae7fb2e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-regresar</value>
-      <webElementGuid>e6211cb4-bc90-4907-a5c8-f71dbf929b10</webElementGuid>
+      <webElementGuid>b69039bf-33cc-4c55-a48a-801c04073f77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupIngresarTestID:j_idt152&quot;,f:&quot;popupIngresarTestID&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>440f395a-7933-41d8-b40f-6083bf861a46</webElementGuid>
+      <webElementGuid>b16b1eb3-53bb-4987-aa35-dc535a894a97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ingresar ID</value>
-      <webElementGuid>34d8fc63-d759-4dc2-918f-673d98f375d4</webElementGuid>
+      <webElementGuid>f1e31d46-d108-4fe8-bcca-eac4aa18ce83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupIngresarTestID:j_idt152&quot;)</value>
-      <webElementGuid>fa77056a-32d4-42b0-9a4c-d8b94b32c426</webElementGuid>
+      <webElementGuid>a8c84119-77f3-4114-91b5-bb8037cb78e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupIngresarTestID:j_idt152']</value>
-      <webElementGuid>ad5842cb-f941-4046-a1ad-736b8ec93495</webElementGuid>
+      <webElementGuid>72b5c60d-518e-4e6a-918c-37d11497b2a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupIngresarTestID:j_idt143_content']/span[2]/a</value>
-      <webElementGuid>66f5f4e5-fc06-4270-8e59-36dda21d90ed</webElementGuid>
+      <webElementGuid>05af8869-25da-4e77-badd-4182867b39cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Ingresar ID')]</value>
-      <webElementGuid>da7ba251-30eb-4d66-a432-5068e4c746fe</webElementGuid>
+      <webElementGuid>961911a7-7c06-43d3-a21d-5c6df7a702db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TestSetID *'])[1]/following::a[1]</value>
-      <webElementGuid>184b2614-c343-4ba3-a6c9-cede07154251</webElementGuid>
+      <webElementGuid>17b6439b-adb5-4967-a4dc-a7c6cafd1b6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina Electrónica'])[1]/following::a[1]</value>
-      <webElementGuid>37e4cf18-97b4-43f4-ac98-94967a236c9e</webElementGuid>
+      <webElementGuid>99bf9b28-5832-436a-9662-bac1bff90906</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte Técnico'])[1]/preceding::a[1]</value>
-      <webElementGuid>eecc52de-7da9-4dd0-ad42-c243f9180988</webElementGuid>
+      <webElementGuid>82bcee73-15b4-4f2f-b091-309cc19490ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[2]</value>
-      <webElementGuid>7cedd3c5-f02e-4fe3-963e-c8dc5b899850</webElementGuid>
+      <webElementGuid>ae8d163b-d321-4611-b603-245982f8adc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[16]</value>
-      <webElementGuid>dcbded4d-1254-42a0-9b22-178d407a4296</webElementGuid>
+      <webElementGuid>a7618364-c19b-4591-9a0f-dad886f6c18c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span[2]/a</value>
-      <webElementGuid>9dbe2a76-325b-42be-9b20-a0bc0bd86b10</webElementGuid>
+      <webElementGuid>f37ab878-dc56-4f10-ab47-7b9644dc5687</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupIngresarTestID:j_idt152' and @href = '#' and (text() = 'Ingresar ID' or . = 'Ingresar ID')]</value>
-      <webElementGuid>9b8766e6-0981-418f-a883-025a0fd4d7d1</webElementGuid>
+      <webElementGuid>8004e5b7-231c-4b87-a045-fe31909e0ba3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

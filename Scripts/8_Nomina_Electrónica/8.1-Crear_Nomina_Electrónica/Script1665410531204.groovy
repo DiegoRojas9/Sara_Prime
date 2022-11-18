@@ -60,10 +60,15 @@ def habilitar() {
         
         if (WebUI.waitForElementClickable(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Ingresar TestSetID0'), 
             1)) {
-            WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Ingresar TestSetID0'))
+            if(WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Ingresar TestSetID0'))) {
 
-            WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Continuar1'))
 
+
+            if (WebUI.waitForElementVisible(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Continuar1'), 
+                1)) {
+                WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Continuar1'))
+            }
+            
             WebUI.setText(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/input_TestSetID_popupIngresarTestIDcodigoTest'), 
                 'katalonABC')
 
@@ -73,6 +78,7 @@ def habilitar() {
                 1)) {
                 WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Continuar'))
             }
+			}
         }
         
         if (WebUI.waitForElementClickable(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Habilitar para Transmitir'), 
@@ -80,6 +86,23 @@ def habilitar() {
             WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Habilitar para Transmitir'))
 
             WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Continuar'))
+        } else {
+            WebUI.delay(300)
+
+            WebUI.refresh()
+
+            WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
+
+            WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Nómina Electrónica'))
+
+            WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Habilitacin Nmina Electrnica'))
+
+            if (WebUI.waitForElementClickable(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Habilitar para Transmitir'), 
+                1)) {
+                WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Habilitar para Transmitir'))
+
+                WebUI.click(findTestObject('8_Nomina_Electrónica/8.1-Crear_Nomina_Electronica/a_Continuar'))
+            }
         }
         
         WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))

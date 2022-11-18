@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[2]/a</value>
+         <value>//span[2]/a
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>da1efa9c-cb3b-43ea-bd8a-1745dd268c0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>6e0a331d-223c-49b4-8348-a31edeb4d9d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +39,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('form_breadcrumd'),{'form_breadcrumd:j_idt220:j_idt229':'form_breadcrumd:j_idt220:j_idt229'},'');return false</value>
+      <webElementGuid>a3fbc6b5-31ec-4923-9d6c-f5d894ddaede</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Archivo Para Pagos</value>
+      <webElementGuid>7f54a89b-045f-4120-ad15-d735e719a097</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_breadcrumd&quot;)/div[@class=&quot;col-md-12&quot;]/div[1]/span[@class=&quot;crumbsdisabled&quot;]/a[1]</value>
+      <webElementGuid>6982f9ae-4262-451d-bb22-8ad77aee278d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_breadcrumd'),{'form_breadcrumd:j_idt220:j_idt229':'form_breadcrumd:j_idt220:j_idt229'},'');return false&quot;]</value>
+      <webElementGuid>0d3d4bbe-9013-4696-a339-e81eae5cd99b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_breadcrumd']/div/div/span[2]/a</value>
+      <webElementGuid>0d2f1246-4961-4edf-af59-0146fea41ce9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Archivo Para Pagos')]</value>
+      <webElementGuid>5a289c8d-608c-43fa-b4a5-a5bed9178f29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear nueva empresa'])[1]/following::a[3]</value>
+      <webElementGuid>14f68d8b-a58c-40b0-83a3-a94157b98cb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargue información'])[1]/following::a[4]</value>
+      <webElementGuid>68318dc1-4d2e-4e0b-9d50-d9b117dcdca1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Periodos aprobados'])[1]/preceding::a[8]</value>
+      <webElementGuid>4cd95ec1-7abc-44f8-af04-4a4eaa2692dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Archivo Para Pagos']/parent::*</value>
+      <webElementGuid>a9547534-219a-4876-96cf-8af0bbde684f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +119,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[8]</value>
+      <webElementGuid>b41885c5-dd66-4d41-9d80-b5b18682ee0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +127,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/a</value>
+      <webElementGuid>9fb341b3-8beb-421c-8bf1-42988f5cb7c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

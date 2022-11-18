@@ -49,17 +49,17 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_V
 
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Vacaciones'))
 
-if(WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'), 1))
-{
-WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'))
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'), 1)) {
+    WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Aceptar'))
 }
-WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/descarga'), 0)
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/descarga'), 0)
+String url = WebUI.getUrl()
 
-WebUI.click(findTestObject('3_Nómina/4_Comprobantes/descarga'), FailureHandling.STOP_ON_FAILURE)
+WebUI.switchToWindowUrl(url)
+
+WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/descarga'), 0)
 
 if (WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/descarga'), 1)) {
     String Resultado = 'PRUEBA OK'

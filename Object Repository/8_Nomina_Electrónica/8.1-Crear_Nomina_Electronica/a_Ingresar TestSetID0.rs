@@ -6,12 +6,12 @@
    <elementGuidId>6d377674-cf5e-4db8-8480-29b0eb034083</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>
+//body/div[1]/div[2]/span/div[2]/form/div/span[2]/div/div/table[2]/tbody/tr[3]/td/table/tbody/tr/td[2]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[2]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b3920421-98cf-4afc-b7a8-2db55065dff8</webElementGuid>
+      <webElementGuid>661eb292-cdf9-4d4f-b6d4-0ad53b1d84ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>habilitar_nominaelectronica:j_idt122</value>
-      <webElementGuid>1ecfb55f-7a83-4c9d-ae0d-599c42c83e38</webElementGuid>
+      <webElementGuid>97521a83-cc8d-4923-84fe-4d2af49c6408</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>c3186c9c-1d03-49f5-8df7-ee114d294602</webElementGuid>
+      <webElementGuid>b0b9ef56-f0a3-4588-b8b0-aca38fa2afef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-regresar</value>
-      <webElementGuid>6a595f79-a463-4b87-a993-f324deed2ef9</webElementGuid>
+      <webElementGuid>8d0e74b0-daf1-404d-b9e3-04e5f2a43b5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;habilitar_nominaelectronica:j_idt122&quot;,f:&quot;habilitar_nominaelectronica&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>f8d1eec4-442b-4961-ae9f-5ec3e0e9323c</webElementGuid>
+      <webElementGuid>59c3b00e-17a2-44a3-b45f-4310d022a2ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ingresar TestSetID</value>
-      <webElementGuid>e57e9562-da4f-46a0-842f-bcea1237c56f</webElementGuid>
+      <webElementGuid>dca9a973-9abe-4e70-846d-05212b5c9c69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;habilitar_nominaelectronica:j_idt122&quot;)</value>
-      <webElementGuid>f31a8cb3-2d82-49e4-92c2-98f19793d22b</webElementGuid>
+      <webElementGuid>c941d28c-407d-48ce-9f91-20456ecf27a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='habilitar_nominaelectronica:j_idt122']</value>
-      <webElementGuid>e875d17e-8afb-4e34-882b-04d07c4498ad</webElementGuid>
+      <webElementGuid>cbdc4763-0a8a-46be-a189-a4a64ab39a97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='habilitar_nominaelectronica:j_idt102_content']/table[2]/tbody/tr[3]/td/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>e623a758-385c-498b-8f1d-fa32d3d2f97d</webElementGuid>
+      <webElementGuid>da498fdb-9568-43bb-b376-b90b533c930c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Ingresar TestSetID')]</value>
-      <webElementGuid>bd72d31a-4748-4711-92ae-ab8d8882a423</webElementGuid>
+      <webElementGuid>b0d8c9cd-62c8-4be4-bf9d-5f9cf4e7dec1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingresar ID'])[1]/following::a[1]</value>
-      <webElementGuid>02c8f900-ec0b-4f86-ad44-91a75e36554f</webElementGuid>
+      <webElementGuid>4fb1768a-706b-43cf-9a87-62e9e7e9cc7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mira el video y sigue las instruccciones'])[1]/following::a[1]</value>
-      <webElementGuid>8a88123c-e156-444d-8b52-1a1d6f21dd50</webElementGuid>
+      <webElementGuid>307b8844-b244-4209-a2d5-9746f9c987f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Habilitar para Transmitir'])[1]/preceding::a[1]</value>
-      <webElementGuid>2e3d938f-a6d4-46ee-ae36-e279200a648f</webElementGuid>
+      <webElementGuid>ccdb4fa6-2f03-4f9b-bc14-db1d8a4fc195</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte Técnico'])[1]/preceding::a[1]</value>
-      <webElementGuid>922be541-1ad9-47fd-9175-7a6155767684</webElementGuid>
+      <webElementGuid>78d8d7bd-aeeb-4e1d-8767-83b64f11ecb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ingresar TestSetID']/parent::*</value>
-      <webElementGuid>d81082c4-af46-4309-abd7-c70b6bfe9c32</webElementGuid>
+      <webElementGuid>1cf02d22-f165-4b42-b73c-1e3c47264b27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[14]</value>
-      <webElementGuid>df33eb70-9ff5-45d8-892c-70c5b71ae0c3</webElementGuid>
+      <webElementGuid>b828a684-7a43-4ca7-a4b7-820787b8cd63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/a</value>
-      <webElementGuid>9c15e42c-f3bb-457f-8743-cc2eb13707d5</webElementGuid>
+      <webElementGuid>0f0c007e-bc0e-45b7-99a7-0df356005588</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +158,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'habilitar_nominaelectronica:j_idt122' and @href = '#' and (text() = 'Ingresar TestSetID' or . = 'Ingresar TestSetID')]</value>
-      <webElementGuid>e8b241a1-adfe-4876-b870-cc2572ca47fe</webElementGuid>
+      <webElementGuid>ead750f0-80f3-48b8-8fe2-bd20d179efb5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

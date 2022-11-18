@@ -32,12 +32,14 @@ WebUI.openBrowser(GlobalVariable.G_Inscripcion)
 
 WebUI.maximizeWindow()
 
+if(WebUI.waitForElementVisible(findTestObject('1.0_crear_empresa/label_Pago Anual'), 1)) {
+
 WebUI.click(findTestObject('1.0_crear_empresa/label_Pago Anual'))
 
 WebUI.doubleClick(findTestObject('1.0_crear_empresa/td_CORPORATE'))
 
 WebUI.click(findTestObject('1.0_crear_empresa/a_Siguiente'))
-
+}
 WebUI.selectOptionByIndex(findTestObject('1.0_crear_empresa/select_SeleccionarCedula CiudadaniaCedula ExtranjeriaNIT'), 
     1)
 
@@ -192,7 +194,7 @@ if (WebUI.waitForElementVisible(findTestObject('1.0_crear_empresa/finalizacion')
     WebUI.click(findTestObject('1.0_crear_empresa/a_Aceptar'))
 
     CrearColaborador( //PENDIENTE  POR REPARAR SUBIR  FOTO
-        ) /*
+        /*
     WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar foto'))
 
     String ruta = GlobalVariable.G_rutaarchivos + 'Anonymous.jpg'
@@ -202,7 +204,7 @@ if (WebUI.waitForElementVisible(findTestObject('1.0_crear_empresa/finalizacion')
     WebUI.uploadFileWithDragAndDrop(findTestObject('2_Colaboradores/Page_/a_Seleccionar Archivo'), ruta)
 
     WebUI.click(findTestObject('2_Colaboradores/Page_/a_Aceptar - Copy'))
-	*/
+	*/ )
 } else {
     WebUI.acceptAlert()
 }
@@ -531,8 +533,6 @@ def CrearColaborador() {
 
     if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/Page_/a_Comprobar'), 3)) {
         String Resultado = 'PRUEBA OK'
-
-
 
         WebUI.closeBrowser()
     } else {

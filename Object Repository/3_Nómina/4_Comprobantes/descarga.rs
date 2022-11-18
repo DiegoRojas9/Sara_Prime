@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-/html/body/embed</value>
+         <value>/html/body</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>2670c514-ac5b-41a3-9943-e851c77e1b0d</webElementGuid>
+      <webElementGuid>aef6deb6-d740-4fb3-85ca-640fe3a040e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1652109300576</value>
-      <webElementGuid>2c83dfaf-45c4-4c65-96b3-3fc42afb616f</webElementGuid>
+      <webElementGuid>7db7f823-9bfd-4a1e-aa2f-63cd692f1133</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

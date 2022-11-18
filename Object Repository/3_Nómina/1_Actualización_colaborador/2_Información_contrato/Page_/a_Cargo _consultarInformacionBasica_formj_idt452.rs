@@ -6,11 +6,12 @@
    <elementGuidId>64de4c84-03a0-46fa-88c8-33f5544deb57</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[17]/div/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>
+/html/body/div[1]/div[2]/span/div[2]/form/div/div[2]/div[1]/div[17]/div/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>b14b001b-c935-4bca-8de8-7d423c5ec438</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>consultarInformacionBasica_form:j_idt452</value>
+      <webElementGuid>de0df4cf-7206-4bbc-8a62-d7c071159c6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>90b37dc1-4c71-464b-b8cb-38b081f92f8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-icon-edit</value>
+      <webElementGuid>581f0f98-f408-4845-bd68-909f67b4ec83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;consultarInformacionBasica_form:j_idt452&quot;,f:&quot;consultarInformacionBasica_form&quot;,u:&quot;popupEditarTipoPeriodo&quot;});return false;</value>
+      <webElementGuid>0fc462f3-2986-4546-bd38-c28468397057</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;consultarInformacionBasica_form:j_idt452&quot;)</value>
+      <webElementGuid>c4945494-17b4-4425-87dc-bd17431c2798</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='consultarInformacionBasica_form:j_idt472']</value>
+      <webElementGuid>6aa05fef-78db-475e-ad5e-0d8addf18dd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='consultarInformacionBasica_form:cargoConsultar']/div/a</value>
+      <webElementGuid>e8c4d42e-2bb5-4845-88e4-d7a809bdebdc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[20]</value>
+      <webElementGuid>847f4526-5a88-4206-a6de-19cc6eb44110</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[17]/div/a</value>
+      <webElementGuid>5840a037-4e6c-4b30-a321-40b2a9e5cfc2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
