@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Cancelar proceso</name>
+   <name>a_No</name>
    <tag></tag>
-   <elementGuidId>33c01534-90d5-47f7-a5f7-154c7b666862</elementGuidId>
+   <elementGuidId>f7931bb8-ec7f-494d-9d6a-2b50e32a3d06</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Activar Colaborador')]</value>
+         <value>
+//body/div[1]/div[2]/span/div[2]/form/div[2]/div/div[1]/div[2]/a[1]
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,15 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>019f1f70-bdaf-4f47-a5c3-3396f5799fdd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>consultarColaborador:j_idt317:j_idt319:j_idt335</value>
-      <webElementGuid>71297038-e3d8-45c7-963a-fc23b8b9e7c2</webElementGuid>
+      <webElementGuid>725cdca9-02d5-4817-adc4-636a56c13afa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,118 +31,118 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>e87daf7b-fdd6-4294-9058-e480674eb8e8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ui-commandlink ui-widget</value>
-      <webElementGuid>03d16960-6f77-4016-8d65-45f3181dcee3</webElementGuid>
+      <webElementGuid>cb60be23-4a1a-4fcc-ae11-10ca4cc24b02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;consultarColaborador:j_idt317:j_idt319:j_idt335&quot;,f:&quot;consultarColaborador&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>501f2c01-17ac-4e40-96c6-db4395005aa3</webElementGuid>
+      <value>mojarra.jsfcljs(document.getElementById('consultarColaborador'),{'consultarColaborador:j_idt283':'consultarColaborador:j_idt283'},'');return false</value>
+      <webElementGuid>8f4aee32-d3fd-47b2-9c3f-277bb15a9713</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>us-respuesta-prime</value>
+      <webElementGuid>a4d7a467-724f-43bc-ae00-dd93273f5a32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Cancelar proceso </value>
-      <webElementGuid>f80767ea-97ed-4388-970a-88016c2e90a1</webElementGuid>
+      <value>Si</value>
+      <webElementGuid>588f3f83-2d9b-4478-b496-0aa37bf11354</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;consultarColaborador:j_idt317:j_idt319:j_idt335&quot;)</value>
-      <webElementGuid>905c8713-928b-40de-a699-96504a08c534</webElementGuid>
+      <value>id(&quot;consultarColaborador&quot;)/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12 us-preguntas-prime&quot;]/div[@class=&quot;col-md-3 text-right&quot;]/a[@class=&quot;us-respuesta-prime&quot;]</value>
+      <webElementGuid>33468df8-3f17-4a26-939b-40e8dae7fb02</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='consultarColaborador:j_idt317:j_idt319:j_idt335']</value>
-      <webElementGuid>a3b16ac6-a967-4a21-a903-b9865c8dbb74</webElementGuid>
+      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarColaborador'),{'consultarColaborador:j_idt283':'consultarColaborador:j_idt283'},'');return false&quot;]</value>
+      <webElementGuid>33dd5c5f-8387-40ac-972f-4cf4e2572959</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='consultarColaborador:j_idt317:j_idt319:j_idt320']/table[3]/tbody/tr/td/a</value>
-      <webElementGuid>41969c64-042d-4a90-a06e-a2f9f5b2fe6f</webElementGuid>
+      <value>//form[@id='consultarColaborador']/div[2]/div/div/div[2]/a[2]</value>
+      <webElementGuid>1dade593-5be1-4768-99a4-ccdf985d3262</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Cancelar proceso')]</value>
-      <webElementGuid>acb13af6-dc86-4ce6-a48a-02ba901fb5bb</webElementGuid>
+      <value>(//a[contains(text(),'Si')])[2]</value>
+      <webElementGuid>5ec31050-cfa6-471c-b74b-2989c5211c85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Retirar Colaborador'])[1]/following::a[3]</value>
-      <webElementGuid>71ef7d25-1dc2-481f-8271-1c1bf27ebc17</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Deseas calcular la liquidación del contrato?'])[1]/following::a[2]</value>
+      <webElementGuid>1d924aad-a1d6-40ac-8c7b-244141fdccd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[6]/following::a[3]</value>
-      <webElementGuid>16f73a84-2d53-4b6b-88e1-223fa9736a21</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha ultimo día Laborado :'])[1]/following::a[2]</value>
+      <webElementGuid>bd614df6-63e5-4169-876d-1d55ffaccdbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[1]</value>
-      <webElementGuid>6ce09c5e-c56e-485a-ac65-25674858ef55</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Retirar Colaborador'])[1]/preceding::a[1]</value>
+      <webElementGuid>f4a83be6-3476-4ce7-a6bb-eed2968d5cb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambio de empresa'])[1]/preceding::a[2]</value>
-      <webElementGuid>2dd862c7-3347-457a-a559-0e2d351702ad</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[4]</value>
+      <webElementGuid>f2ded3ab-f6cd-4db4-ac9c-88a6eb122088</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Cancelar proceso']/parent::*</value>
-      <webElementGuid>fa287e6b-8453-4748-9b8b-a82c8967fdac</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+      <webElementGuid>d619afab-6fc3-4017-9a95-7a2d89b2f31d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[11]</value>
-      <webElementGuid>79e6a60d-4207-43f2-a52a-52793a875973</webElementGuid>
+      <value>(//a[contains(@href, '#')])[8]</value>
+      <webElementGuid>380b9281-e915-48cd-bc01-5ee28e18be0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//table[3]/tbody/tr/td/a</value>
-      <webElementGuid>2641664f-bbd1-4d6b-80cc-7555a059fea1</webElementGuid>
+      <value>//a[2]</value>
+      <webElementGuid>be874009-72bc-4b59-8c55-99a2c7c7d7b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

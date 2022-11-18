@@ -6,11 +6,12 @@
    <elementGuidId>ef5fdc52-e84e-4d87-9bef-ca95342d3623</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[2]
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>7caca6af-a624-44c9-94ff-e26b14bd5527</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>b8a3baef-9002-406a-a539-889f80f78990</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('consultarColaborador'),{'consultarColaborador:j_idt283':'consultarColaborador:j_idt283'},'');return false</value>
+      <webElementGuid>e1fa9aa3-295e-43f4-a836-357e3970034b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-respuesta-prime</value>
+      <webElementGuid>f62d8d0b-b023-4799-af27-58aeccef0cf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Si</value>
+      <webElementGuid>2a130506-294f-4fa5-9b46-03759eba9f70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;consultarColaborador&quot;)/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12 us-preguntas-prime&quot;]/div[@class=&quot;col-md-3 text-right&quot;]/a[@class=&quot;us-respuesta-prime&quot;]</value>
+      <webElementGuid>3358457f-2d0f-478b-8963-92940e767a2a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('consultarColaborador'),{'consultarColaborador:j_idt283':'consultarColaborador:j_idt283'},'');return false&quot;]</value>
+      <webElementGuid>4355c61c-5924-40b3-8a5e-f4f597dd8325</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='consultarColaborador']/div[2]/div/div/div[2]/a[2]</value>
+      <webElementGuid>91abef12-f9db-4eab-8c66-998f39089da6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Si')])[2]</value>
+      <webElementGuid>2225223a-4eaf-473c-b97b-410084192381</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Deseas calcular la liquidación del contrato?'])[1]/following::a[2]</value>
+      <webElementGuid>baa27556-8086-426b-ae28-44b0582f5bda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha ultimo día Laborado :'])[1]/following::a[2]</value>
+      <webElementGuid>b957c540-21d3-453e-96fb-00eec3271c6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Retirar Colaborador'])[1]/preceding::a[1]</value>
+      <webElementGuid>774450a5-22dc-4dea-8be6-7ffb5ca62d1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[4]</value>
+      <webElementGuid>a9296474-e8d0-4741-8782-99bec2673962</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+      <webElementGuid>ed7692d0-3b5b-4f89-9f4b-5bba598407b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[8]</value>
+      <webElementGuid>ab304d0a-b665-475f-9b23-2b7f2f79727c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,5 +142,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
+      <webElementGuid>02a5521d-7310-46bb-8581-12e6b85279b0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

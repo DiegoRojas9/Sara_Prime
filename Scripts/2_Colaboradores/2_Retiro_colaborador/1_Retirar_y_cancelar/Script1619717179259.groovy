@@ -15,7 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-String Result = ""
+
+String Result = ''
+
 WebUI.callTestCase(findTestCase('1.0_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
@@ -40,6 +42,10 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+    if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 1)) {
+        WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+    }
+    
     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
     WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -52,7 +58,7 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-	Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+    Result = WebUI.getText(findTestObject('Result/p_Resultado'))
 
     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
 
@@ -75,6 +81,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+        if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 
+            1)) {
+            WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+        }
+        
         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
         WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -87,10 +98,10 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-		Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-		
+        Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
-		
+
         WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
             GlobalVariable.G_timeout)
     } else {
@@ -110,6 +121,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+            if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 
+                1)) {
+                WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+            }
+            
             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
             WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -122,8 +138,8 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-			Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-			
+            Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
 
             WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
@@ -145,6 +161,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+                if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 
+                    1)) {
+                    WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+                }
+                
                 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
                 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -157,8 +178,8 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-				Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-				
+                Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
                 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
 
                 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
@@ -180,6 +201,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+                    if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 
+                        1)) {
+                        WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+                    }
+                    
                     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
                     WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -192,8 +218,8 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-					Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-					
+                    Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
                     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
 
                     WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
@@ -215,6 +241,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+                        if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 
+                            1)) {
+                            WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+                        }
+                        
                         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
                         WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -227,8 +258,8 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-						Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-						
+                        Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
                         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
 
                         WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
@@ -250,6 +281,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+                            if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 
+                                1)) {
+                                WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+                            }
+                            
                             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
                             WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -262,8 +298,8 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-							Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-							
+                            Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
                             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
 
                             WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
@@ -285,6 +321,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                                 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+                                if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 
+                                    1)) {
+                                    WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+                                }
+                                
                                 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
                                 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -295,8 +336,8 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
                                 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'), 
                                     GlobalVariable.G_timeout)
 
-								Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-								
+                                Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
                                 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
                                 WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
@@ -320,6 +361,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                                     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+                                    if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 
+                                        1)) {
+                                        WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+                                    }
+                                    
                                     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
                                     WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -332,8 +378,8 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                                     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-									Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-									
+                                    Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
                                     WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
 
                                     WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
@@ -355,6 +401,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                                         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+                                        if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 
+                                            1)) {
+                                            WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+                                        }
+                                        
                                         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
                                         WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -367,8 +418,8 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                                         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-										Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-										
+                                        Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
                                         WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
 
                                         WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
@@ -390,6 +441,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                                             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'))
 
+                                            if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Si'), 
+                                                1)) {
+                                                WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_No'))
+                                            }
+                                            
                                             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Continuar'))
 
                                             WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Cancelar proceso'), 
@@ -402,8 +458,8 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
 
                                             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Aceptar_1'))
 
-											Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-											
+                                            Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+
                                             WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/a_Regresar'))
 
                                             WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/1_Retirar_y_cancelar/span_Activos'), 
@@ -420,12 +476,11 @@ if (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colab
     }
 }
 
-if(Result == 'Reversado correctamente.') {
-	String Resultado = 'PRUEBA  OK'
-	WebUI.closeBrowser()
-	}
-else {
-WebUI.acceptAlert()
-}
+if (Result == 'Reversado correctamente.') {
+    String Resultado = 'PRUEBA  OK'
 
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 
