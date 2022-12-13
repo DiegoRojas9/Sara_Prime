@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Continuar2</name>
+   <name>a_Guardar</name>
    <tag></tag>
-   <elementGuidId>51db60c3-423e-4eb1-89e9-c260aba874ae</elementGuidId>
+   <elementGuidId>70f19781-3139-4293-ad9e-59a018d387b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @class = 'us-boton' and (text() = 'Continuar' or . = 'Continuar')]</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Guardar')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>
-//body/div[1]/div[2]/span/div/form/div/div/div[3]/a[2]</value>
+         <value>td > a.us-boton</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>10288de2-58bf-46ec-8dc4-e0b063b3db8a</webElementGuid>
+      <webElementGuid>6ba3b1cb-985a-49ab-80f4-44d27fa3fce6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,118 +30,118 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>52164aef-513a-4e2e-a180-095cd7e99a56</webElementGuid>
+      <webElementGuid>a2730c4b-efaf-4387-865a-b03c99ebfd07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:j_idt569':'detalleEmpleadoPrime_form:j_idt569'},'');return false</value>
-      <webElementGuid>526ea70e-a3fa-487c-9ff5-b0c3a5c7cfaa</webElementGuid>
+      <value>mojarra.jsfcljs(document.getElementById('form_popupCrearCargo'),{'form_popupCrearCargo:j_idt818':'form_popupCrearCargo:j_idt818'},'');return false</value>
+      <webElementGuid>68c8d52e-749f-4378-8725-89229cb9a92c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>us-boton</value>
-      <webElementGuid>a0465446-b524-4162-9f1e-db2442800c8a</webElementGuid>
+      <webElementGuid>e69b4447-a52b-4ffa-b975-0f8024e46192</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Continuar</value>
-      <webElementGuid>f5f09714-94b7-4cdb-9abc-46d0af7cbfe7</webElementGuid>
+      <value>Guardar</value>
+      <webElementGuid>9bc5e045-08bf-4f28-b06d-f802b56f86e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;detalleEmpleadoPrime_form&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row caja_contenido&quot;]/div[@class=&quot;col-md-12&quot;]/a[@class=&quot;us-boton&quot;]</value>
-      <webElementGuid>f1ca8e15-207c-4cdc-b6a5-88d909f84ced</webElementGuid>
+      <value>id(&quot;form_popupCrearCargo:j_idt808_content&quot;)/table[@class=&quot;popupBody&quot;]/tbody[1]/tr[2]/td[1]/a[@class=&quot;us-boton&quot;]</value>
+      <webElementGuid>78eeca33-ca72-4464-8a2f-8f23a331667f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:j_idt569':'detalleEmpleadoPrime_form:j_idt569'},'');return false&quot;]</value>
-      <webElementGuid>a489fce6-aa40-4772-ab1c-e22be07b9bd4</webElementGuid>
+      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_popupCrearCargo'),{'form_popupCrearCargo:j_idt818':'form_popupCrearCargo:j_idt818'},'');return false&quot;]</value>
+      <webElementGuid>0998af07-e83d-4650-b15c-737e39fb60d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='detalleEmpleadoPrime_form']/div/div/div[3]/a[2]</value>
-      <webElementGuid>31a55e2e-9319-4323-9975-3ecad81ca8d6</webElementGuid>
+      <value>//div[@id='form_popupCrearCargo:j_idt808_content']/table/tbody/tr[2]/td/a</value>
+      <webElementGuid>59c06b97-614e-47fa-98a6-b2b5ab6a2c11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Continuar')]</value>
-      <webElementGuid>27b9562a-995f-402c-b339-c505ca41d13b</webElementGuid>
+      <value>//a[contains(text(),'Guardar')]</value>
+      <webElementGuid>7fd75766-7702-4bad-bf99-86f98c017809</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo de Cuenta * :'])[1]/following::a[2]</value>
-      <webElementGuid>7fdf4580-f2a0-43cf-abe6-9c6b94bc549c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/following::a[1]</value>
+      <webElementGuid>e1914a29-da5e-4842-988f-c699fde83cca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Número de Cuenta * :'])[1]/following::a[2]</value>
-      <webElementGuid>d00a7b47-eb87-4f24-b5eb-267390955ac0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear nuevo cargo'])[1]/following::a[1]</value>
+      <webElementGuid>f4c182b7-3b84-4793-a5de-4965ec913e33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[2]</value>
-      <webElementGuid>65bc5919-2c9f-481b-974c-9487a0bb1196</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <webElementGuid>99660f2f-b2a8-4d66-9eaf-8598fab48cf2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beneficiarios UPC'])[1]/preceding::a[4]</value>
-      <webElementGuid>93581931-5a8b-47ee-8802-4866e10780b6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <webElementGuid>936fee60-a8e9-4ce7-bdfa-783ffada7bc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
-      <webElementGuid>209c6188-1870-46a7-a185-ba5397692536</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
+      <webElementGuid>f1cdc987-e0a9-43db-866e-9bd7dfef531d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[16]</value>
-      <webElementGuid>088244ae-66c9-48f8-bfb1-124eecea5223</webElementGuid>
+      <value>(//a[contains(@href, '#')])[19]</value>
+      <webElementGuid>6e5ed9a8-3b4e-4b21-9611-d686d3262df8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
-      <webElementGuid>5c293fd7-1628-47c5-9197-b654765d1701</webElementGuid>
+      <value>//td/a</value>
+      <webElementGuid>2aab8d16-4e6b-43d9-a5a5-de72fc2643ca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,13 @@
    <elementGuidId>49abf164-34bb-42a9-9ddc-6319def24f33</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.us-icon-remover.us-color-white.us-iconos-card-colaborador.us-hover-active</value>
+         <key>XPATH</key>
+         <value>
+/html/body/div[1]/div[2]/span/div[2]/form/div/div/div[3]/div[1]/div/div/table/tbody/tr/td/div/div[2]/div/a[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/span/div/form/div/div/div[3]/div[1]/div/div/table/tbody/tr/td/div/div[2]/div/a[2]</value>
+         <key>CSS</key>
+         <value>a.us-icon-remover.us-color-white.us-iconos-card-colaborador.us-hover-active</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>36d93369-6d20-45ca-b3fc-15255e23f570</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>b7d9cf09-05f8-413b-8287-4377e3bb91de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Retirar</value>
+      <webElementGuid>6bcf535b-0ad1-4040-8363-023556a0cfbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +47,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('listadoEmpleadoPrime_form'),{'listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275':'listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275','empleadoLiquidar':'co.com.unionsoluciones.saraprime.logica.dto.HojaEmpleadoDTO@17adb908'},'');return false</value>
+      <webElementGuid>d7826793-b348-4292-bc48-429e5ce3464e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-icon-remover us-color-white us-iconos-card-colaborador us-hover-active</value>
+      <webElementGuid>082c2402-b436-47f6-804e-6c01ec2ef49c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;listadoEmpleadoPrime_form:tablaEmpleados_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[1]/div[@class=&quot;us-w-100&quot;]/div[@class=&quot;col-md-1 col-sm-1 col-xs-1&quot;]/div[@class=&quot;button-bar button-bar-large&quot;]/a[@class=&quot;us-icon-remover us-color-white us-iconos-card-colaborador us-hover-active&quot;]</value>
+      <webElementGuid>0ee6696a-cf7c-4476-8aae-8966d39873e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('listadoEmpleadoPrime_form'),{'listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275':'listadoEmpleadoPrime_form:tablaEmpleados:0:j_idt275','empleadoLiquidar':'co.com.unionsoluciones.saraprime.logica.dto.HojaEmpleadoDTO@17adb908'},'');return false&quot;]</value>
+      <webElementGuid>65d4af95-0e30-4b84-ba3b-b0fab4d722a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='listadoEmpleadoPrime_form:tablaEmpleados_data']/tr/td/div/div[2]/div/a[2]</value>
+      <webElementGuid>5de396bd-276a-421d-bf35-a0b0e6ed4cb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[13]</value>
+      <webElementGuid>cb70fd27-1531-450e-8bc4-3ff4d779500f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +95,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
+      <webElementGuid>fd543903-244a-4369-bbe1-8ea0764e88b4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

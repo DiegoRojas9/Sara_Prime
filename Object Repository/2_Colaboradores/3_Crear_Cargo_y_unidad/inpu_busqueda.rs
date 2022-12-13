@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_mas Centro de costos</name>
+   <name>inpu_busqueda</name>
    <tag></tag>
-   <elementGuidId>c621c22c-60e8-429e-a5f8-1f789c094f8c</elementGuidId>
+   <elementGuidId>e622af3b-216d-4665-87db-5954b460a6da</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[2]/span/div[2]/form/div/div/div[2]/div/div[2]/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[2]/span/div/form/div/div/div[2]/div/div/div[2]/div[1]/div[10]/div/a</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

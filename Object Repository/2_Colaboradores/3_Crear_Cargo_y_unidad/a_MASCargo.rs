@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_mas Centro de costos</name>
+   <name>a_MASCargo</name>
    <tag></tag>
-   <elementGuidId>c621c22c-60e8-429e-a5f8-1f789c094f8c</elementGuidId>
+   <elementGuidId>686ef63e-4371-497d-b25d-88c62ff190f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[2]/span/div[2]/form/div/div/div[2]/div/div/div[2]/div[1]/div[3]/div/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[2]/span/div/form/div/div/div[2]/div/div/div[2]/div[1]/div[10]/div/a</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

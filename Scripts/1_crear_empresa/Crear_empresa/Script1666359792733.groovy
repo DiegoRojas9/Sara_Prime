@@ -32,14 +32,14 @@ WebUI.openBrowser(GlobalVariable.G_Inscripcion)
 
 WebUI.maximizeWindow()
 
-if(WebUI.waitForElementVisible(findTestObject('1.0_crear_empresa/label_Pago Anual'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('1.0_crear_empresa/label_Pago Anual'), 1)) {
+    WebUI.click(findTestObject('1.0_crear_empresa/label_Pago Anual'))
 
-WebUI.click(findTestObject('1.0_crear_empresa/label_Pago Anual'))
+    WebUI.doubleClick(findTestObject('1.0_crear_empresa/td_CORPORATE'))
 
-WebUI.doubleClick(findTestObject('1.0_crear_empresa/td_CORPORATE'))
-
-WebUI.click(findTestObject('1.0_crear_empresa/a_Siguiente'))
+    WebUI.click(findTestObject('1.0_crear_empresa/a_Siguiente'))
 }
+
 WebUI.selectOptionByIndex(findTestObject('1.0_crear_empresa/select_SeleccionarCedula CiudadaniaCedula ExtranjeriaNIT'), 
     1)
 
@@ -193,6 +193,8 @@ if (WebUI.waitForElementVisible(findTestObject('1.0_crear_empresa/finalizacion')
 
     WebUI.click(findTestObject('1.0_crear_empresa/a_Aceptar'))
 
+    WebUI.click(findTestObject('1.0_crear_empresa/a_icon-close'))
+
     CrearColaborador( //PENDIENTE  POR REPARAR SUBIR  FOTO
         /*
     WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar foto'))
@@ -222,6 +224,8 @@ def CrearColaborador() {
 
     WebUI.click(findTestObject('2_Colaboradores/Page_/a_Proceso de Nomina'))
 
+    WebUI.click(findTestObject('1.0_crear_empresa/a_icon-close - Copy'))
+
     String filepath0 = WebUI.getAttribute(findTestObject('2_Colaboradores/Page_/span_Fecha Inicial'), 'value')
 
     String filepath1 = WebUI.getAttribute(findTestObject('2_Colaboradores/Page_/span_Fecha Final'), 'value')
@@ -231,6 +235,8 @@ def CrearColaborador() {
     WebUI.waitForElementPresent(findTestObject('2_Colaboradores/Page_/a_Colaboradores'), GlobalVariable.G_timeout)
 
     WebUI.click(findTestObject('2_Colaboradores/Page_/a_Colaboradores'))
+
+    WebUI.click(findTestObject('1.0_crear_empresa/a_icon-close - Copy - Copy'))
 
     WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Agregar'), GlobalVariable.G_timeout)
 
@@ -291,6 +297,8 @@ def CrearColaborador() {
     WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Documento --CEDULA'), '2')
 
     WebUI.click(findTestObject('2_Colaboradores/Page_/a_Continuar'))
+
+    WebUI.click(findTestObject('1.0_crear_empresa/a_icon-close - Copy - Copy - Copy'))
 
     try {
         WebUI.selectOptionByIndex(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Cargo --ANALISTA'), 
@@ -467,10 +475,10 @@ def CrearColaborador() {
 
     WebUI.click(findTestObject('2_Colaboradores/Page_/a_Continuar2'))
 
-    WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/label_No'), GlobalVariable.G_timeout)
-
-    WebUI.click(findTestObject('2_Colaboradores/Page_/label_No'))
-
+    if (WebUI.waitForElementVisible(findTestObject('2_Colaboradores/Page_/label_No'), GlobalVariable.G_timeout)) {
+        WebUI.click(findTestObject('2_Colaboradores/Page_/label_No'))
+    }
+    
     WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Deducible por Medicina Prepagada'), '54000')
 
     WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Intereses Crdito Vivienda  _detalleEmpleadoPrime'), '450000')
@@ -515,7 +523,7 @@ def CrearColaborador() {
 
     WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'), GlobalVariable.G_timeout)
 
-    WebUI.click(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'))
+    WebUI.doubleClick(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'))
 
     WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Finalizar registro'), GlobalVariable.G_timeout)
 

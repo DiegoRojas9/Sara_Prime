@@ -6,11 +6,12 @@
    <elementGuidId>3bab12ab-6283-4eb4-beb7-036c793e8aff</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[9]/span/div/div/table/tfoot/tr/td[5]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[2]/span/div/form/div/div/div[2]/div/div/div[2]/div/div[9]/span/div/div/table/tfoot/tr/td[5]/a
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>c84eb5cb-5df1-4ec5-a94b-9c1cdad01e58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>a2cbf126-fa87-41db-ae37-0740616f25e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569':'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569'},'');return false</value>
+      <webElementGuid>09995f67-e563-451f-a6f6-77e5a2f6b1ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-miniadicionar</value>
+      <webElementGuid>cc28b6d8-55bd-4b66-a394-9673fd1ceaba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;detalleEmpleadoPrime_form:tablaEntidadesAPV_foot&quot;)/tr[1]/td[@class=&quot;ui-state-default&quot;]/a[@class=&quot;btn-miniadicionar&quot;]</value>
+      <webElementGuid>c15297bc-79c7-4054-94a4-ec39a33ae4c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569':'detalleEmpleadoPrime_form:tablaEntidadesAPV:j_idt569'},'');return false&quot;]</value>
+      <webElementGuid>bff32068-88fd-4ad6-91d4-f74d46102dd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tfoot[@id='detalleEmpleadoPrime_form:tablaEntidadesAPV_foot']/tr/td[5]/a</value>
+      <webElementGuid>8b476c18-ed17-414d-aef5-cb88c1d82a02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[11]</value>
+      <webElementGuid>69effe4e-5bb1-47c1-bfd1-b533fb9e1562</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,5 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/span/div/div/table/tfoot/tr/td[5]/a</value>
+      <webElementGuid>1050b432-9d14-4b2c-832c-d1d3a0155e3c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

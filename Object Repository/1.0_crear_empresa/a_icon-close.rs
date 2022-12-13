@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_mas Centro de costos</name>
+   <name>a_icon-close</name>
    <tag></tag>
-   <elementGuidId>c621c22c-60e8-429e-a5f8-1f789c094f8c</elementGuidId>
+   <elementGuidId>170a01a3-b3cd-4ce1-b054-b69269d91ae5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[2]/span/div/form/div/div/div[2]/div/div/div[2]/div[1]/div[10]/div/a</value>
+         <value>//body/div[1]/div[2]/span/form[15]/div/div[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

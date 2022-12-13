@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_mas Centro de costos</name>
+   <name>a_Cargo Katalon</name>
    <tag></tag>
-   <elementGuidId>c621c22c-60e8-429e-a5f8-1f789c094f8c</elementGuidId>
+   <elementGuidId>61c2094b-a52d-4338-abf6-76292fae03f8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Cargo Katalon')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[2]/span/div/form/div/div/div[2]/div/div/div[2]/div[1]/div[10]/div/a</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -14,35 +14,48 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.By.ByXPath as ByXPath
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
-
-double random_double = (Math.random() * 9999) + 999
-
-random_double = Math.round(random_double * 1000)
-
-String identificacion = random_double.toString().replace('.0', '')
+import java.io.File as File
 
 WebUI.callTestCase(findTestCase('1.0_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.click(findTestObject('1.1_General_Objects/a_Colaboradores'))
+WebUI.waitForElementPresent(findTestObject('2_Colaboradores/Page_/a_Colaboradores'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/a_Colaboradores'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Agregar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar'))
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Documento  _detalleEmpleadoPrime'), identificacion)
+WebUI.click(findTestObject('2_Colaboradores/Page_/a_Comprobar'))
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar foto'))
+
+String ruta = GlobalVariable.G_rutaarchivos + 'Anonymous.jpg'
+
+println(ruta)
+
+WebUI.uploadFileWithDragAndDrop(findTestObject('2_Colaboradores/Page_/a_Seleccionar Archivo'), ruta)
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/a_Aceptar - Copy'))
+
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Documento  _detalleEmpleadoPrime'), ID())
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), 'Andrea')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), 'Mariana' + ID())
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Primer Apellido  _detalleEmpleadoPrime'), 'Agudelo')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Primer Apellido  _detalleEmpleadoPrime'), 'Urrego')
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Segundo Apellido _detalleEmpleadoPrime'), 'Arango')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Segundo Apellido _detalleEmpleadoPrime'), 'Camacho')
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha Nacimiento  _detalleEmpleadoPrime'), '16/10/1983')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha Nacimiento  _detalleEmpleadoPrime'), '16/10/1995')
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Pas Nacimiento  _detalleEmpleadoPrime'), 'COL')
 
@@ -52,7 +65,9 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2_Colabora
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Email  _detalleEmpleadoPrime_formemail'), identificacion + 'Mariana.urrego@gmail.com')
+WebUI.click(findTestObject('2_Colaboradores/Page_/label_Email'))
+
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Email  _detalleEmpleadoPrime_formemail'), ID() + 'Mariana.urrego@gmail.com')
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Ciudad de Residencia _formciudadResidencia_input'), 'Bogot')
 
@@ -83,12 +98,23 @@ WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Selecc
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Continuar'))
 
+WebUI.click(findTestObject('2_Colaboradores/3_Crear_Cargo_y_unidad/a_MASUnidad'))
+
+WebUI.setText(findTestObject('2_Colaboradores/3_Crear_Cargo_y_unidad/input_Descripción'), 'Unidad Katalon')
+
+WebUI.click(findTestObject('2_Colaboradores/3_Crear_Cargo_y_unidad/a_Guardar'))
+
+WebUI.click(findTestObject('2_Colaboradores/3_Crear_Cargo_y_unidad/a_MASCargo'))
+
+WebUI.setText(findTestObject('2_Colaboradores/3_Crear_Cargo_y_unidad/input_Descripción'), 'Cargo Katalon')
+
+WebUI.click(findTestObject('2_Colaboradores/3_Crear_Cargo_y_unidad/a_Guardar'))
+
 try {
-    WebUI.selectOptionByIndex(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Cargo --ANALISTA'), 
-        2)
+    WebUI.click(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Cargo --ANALISTA'))
 
     WebUI.selectOptionByIndex(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Cargo --ANALISTA'), 
-        1)
+        '3', FailureHandling.STOP_ON_FAILURE)
 }
 catch (Exception e) {
     WebUI.click(findTestObject('Object Repository/2_Colaboradores/Page_/a_Cargo  _btn-miniadicionar'))
@@ -101,22 +127,12 @@ catch (Exception e) {
 
 try {
     WebUI.selectOptionByIndex(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Unidad --DESARROLLO'), 
-        2)
-
-    WebUI.selectOptionByIndex(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Unidad --DESARROLLO'), 
-        1)
+        '7')
 }
 catch (Exception e) {
+    WebUI.sendKeys(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), Keys.chord(Keys.ESCAPE))
+
     WebUI.click(findTestObject('Object Repository/2_Colaboradores/Page_/a_Unidad  _btn-miniadicionar'))
-
-    WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Asignar Jefe _detalleEmpleadoPrime_formj_idt378'), 
-        GlobalVariable.G_timeout)
-
-    WebUI.click(findTestObject('2_Colaboradores/Page_/a_Asignar Jefe _detalleEmpleadoPrime_formj_idt378'))
-
-    WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/td_PARRA GUZMAN ANGELA MARA'), GlobalVariable.G_timeout)
-
-    WebUI.click(findTestObject('2_Colaboradores/Page_/td_PARRA GUZMAN ANGELA MARA'))
 
     WebUI.setText(findTestObject('Object Repository/2_Colaboradores/Page_/input_Descripcin_form_popupCrearUnidaddescripcionUnidad'), 
         'Desarrollo')
@@ -124,12 +140,18 @@ catch (Exception e) {
     WebUI.click(findTestObject('Object Repository/2_Colaboradores/Page_/a_Guardar_Unidad'))
 } 
 
+WebUI.click(findTestObject('2_Colaboradores/Page_/a_Asignar Jefe _detalleEmpleadoPrime_formj_idt378'))
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/td_PARRA GUZMAN ANGELA MARA'))
+
 WebUI.setText(findTestObject('Object Repository/2_Colaboradores/Page_/input_Sueldo  _detalleEmpleadoPrime_formsueldo'), 
     '5400000')
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo Contrato --APRENDIZ'), '5')
 
-WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), '01/03/2021')
+WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), '01/05/2021')
+
+WebUI.sendKeys(findTestObject('2_Colaboradores/Page_/input_Fecha de Ingreso  _detalleEmpleadoPrime'), Keys.chord(Keys.ESCAPE))
 
 try {
     WebUI.selectOptionByIndex(findTestObject('Object Repository/2_Colaboradores/Page_/select_-- Seleccione Centro Costo --Gerencia'), 
@@ -182,11 +204,6 @@ WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Selecc
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione --FC - COLFONDOSFC - FONDO'), '1')
 
-WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Medio de Pago --ChequeTransferencia'), 
-    GlobalVariable.G_timeout)
-
-WebUI.click(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Medio de Pago --ChequeTransferencia'))
-
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Medio de Pago --ChequeTransferencia'), 
     '2', FailureHandling.STOP_ON_FAILURE)
 
@@ -198,7 +215,69 @@ WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Nmero de Cuenta  _deta
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione Tipo de Cuenta --Cuenta Ahorros'), 
     '1')
 
+WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Agregar Beneficiarios UPC'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Nuevo'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Nuevo'))
+
+WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/select_CEDULA CIUDADANIACEDULA'), '2', 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Valor a Aportar _popupRegistroBeneficiariosUpc'), 
+    '86000')
+
+WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Identificacin _popupRegistroBeneficiariosUpc'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Identificacin _popupRegistroBeneficiariosUpc'), 
+    GlobalVariable.G_timeout)
+
+WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Identificacin _popupRegistroBeneficiariosUpc'), 
+    '1022987456')
+
+WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Aplicacin _popupRegistroBeneficiariosUpc'), 
+    '10/05/2021')
+
+WebUI.sendKeys(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Aplicacin _popupRegistroBeneficiariosUpc'), 
+    Keys.chord(Keys.ESCAPE))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Nombre _popupRegistroBeneficiariosUpc_formnombre'), 
+    GlobalVariable.G_timeout)
+
+WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Nombre _popupRegistroBeneficiariosUpc_formnombre'), 
+    'Hector Alirio')
+
+WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Final _popupRegistroBeneficiariosUpc'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Final _popupRegistroBeneficiariosUpc'), 
+    GlobalVariable.G_timeout)
+
+WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Final _popupRegistroBeneficiariosUpc'), 
+    '27/06/2021')
+
+WebUI.sendKeys(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Fecha Final _popupRegistroBeneficiariosUpc'), 
+    Keys.chord(Keys.ESCAPE))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Nombre _popupRegistroBeneficiariosUpc_formnombre'), 
+    GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Apellidos _popupRegistroBeneficiariosUpc_formapellidos'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/input_Apellidos _popupRegistroBeneficiariosUpc_formapellidos'), 
+    'Urrego Camacho')
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Agregar'), GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Agregar'))
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/span_Medio de Pago_ui-icon ui-icon-closethick'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Continuar2'), GlobalVariable.G_timeout)
+
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Continuar2'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/label_No'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/label_No'))
 
@@ -208,7 +287,13 @@ WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Intereses Crdito Vivie
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione --AFC - AV VILLASAFC-BANCO'), '8')
 
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/span_Valor_ui-chkbox-icon ui-icon ui-c ui-icon-check'), 
+    GlobalVariable.G_timeout)
+
 WebUI.click(findTestObject('2_Colaboradores/Page_/span_Valor_ui-chkbox-icon ui-icon ui-c ui-icon-check'))
+
+WebUI.waitForElementPresent(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAFCcuentaAFC'), 
+    GlobalVariable.G_TimeShort)
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAFCcuentaAFC'), 
     '665432999')
@@ -219,15 +304,30 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionar'))
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione --APV - Caja de Auxilios'), '2')
 
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/span_Valor_ui-chkbox-icon ui-icon ui-icon-blank ui-APV'), 
+    GlobalVariable.G_timeout)
+
 WebUI.click(findTestObject('2_Colaboradores/Page_/span_Valor_ui-chkbox-icon ui-icon ui-icon-blank ui-APV'))
+
+WebUI.waitForElementPresent(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAPV'), 
+    GlobalVariable.G_TimeShort)
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAPV'), '665432999')
 
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAPVvalorAPV'), 
+    GlobalVariable.G_timeout)
+
+WebUI.click(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAPVvalorAPV'))
+
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAPVvalorAPV'), '56000')
 
-WebUI.scrollToElement(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'), 0)
+WebUI.scrollToElement(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'), GlobalVariable.G_timeout)
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'))
+
+WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Page_/a_Finalizar registro'), GlobalVariable.G_timeout)
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Finalizar registro'))
 
@@ -241,17 +341,13 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/a_Aceptar'))
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
-WebUI.waitForElementPresent(findTestObject('1.1_General_Objects/a_Colaboradores'), GlobalVariable.G_timeout)
+WebUI.waitForElementPresent(findTestObject('2_Colaboradores/Page_/a_Colaboradores'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('1.1_General_Objects/a_Colaboradores'))
+WebUI.click(findTestObject('2_Colaboradores/Page_/a_Colaboradores'))
 
-WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/span_Activos'))
+WebUI.setText(findTestObject('2_Colaboradores/3_Crear_Cargo_y_unidad/inpu_busqueda'), ID())
 
-WebUI.click(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/input_Filtro_formulario_nominaj_idt495'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/input_Filtro_formulario_nominaj_idt495'), 
-    identificacion)
+WebUI.sendKeys(findTestObject('2_Colaboradores/3_Crear_Cargo_y_unidad/inpu_busqueda'), Keys.chord(Keys.ENTER))
 
 while (WebUI.waitForElementClickable(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/a_ACTIVO_us-icon-remover'), 
     1)) {
@@ -331,5 +427,11 @@ if (Result == 'liquidación realizada con exito.') {
     WebUI.acceptAlert()
 }
 
-WebUI.closeBrowser()
+def ID() {
+    double random_double = (Math.random() * 9999) + 999
+
+    random_double = Math.round(random_double * 1000)
+
+    String identificacion = random_double.toString().replace('.0', '')
+}
 
