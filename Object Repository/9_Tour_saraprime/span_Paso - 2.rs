@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Paso - 2</name>
+   <tag></tag>
+   <elementGuidId>219afff0-0bb5-4c07-8af8-02f8a8969886</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//*[@id=&quot;popupAsistenteRevisarNomina:dialog_popupAsistenteRevisarNominaBean_content&quot;]/div[1]/div[1]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.titulo_Persona_titulo_Popup</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1c4fea62-40d4-4060-8af0-4024867f61c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>titulo_Persona_titulo_Popup</value>
+      <webElementGuid>59282c9f-0b7f-4446-9bdf-6dba70536511</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Paso 1</value>
+      <webElementGuid>cd24df79-7655-4bed-a08f-81888ff764d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupAsistenteCrearEmpleado:dialog_popupAsistenteCrearEmpleadoBean_content&quot;)/div[@class=&quot;col-md-12 paddingTexto&quot;]/div[@class=&quot;col-md-12&quot;]/span[@class=&quot;titulo_Persona_titulo_Popup&quot;]</value>
+      <webElementGuid>f1a88706-8ff4-4491-8858-83e2c2aee2cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popupAsistenteCrearEmpleado:dialog_popupAsistenteCrearEmpleadoBean_content']/div/div/span</value>
+      <webElementGuid>2a76f2d2-3158-45b5-9266-991582be4601</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aquí Puedes'])[1]/following::span[6]</value>
+      <webElementGuid>a064af88-bac8-4b79-940d-fe2f7137d6a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::span[7]</value>
+      <webElementGuid>dc4080d0-e49c-49f3-94bf-70b9aa2c6dea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agregar un empleado'])[1]/preceding::span[1]</value>
+      <webElementGuid>6d529a63-be42-42fd-ab60-5b31443646c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mediante la tarea Colaboradores y este botón puedes agregar un nuevo colaborador.'])[1]/preceding::span[2]</value>
+      <webElementGuid>a375a266-d704-4698-b415-76f61d958757</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Paso 1']/parent::*</value>
+      <webElementGuid>4e39e698-7cb4-44df-ab24-e881cf52b354</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form[3]/div/div[2]/div/div/span</value>
+      <webElementGuid>eda488c6-ad27-47d1-8f2c-d0e21ad9a902</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Paso 1' or . = 'Paso 1')]</value>
+      <webElementGuid>89210252-fe44-4f3b-9d95-ef171fe5ddf3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

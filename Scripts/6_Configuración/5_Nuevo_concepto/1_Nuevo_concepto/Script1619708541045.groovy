@@ -45,14 +45,19 @@ WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/
 
 WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/a_Agregar'))
 
+WebUI.click(findTestObject('3_Nómina/10_Provisiones/a_Aceptar'))
+
 WebUI.waitForElementClickable(findTestObject('6_Configuración/6_Nuevo_concepto/a_icon_trash can'), 0)
 
 WebUI.click(findTestObject('6_Configuración/6_Nuevo_concepto/a_icon_trash can'))
 
-String Result =WebUI.getText(findTestObject('Result/p_Resultado'))
+String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
 
+if (Result == 'Se elimino correctamente el registro') {
+    String Resultado = 'PRUEBA OK'
 
-if(Result == 'Se elimino correctamente el registro') {
-	String  Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}else {WebUI.acceptAlert()}
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
+

@@ -221,4 +221,11 @@
       <testCaseId>Test Cases/8_Nomina_Electrónica/8.4-Reversar_Nomina_Electronica</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e76f69e4-6f54-4c61-840d-9adde1e62ca4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/9_Tour_saraprime/9.1-Tour_saraprime</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

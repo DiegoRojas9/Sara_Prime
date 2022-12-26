@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_continuar tour</name>
+   <tag></tag>
+   <elementGuidId>c78e94d0-a062-45bd-8d81-bc98070443b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//*[@id=&quot;formStack:idStack_stack&quot;]/li[2]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>a82b0534-6959-42f9-9615-b3e72bc32537</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/saraprimeweb/image/?defecto=resources/general/imagenes/icon_asistente.png</value>
+      <webElementGuid>33d7d7d3-7420-459f-867e-1affd2d04f5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formStack:idStack_stack&quot;)/li[2]/a[@class=&quot;ui-menuitem-link ui-corner-all us-icon-list-stack-prime&quot;]/img[1]</value>
+      <webElementGuid>920022dd-d1de-4a9a-b889-2b4614a6b633</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='formStack:idStack_stack']/li[2]/a/img</value>
+      <webElementGuid>0deedfeb-087a-4bb0-b45c-c97fa7f7e8a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a/img</value>
+      <webElementGuid>7fdc99d0-8963-46a0-862e-c439c3f89fe9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/saraprimeweb/image/?defecto=resources/general/imagenes/icon_asistente.png']</value>
+      <webElementGuid>74bfd7ee-57af-4b1b-82a2-fa3b0bfa5301</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
