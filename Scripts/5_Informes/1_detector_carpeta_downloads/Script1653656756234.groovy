@@ -39,10 +39,13 @@ String fichero=new File(ruta1);
 String fichero1=new File(ruta2);
 String fichero2=new File(ruta3);
 String fichero3=new File(ruta4);
-String Carpeta = "Downloads"
+String Carpeta = ""
 String RutaA  = ""
 String ResultF = ""
 String Archivo = '2_GT_-_Reporte_Programación.xls'
+String rta = Systema(Carpeta)
+Carpeta = rta
+println(Carpeta)
 
 def prueba ( ruta1,fichero,Carpeta,RutaA) {
 	
@@ -53,11 +56,20 @@ def prueba ( ruta1,fichero,Carpeta,RutaA) {
 		if (dirContents[i].getName().equals(Carpeta)) {
 			
 			if (dirContents[i].isDirectory()) {
+				if(Carpeta == 'Downloads'){
 				System.out.println(fichero +"Downloads")
 				String Resultado = (fichero + "\\Downloads")
 				System.out.println('Es una carpeta ', Resultado)
 				RutaA =Resultado
-				return RutaA
+				return RutaA}
+				else if(Carpeta == 'Descargas') {
+					System.out.println(fichero +"Descargas")
+					String Resultado = (fichero + "/Descargas")
+					println('Es una carpeta ')
+					println(Resultado)
+					RutaA =Resultado
+					return RutaA
+				}
 			}
 			 return true
 		}
@@ -74,11 +86,20 @@ def prueba1 ( ruta2,fichero1,Carpeta, RutaA) {
 		if (dirContents[i].getName().equals(Carpeta)) {
 			
 			if (dirContents[i].isDirectory()) {
+				if(Carpeta == 'Downloads') {
 				System.out.println(fichero1 +"Downloads")
 				String Resultado = (fichero1 + "\\Downloads")
 				System.out.println('Es una carpeta ', Resultado)
 				RutaA = Resultado
-				return RutaA
+				return RutaA}
+				else if (Carpeta == 'Descargas') {
+					System.out.println(fichero1 +"Descargas")
+					String Resultado = (fichero1 + "\\Descargas")
+					println('Es una carpeta')
+					println(Resultado)
+					RutaA = Resultado
+					return RutaA
+				}
 			}
 			
 		}
@@ -95,11 +116,20 @@ def prueba2 ( ruta3,fichero2,Carpeta,RutaA) {
 		if (dirContents[i].getName().equals(Carpeta)) {
 			
 			if (dirContents[i].isDirectory()) {
+				if(Carpeta == 'Downloads') {
 				System.out.println(fichero2 +"Downloads")
 				String Resultado = (fichero2 + "\\Downloads")
 				System.out.println('Es una carpeta ', Resultado)
 				RutaA = Resultado
-				return RutaA
+				return RutaA}
+				else if(Carpeta == 'Descargas') {
+					System.out.println(fichero2 +"Descargas")
+					String Resultado = (fichero2 + "/Descargas")
+					println('Es una carpeta ')
+					println(Resultado)
+					RutaA = Resultado
+					return RutaA
+				}
 			}
 			
 		}
@@ -116,11 +146,20 @@ def prueba3 ( ruta4,fichero3,Carpeta, RutaA) {
 		if (dirContents[i].getName().equals(Carpeta)) {
 			
 			if (dirContents[i].isDirectory()) {
+				if(Carpeta == 'Downloads') {
 				System.out.println(fichero3 +"Downloads")
 				String Resultado = (fichero3 + "\\Downloads")
 				System.out.println('Es una carpeta '+ Resultado)
 				RutaA = Resultado
-				return RutaA
+				return RutaA}
+				else  if (Carpeta == 'Descargas') {
+					System.out.println(fichero3 +"Descargas")
+					String Resultado = (fichero3 + "/Descargas")
+					println('Es una carpeta ')
+					println(Resultado)
+					RutaA = Resultado
+					return RutaA
+					}
 				}
 			
 			return true
@@ -138,21 +177,21 @@ System.out.println(r1)
 System.out.println(r2)
 System.out.println(r3)
 
-if ( r == '\\Downloads') {
+if ( r == '\\Downloads'||r == '/Descargas') {
 	String ok = 'OK'
 	System.out.println(r)
 	RutaA = r
 	return RutaA
 	
 }
-else if(r1 == '..\\Downloads') {
+else if(r1 == '..\\Downloads'||r1 == '../Descargas') {
 	String ok = 'OK'
 	System.out.println(r1)
 	RutaA = r1
 	return RutaA
 	
 }
-else if (r2 == '..\\..\\Downloads') {
+else if (r2 == '..\\..\\Downloads'||r2 == '../../Descargas') {
 	String ok = 'OK'
 	System.out.println(r2)
 	RutaA = r2
@@ -160,7 +199,7 @@ else if (r2 == '..\\..\\Downloads') {
 	
 	
 }
-else if (r3 == '..\\..\\..\\Downloads') {
+else if (r3 == '..\\..\\..\\Downloads'||r3 == '../../../Descargas') {
 	String ok = 'OK'
 	System.out.println(r3)
 	RutaA = r3
@@ -168,4 +207,11 @@ else if (r3 == '..\\..\\..\\Downloads') {
 	
 }
 
-
+def Systema(Carpeta) {
+	String sis = System.getProperty ('os.name')
+	if(sis == 'Windows 10') {
+		Carpeta = 'Downloads'
+	}else if (sis == 'Linux') {
+		Carpeta ='Descargas'
+	}
+}

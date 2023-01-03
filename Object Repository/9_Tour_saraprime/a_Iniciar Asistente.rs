@@ -6,11 +6,11 @@
    <elementGuidId>e0e6d731-65e5-452f-aa71-d10dd9d6f2cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Iniciar Asistente')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d27d5be9-8d02-473c-a24a-dff578e81dc1</webElementGuid>
+      <webElementGuid>6742a2df-cf1c-4375-b3bb-e2d8900483fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupIniciarAsistente:j_idt439</value>
-      <webElementGuid>3e15b94b-3604-443c-83ff-30c4d1ae0a1c</webElementGuid>
+      <webElementGuid>7aa4dbd0-2958-41dc-8cd2-46e64e2db50d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>7b0bae04-000f-457f-8fad-326bc1255ff7</webElementGuid>
+      <webElementGuid>6c143041-e629-400d-9f93-7f159bb454f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton</value>
-      <webElementGuid>2e5ebd6e-bbd1-4ca9-91ad-08a45b75f003</webElementGuid>
+      <webElementGuid>3bef8977-7926-4325-99ca-bcc88a95ead6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupIniciarAsistente:j_idt439&quot;,f:&quot;popupIniciarAsistente&quot;,u:&quot;popupIniciarAsistente popupPasosAsistente&quot;});return false;</value>
-      <webElementGuid>250ad4e8-3b80-4805-a30a-b2629bb5990f</webElementGuid>
+      <webElementGuid>4d588a18-efd2-4ef2-a6e1-819428288715</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Iniciar Asistente</value>
-      <webElementGuid>249af14d-f315-42df-8897-b143e6c33c72</webElementGuid>
+      <webElementGuid>38e2600d-5bc0-40a9-ba9d-e282e1655ed1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupIniciarAsistente:j_idt439&quot;)</value>
-      <webElementGuid>e0effe36-e1c2-4cb6-9c4b-d1e432db34d8</webElementGuid>
+      <webElementGuid>779d649d-9dd4-4da2-86c8-6929d096751f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupIniciarAsistente:j_idt439']</value>
-      <webElementGuid>53f40fc3-9a76-4e81-9553-5f6e00107a44</webElementGuid>
+      <webElementGuid>81c418ee-07b3-411e-9698-0794a8dad278</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupIniciarAsistente:dialog_popupIniciarAsistenteBean_content']/div/div[2]/a</value>
-      <webElementGuid>de17e6b3-81c4-4159-bf06-9f268d55ccca</webElementGuid>
+      <webElementGuid>19f50b04-334d-419d-a378-4ba4f9749f9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Iniciar Asistente')]</value>
-      <webElementGuid>d5d30ddc-d6ba-4c46-8482-50fc75de1c20</webElementGuid>
+      <webElementGuid>3bee956f-1b32-4a43-9070-98dbf705f9aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bienvenido, este es el asistente de SaraPrime'])[1]/following::a[1]</value>
-      <webElementGuid>72964f6a-afe8-4f47-9d0d-9e495a864c5c</webElementGuid>
+      <webElementGuid>1fd13fd0-dd4c-481d-9830-481b3486fddf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[2]/following::a[2]</value>
-      <webElementGuid>f6e94490-be86-4690-a1f0-ae73b2c43b47</webElementGuid>
+      <webElementGuid>2f7795bd-c34d-4e3a-9cd5-01c9eecf22f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No volver a mostrar'])[1]/preceding::a[1]</value>
-      <webElementGuid>1ee2578d-e4e1-4c00-a78d-10e678d4f425</webElementGuid>
+      <webElementGuid>b0b9d632-3c05-45fa-9b24-60473ce8828a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte Técnico'])[1]/preceding::a[1]</value>
-      <webElementGuid>004437f7-3ef2-489b-8acc-ff6552b24362</webElementGuid>
+      <webElementGuid>c35e6498-577b-4254-a7e8-7748c126d801</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Iniciar Asistente']/parent::*</value>
-      <webElementGuid>0d94346c-ffce-47d9-b8f9-b656188b6f6c</webElementGuid>
+      <webElementGuid>6d2d92f8-591f-4447-abce-741584f94f30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[15]</value>
-      <webElementGuid>112cffad-63fd-4082-b056-6252752df965</webElementGuid>
+      <webElementGuid>e8d76b0c-07cc-4f4f-a3ab-447e7d4ada8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
-      <webElementGuid>ef6bf3c7-5d1d-42a1-b471-936b5b30a990</webElementGuid>
+      <webElementGuid>2f8231d2-3196-4187-be91-1d1d706d41a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupIniciarAsistente:j_idt439' and @href = '#' and (text() = 'Iniciar Asistente' or . = 'Iniciar Asistente')]</value>
-      <webElementGuid>90a8f747-ecf5-4c49-8ed3-d54803f3a28b</webElementGuid>
+      <webElementGuid>baf7ff46-2c5c-4af4-b61a-cec8af17ab44</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

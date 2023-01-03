@@ -20,6 +20,8 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 import java.io.File as File
+import org.openqa.selenium.WebElement as webElement
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('1.0_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -29,14 +31,15 @@ if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Iniciar Asist
     WebUI.click(findTestObject('9_Tour_saraprime/img_incognita'))
 
     WebUI.click(findTestObject('9_Tour_saraprime/img_continuar tour'))
-	
-	if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Iniciar Asistente'), 2)) {
-		WebUI.click(findTestObject('9_Tour_saraprime/a_Iniciar Asistente'))
-		
-	}
-	if(WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/span_LISTO YA TE REGISTRASTE'), 1)) {
-		WebUI.click(findTestObject('9_Tour_saraprime/a_Siguiente0'))
-	}
+
+    if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Iniciar Asistente'), 2)) {
+        WebUI.click(findTestObject('9_Tour_saraprime/a_Iniciar Asistente'))
+    }
+    
+    if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/span_LISTO YA TE REGISTRASTE'), 1)) {
+        WebUI.click(findTestObject('9_Tour_saraprime/a_Siguiente0'))
+    }
+    
     if (((((((((WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/span_E_ui-icon ui-icon-closethick'), 1) || 
     WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/span_E_ui-icon ui-icon-closethick - 1'), 1)) || WebUI.waitForElementVisible(
         findTestObject('9_Tour_saraprime/span_E_ui-icon ui-icon-closethick - 2'), 1)) || WebUI.waitForElementVisible(findTestObject(
@@ -235,15 +238,39 @@ WebUI.click(findTestObject('9_Tour_saraprime/img_continuar tour - Copy - Copy'))
 
 WebUI.click(findTestObject('9_Tour_saraprime/a_Siguiente0'))
 
-if(WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Finalizar Tour'), 1))
-{
-WebUI.click(findTestObject('9_Tour_saraprime/a_Finalizar Tour'))
+if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Finalizar Tour'), 1)) {
+    WebUI.click(findTestObject('9_Tour_saraprime/a_Finalizar Tour'))
 
-String RESULTADO = 'Prueba ok'
+    String RESULTADO = 'Prueba ok'
 
-WebUI.closeBrowser()
-}
+    WebUI.closeBrowser()
+} //-----------------------------------------------
+
 def nuevoEmpleado(def id) {
+    String RutaA = System.getProperty('os.name')
+
+    String rta = ''
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1_Recursos/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        rta = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1_Recursos/'
+
+        println('Esta es la ruta:' + rutaW)
+
+        rta = rutaW
+    } else {
+        rta = 'Error'
+
+        WebUI.acceptAlert()
+    }
+    
     if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/span_E_ui-icon ui-icon-closethick - 1'), 1)) {
         WebUI.click(findTestObject('9_Tour_saraprime/span_Paso - 1'))
     } else if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/span_E_ui-icon ui-icon-closethick'), 1)) {
@@ -264,7 +291,7 @@ def nuevoEmpleado(def id) {
 
     WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar foto'))
 
-    String ruta = GlobalVariable.G_rutaarchivos + 'Anonymous.jpg'
+    String ruta = rta + 'Anonymous.jpg'
 
     println(ruta)
 
@@ -521,7 +548,9 @@ def nuevoEmpleado(def id) {
     WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAFCvalorAFC'), 
         '68000')
 
-    WebUI.click(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionar'))
+    WebUI.scrollToElement(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionar'), 0)
+
+    WebUI.doubleClick(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionar'))
 
     WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione --APV - Caja de Auxilios'), '2')
 

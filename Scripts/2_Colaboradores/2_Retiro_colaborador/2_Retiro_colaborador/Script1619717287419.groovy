@@ -215,7 +215,9 @@ WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleado
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAFCvalorAFC'), '68000')
 
-WebUI.click(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionar'))
+WebUI.scrollToElement(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionar'), 0)
+
+WebUI.doubleClick(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionar'))
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione --APV - Caja de Auxilios'), '2')
 
@@ -227,7 +229,7 @@ WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleado
 
 WebUI.scrollToElement(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'), 0)
 
-WebUI.click(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'))
+WebUI.doubleClick(findTestObject('2_Colaboradores/Page_/a_Fecha Vigencia_btn-miniadicionar'))
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Finalizar registro'))
 

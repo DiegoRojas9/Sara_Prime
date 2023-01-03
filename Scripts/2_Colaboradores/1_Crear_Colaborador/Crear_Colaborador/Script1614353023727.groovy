@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 import java.io.File as File
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('1.0_Logueo/Logueo'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -37,7 +38,9 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/a_Comprobar'))
 
 WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar foto'))
 
-String ruta = GlobalVariable.G_rutaarchivos + 'Anonymous.jpg'
+String rta = ''
+
+String ruta = Systema(rta) + 'Anonymous.jpg'
 
 println(ruta)
 
@@ -185,8 +188,6 @@ catch (Exception e) {
     WebUI.acceptAlert()
 } 
 
-
-
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione --EPS - ALIANSALUD EPSEPS'), '21')
 
 WebUI.waitForElementClickable(findTestObject('2_Colaboradores/Beneficiario_UPC/Page_/a_Agregar Beneficiarios UPC'), GlobalVariable.G_timeout)
@@ -294,7 +295,9 @@ WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleado
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Cuenta_detalleEmpleadoPrime_formtablaEntidadesAFCvalorAFC'), '68000')
 
-WebUI.click(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionar'))
+WebUI.scrollToElement(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionar'), 0)
+
+WebUI.doubleClick(findTestObject('2_Colaboradores/Page_/a_Cuenta_btn-miniadicionar'))
 
 WebUI.selectOptionByIndex(findTestObject('2_Colaboradores/Page_/select_-- Seleccione --APV - Caja de Auxilios'), '2')
 
@@ -347,5 +350,29 @@ def ID() {
     random_double = Math.round(random_double * 1000)
 
     String identificacion = random_double.toString().replace('.0', '')
+}
+
+def Systema(def rta) {
+    String RutaA = System.getProperty('os.name')
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1_Recursos/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        rta = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1_Recursos/'
+
+        println('Esta es la ruta:' + rutaW)
+
+        rta = rutaW
+    } else {
+        rta = 'Error'
+
+        WebUI.acceptAlert()
+    }
 }
 
