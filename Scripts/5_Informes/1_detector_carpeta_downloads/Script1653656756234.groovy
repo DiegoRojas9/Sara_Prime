@@ -59,7 +59,7 @@ def prueba ( ruta1,fichero,Carpeta,RutaA) {
 				if(Carpeta == 'Downloads'){
 				System.out.println(fichero +"Downloads")
 				String Resultado = (fichero + "\\Downloads")
-				System.out.println('Es una carpeta ', Resultado)
+				println('Es una carpeta: '+ Resultado)
 				RutaA =Resultado
 				return RutaA}
 				else if(Carpeta == 'Descargas') {
@@ -89,7 +89,7 @@ def prueba1 ( ruta2,fichero1,Carpeta, RutaA) {
 				if(Carpeta == 'Downloads') {
 				System.out.println(fichero1 +"Downloads")
 				String Resultado = (fichero1 + "\\Downloads")
-				System.out.println('Es una carpeta ', Resultado)
+				println('Es una carpeta '+ Resultado)
 				RutaA = Resultado
 				return RutaA}
 				else if (Carpeta == 'Descargas') {
@@ -119,7 +119,7 @@ def prueba2 ( ruta3,fichero2,Carpeta,RutaA) {
 				if(Carpeta == 'Downloads') {
 				System.out.println(fichero2 +"Downloads")
 				String Resultado = (fichero2 + "\\Downloads")
-				System.out.println('Es una carpeta ', Resultado)
+				println('Es una carpeta '+ Resultado)
 				RutaA = Resultado
 				return RutaA}
 				else if(Carpeta == 'Descargas') {
@@ -149,7 +149,7 @@ def prueba3 ( ruta4,fichero3,Carpeta, RutaA) {
 				if(Carpeta == 'Downloads') {
 				System.out.println(fichero3 +"Downloads")
 				String Resultado = (fichero3 + "\\Downloads")
-				System.out.println('Es una carpeta '+ Resultado)
+				println('Es una carpeta '+ Resultado)
 				RutaA = Resultado
 				return RutaA}
 				else  if (Carpeta == 'Descargas') {
