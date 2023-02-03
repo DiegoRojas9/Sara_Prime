@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_COMISIONES</name>
+   <tag></tag>
+   <elementGuidId>eb074725-9a3e-45c9-8b1f-e5b88a4fb2c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[(text() = 'COMISIONES ' or . = 'COMISIONES ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>adb06cbf-2d42-4e5b-afe9-18f47bc7c79b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>COMISIONES </value>
+      <webElementGuid>338d886b-b16e-4376-90b5-4066f52ad888</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formulario_nomina:j_idt339_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd fila_tabla_ace&quot;]/td[@class=&quot;us-tabal-nomina&quot;]/table[@class=&quot;us-ancho-novedad&quot;]/tbody[1]/tr[2]/td[1]</value>
+      <webElementGuid>3d799f1c-967e-477b-a0d7-882e1123e40e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='formulario_nomina:j_idt339_data']/tr[4]/td[6]/table/tbody/tr[2]/td</value>
+      <webElementGuid>7a62904c-dc78-4013-8c37-24ad7765f344</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ENFERMEDAD GENERAL'])[1]/following::td[2]</value>
+      <webElementGuid>1d4a65e8-0338-4e74-9aa9-9f8c8c408ba2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Valor: 100000.0)'])[1]/preceding::td[1]</value>
+      <webElementGuid>8d45c66c-128c-4ba2-840a-264d97b23e10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AGUDELO ARANGO ANDREA'])[5]/preceding::td[5]</value>
+      <webElementGuid>237f5cd2-8290-4335-8bee-d4c815be0ca8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='COMISIONES']/parent::*</value>
+      <webElementGuid>61cac42d-5a4b-4ff2-80b6-f2d0a9556f4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/table/tbody/tr[2]/td</value>
+      <webElementGuid>ee64dbd4-e5cd-47a2-8733-e85e14ea6d00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'COMISIONES ' or . = 'COMISIONES ')]</value>
+      <webElementGuid>b6be9c32-e09f-40ec-945a-19b49ea6ff9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

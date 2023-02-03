@@ -6,12 +6,12 @@
    <elementGuidId>01fff868-0bd0-4f6c-804e-720eddc795df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.txtlien > b</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Generador de correo electrónico']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='generador de correo electrónico']/parent::*</value>
+         <key>CSS</key>
+         <value>div.txtlien > b</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>e3911ccf-f59c-4cba-a051-9a9d48ad0bbe</webElementGuid>
+      <webElementGuid>3d7f6099-7cec-40c2-b3dd-0b9b3ccc8b58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>generador de correo electrónicoCrear un correo electrónico desechable al azar</value>
-      <webElementGuid>bf1e314b-eaa5-48bc-b985-53b80b8f7cbb</webElementGuid>
+      <webElementGuid>2527b65e-530e-4fc4-ae12-c537edd5121c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;listeliens&quot;)/a[1]/div[@class=&quot;txtlien&quot;]/b[1]</value>
-      <webElementGuid>7d6da03e-1a8d-4f14-92bd-b158e607b63d</webElementGuid>
+      <webElementGuid>5206938a-7bb7-4ca2-8b8e-0f1d749f6226</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='listeliens']/a/div[2]/b</value>
-      <webElementGuid>3194197a-efb5-4494-ae13-4141ef8cf428</webElementGuid>
+      <webElementGuid>aa60a378-aadd-4c80-964f-c526706cc430</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[2]/following::b[1]</value>
-      <webElementGuid>3bd9384c-b9f2-435d-813f-392d2be1ec85</webElementGuid>
+      <webElementGuid>1f0f6ec7-1ee6-46be-954f-8dd8bc76aab4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::b[1]</value>
-      <webElementGuid>5254512b-d0f0-4494-9324-59f69da6e22d</webElementGuid>
+      <webElementGuid>8810b6a8-1433-4ea4-a3a1-24248f93f5cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[2]/preceding::b[1]</value>
-      <webElementGuid>74d2d379-6e4f-4963-95ad-3c08d49154e9</webElementGuid>
+      <webElementGuid>b796dd78-7673-4bb1-ac49-73fa5d1fb4ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='generador de correo electrónico']/parent::*</value>
-      <webElementGuid>12792077-62aa-4a35-b662-0b3ac39dc6b8</webElementGuid>
+      <webElementGuid>5c871515-93d4-4c31-959b-08564c38d4a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/b</value>
-      <webElementGuid>829881ef-7c19-4145-b10e-a2ec8917effd</webElementGuid>
+      <webElementGuid>d7abab73-0e6e-4284-b07e-848c4c46dc01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = 'generador de correo electrónicoCrear un correo electrónico desechable al azar' or . = 'generador de correo electrónicoCrear un correo electrónico desechable al azar')]</value>
-      <webElementGuid>aba725e1-b2cf-4ce5-a811-ac1510d3df93</webElementGuid>
+      <webElementGuid>15de961e-f86f-40a9-8de8-a384d395682a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

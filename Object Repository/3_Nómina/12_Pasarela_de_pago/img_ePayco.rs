@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_ePayco</name>
+   <tag></tag>
+   <elementGuidId>43f5ce6c-93a5-45ed-b8cf-8678fa794130</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/span/div[3]/div/div/div[2]/div[2]/div[2]/span/form/button/img
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>877bfcc8-db4f-4e4f-a677-bbe6651edd3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1674057804968</value>
+      <webElementGuid>d68107bb-ef00-41ef-8319-7bc9302d4192</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

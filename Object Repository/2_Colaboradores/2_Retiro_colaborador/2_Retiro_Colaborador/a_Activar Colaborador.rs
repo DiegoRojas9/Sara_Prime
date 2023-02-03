@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Activar Colaborador</name>
+   <tag></tag>
+   <elementGuidId>200093a3-e39d-4a9c-9fac-1c4f571c8ede</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Activar Colaborador')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d5f59906-e92d-41b6-b0c0-7b371b15f978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>consultarColaborador:j_idt230:j_idt232:j_idt238</value>
+      <webElementGuid>4f609586-a103-475a-b0bf-a81d73063a99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>2a53ee82-3ce7-4f96-85f0-91f77fe37f67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>0c6ca513-38e6-4a36-9aee-a17ec144c6ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;consultarColaborador:j_idt230:j_idt232:j_idt238&quot;,f:&quot;consultarColaborador&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>4cfadf7e-7bbe-4333-bc04-c2b24a1c2707</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Activar Colaborador </value>
+      <webElementGuid>34f95f2c-5af4-4ae9-86c4-66cca973014b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;consultarColaborador:j_idt230:j_idt232:j_idt238&quot;)</value>
+      <webElementGuid>66ee96c6-8b04-4b93-aa66-ac5e748eefa2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='consultarColaborador:j_idt230:j_idt232:j_idt238']</value>
+      <webElementGuid>ba0b1221-3917-4fdb-93d5-daade1d2a141</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='consultarColaborador:j_idt230:j_idt232:j_idt233']/table/tbody/tr/td/a</value>
+      <webElementGuid>7a773a5b-27ea-43e4-9140-7cbbc7d25c68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Activar Colaborador')]</value>
+      <webElementGuid>ec1c1023-ebb0-4652-b195-df531f39a820</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Retirar Colaborador'])[1]/following::a[1]</value>
+      <webElementGuid>22122f85-f063-45d8-a29e-2d4f7ffa7045</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motivo del retiro:'])[1]/following::a[3]</value>
+      <webElementGuid>1cec9f02-3ec6-47af-a375-b19451d9ad2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mensaje'])[1]/preceding::a[3]</value>
+      <webElementGuid>c670a8f6-43a9-4c70-b014-186687547a51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UNI-APL-001'])[1]/preceding::a[3]</value>
+      <webElementGuid>98cd7d67-39e1-4b0a-8174-1064ca5350db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Activar Colaborador']/parent::*</value>
+      <webElementGuid>ed519bed-e765-4626-b0e5-112b14efd577</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[16]</value>
+      <webElementGuid>1af6f35e-4e65-4f98-a7d1-5f78442531a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a</value>
+      <webElementGuid>feaf0194-0f84-4544-910e-bae3f3cbad03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'consultarColaborador:j_idt230:j_idt232:j_idt238' and @href = '#' and (text() = 'Activar Colaborador ' or . = 'Activar Colaborador ')]</value>
+      <webElementGuid>ee791bf8-c51c-4f72-a836-1d3eceabb907</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

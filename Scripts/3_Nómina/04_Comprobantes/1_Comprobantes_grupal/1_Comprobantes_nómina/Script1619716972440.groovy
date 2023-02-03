@@ -34,6 +34,12 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_C
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'), GlobalVariable.G_timeout)
 
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'), GlobalVariable.G_timeout)
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'), GlobalVariable.G_timeout)
+
+WebUI.waitForElementClickable(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'), GlobalVariable.G_timeout)
+
 WebUI.click(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Continuar'))
 
 WebUI.waitForElementVisible(findTestObject('3_Nómina/4_Comprobantes/Page_/a_Descargar'), 0)

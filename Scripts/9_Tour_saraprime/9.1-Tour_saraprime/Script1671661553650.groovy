@@ -30,8 +30,14 @@ if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Iniciar Asist
 } else {
     WebUI.click(findTestObject('9_Tour_saraprime/img_incognita'))
 
-    WebUI.click(findTestObject('9_Tour_saraprime/img_continuar tour'))
-
+    if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/img_continuar tour'), 1)) {
+        WebUI.click(findTestObject('9_Tour_saraprime/img_continuar tour'))
+    } else if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/img_Asistente'), 1)) {
+        WebUI.click(findTestObject('9_Tour_saraprime/img_Asistente'))
+    } else {
+        WebUI.acceptAlert()
+    }
+    
     if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Iniciar Asistente'), 2)) {
         WebUI.click(findTestObject('9_Tour_saraprime/a_Iniciar Asistente'))
     }
@@ -243,8 +249,9 @@ if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Finalizar Tou
 
     String RESULTADO = 'Prueba ok'
 
-    WebUI.closeBrowser()
-} //-----------------------------------------------
+    WebUI.closeBrowser( //-----------------------------------------------
+        )
+}
 
 def nuevoEmpleado(def id) {
     String RutaA = System.getProperty('os.name')

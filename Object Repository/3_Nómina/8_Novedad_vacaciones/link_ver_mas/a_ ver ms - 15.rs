@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ ver ms - 15</name>
+   <tag></tag>
+   <elementGuidId>baa330c9-d06e-456c-b285-356fb88d2868</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[4]/td[16]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>eeba9806-8db5-4baf-8f75-250b0f5bde45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formulario_nomina:j_idt486:9:j_idt508</value>
+      <webElementGuid>18eecea7-06bc-4fc3-a07a-11523b3eb316</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>9d5eeb8b-0e37-44c9-b56a-212a1f359ed4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-link-tabla text-left</value>
+      <webElementGuid>791dd2d1-d5fc-4d20-b577-71821b73e496</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;formulario_nomina:j_idt486:9:j_idt508&quot;,f:&quot;formulario_nomina&quot;,u:&quot;popupDetalleNovedades&quot;});return false;</value>
+      <webElementGuid>3db560d3-3762-42d1-b4f0-4ac7b3dcd7fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>... [ver más]
+							</value>
+      <webElementGuid>194d4abe-8f2f-44c2-b25c-d7843660ad5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formulario_nomina:j_idt486:9:j_idt508&quot;)</value>
+      <webElementGuid>648372cf-7954-4de2-9c31-608c1b719f11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='formulario_nomina:j_idt486:9:j_idt508']</value>
+      <webElementGuid>2dcdffc6-9b00-4f06-a717-a2e8e94f78c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='formulario_nomina:j_idt486_data']/tr[10]/td[6]/div/a</value>
+      <webElementGuid>a700006f-dcd2-41d6-8f4c-ebc5f62cd546</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'... [ver más]')]</value>
+      <webElementGuid>a6f86b8d-7ecb-4061-9815-b65c4f6aa091</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha: 10/02/2021'])[1]/following::a[1]</value>
+      <webElementGuid>61005766-1464-4ea9-abf0-893dff01015d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NO RELACIONADO'])[3]/following::a[1]</value>
+      <webElementGuid>2d7787d1-716e-4591-920d-c5ee53b3da7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='F'])[1]/preceding::a[5]</value>
+      <webElementGuid>ec4d83a5-a1f3-4d2f-b1bd-8a00d50c1e14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P'])[1]/preceding::a[6]</value>
+      <webElementGuid>1580898b-ecc4-4377-affa-cfe6b1e6a658</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='... [ver más]']/parent::*</value>
+      <webElementGuid>7d28d282-dc09-4527-81e7-4870fb6cc805</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[71]</value>
+      <webElementGuid>555f111c-8758-4f4b-afb2-65318c125a11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/div/a</value>
+      <webElementGuid>4a328b4f-feea-40fb-9dc4-d3b5084046cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

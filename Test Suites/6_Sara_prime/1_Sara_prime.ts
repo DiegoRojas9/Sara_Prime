@@ -228,4 +228,11 @@
       <testCaseId>Test Cases/9_Tour_saraprime/9.1-Tour_saraprime</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4d6c5ca5-4b31-4053-808d-45e57d4274d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3_Nómina/12_Pasarela_de_pagos/12-Pasarela_de_pago</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -6,13 +6,13 @@
    <elementGuidId>1548226b-d7fa-4a12-9e68-82ec3cfffb16</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.us-margin-popup > label</value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/span/form[36]/div/div[2]/div[2]/label
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/span/form[35]/div/div[2]/div[2]/label
-</value>
+         <key>CSS</key>
+         <value>div.us-margin-popup > label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>92436bb4-0008-4407-b3fd-affee619f71b</webElementGuid>
+      <webElementGuid>8aa5babe-292f-4cdc-b151-6e128a111d42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Has modificado la cuenta del colaborador, ten en cuenta que este cambio es permanente, por lo cual los próximos archivos de banco serán generados para este colaborador con esta cuenta.</value>
-      <webElementGuid>37c73454-2f82-41d8-aa42-78122958372b</webElementGuid>
+      <webElementGuid>57f747bd-2816-4ee1-b5b4-5412f7d5b76c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupInfoDialog:j_idt2092_content&quot;)/div[@class=&quot;us-margin-popup&quot;]/label[1]</value>
-      <webElementGuid>8a686d6f-07ca-44f8-bc87-3ad4fc311f04</webElementGuid>
+      <webElementGuid>68ed8f49-6c04-4f51-909a-252a7aa34a65</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupInfoDialog:j_idt2092_content']/div[2]/label</value>
-      <webElementGuid>30dca6ee-4cb4-4176-aa0c-eda72010af23</webElementGuid>
+      <webElementGuid>b928d49b-2bbc-42c6-83a3-196787061877</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Información'])[1]/following::label[1]</value>
-      <webElementGuid>ddc0dca2-6c48-4311-8ed3-75909fd6d06a</webElementGuid>
+      <webElementGuid>0ba84400-b923-4928-a219-cd66271a8251</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::label[2]</value>
-      <webElementGuid>9fd77699-d45a-4ee6-88cb-e2a781e7048a</webElementGuid>
+      <webElementGuid>891a2884-3b14-46b2-ab58-943eabc8f816</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructivos'])[1]/preceding::label[1]</value>
-      <webElementGuid>6bbe29c5-e371-4d02-8d81-f70cafb7c042</webElementGuid>
+      <webElementGuid>5534dac3-a7a3-4afc-a067-9061bb2ec250</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte Técnico'])[1]/preceding::label[1]</value>
-      <webElementGuid>543aae9b-44f4-4e01-a7e3-161ee3568d32</webElementGuid>
+      <webElementGuid>73b6ad7f-d597-47c8-906a-63bb5ffc21ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Has modificado la cuenta del colaborador, ten en cuenta que este cambio es permanente, por lo cual los próximos archivos de banco serán generados para este colaborador con esta cuenta.']/parent::*</value>
-      <webElementGuid>c850ae69-ae43-417d-bdb6-c9652ecf2978</webElementGuid>
+      <webElementGuid>f9310e64-c844-4636-892b-7e6de506ea76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[30]/div/div[2]/div[2]/label</value>
-      <webElementGuid>b2ac7888-4be4-412b-a023-6082101d521b</webElementGuid>
+      <webElementGuid>485c775b-61a8-4672-b8f5-44c4491f10a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Has modificado la cuenta del colaborador, ten en cuenta que este cambio es permanente, por lo cual los próximos archivos de banco serán generados para este colaborador con esta cuenta.' or . = 'Has modificado la cuenta del colaborador, ten en cuenta que este cambio es permanente, por lo cual los próximos archivos de banco serán generados para este colaborador con esta cuenta.')]</value>
-      <webElementGuid>1d128eb9-e87d-404f-9a81-d3c862cfb1b3</webElementGuid>
+      <webElementGuid>6fbd18cc-0394-459a-bde9-f4871d747877</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

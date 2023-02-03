@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Pendiente Liquidacin</name>
+   <tag></tag>
+   <elementGuidId>b2f5b6c8-09d6-4fd7-8591-48035f791697</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[2]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>57d2d1bc-1ccc-40b2-ba4c-6a591109ccc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>titulo_Persona_titulo</value>
+      <webElementGuid>83acdd65-0cb3-4e32-99d2-5128e3d6a288</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pendiente Liquidación:</value>
+      <webElementGuid>76984c0e-345e-4811-a053-78824193bfb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;listadoEmpleadoPrime_form:j_idt91&quot;)/span[@class=&quot;titulo_Persona_titulo&quot;]</value>
+      <webElementGuid>b7a63d80-a01a-4a65-893f-7fa11e7de00d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='listadoEmpleadoPrime_form:j_idt91']/span</value>
+      <webElementGuid>6dd324d2-9fde-4110-85cf-8612105040f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activos:'])[1]/following::span[3]</value>
+      <webElementGuid>73562315-3782-4c1d-84bc-b4614afb6a4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Colaboradores'])[2]/following::span[5]</value>
+      <webElementGuid>30733852-eb1b-4312-a7f8-9c2dbb875bd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Próximo a vencer contrato:'])[1]/preceding::span[2]</value>
+      <webElementGuid>747e3047-a42d-46d9-bad3-0e7ae1d27965</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hojas incompletas:'])[1]/preceding::span[5]</value>
+      <webElementGuid>db47dd0e-fce4-4201-ad01-96c9694804c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pendiente Liquidación:']/parent::*</value>
+      <webElementGuid>c27c1400-34ee-4c25-9253-9ddbe14beded</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/a/span</value>
+      <webElementGuid>172e741b-d147-475e-b0c2-5d293db6bd26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Pendiente Liquidación:' or . = 'Pendiente Liquidación:')]</value>
+      <webElementGuid>f41aa663-8a43-4ac0-965d-083084687d45</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

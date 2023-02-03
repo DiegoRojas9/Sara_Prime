@@ -28,9 +28,12 @@ WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Nmina'), Glo
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
 
-if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'), GlobalVariable.G_timeout)) {
-    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'))
-
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/8_Novedad_vacaciones/td_ENFERMEDAD GENERAL'), 1) || WebUI.waitForElementVisible(
+    findTestObject('3_Nómina/8_Novedad_vacaciones/td_COMISIONES'), 1)) {
+    if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/link_ver_mas/a_ ver ms'), 1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/link_ver_mas/a_ ver ms'))
+    }
+    
     WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_LICENCIA DE LUTO_popupDetalle_eliminar'), 
         GlobalVariable.G_timeout)
 
@@ -48,23 +51,57 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones
     WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Cerrar'))
 }
 
-WebUI.scrollToElement(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Fecha 10022021_formulario_nominaj'), 0)
+WebUI.waitForElementVisible(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj'), 
+    1)
 
-if (WebUI.waitForElementVisible(findTestObject('3_Nómina/8_Novedad_vacaciones/td_LICENCIA DE LUTO'), 0)) {
+WebUI.scrollToElement(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj'), 
+    0)
+
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/8_Novedad_vacaciones/td_LICENCIA DE LUTO'), 1)) {
     dato = WebUI.getText(findTestObject('3_Nómina/8_Novedad_vacaciones/td_LICENCIA DE LUTO'), FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 if (dato == 'LICENCIA DE LUTO') {
-    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_ ver ms'))
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/link_ver_mas/a_ ver ms'))
 
     WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_LICENCIA DE LUTO_popupDetalleNovedadestablaNovedades0j_idt1554'))
 
     WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aceptar'))
 }
 
-WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Fecha 10022021_formulario_nominaj'), 0)
-
-WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Fecha 10022021_formulario_nominaj'))
+if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 0'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj'))
+} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 1'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 1'))
+} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 2'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 2'))
+} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 3'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 3'))
+} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 4'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 4'))
+} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 5'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 5'))
+} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 6'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 6'))
+} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 7'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 7'))
+} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 8'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 8'))
+} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 9'), 
+    1)) {
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 9'))
+} else {
+    WebUI.acceptAlert()
+}
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/input_LICENCIA DE LUTO_fechainicial_input'), 
     GlobalVariable.G_timeout)
@@ -79,17 +116,13 @@ WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/input_LICENCIA DE LUT
 
 WebUI.setText(findTestObject('3_Nómina/8_Novedad_vacaciones/input_LICENCIA DE LUTO_Novedad_dias'), '1')
 
-
 WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aplicar'), 0)
 
 /*------------------------Estructura----------------------*/
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aplicar'), 30)
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aplicar'),
-	30)
 /*--------------------------------------------------*/
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
-
-
 
 WebUI.waitForElementVisible(findTestObject('Result/p_Resultado'), 0)
 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 8</name>
+   <tag></tag>
+   <elementGuidId>db43e641-9096-4eff-92c9-b8c00d68cb0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[2]/span/div[2]/div/form[2]/div[3]/div[2]/div[1]/table/tbody/tr[9]/td[7]/a[1]
+
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>04ebf7fa-88f5-413f-b16a-565a2cf7cf86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formulario_nomina:j_idt486:9:verConceptosNomina</value>
+      <webElementGuid>28b7ce8b-cac1-4a98-b934-64a709729c8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>85eb6b9b-50ea-4cbf-8489-4ff5688a4acd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>mojarra.jsfcljs(document.getElementById('formulario_nomina'),{'formulario_nomina:j_idt486:9:verConceptosNomina':'formulario_nomina:j_idt486:9:verConceptosNomina','empleadoVer':'co.com.unionsoluciones.saraprime.logica.dto.EmpleadoPeriodoNominaDTO@24c0a0ed'},'');return false</value>
+      <webElementGuid>2245a992-9b87-429d-9168-a760456fd189</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicons glyphicons-edit</value>
+      <webElementGuid>779edab0-8355-446c-aaa0-0aacce0f551b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formulario_nomina:j_idt486:9:verConceptosNomina&quot;)</value>
+      <webElementGuid>77b7d23d-4039-4cb8-8726-4f12629fce1a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='formulario_nomina:j_idt486:9:verConceptosNomina']</value>
+      <webElementGuid>1db6d80e-af0d-491f-8f5d-d39899ca38ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='formulario_nomina:j_idt486_data']/tr[10]/td[7]/a</value>
+      <webElementGuid>f89f9a25-324e-4f0b-9881-6b382940fc55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[72]</value>
+      <webElementGuid>7756aa7a-2700-4758-b7ec-5a539422f4f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[10]/td[7]/a</value>
+      <webElementGuid>025f7f42-ebea-4a08-8d62-da5070683fb7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

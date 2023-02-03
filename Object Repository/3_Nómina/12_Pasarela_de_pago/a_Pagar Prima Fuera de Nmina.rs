@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pagar Prima Fuera de Nmina</name>
+   <tag></tag>
+   <elementGuidId>eb894571-94ea-4e3c-8d51-2323a4d9203c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='formulario_nomina:j_idt200']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>461be4c6-0c72-481e-b41b-75e44c4a17fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formulario_nomina:j_idt200</value>
+      <webElementGuid>662a3e0c-03a7-46da-bf6f-7a66baa3068c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>e1bc107f-0228-46dd-bae3-0f0127607c8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton</value>
+      <webElementGuid>9813a64d-9948-4a29-95e1-41c7423ae931</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;formulario_nomina:j_idt200&quot;,f:&quot;formulario_nomina&quot;});return false;</value>
+      <webElementGuid>e7615a9d-8078-45f9-b547-29bdb703db52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pagar Prima Fuera de Nómina</value>
+      <webElementGuid>c3c84fdb-cd58-4fd1-82c1-89d22760520b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formulario_nomina:j_idt200&quot;)</value>
+      <webElementGuid>20b0b959-4a0d-4c65-b25c-1f33ad8f1cbd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='formulario_nomina:j_idt200']</value>
+      <webElementGuid>0207268f-70a0-4b65-b8ff-5ce634c91817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formulario_nomina:j_idt168_content']/div/div[2]/div/div/a</value>
+      <webElementGuid>de4862a3-2f8e-45d0-8c5b-f5e20876c2e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Pagar Prima Fuera de Nómina')]</value>
+      <webElementGuid>cf78f491-7563-4f39-8545-14a11969fe49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Abonar'])[1]/following::a[1]</value>
+      <webElementGuid>38a3d0a5-a6a5-4c07-ad86-158eb187c442</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado:'])[1]/following::a[1]</value>
+      <webElementGuid>fd670adc-2ea7-4a69-9472-a3e6e7fa4983</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Final:'])[1]/preceding::a[1]</value>
+      <webElementGuid>5cc2ba82-e81d-4dd3-a7fa-be669aed6829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Devengos:'])[1]/preceding::a[1]</value>
+      <webElementGuid>2f4cf4c2-e5f5-430f-9abd-14d17a9cc9be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pagar Prima Fuera de Nómina']/parent::*</value>
+      <webElementGuid>80ec0d3a-220e-4b82-a72c-af40dc44d4fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[20]</value>
+      <webElementGuid>92adbf0e-ff8d-4d56-9d62-aad2589419b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/a</value>
+      <webElementGuid>e2e18f95-b6d4-4e00-81e3-ea7b0c5ee35e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'formulario_nomina:j_idt200' and @href = '#' and (text() = 'Pagar Prima Fuera de Nómina' or . = 'Pagar Prima Fuera de Nómina')]</value>
+      <webElementGuid>7ae8d3be-3b07-413a-beec-a061e34b27f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

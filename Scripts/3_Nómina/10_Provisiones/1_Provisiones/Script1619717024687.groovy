@@ -64,7 +64,9 @@ WebUI.click(findTestObject('3_Nómina/10_Provisiones/span_Descargar'))
 
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/a_Generar'))
 
-WebUI.acceptAlert()
+if(WebUI.waitForElementVisible(findTestObject('3_Nómina/10_Provisiones/a_Continuar'), 0))
+{
+WebUI.click(findTestObject('3_Nómina/10_Provisiones/a_Continuar'))
 
 WebUI.closeBrowser()
-
+}else {WebUI.acceptAlert()}

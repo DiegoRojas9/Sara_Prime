@@ -6,12 +6,14 @@
    <elementGuidId>ead2fb3f-d88e-4e9f-acb7-8a2959e13f9e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.ui-paginator-page.ui-state-default.ui-corner-all.ui-state-active.ui-state-focus</value>
+         <key>XPATH</key>
+         <value>
+//body/div[1]/div[2]/span/div[2]/div/form[2]/div[3]/div[2]/div[2]/span/a[2]
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span/a[2]</value>
+         <key>CSS</key>
+         <value>a.ui-paginator-page.ui-state-default.ui-corner-all.ui-state-active.ui-state-focus</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +24,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>d16109d7-9c18-4e3d-b8a2-c134e3582556</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +32,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-paginator-page ui-state-default ui-corner-all ui-state-active ui-state-focus</value>
+      <webElementGuid>55677d11-0478-4cf1-8b4a-05b148097dd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +40,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Page 2</value>
+      <webElementGuid>43efa80c-e3b9-4329-bc8a-eedef2e1e4c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +48,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>5fca1fd8-9d36-416b-b1b2-e593686f9d65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +56,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>e836f2de-fde5-4f8d-b94c-35fd83a3aa9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +64,7 @@
       <name>text</name>
       <type>Main</type>
       <value>2</value>
+      <webElementGuid>8ce4b7c1-db91-4b65-8bb2-7a2238bbd30e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formulario_nomina:j_idt486_paginator_bottom&quot;)/span[@class=&quot;ui-paginator-pages&quot;]/a[@class=&quot;ui-paginator-page ui-state-default ui-corner-all ui-state-active ui-state-focus&quot;]</value>
+      <webElementGuid>cf61e78d-bb75-4025-ac08-aeacfd6cdbc1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +80,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formulario_nomina:j_idt486_paginator_bottom']/span/a[2]</value>
+      <webElementGuid>d47ecfd7-ec74-4f9b-a10f-e2129848e9a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +88,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'2')]</value>
+      <webElementGuid>7fedc34a-9768-4821-9687-9c528c85c270</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='P'])[1]/following::a[2]</value>
+      <webElementGuid>2b6c40b0-4b38-435f-b69b-1df15a17a71f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='F'])[1]/following::a[3]</value>
+      <webElementGuid>476f8830-c7cf-47d6-940c-47eb4df191d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='N'])[1]/preceding::a[2]</value>
+      <webElementGuid>d6f07f69-d8d6-427f-84d7-b697d80be070</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/preceding::a[3]</value>
+      <webElementGuid>36ec5621-f44f-4599-bb6b-adb4b2859007</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <webElementGuid>a69dd0bd-531d-4a72-a30f-e1b6df699869</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +136,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[79]</value>
+      <webElementGuid>1ba84837-ad38-41bc-b84b-558291f620bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +144,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/a[2]</value>
+      <webElementGuid>e9280c90-4b80-4b66-9cbd-a89eb9a7c8c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

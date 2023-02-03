@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_No volver a mostrar</name>
+   <tag></tag>
+   <elementGuidId>08a22c32-ee7e-4cf4-bd4d-78f560b9a308</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/span/form[39]/div/div[2]/div/div[3]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>2144f580-ad2e-4209-a9d3-06fb4432d83e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1674058148494</value>
+      <webElementGuid>59c639b0-1ffe-4283-81ae-3d37012d857d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

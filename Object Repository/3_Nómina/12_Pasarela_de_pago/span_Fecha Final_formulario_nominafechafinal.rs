@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Fecha Final_formulario_nominafechafinal</name>
+   <tag></tag>
+   <elementGuidId>268f4cca-cbd4-4630-be2f-33a6be58ef3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>
+/html/body/div[1]/div[2]/span/div[2]/div/form[2]/div[1]/div[2]/div[2]/div[1]/div[2]/div[2]/div[2]/span/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6d239ab0-e280-41d4-ad98-d4ad339478cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formulario_nomina:fechafinal</value>
+      <webElementGuid>c8a520ea-dbad-427a-a07a-742243c9d1af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-calendar valor_campo_estandar ui-inputwrapper-filled</value>
+      <webElementGuid>341d8bd8-b72b-435d-8475-5ee43eab7faf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formulario_nomina:fechafinal&quot;)</value>
+      <webElementGuid>b4259cc2-6313-415f-af20-e9f800c73089</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='formulario_nomina:fechafinal']</value>
+      <webElementGuid>c394760c-cfd0-4161-b3e5-bfd13c013e09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formulario_nomina:j_idt168_content']/div/div[2]/div[2]/div[2]/span</value>
+      <webElementGuid>7c2944dd-f048-4531-af99-047805f3347d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Final:'])[1]/following::span[1]</value>
+      <webElementGuid>015955b4-ad8b-4ce0-ae0a-e0c178f23ab3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pagar Prima Fuera de Nómina'])[1]/following::span[1]</value>
+      <webElementGuid>dba1f55e-ee38-43bb-a557-a6650c0835c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Devengos:'])[1]/preceding::span[1]</value>
+      <webElementGuid>6f6e9e3e-955e-499e-8b38-9ef58e3559c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deducciones:'])[1]/preceding::span[1]</value>
+      <webElementGuid>541d6e58-e46d-485f-9b5b-c73c5936deef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/span</value>
+      <webElementGuid>52a0a9d4-ddc6-4f3b-8f2d-b042ebeaef01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'formulario_nomina:fechafinal']</value>
+      <webElementGuid>36214400-11d5-4296-898e-d3d03d55df0e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

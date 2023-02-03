@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Fecha 10022021_formulario_nominaj_ConceptosNomina</name>
+   <name>a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 4</name>
    <tag></tag>
-   <elementGuidId>d40c3ecc-8667-4c1f-bc6b-09b6c74f1e90</elementGuidId>
+   <elementGuidId>0caa68cd-d61d-4943-9c5a-61dcae564b2d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[2]/span/div[2]/div/form[2]/div[3]/div[2]/div[1]/table/tbody/tr[5]/td[7]/a[1]
+
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[2]/td[7]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>80554ffa-88ef-4fab-b1c2-dac458d2574b</webElementGuid>
+      <webElementGuid>1e43ae5a-e051-4510-9a47-1968f233b562</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formulario_nomina:j_idt486:9:verConceptosNomina</value>
-      <webElementGuid>eb63c531-2f7f-4b27-a3d3-d6559de44406</webElementGuid>
+      <webElementGuid>afecdfbe-df84-4820-a14c-e8ed9c4e61f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>4bbe5c6c-e1d5-4512-9172-e1b1f422f0db</webElementGuid>
+      <webElementGuid>dc11a245-6eab-4cd2-833a-147d8a2dcaa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +47,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('formulario_nomina'),{'formulario_nomina:j_idt486:9:verConceptosNomina':'formulario_nomina:j_idt486:9:verConceptosNomina','empleadoVer':'co.com.unionsoluciones.saraprime.logica.dto.EmpleadoPeriodoNominaDTO@24c0a0ed'},'');return false</value>
-      <webElementGuid>3070d3b3-45aa-4fc8-8641-70c603d49e56</webElementGuid>
+      <webElementGuid>2b194fef-dd4e-47e6-8819-c2858e4f0a40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>glyphicons glyphicons-edit</value>
-      <webElementGuid>62555f17-6100-4b5b-91d9-39c048c8e97a</webElementGuid>
+      <webElementGuid>5cef1070-3c33-47fc-9499-96267a126f3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formulario_nomina:j_idt486:9:verConceptosNomina&quot;)</value>
-      <webElementGuid>eef1c429-d900-4b7d-a0f7-6a63a7ac5d6c</webElementGuid>
+      <webElementGuid>f5a56b59-141c-4f2f-94a2-5f1de6cd6b60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='formulario_nomina:j_idt486:9:verConceptosNomina']</value>
-      <webElementGuid>cf5c434e-fab9-490a-9898-6df336270443</webElementGuid>
+      <webElementGuid>8dea2502-ade8-454c-85c3-37f79b1998dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formulario_nomina:j_idt486_data']/tr[10]/td[7]/a</value>
-      <webElementGuid>0bd47504-a7bd-4230-9747-90171aabddc9</webElementGuid>
+      <webElementGuid>847a5539-2f98-4d31-8b53-a97f8bb41780</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +87,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[72]</value>
-      <webElementGuid>03a16b66-1c38-48d9-bf6d-9a5ac77641a1</webElementGuid>
+      <webElementGuid>8464e889-0eed-478f-868a-685be5277d0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +95,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[10]/td[7]/a</value>
-      <webElementGuid>d476268a-bf23-42d0-b4e2-218ea3c7e12c</webElementGuid>
+      <webElementGuid>013ae208-51f9-4f49-a427-3420374ece8f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

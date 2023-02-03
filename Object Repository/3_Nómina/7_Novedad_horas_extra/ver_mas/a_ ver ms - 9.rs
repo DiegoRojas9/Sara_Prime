@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_ ver ms</name>
+   <name>a_ ver ms - 9</name>
    <tag></tag>
-   <elementGuidId>86c604be-0947-4877-b514-53fb40568f91</elementGuidId>
+   <elementGuidId>b56956fd-25e4-45ad-9358-6e682d79ac65</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[10]/td[6]/div/a
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[2]/td[6]/div/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>cfc97aa9-14a2-4ad1-a745-80c613d5f3df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formulario_nomina:j_idt486:14:j_idt508</value>
+      <webElementGuid>18b5895f-ed13-4b6f-933f-e77230779ad8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>b25ad72a-2dde-4738-9afb-c93b36ed991c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-link-tabla text-left</value>
+      <webElementGuid>6cc65400-75f4-4cd3-8e0c-48bab4540842</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formulario_nomina:j_idt486:14:j_idt508&quot;,f:&quot;formulario_nomina&quot;,u:&quot;popupDetalleNovedades&quot;});return false;</value>
+      <webElementGuid>3e20523e-6a0b-468b-acec-1bbd1e7681d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +63,7 @@
       <type>Main</type>
       <value>... [ver más]
 							</value>
+      <webElementGuid>9f6f0de4-16f3-4333-8175-7d55da55c27c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formulario_nomina:j_idt486:14:j_idt508&quot;)</value>
+      <webElementGuid>7b5988d8-62d3-4e83-983e-52b98d554ca4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='formulario_nomina:j_idt486:1:j_idt508']</value>
+      <webElementGuid>f9ec4424-e939-43e3-816a-1849f6620111</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formulario_nomina:j_idt486_data']/tr[2]/td[6]/div/a</value>
+      <webElementGuid>c3b9f3d0-a1ef-4d14-816e-b649667c772f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +95,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'... [ver más]')]</value>
+      <webElementGuid>9858afc1-29c6-4909-a6d9-1ce880d5d1f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha: 10/05/2021'])[1]/following::a[1]</value>
+      <webElementGuid>56906951-7725-4598-8747-fe07e23e4e21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NO RELACIONADO'])[1]/following::a[1]</value>
+      <webElementGuid>f2927df2-5b6b-4f15-9d7f-4a4e4513d426</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AGUDELO ROJAS ANGELA MARÍA'])[2]/preceding::a[5]</value>
+      <webElementGuid>3b4e8729-17a3-489b-beb5-e5a38e11f42b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='URREGO CAMACHO MARIANA1004563'])[1]/preceding::a[10]</value>
+      <webElementGuid>3aa29def-f96e-48b0-aa76-9f75badc1415</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='... [ver más]']/parent::*</value>
+      <webElementGuid>5c1c5ef6-15c1-4144-b44e-ff6d24f215d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +143,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[31]</value>
+      <webElementGuid>576d893e-b7b2-492a-b910-b8eda1cd93c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +151,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[6]/div/a</value>
+      <webElementGuid>c01ef298-c57b-4944-b002-9a3a18e90efc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

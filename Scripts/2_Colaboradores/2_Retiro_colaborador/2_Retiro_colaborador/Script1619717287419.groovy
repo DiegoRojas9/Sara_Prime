@@ -34,6 +34,8 @@ WebUI.click(findTestObject('2_Colaboradores/Page_/a_Agregar'))
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Documento  _detalleEmpleadoPrime'), identificacion)
 
+println(identificacion)
+
 WebUI.click(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2_Colaboradores/Page_/input_Nombres  _detalleEmpleadoPrime'), 'Andrea')
@@ -326,12 +328,16 @@ WebUI.waitForElementClickable(findTestObject('1.1_General_Objects/a_Colaboradore
 WebUI.click(findTestObject('1.1_General_Objects/a_Colaboradores'))
 
 if (Result == 'liquidación realizada con exito.') {
-    String Resultado = 'PRUEBA OK'
+    String Resultado = 'PRUEBA OK' /*WebUI.closeBrowser()*/ 
 
+    String Result1 = WebUI.getText(findTestObject('2_Colaboradores/2_Retiro_colaborador/2_Retiro_Colaborador/span_titulo campo'))
+
+    if (Result1 != '0') {
+        WebUI.callTestCase(findTestCase('2_Colaboradores/2_Retiro_colaborador/limpiar_pendiente_liquidación'), [:], FailureHandling.STOP_ON_FAILURE)
+    }
+    
     WebUI.closeBrowser()
 } else {
     WebUI.acceptAlert()
 }
-
-WebUI.closeBrowser()
 

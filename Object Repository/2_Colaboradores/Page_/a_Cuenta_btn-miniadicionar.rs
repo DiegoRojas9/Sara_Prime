@@ -7,8 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-//body/div[1]/div[2]/span/div[2]/form/div/div/div[2]/div/div/div[2]/div/div[7]/span/div/div/table/tfoot/tr/td[5]/a</value>
+         <value>//body/div[1]/div[2]/span/div/form/div/div/div[2]/div/div/div[2]/div/div[7]/span/div/div/table/tfoot/tr/td[5]/a
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d09fdd8a-6a3d-4ca5-9660-740a6fff363a</webElementGuid>
+      <webElementGuid>252d8fae-70fb-4902-8d38-f79429ed5e8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>47d6198f-2ec0-493a-8893-d57a897dadbc</webElementGuid>
+      <webElementGuid>e99a95b5-7533-45cc-af0c-5110d97b0a97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Agregar</value>
-      <webElementGuid>0d8fc086-547e-4aa1-90cb-ce837f2acab0</webElementGuid>
+      <webElementGuid>ccae3d35-1d2a-4ae4-bf64-fe71f5ab5fb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530':'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530'},'');return false</value>
-      <webElementGuid>ef98c8d9-32dd-42f5-881b-0ee0fef8160c</webElementGuid>
+      <webElementGuid>7fdfa675-c6c9-4fcd-a85c-ea0ea3da0315</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-miniadicionar</value>
-      <webElementGuid>16729299-98a4-439a-93e6-fd9c63e0ba29</webElementGuid>
+      <webElementGuid>fc2d8509-d3b1-46e9-bde2-d87f6a3ef1f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;detalleEmpleadoPrime_form:tablaEntidadesAFC_foot&quot;)/tr[1]/td[@class=&quot;ui-state-default&quot;]/a[@class=&quot;btn-miniadicionar&quot;]</value>
-      <webElementGuid>9e10610f-6611-42e7-ae17-3035b04eab6c</webElementGuid>
+      <webElementGuid>41beda40-a5c9-4508-9879-fad36421cae9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('detalleEmpleadoPrime_form'),{'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530':'detalleEmpleadoPrime_form:tablaEntidadesAFC:j_idt530'},'');return false&quot;]</value>
-      <webElementGuid>5572a36f-8bb7-4e97-b965-00370506776a</webElementGuid>
+      <webElementGuid>7593a18e-87a5-4144-90a2-9ad37007cf0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tfoot[@id='detalleEmpleadoPrime_form:tablaEntidadesAFC_foot']/tr/td[5]/a</value>
-      <webElementGuid>15e7001e-201a-4d1c-8590-8ea0e2e426c0</webElementGuid>
+      <webElementGuid>4f5b777c-2e19-4243-afda-eaf9986b70ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[10]</value>
-      <webElementGuid>a9a3dc62-5b4a-4cec-8bbe-27d400d7ac10</webElementGuid>
+      <webElementGuid>9cad9413-00b1-4dc2-a9d0-5ab64c7fe3bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/a</value>
-      <webElementGuid>4a1f707b-ef42-4d4f-b7d2-c46d6a7f0bc4</webElementGuid>
+      <webElementGuid>48c19925-f9a5-466e-b809-41087ab03960</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

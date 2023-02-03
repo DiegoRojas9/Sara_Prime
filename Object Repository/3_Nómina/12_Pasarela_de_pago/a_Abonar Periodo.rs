@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Abonar Periodo</name>
+   <tag></tag>
+   <elementGuidId>72ca6445-0a1d-40fa-9d49-788e10e4fdf6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Abonar Periodo')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5c6eefe1-751d-4eba-9338-c254a5d8c1a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formulario_archivoPagos:j_idt697</value>
+      <webElementGuid>9e18438f-855c-489f-bbc4-486702d683a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>216178db-9048-450d-8686-f323a0aabb15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton</value>
+      <webElementGuid>74c99949-8f8f-4e0a-a86c-38d43fef4f23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;formulario_archivoPagos:j_idt697&quot;,f:&quot;formulario_archivoPagos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>22b6f094-760d-4393-a3bc-846e5cab9d28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Abonar Periodo</value>
+      <webElementGuid>a3ac2852-fb49-461d-941b-e1d1912c5ba9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formulario_archivoPagos:j_idt697&quot;)</value>
+      <webElementGuid>84d1b0d7-c159-4669-b163-c149a7eced02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='formulario_archivoPagos:j_idt697']</value>
+      <webElementGuid>7a1e2ec1-59e3-42b5-8dbd-2fa41da47bc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formulario_archivoPagos:j_idt654_content']/div[3]/a</value>
+      <webElementGuid>b550b21a-4b4d-4f73-a547-61094484050c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Abonar Periodo')]</value>
+      <webElementGuid>fa8b1272-520b-421a-afff-920bcbacc593</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Neto directo:'])[1]/following::a[1]</value>
+      <webElementGuid>09b10c47-a123-4ad8-90ae-6f92ae3cb9a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Neto bancos:'])[1]/following::a[1]</value>
+      <webElementGuid>27b3c6c8-2859-466c-9039-adece6e54fb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aquí Puedes'])[1]/preceding::a[1]</value>
+      <webElementGuid>ef1a881e-a7e2-417f-bac0-b0cd733ac143</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medio de pago'])[1]/preceding::a[4]</value>
+      <webElementGuid>0960c264-14b4-4ea7-a83e-74adc8a68dfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Abonar Periodo']/parent::*</value>
+      <webElementGuid>7d8a20e9-7e87-4576-9fa5-709b3a1aba65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[22]</value>
+      <webElementGuid>3577b505-518a-4992-afba-5684ddddd4a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a</value>
+      <webElementGuid>f13adade-c8ed-42c3-b70c-b5e0acefa635</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'formulario_archivoPagos:j_idt697' and @href = '#' and (text() = 'Abonar Periodo' or . = 'Abonar Periodo')]</value>
+      <webElementGuid>e044c187-20aa-47c1-88e1-6abc0bd1bc96</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

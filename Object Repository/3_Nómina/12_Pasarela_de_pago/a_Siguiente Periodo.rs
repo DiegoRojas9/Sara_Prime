@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Siguiente Periodo</name>
+   <tag></tag>
+   <elementGuidId>9d878226-ab36-4f0c-8437-c99d2949d344</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//*[@id=&quot;formulario_nomina:cbSiguientePeriodo&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>879c85aa-67e3-44fe-9f43-e011a2284c3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formulario_nomina:j_idt230</value>
+      <webElementGuid>088d99d2-5fb8-4264-8458-e85cf7a4adb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>6371363f-fd5d-451a-be8f-5e46a7aa69ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton</value>
+      <webElementGuid>2b4200b7-6f96-47da-a088-5da0b9c85fcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;formulario_nomina:j_idt230&quot;,f:&quot;formulario_nomina&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>45b0df1a-39af-4ac3-90a1-dcabed7d4550</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aprobar Nómina </value>
+      <webElementGuid>e9b5e284-6b41-42d1-81a1-22749026da01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formulario_nomina:j_idt230&quot;)</value>
+      <webElementGuid>7b6a3e1e-3a97-4cbf-8587-eeaf1f3239f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='formulario_nomina:j_idt230']</value>
+      <webElementGuid>b2274122-6dc1-40bb-8800-b6969c54b853</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formulario_nomina:j_idt168_content']/div[2]/div/a</value>
+      <webElementGuid>916fb074-0747-4558-bd2f-0abc2f75916e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Aprobar Nómina')]</value>
+      <webElementGuid>2a301322-bec5-4b32-9a54-9bd31d7fd111</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina Total:'])[1]/following::a[1]</value>
+      <webElementGuid>332ab50f-c619-49a8-806d-8f18d6fa4d0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deducciones:'])[1]/following::a[1]</value>
+      <webElementGuid>b7ad0203-342e-4cd7-a1e8-edaf48293728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aquí Puedes'])[1]/preceding::a[1]</value>
+      <webElementGuid>6cf1735a-1760-4cf1-a68a-047a8530cb22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Colaboradores'])[2]/preceding::a[8]</value>
+      <webElementGuid>e942b913-ea57-485d-b18f-54ea620f7ef0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Aprobar Nómina']/parent::*</value>
+      <webElementGuid>d160cd05-4150-4be7-b8db-8b528010a318</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[20]</value>
+      <webElementGuid>173b847b-22d7-426c-a090-b03fefbf86b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>15e04b36-ad4f-4b36-98f4-2c37bca1ae20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'formulario_nomina:j_idt230' and @href = '#' and (text() = 'Aprobar Nómina ' or . = 'Aprobar Nómina ')]</value>
+      <webElementGuid>7ca62a6a-09b7-4f0a-8274-31f6aedf6cb4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
