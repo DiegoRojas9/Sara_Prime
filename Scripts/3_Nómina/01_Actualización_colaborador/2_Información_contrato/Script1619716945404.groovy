@@ -104,8 +104,6 @@ WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Informació
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_3'), 
     '10/05/2021')
 
-WebUI.sendKeys(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/Page_/input_Fecha Cambio _consultarInformacionBasica_3'), 
-    Keys.chord(Keys.ESCAPE))
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/2_Información_contrato/a_Guardar'))
 

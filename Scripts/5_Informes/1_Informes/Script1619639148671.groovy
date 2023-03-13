@@ -76,11 +76,9 @@ WebUI.click(findTestObject('5_Informes/a_Numero De Empleados'))
 
 WebUI.setText(findTestObject('5_Informes/input_Fecha Inicial'), '03/07/2017')
 
-WebUI.sendKeys(findTestObject('5_Informes/input_Fecha Inicial'), Keys.chord(Keys.ESCAPE))
 
 WebUI.setText(findTestObject('5_Informes/input_Fecha Final'), '10/07/2017')
 
-WebUI.sendKeys(findTestObject('5_Informes/input_Fecha Final'), Keys.chord(Keys.ESCAPE))
 
 WebUI.click(findTestObject('5_Informes/a_Generar'))
 

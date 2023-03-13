@@ -62,7 +62,9 @@ WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS A
 
 String Result = WebUI.getText(findTestObject('3_Nómina/2_Archivo_pagos/Page_/label_Has modificado la cuenta del colaborador'))
 
-WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'))
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'), 1)) {
+    WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Aceptar'))
+}
 
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Filtro_us-icon-regresar us-accion-icono'), 
     30)

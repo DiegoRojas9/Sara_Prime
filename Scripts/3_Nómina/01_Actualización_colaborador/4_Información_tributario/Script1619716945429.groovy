@@ -149,8 +149,7 @@ WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Informació
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha Afiliacin_consultarInformacionBasica'), 
     todaysDate)
 
-WebUI.sendKeys(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Fecha Afiliacin_consultarInformacionBasica'), 
-    Keys.chord(Keys.ESCAPE))
+
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/4_Información_tributario/1_AFC/Page_/input_Cuenta_consultarInformacionBasica_EntidadesAFCcuenta'))
 
