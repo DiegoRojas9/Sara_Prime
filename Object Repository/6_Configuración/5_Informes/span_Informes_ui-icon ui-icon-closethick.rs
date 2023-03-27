@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Que desea hacer_ui-radiobutton-icon ui-icon ui-icon-blank ui-c</name>
+   <name>span_Informes_ui-icon ui-icon-closethick</name>
    <tag></tag>
-   <elementGuidId>7e81bb38-8817-4611-8522-a7a5ad665e74</elementGuidId>
+   <elementGuidId>d07dbdea-935f-4b0c-98c4-6e54c9d81a32</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.ui-radiobutton-icon.ui-icon.ui-icon-blank.ui-c</value>
+         <key>XPATH</key>
+         <value>//div/a/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[2]/td/div/div[2]/table/tbody/tr/td/div/div[2]/span</value>
+         <key>CSS</key>
+         <value>span.ui-icon.ui-icon-closethick</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,33 +22,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>47ecbcc5-60b7-4875-8c4f-0ac71c610bf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-radiobutton-icon ui-icon ui-icon-blank ui-c</value>
+      <value>ui-icon ui-icon-closethick</value>
+      <webElementGuid>f323dbdc-9d67-40d1-b365-1f2b3396ed68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupReporte:j_idt449&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;ui-radiobutton ui-widget&quot;]/div[@class=&quot;ui-radiobutton-box ui-widget ui-corner-all ui-state-default&quot;]/span[@class=&quot;ui-radiobutton-icon ui-icon ui-icon-blank ui-c&quot;]</value>
+      <value>id(&quot;popupReporte:j_idt413&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
+      <webElementGuid>74d446cf-4230-4b48-b02a-f3ee15765faf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='popupReporte:j_idt449']/tbody/tr/td/div/div[2]/span</value>
+      <value>//div[@id='popupReporte:j_idt413']/div/a/span</value>
+      <webElementGuid>4068ab96-3f68-4001-8e4b-d5ac813ce607</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td/div/div[2]/table/tbody/tr/td/div/div[2]/span</value>
+      <value>//div/a/span</value>
+      <webElementGuid>1565c83e-753e-4de4-b7de-c345f247f15b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

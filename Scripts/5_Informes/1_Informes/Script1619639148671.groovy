@@ -42,75 +42,75 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Menu General'))
 
 WebUI.click(findTestObject('1.1_General_Objects/a_Informes'))
 
-WebUI.waitForElementClickable(findTestObject('5_Informes/a_Ir'), GlobalVariable.G_timeout)
+WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Informes/a_Ir'), GlobalVariable.G_timeout)
 
-WebUI.click(findTestObject('5_Informes/a_Ir'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Ir'))
 
-WebUI.setText(findTestObject('5_Informes/input_filtroEmpleado'), 'Maestro')
+WebUI.setText(findTestObject('6_Configuración/5_Informes/input_filtroEmpleado'), 'Maestro')
 
-WebUI.sendKeys(findTestObject('5_Informes/input_filtroEmpleado'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('6_Configuración/5_Informes/input_filtroEmpleado'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('5_Informes/td_2 GT - Reporte Programacin'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/td_2 GT - Reporte Programacin'))
 
-WebUI.selectOptionByIndex(findTestObject('5_Informes/select_Estado Laboral'), 2)
+WebUI.selectOptionByIndex(findTestObject('6_Configuración/5_Informes/select_Estado Laboral'), 2)
 
-WebUI.click(findTestObject('5_Informes/radiob_Descargar'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/radiob_Descargar'))
 
-WebUI.click(findTestObject('5_Informes/a_Generar'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Generar'))
 
 
 
-if(WebUI.waitForElementVisible(findTestObject('5_Informes/a_Continuar'), 1)) {
+if(WebUI.waitForElementVisible(findTestObject('6_Configuración/5_Informes/a_Continuar'), 1)) {
 
-WebUI.click(findTestObject('5_Informes/a_Continuar'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Continuar'))
 }
-WebUI.click(findTestObject('5_Informes/a_Descargar'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Descargar'))
 
-WebUI.click(findTestObject('5_Informes/a_Cerrar'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Cerrar'))
 
-WebUI.waitForElementNotVisible(findTestObject('5_Informes/a_Cerrar'), 2)
+WebUI.waitForElementNotVisible(findTestObject('6_Configuración/5_Informes/a_Cerrar'), 2)
 
-WebUI.click(findTestObject('5_Informes/a_ ir Gestion'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_ ir Gestion'))
 
-WebUI.click(findTestObject('5_Informes/a_Numero De Empleados'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Numero De Empleados'))
 
-WebUI.setText(findTestObject('5_Informes/input_Fecha Inicial'), '03/07/2017')
-
-
-WebUI.setText(findTestObject('5_Informes/input_Fecha Final'), '10/07/2017')
+WebUI.setText(findTestObject('6_Configuración/5_Informes/input_Fecha Inicial'), '03/07/2017')
 
 
-WebUI.click(findTestObject('5_Informes/a_Generar'))
+WebUI.setText(findTestObject('6_Configuración/5_Informes/input_Fecha Final'), '10/07/2017')
 
-WebUI.click(findTestObject('5_Informes/a_formato'))
 
-WebUI.click(findTestObject('5_Informes/a_Cerrar'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Generar'))
 
-WebUI.waitForElementNotVisible(findTestObject('5_Informes/a_Cerrar'), 2)
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_formato'))
 
-WebUI.click(findTestObject('5_Informes/a_ir Especiales'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Cerrar'))
 
-WebUI.click(findTestObject('5_Informes/a_Cambio De Sueldo Para Validacion De La Base De Sueldo De Cesantias'))
+WebUI.waitForElementNotVisible(findTestObject('6_Configuración/5_Informes/a_Cerrar'), 2)
 
-WebUI.setText(findTestObject('5_Informes/input_Fecha inicial Especiales'), '03/07/2017')
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_ir Especiales'))
 
-WebUI.sendKeys(findTestObject('5_Informes/input_Fecha inicial Especiales'), Keys.chord(Keys.ESCAPE))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Cambio De Sueldo Para Validacion De La Base De Sueldo De Cesantias'))
 
-WebUI.click(findTestObject('5_Informes/radiob_Descargar'))
+WebUI.setText(findTestObject('6_Configuración/5_Informes/input_Fecha inicial Especiales'), '03/07/2017')
 
-WebUI.click(findTestObject('5_Informes/radiob_Descargar - Copy'))
+WebUI.sendKeys(findTestObject('6_Configuración/5_Informes/input_Fecha inicial Especiales'), Keys.chord(Keys.ESCAPE))
 
-WebUI.click(findTestObject('5_Informes/a_Generar'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/radiob_Descargar'))
 
-WebUI.click(findTestObject('5_Informes/a_Continuar'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/radiob_Descargar - Copy'))
 
-WebUI.click(findTestObject('5_Informes/a_Descargar'))
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Generar'))
+
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Continuar'))
+
+WebUI.click(findTestObject('6_Configuración/5_Informes/a_Descargar'))
 
 // remove this line if you want to keep the file
-if (WebUI.waitForElementClickable(findTestObject('5_Informes/a_Descargar'), GlobalVariable.G_timeout)) {
-    WebUI.waitForElementClickable(findTestObject('5_Informes/span_Informes_ui-icon ui-icon-closethick'), GlobalVariable.G_timeout)
+if (WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Informes/a_Descargar'), GlobalVariable.G_timeout)) {
+    WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Informes/span_Informes_ui-icon ui-icon-closethick'), GlobalVariable.G_timeout)
 
-    WebUI.click(findTestObject('5_Informes/span_Informes_ui-icon ui-icon-closethick'))
+    WebUI.click(findTestObject('6_Configuración/5_Informes/span_Informes_ui-icon ui-icon-closethick'))
 }
 
 Assert.assertTrue(archivoDescargado(rutaA, Archivo, Archivo1))

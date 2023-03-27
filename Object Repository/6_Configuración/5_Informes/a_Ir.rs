@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Generar</name>
+   <name>a_Ir</name>
    <tag></tag>
-   <elementGuidId>b5bf5c09-62b7-4612-8385-e794683b72d6</elementGuidId>
+   <elementGuidId>579bc761-3d92-4be7-86f7-9dce761f8d58</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[2]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Generar')]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,15 +21,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c10cf912-a880-4de3-8be2-d830a013d208</webElementGuid>
+      <webElementGuid>c025111b-06a0-4a32-9e08-2bba81467537</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>popupReporte:j_idt457</value>
-      <webElementGuid>346a3efb-4720-47ed-8570-4a4e29e690d3</webElementGuid>
+      <value>j_idt220:j_idt231</value>
+      <webElementGuid>bddeca06-3cdd-4fcf-88e3-a02e5ed305d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,102 +37,119 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>2663ef54-daab-4d66-b101-3fe36510ba2b</webElementGuid>
+      <webElementGuid>e29a1c0b-5615-4795-98b8-fa0b9e192d01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget us-boton btn-solo</value>
-      <webElementGuid>e0d3fdef-29de-46e8-b5f9-ae550329a5d2</webElementGuid>
+      <value>ui-commandlink ui-widget us-link-modcard us-background-linkcard</value>
+      <webElementGuid>a7d5bef4-911f-4273-8823-756d5656f7bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;popupReporte:j_idt457&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte:j_idt457&quot;,u:&quot;popupReporte&quot;});return false;</value>
-      <webElementGuid>b71fb82b-5b87-47d4-acb4-6d3643b3db61</webElementGuid>
+      <value>PrimeFaces.ab({s:&quot;j_idt220:j_idt231&quot;,f:&quot;j_idt220&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>022aa545-de0e-4fa2-9e6d-6bc72a6f8756</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Generar</value>
-      <webElementGuid>c4370ecd-e3d9-4b39-b0a7-5ca34d6d1d55</webElementGuid>
+      <value>Ir
+									</value>
+      <webElementGuid>8333d215-e498-445d-aed6-56d5985b5957</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupReporte:j_idt457&quot;)</value>
-      <webElementGuid>b5418fee-5720-4681-b263-5da977da8f81</webElementGuid>
+      <value>id(&quot;j_idt220:j_idt231&quot;)</value>
+      <webElementGuid>f387154d-5526-44fd-87c0-bfd4554a4825</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='popupReporte:j_idt457']</value>
-      <webElementGuid>16c4f11c-cba5-4c42-95ba-0f9ecfd00a2b</webElementGuid>
+      <value>//a[@id='j_idt220:j_idt231']</value>
+      <webElementGuid>fcaa2858-6cec-4bd8-8cc9-d0ae88e58cfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='popupReporte:idEjecutar']/tbody/tr/td/a</value>
-      <webElementGuid>6bd1e2f2-fb1b-45ad-9e20-215067b6b907</webElementGuid>
+      <value>//form[@id='j_idt220']/div[2]/div/div/div[2]/a</value>
+      <webElementGuid>280f446b-b19b-4977-8974-34e15ff25c75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Generar')]</value>
-      <webElementGuid>734cba43-682f-463b-b1a0-1472cf593354</webElementGuid>
+      <value>//a[contains(text(),'Ir')]</value>
+      <webElementGuid>334cbd34-794f-409c-b1bc-17455ddc1cfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Segundo Plano'])[1]/following::a[1]</value>
-      <webElementGuid>7452b013-0056-437e-a8c3-c051dc12a1e6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aquí podrás generar los reportes relacionados con la nómina de tus colaboradores.'])[1]/following::a[1]</value>
+      <webElementGuid>dcafb83c-7177-445e-b953-2828687c1ee7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar correo'])[1]/following::a[1]</value>
-      <webElementGuid>3cbd2dbe-4132-439b-8704-da6c0dbe85dc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nómina'])[2]/following::a[1]</value>
+      <webElementGuid>dbc54509-fdeb-437e-a5a6-12287a639970</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='recurso'])[1]/preceding::a[3]</value>
-      <webElementGuid>e7d4c5a5-67ab-4475-b17e-7d95ee027838</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gestión'])[1]/preceding::a[1]</value>
+      <webElementGuid>74daaca0-031c-4bff-804a-580ea179eace</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aquí podrás generar reportes para tu gestión, indicadores e informes resumidos y gerenciales.'])[1]/preceding::a[1]</value>
+      <webElementGuid>a08c6da5-0a18-42f7-812f-b85e84439b05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ir']/parent::*</value>
+      <webElementGuid>d7e12584-1b17-4f1f-9efc-b8588e2b328d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[11]</value>
-      <webElementGuid>3400bb77-f327-47bd-9351-45f765196a16</webElementGuid>
+      <value>(//a[contains(@href, '#')])[7]</value>
+      <webElementGuid>27a4f585-8faa-444f-97c4-6aa68895ccd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/a</value>
-      <webElementGuid>9ea3b419-a5d6-4562-a543-ce34ccbb6bb0</webElementGuid>
+      <value>//div[2]/a</value>
+      <webElementGuid>697a4cf9-43d6-4ad9-afde-5ca9b93cf5e5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

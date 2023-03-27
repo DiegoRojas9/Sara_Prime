@@ -6,12 +6,12 @@
    <elementGuidId>d015582f-024f-4220-b1ea-a44d0bd2a62f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>tr.ui-widget-content.ui-datatable-odd.ui-datatable-selectable.fila_tabla_ace > td</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='Reporte Maestro Empleados']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-odd.ui-datatable-selectable.fila_tabla_ace > td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

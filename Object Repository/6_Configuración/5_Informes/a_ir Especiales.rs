@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Numero De Empleados</name>
+   <name>a_ir Especiales</name>
    <tag></tag>
-   <elementGuidId>0dfabdff-9016-4a97-9c9b-9c12c9e2e118</elementGuidId>
+   <elementGuidId>af914ddc-9964-4558-acab-32b8b0557776</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/span/div[2]/div/div/form/div/div[3]/div/div[2]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/span/form[7]/div/div[2]/table/tbody/tr[2]/td/div/div/table/tbody/tr/td</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

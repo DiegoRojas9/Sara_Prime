@@ -31,6 +31,8 @@ WebUI.waitForElementClickable(findTestObject('3_Nómina/1_Actualización_colabor
 
 WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/a_Nmina'))
 
+verificarPeriodo()
+
 WebUI.setText(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/Page_/input_Filtro_formulario_nominaj_idt495'), 
     '9525222')
 
@@ -119,5 +121,54 @@ if (Result == 'Registro Actualizado') {
     WebUI.closeBrowser()
 } else {
     WebUI.acceptAlert()
+}
+
+def verificarPeriodo() {
+    WebUI.waitForElementVisible(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/input_Perodo_formulario_nominaj_idt175'), 
+        0)
+
+    String filePath = WebUI.getAttribute(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/input_Perodo_formulario_nominaj_idt175'), 
+        'value')
+
+    if (filePath != 'Nomina  Mayo 2021' || WebUI.waitForElementVisible(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Reversar Confirmacin'), 
+            1)||WebUI.waitForElementVisible(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/input_NOMINA  MAYO 2021_formulario_nominacbSiguientePeriodo'), 
+            1)) {
+        WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Archivo Para Pagos'))
+
+        String result0 = WebUI.getText(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Reversar Abono'))
+
+        if (result0 == 'Reversar Abono') {
+            WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Reversar Abono'))
+
+            WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Aceptar'))
+        }
+        
+        WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Nmina'))
+
+        if (WebUI.waitForElementVisible(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Reversar Confirmacin'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Reversar Confirmacin'))
+
+            WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Aceptar'))
+			
+			WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Nmina'))
+			
+			String result1 = WebUI.getText(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Reversar Confirmacin'))
+            
+			if(result1 == "Reversar Confirmación")
+			{
+				WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Reversar Confirmacin'))
+						
+			WebUI.click(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Aceptar'))
+			}
+            if (WebUI.waitForElementVisible(findTestObject('3_Nómina/1_Actualización_colaborador/1_Información_basica/a_Aprobar Nmina'), 
+                1)) {
+            } else {
+                WebUI.acceptAlert()
+            }
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
 }
 

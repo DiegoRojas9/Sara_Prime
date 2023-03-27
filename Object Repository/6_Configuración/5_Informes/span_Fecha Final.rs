@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Informes</name>
+   <name>span_Fecha Final</name>
    <tag></tag>
-   <elementGuidId>ea1b8a30-3517-456c-8b91-4759b939acfe</elementGuidId>
+   <elementGuidId>34d0b09b-db0e-47cc-9bf5-50ab7790cdd6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form/ul/li[5]/a</value>
+         <value>
+/html/body/div[1]/div[2]/span/form[6]/div/div[2]/table/tbody/tr[1]/td/table/tbody/tr[3]/td/table/tbody/tr[3]/td[2]/table/tbody/tr/td/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -20,90 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
+      <webElementGuid>37ba1806-a7ce-43de-9c26-e9f36311d14c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/saraprimeweb/informe/informes.jsf</value>
+      <value>titulo_campo</value>
+      <webElementGuid>9397bc3a-8ecd-4865-ba58-2bb77509355a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Informes</value>
+      <value>Fecha Final:</value>
+      <webElementGuid>3c405bc0-d8a0-4248-9f11-4defb5561a84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;j_idt47&quot;)/ul[@class=&quot;list-group us-select-menu&quot;]/li[5]/a[1]</value>
+      <value>id(&quot;popupReporte:tablaParametroReporte_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even&quot;]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/span[@class=&quot;titulo_campo&quot;]</value>
+      <webElementGuid>b2a362c2-1dda-4b7c-9b1f-bb1b316a4410</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='j_idt47']/ul/li[5]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Informes')]</value>
+      <value>//tbody[@id='popupReporte:tablaParametroReporte_data']/tr[3]/td/table/tbody/tr/td/span</value>
+      <webElementGuid>42c95a26-84ad-4955-9040-c4f1a4159b0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendario'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inicial:'])[1]/following::span[2]</value>
+      <webElementGuid>de90af7e-3780-4b60-a68a-ee710d058e75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nómina'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CONTRATO'])[1]/following::span[3]</value>
+      <webElementGuid>e9ef09a7-1a02-4eb2-b846-54cc1340fc4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuración'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generar'])[1]/preceding::span[2]</value>
+      <webElementGuid>7065bd69-7afd-4aae-bbe2-b74d5801b76f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargue información'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Excel'])[1]/preceding::span[4]</value>
+      <webElementGuid>a62c0476-70a3-4961-a459-176fa86c1836</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Informes']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/saraprimeweb/informe/informes.jsf')]</value>
+      <value>//*/text()[normalize-space(.)='Fecha Final:']/parent::*</value>
+      <webElementGuid>7907dbe0-e30b-40fd-9a88-45f75bcd061b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/ul/li[5]/a</value>
+      <value>//tr[3]/td/table/tbody/tr/td/span</value>
+      <webElementGuid>03789c14-b246-4afa-a982-59e975862c06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

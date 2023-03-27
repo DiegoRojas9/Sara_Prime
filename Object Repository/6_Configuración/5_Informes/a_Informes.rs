@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Descargar</name>
+   <name>a_Informes</name>
    <tag></tag>
-   <elementGuidId>747879fc-03df-4fbd-8f45-01f083afbd5f</elementGuidId>
+   <elementGuidId>ea1b8a30-3517-456c-8b91-4759b939acfe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.us-boton.btn-descargar</value>
+         <key>XPATH</key>
+         <value>//form/ul/li[5]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,103 +21,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>47993839-de20-4e47-ab36-c85d9f9bb443</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/saraprimeweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc33c38c31c39c64c39c66c63c34c33c32c39c34c35c38c63c62c31c62c38c30c36c65c62c30c33c32c64c63c34c32c62&amp;E=2_GT_-_Reporte_Programaci%C3%B3n.xls</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>target</name>
-      <type>Main</type>
-      <value>_black</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>us-boton  btn-descargar</value>
+      <value>/saraprimeweb/informe/informes.jsf</value>
+      <webElementGuid>9c4130c3-3e55-4864-aa1c-bb6479b2c96b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Descargar</value>
+      <value>Informes</value>
+      <webElementGuid>eaadf4ee-1473-44ab-b9a0-0e69bdb44a48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupReporte:j_idt413_content&quot;)/table[@class=&quot;popupBody&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton  btn-descargar&quot;]</value>
+      <value>id(&quot;j_idt47&quot;)/ul[@class=&quot;list-group us-select-menu&quot;]/li[5]/a[1]</value>
+      <webElementGuid>2cd25f21-9990-434f-b84f-1a9821ee6f70</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='popupReporte:j_idt413_content']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <value>//form[@id='j_idt47']/ul/li[5]/a</value>
+      <webElementGuid>ef02692d-fdcb-4d63-8d2f-d3db9b2c1cb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Descargar')]</value>
+      <value>//a[contains(text(),'Informes')]</value>
+      <webElementGuid>da6f9e7c-e691-48af-a74e-d4144ccf72f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reportes Generales'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendario'])[1]/following::a[1]</value>
+      <webElementGuid>57492df9-9336-4cfd-b5c4-ba46ffa5a84c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informes'])[2]/following::a[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nómina'])[1]/following::a[2]</value>
+      <webElementGuid>f0733a1d-122e-41ff-acac-917f13cd9056</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuración'])[1]/preceding::a[1]</value>
+      <webElementGuid>1780ed02-d84e-491c-9d14-2004fcd82ca0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambio de empresa'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargue información'])[1]/preceding::a[3]</value>
+      <webElementGuid>fb74e45f-296f-4361-9789-11413e92c984</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Descargar']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Informes']/parent::*</value>
+      <webElementGuid>67f964fd-ed61-4a10-8641-b77e1c3d8eb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/saraprimeweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc33c38c31c39c64c39c66c63c34c33c32c39c34c35c38c63c62c31c62c38c30c36c65c62c30c33c32c64c63c34c32c62&amp;E=2_GT_-_Reporte_Programaci%C3%B3n.xls')]</value>
+      <value>//a[contains(@href, '/saraprimeweb/informe/informes.jsf')]</value>
+      <webElementGuid>67e9de41-12bb-4ea9-8acd-71e3e20836a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/a</value>
+      <value>//form/ul/li[5]/a</value>
+      <webElementGuid>a4e48a63-2267-46cb-a03e-aaa89eb0260a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

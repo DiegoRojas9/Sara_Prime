@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Estado Laboral</name>
+   <name>a_formato</name>
    <tag></tag>
-   <elementGuidId>e41e69fc-c26f-43c5-a5b1-bdd45f8d848e</elementGuidId>
+   <elementGuidId>e5bbcef3-2ea0-4bd0-8378-ef30a38f907c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>
+/html/body/div[1]/div[2]/span/form[6]/div/div[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td[4]/a/img</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table/tbody/tr/td/select</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

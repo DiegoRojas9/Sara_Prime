@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_CONTRATO_popupReportetablaParametro</name>
+   <name>input_NOMINA  MAYO 2021_formulario_nominacbSiguientePeriodo</name>
    <tag></tag>
-   <elementGuidId>2d47c8a6-1de3-42e2-9060-905681260614</elementGuidId>
+   <elementGuidId>796c03c3-abf4-49bb-8482-26bd72bf709c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//input[@id='formulario_nomina:cbSiguientePeriodo']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td/input</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,68 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>9e3b4fe9-6f35-4fca-a391-52c8ef242e8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>popupReporte:tablaParametroReporte:0:j_idt433</value>
+      <value>formulario_nomina:cbSiguientePeriodo</value>
+      <webElementGuid>4954144d-d6d3-4d5c-af42-05eb092e84ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>submit</value>
+      <webElementGuid>c314c645-2b5b-47a5-93ad-c1b193a01b6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>popupReporte:tablaParametroReporte:0:j_idt433</value>
+      <value>formulario_nomina:cbSiguientePeriodo</value>
+      <webElementGuid>ccf9e146-1965-4763-a27d-6aef5868a31d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onkeypress</name>
+      <name>value</name>
       <type>Main</type>
-      <value>return entero(event);</value>
+      <value>Siguiente Periodo</value>
+      <webElementGuid>df7d5e79-8543-4f31-b0da-367737f50d58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onchange</name>
+      <name>class</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte:tablaParametroReporte:0:j_idt433&quot;,u:&quot;popupReporte:tablaParametroReporte&quot;});</value>
+      <value>us-boton</value>
+      <webElementGuid>3fbff3fb-1365-4cd3-909d-cc2214b47a27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupReporte:tablaParametroReporte:0:j_idt433&quot;)</value>
+      <value>id(&quot;formulario_nomina:cbSiguientePeriodo&quot;)</value>
+      <webElementGuid>4075d3c8-6c2b-4e7b-8d22-9750efed1d9d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='popupReporte:tablaParametroReporte:0:j_idt433']</value>
+      <value>//input[@id='formulario_nomina:cbSiguientePeriodo']</value>
+      <webElementGuid>6028a5ea-db83-4bc2-bb65-2ced4ef1a588</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='popupReporte:tablaParametroReporte_data']/tr/td[2]/table/tbody/tr/td/input</value>
+      <value>//div[@id='formulario_nomina:j_idt164_content']/input</value>
+      <webElementGuid>bd32130f-d3b5-40fd-880e-be5b556cfe25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/input</value>
+      <value>//div[2]/input</value>
+      <webElementGuid>fcc764e8-1a9c-443f-bf7b-aded97f74834</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'formulario_nomina:cbSiguientePeriodo' and @type = 'submit' and @name = 'formulario_nomina:cbSiguientePeriodo']</value>
+      <webElementGuid>3ec53239-b9e0-43b0-b958-5b30b071a94b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
