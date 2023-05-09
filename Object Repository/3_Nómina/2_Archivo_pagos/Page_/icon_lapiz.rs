@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ifram_onePage</name>
+   <name>icon_lapiz</name>
    <tag></tag>
-   <elementGuidId>289c737f-88f1-4664-9087-214c4247c7c1</elementGuidId>
+   <elementGuidId>7af0663a-99d0-4957-8a93-c6d8925381dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[18]/iframe</value>
+         <value>//body/div[1]/div[2]/span/div[2]/div/form[4]/div/div[4]/div/div/table/tbody/tr[2]/td[6]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

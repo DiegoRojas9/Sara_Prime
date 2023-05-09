@@ -33,9 +33,11 @@ WebUI.click(findTestObject('1.1_General_Objects/a_Nmina'))
 
 if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/ver_mas/a_ ver ms - 0'), 1)) {
     verMas(fila)
-	selectIcon(fila, mensaje)
-}else {selectIcon(fila,mensaje)}
 
+    selectIcon(fila, mensaje)
+} else {
+    selectIcon(fila, mensaje)
+}
 
 def selectIcon(def fila, def mensaje) {
     if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina'), 
@@ -91,62 +93,61 @@ def selectIcon(def fila, def mensaje) {
     } else {
         mensaje = 'no se encontro el icono de horas extra en pagina 1'
 
-		WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'))
-		
-		if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina'),
-			1)) {
-			WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina'))
-	
-			fila = 'Fila-1'
-		} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 1'),
-			1)) {
-			WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 1'))
-	
-			fila = 'Fila-2'
-		} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 2'),
-			1)) {
-			WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 2'))
-	
-			fila = 'Fila-3'
-		} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 3'),
-			1)) {
-			WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 3'))
-	
-			fila = 'Fila-4'
-		} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 4'),
-			1)) {
-			WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 4'))
-	
-			fila = 'Fila-5'
-		} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 5'),
-			1)) {
-			WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 5'))
-	
-			fila = 'Fila-6'
-		} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 6'),
-			1)) {
-			WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 6'))
-	
-			fila = 'Fila-7'
-		} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 7'),
-			1)) {
-			WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 7'))
-	
-			fila = 'Fila-8'
-		} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 9'),
-			1)) {
-			WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 9'))
-	
-			fila = 'Fila-9'
-		} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 9'),
-			1)) {
-			WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 9'))
-	
-			fila = 'Fila-10'
-		}
-		else {
-        WebUI.acceptAlert()
-		}
+        WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'))
+
+        if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina'))
+
+            fila = 'Fila-1'
+        } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 1'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 1'))
+
+            fila = 'Fila-2'
+        } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 2'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 2'))
+
+            fila = 'Fila-3'
+        } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 3'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 3'))
+
+            fila = 'Fila-4'
+        } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 4'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 4'))
+
+            fila = 'Fila-5'
+        } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 5'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 5'))
+
+            fila = 'Fila-6'
+        } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 6'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 6'))
+
+            fila = 'Fila-7'
+        } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 7'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 7'))
+
+            fila = 'Fila-8'
+        } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 9'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 9'))
+
+            fila = 'Fila-9'
+        } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 9'), 
+            1)) {
+            WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/icons/a_Fecha 10022021_formulario_nominaj_ConceptosNomina - 9'))
+
+            fila = 'Fila-10'
+        } else {
+            WebUI.acceptAlert()
+        }
     }
     
     if ((((((((((fila == 'Fila-1') || (fila == 'Fila-2')) || (fila == 'Fila-3')) || (fila == 'Fila-4')) || (fila == 'Fila-5')) || 
@@ -165,8 +166,6 @@ def selectIcon(def fila, def mensaje) {
         WebUI.setText(findTestObject('3_Nómina/7_Novedad_horas_extra/input_AUXILIO DE MOVILIZACION_fechainicial_input'), 
             '05/03/2021')
 
-
-
         WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/input_Obligatorio_popup_fechafinal_input'), 
             GlobalVariable.G_timeout)
 
@@ -177,24 +176,29 @@ def selectIcon(def fila, def mensaje) {
         WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'), GlobalVariable.G_timeout)
 
         WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aplicar'))
-		String Result = WebUI.getText(findTestObject('Result/p_Resultado'))
-		
-		if (Result == 'Registro guardado') {
-			String Resultado = 'PRUEBA OK'
-			if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'), 1)) {
-				WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'))
-			}
-			WebUI.closeBrowser()
-		} else {
-			WebUI.acceptAlert()
-		}
 
+		String Result = ""
+        if(WebUI.waitForElementVisible(findTestObject('Result/p_Resultado'), 0))
+        {
+        Result = WebUI.getText(findTestObject('Result/p_Resultado'))
+        }
+        if (Result == 'Registro guardado') {
+            String Resultado = 'PRUEBA OK'
+
+            if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'), 1)) {
+                WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Aceptar'))
+            }
+            
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
     }
     
     return fila
 }
 
-def verMas(def fila ) {
+def verMas(def fila) {
     if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/ver_mas/a_ ver ms'), 1)) {
         WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/ver_mas/a_ ver ms'))
 
@@ -304,7 +308,6 @@ def verMas(def fila ) {
         } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'), 1)) {
             WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_Cerrar'))
         }
-		
     }
 }
 

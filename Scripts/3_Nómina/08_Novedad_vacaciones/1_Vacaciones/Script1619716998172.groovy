@@ -46,9 +46,10 @@ if (WebUI.waitForElementVisible(findTestObject('3_Nómina/8_Novedad_vacaciones/t
         WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Aceptar'))
     }
     
-    WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Cerrar'), GlobalVariable.G_timeout)
+    if(WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Cerrar'), 0))
+    {
 
-    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Cerrar'))
+    WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/a_Cerrar'))}
 }
 
 WebUI.waitForElementVisible(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj'), 
@@ -100,43 +101,42 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones
     1)) {
     WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 9'))
 } else {
-	WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'))
-	
-	if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 0'),
-		1)) {
-		WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj'))
-	} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 1'),
-		1)) {
-		WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 1'))
-	} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 2'),
-		1)) {
-		WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 2'))
-	} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 3'),
-		1)) {
-		WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 3'))
-	} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 4'),
-		1)) {
-		WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 4'))
-	} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 5'),
-		1)) {
-		WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 5'))
-	} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 6'),
-		1)) {
-		WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 6'))
-	} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 7'),
-		1)) {
-		WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 7'))
-	} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 8'),
-		1)) {
-		WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 8'))
-	} else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 9'),
-		1)) {
-		WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 9'))
-	}
-	else {
-    WebUI.acceptAlert()
-	}
-	}
+    WebUI.click(findTestObject('3_Nómina/7_Novedad_horas_extra/a_2'))
+
+    if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 0'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj'))
+    } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 1'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 1'))
+    } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 2'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 2'))
+    } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 3'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 3'))
+    } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 4'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 4'))
+    } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 5'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 5'))
+    } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 6'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 6'))
+    } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 7'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 7'))
+    } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 8'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 8'))
+    } else if (WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 9'), 
+        1)) {
+        WebUI.click(findTestObject('3_Nómina/8_Novedad_vacaciones/icon_vacaciones/a_Fecha 10022021_formulario_nominaj - 9'))
+    } else {
+        WebUI.acceptAlert()
+    }
+}
 
 WebUI.waitForElementClickable(findTestObject('3_Nómina/8_Novedad_vacaciones/input_LICENCIA DE LUTO_fechainicial_input'), 
     GlobalVariable.G_timeout)

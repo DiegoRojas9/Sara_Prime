@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Aceptar</name>
+   <name>a_Colaboradores</name>
    <tag></tag>
-   <elementGuidId>acb11128-61e6-44cc-9802-9387ab523198</elementGuidId>
+   <elementGuidId>29d24947-581f-429a-8c53-ad94ec29c110</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.us-btn-si.us-btn-popup</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[4]/a
-</value>
+         <value>//a[contains(text(),'Colaboradores')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8e7cca9b-cb4e-4ab1-9ab0-799e4657aac9</webElementGuid>
+      <webElementGuid>c9ef9f4e-3687-42c7-916a-7a1ba3f9e18f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,118 +30,118 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>20c6e0de-f1a0-477e-b409-9789e3a75190</webElementGuid>
+      <webElementGuid>8130b2a1-1c2b-4982-88a9-332a0a314320</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt658':'dialog_popupFinalizacionEmpleado:j_idt658'},'');return false</value>
-      <webElementGuid>5178b678-1a30-4c54-93c0-78cc3045ee50</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>us-btn-si us-btn-popup</value>
-      <webElementGuid>8d3491ed-bd74-4b85-8f79-c96011eefb31</webElementGuid>
+      <value>mojarra.ab('j_idt71:main',event,'click','@this',0,{'params':{'co.com.unionsoluciones.custommenu.url':'f10c6383973f464ba209611d49feffd3'}}); return false</value>
+      <webElementGuid>6d7b2e6b-39ce-43d4-a58b-c2e85c3c11b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Aceptar</value>
-      <webElementGuid>1d7b3176-c250-4041-ba49-13c788898363</webElementGuid>
+      <value>Colaboradores</value>
+      <webElementGuid>94474eaa-9e8c-4800-b298-cdca2c47a220</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dialog_popupFinalizacionEmpleado:j_idt640_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/a[@class=&quot;us-btn-si us-btn-popup&quot;]</value>
-      <webElementGuid>993bccd5-336e-49be-bf1f-7f4c0c0b8290</webElementGuid>
+      <value>id(&quot;j_idt71:main&quot;)/ul[@class=&quot;us-main-menu&quot;]/li[@class=&quot;principales&quot;]/a[1]</value>
+      <webElementGuid>73968b88-21d8-40c9-9c3b-22cddbde69bb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('dialog_popupFinalizacionEmpleado'),{'dialog_popupFinalizacionEmpleado:j_idt658':'dialog_popupFinalizacionEmpleado:j_idt658'},'');return false&quot;]</value>
-      <webElementGuid>6418f784-b330-4804-a377-af950e4cc278</webElementGuid>
+      <value>//a[@onclick=&quot;mojarra.ab('j_idt71:main',event,'click','@this',0,{'params':{'co.com.unionsoluciones.custommenu.url':'f10c6383973f464ba209611d49feffd3'}}); return false&quot;]</value>
+      <webElementGuid>4ded1fe6-e013-4dfb-a368-5a1cf1b3d990</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dialog_popupFinalizacionEmpleado:j_idt640_content']/div[5]/a</value>
-      <webElementGuid>b3026581-4611-45cd-ae4b-42d997f47846</webElementGuid>
+      <value>//nav[@id='j_idt71:main']/ul/li[2]/a</value>
+      <webElementGuid>519146ae-51ca-4456-bc76-460c36d7f412</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Aceptar')]</value>
-      <webElementGuid>a314dcbe-914c-45b5-bdb1-ddcf73104e4f</webElementGuid>
+      <value>//a[contains(text(),'Colaboradores')]</value>
+      <webElementGuid>a69b0c07-4569-4193-beff-da9487bc7df0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proxima Nómina'])[1]/following::a[1]</value>
-      <webElementGuid>82063eb4-1a22-4086-8a8d-5dda762964b5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insumos Medicos Comfama Sas*'])[2]/following::a[2]</value>
+      <webElementGuid>2c6a79b4-1ba0-4ed0-b252-7c302d8748a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cheque, Transferencia'])[1]/following::a[1]</value>
-      <webElementGuid>e35da436-3d3d-41be-9f54-048d5e6e2eaf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EMILIA VARGAS MARTINEZ'])[2]/following::a[2]</value>
+      <webElementGuid>798eb592-1e68-447d-befb-c1465bbdce61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Union Soluciones© 2019'])[1]/preceding::a[1]</value>
-      <webElementGuid>f29787fa-0d2f-44eb-bdfd-c35868c3a0e2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bienvenido a'])[1]/preceding::a[8]</value>
+      <webElementGuid>928a7ef3-3370-46ac-9005-db0ce6cd1a2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambio de empresa'])[1]/preceding::a[2]</value>
-      <webElementGuid>992d076c-0b40-4ffd-98ba-ca89af21f77f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SARAPRIME'])[1]/preceding::a[8]</value>
+      <webElementGuid>f820c750-6fe8-4c5e-a43d-7e4cecd7425e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
-      <webElementGuid>24cb2353-ceba-4699-a8ab-b84d432f4d08</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Colaboradores']/parent::*</value>
+      <webElementGuid>bf7adf8d-4f70-4964-85dd-9bb3b7b4ab38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[7]</value>
-      <webElementGuid>50503287-9887-4206-8cb4-fd2e4e3a6594</webElementGuid>
+      <value>(//a[contains(@href, '#')])[6]</value>
+      <webElementGuid>dc86ab40-e7a0-410d-a8ee-97b7699e3970</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/a</value>
-      <webElementGuid>57176b9a-9f9e-43ca-8464-50da89fa3fd5</webElementGuid>
+      <value>//li[2]/a</value>
+      <webElementGuid>670b7568-1b12-40ab-80df-8661782f9f14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Colaboradores' or . = 'Colaboradores')]</value>
+      <webElementGuid>a73d8950-bd42-4ae2-94e7-cfd6db6713b1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

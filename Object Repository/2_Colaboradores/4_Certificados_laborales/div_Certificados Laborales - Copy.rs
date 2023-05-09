@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Certificados Laborales - Copy</name>
+   <tag></tag>
+   <elementGuidId>ad7f40ae-56db-45f9-90ee-1b7fd2f36616</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//body/div[1]/div[2]/span/div[2]/form/div[2]/div[3]/div/div/div/div/div[1]/div/div/div/table/tbody/tr[2]/td[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ed651c6f-6b07-41dd-b36b-f3e8a4945f33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>destinations-info</value>
+      <webElementGuid>34c118e0-b823-4454-949f-3b1684b18fd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								Certificados Laborales</value>
+      <webElementGuid>9d7447a6-2dc7-47db-99b5-13657efcf151</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;consultarColaborador:j_idt163&quot;)/div[@class=&quot;grid&quot;]/div[@class=&quot;destinations-info&quot;]</value>
+      <webElementGuid>71cd5b7f-0935-473a-99d8-5a421d7d659a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='consultarColaborador:j_idt163']/div/div[2]</value>
+      <webElementGuid>69ffccc6-15eb-4181-9fb1-3d1f6a33f591</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Certificados Laborales'])[1]/following::div[1]</value>
+      <webElementGuid>92bd515f-525d-40e6-b84a-240d16f1e090</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Novedades'])[1]/following::div[7]</value>
+      <webElementGuid>ad9cfed4-d522-45a4-a01f-1c03886213e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comprobantes de nómina y Certificado Ing. y Ret.'])[1]/preceding::div[3]</value>
+      <webElementGuid>0ad6e27b-5e21-4b0e-af02-08c673c0f872</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Anexos'])[1]/preceding::div[9]</value>
+      <webElementGuid>4e543a20-b260-42c5-bb2b-753ef3f6e596</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[4]/div/div[2]</value>
+      <webElementGuid>65a517da-39e3-4ae9-bf6f-554d140597bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+								Certificados Laborales' or . = '
+								Certificados Laborales')]</value>
+      <webElementGuid>092fad72-68e6-414c-b311-8dea94b098a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

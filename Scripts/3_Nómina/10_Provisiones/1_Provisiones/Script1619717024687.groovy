@@ -64,9 +64,19 @@ WebUI.click(findTestObject('3_Nómina/10_Provisiones/span_Descargar'))
 
 WebUI.click(findTestObject('3_Nómina/10_Provisiones/a_Generar'))
 
-if(WebUI.waitForElementVisible(findTestObject('3_Nómina/10_Provisiones/a_Continuar'), 0))
-{
-WebUI.click(findTestObject('3_Nómina/10_Provisiones/a_Continuar'))
+if (WebUI.waitForElementVisible(findTestObject('3_Nómina/10_Provisiones/span_Descargar - Copy'), 1)) {
+    WebUI.click(findTestObject('3_Nómina/10_Provisiones/span_Descargar - Copy'))
 
-WebUI.closeBrowser()
-}else {WebUI.acceptAlert()}
+    WebUI.delay(2)
+
+    WebUI.closeBrowser()
+}
+
+else if (WebUI.waitForElementVisible(findTestObject('3_Nómina/10_Provisiones/a_Continuar'), 0)) {
+    WebUI.click(findTestObject('3_Nómina/10_Provisiones/a_Continuar'))
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
+

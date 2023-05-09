@@ -40,6 +40,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>df90a64f-dea0-402a-b8ab-1f85c0724dc1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/2_Colaboradores/4_Certificados_laborales/1_Certificados_laborales_dentro_de_colaboradores</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2ee659d5-1365-4e57-a76e-a03b3eb00e4b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

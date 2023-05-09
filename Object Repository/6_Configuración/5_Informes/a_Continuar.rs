@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td/div/a</value>
+         <value>/html/body/div[1]/div[2]/span/form[14]/div/div[2]/table[1]/tbody/tr[2]/td/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f9db4468-5af2-47ef-b9ae-0b43cf27d22e</webElementGuid>
+      <webElementGuid>ff6a8589-6733-40d0-85e7-7a924dd69177</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>4626fbdb-f62b-465d-87f6-20f3cf4bf480</webElementGuid>
+      <webElementGuid>d7a69bb5-c2df-4dbe-a3ba-f4b6ca832549</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('frmInfo_popupEspera'),{'frmInfo_popupEspera:j_idt331':'frmInfo_popupEspera:j_idt331'},'');return false</value>
-      <webElementGuid>9b82faa7-03b8-47df-89ba-b19a47b49dd7</webElementGuid>
+      <webElementGuid>de179932-675f-4700-9f0a-929dd509eff8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton btn-continuar</value>
-      <webElementGuid>05894725-6ef1-4da4-b6bd-07d001c284a4</webElementGuid>
+      <webElementGuid>ce74cde5-bdac-4bc9-94c6-e9dafb43807a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continuar</value>
-      <webElementGuid>ff76d6ba-dfb4-475b-b7b8-d07a6babb65c</webElementGuid>
+      <webElementGuid>16993964-d3f8-4b1e-9a5f-71aa14aa2a40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;frmInfo_popupEspera:contenedorEspera&quot;)/tbody[1]/tr[2]/td[1]/div[1]/a[@class=&quot;us-boton btn-continuar&quot;]</value>
-      <webElementGuid>bf839324-653a-4abf-a290-f02c988168f8</webElementGuid>
+      <webElementGuid>af844714-e873-4142-94c9-ffe3a762f78b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('frmInfo_popupEspera'),{'frmInfo_popupEspera:j_idt331':'frmInfo_popupEspera:j_idt331'},'');return false&quot;]</value>
-      <webElementGuid>18055538-1bc1-4c97-8ad0-fe12303a6412</webElementGuid>
+      <webElementGuid>624daad7-0eda-48d7-89a1-249a47ef01bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='frmInfo_popupEspera:contenedorEspera']/tbody/tr[2]/td/div/a</value>
-      <webElementGuid>a699e869-b96e-4245-915a-e8b22a445f98</webElementGuid>
+      <webElementGuid>62efce46-03db-4653-aaa9-1d324b6e9435</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Continuar')]</value>
-      <webElementGuid>a664fe90-5dcf-4b77-9e88-5325ef9dfa8d</webElementGuid>
+      <webElementGuid>0dbdd14e-5a87-4adf-8699-7a24bd59d6e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='El proceso fue ejecutado correctamente'])[1]/following::a[1]</value>
-      <webElementGuid>804a356e-fda0-4ff8-b90c-325744a1e4b2</webElementGuid>
+      <webElementGuid>d4074c70-d801-4cfc-a476-6a3538431952</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informes'])[2]/following::a[4]</value>
-      <webElementGuid>a39416ee-6d83-465a-b3d2-fcae2b76eadb</webElementGuid>
+      <webElementGuid>24e24550-e220-47ba-81a4-3b72c132046c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='recurso'])[1]/preceding::a[2]</value>
-      <webElementGuid>b596b7d7-7eb4-4a98-9a88-a51614743c5d</webElementGuid>
+      <webElementGuid>5ca78e86-2a36-4146-8a4d-81e36f91ccde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
-      <webElementGuid>95eb8f78-cfec-43aa-93bb-eee78c4aecb8</webElementGuid>
+      <webElementGuid>0e6cab0b-1e57-41e4-90c7-ab74a4b36eef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[10]</value>
-      <webElementGuid>c4117828-c3ee-477e-9ce6-3a7a300bdbfe</webElementGuid>
+      <webElementGuid>742bd734-5e1b-4640-b21c-5d6f147aa34e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/a</value>
-      <webElementGuid>8df6ed45-e569-43c8-ae4c-0b61abe78c48</webElementGuid>
+      <webElementGuid>1eacfe0a-9d1c-46e0-84d6-a6090f396e44</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

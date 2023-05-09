@@ -58,12 +58,10 @@ WebUI.click(findTestObject('6_Configuración/5_Informes/radiob_Descargar'))
 
 WebUI.click(findTestObject('6_Configuración/5_Informes/a_Generar'))
 
-
-
-if(WebUI.waitForElementVisible(findTestObject('6_Configuración/5_Informes/a_Continuar'), 1)) {
-
-WebUI.click(findTestObject('6_Configuración/5_Informes/a_Continuar'))
+if (WebUI.waitForElementVisible(findTestObject('6_Configuración/5_Informes/a_Continuar'), 4)) {
+    WebUI.click(findTestObject('6_Configuración/5_Informes/a_Continuar'))
 }
+
 WebUI.click(findTestObject('6_Configuración/5_Informes/a_Descargar'))
 
 WebUI.click(findTestObject('6_Configuración/5_Informes/a_Cerrar'))
@@ -76,9 +74,7 @@ WebUI.click(findTestObject('6_Configuración/5_Informes/a_Numero De Empleados'))
 
 WebUI.setText(findTestObject('6_Configuración/5_Informes/input_Fecha Inicial'), '03/07/2017')
 
-
 WebUI.setText(findTestObject('6_Configuración/5_Informes/input_Fecha Final'), '10/07/2017')
-
 
 WebUI.click(findTestObject('6_Configuración/5_Informes/a_Generar'))
 
@@ -108,7 +104,8 @@ WebUI.click(findTestObject('6_Configuración/5_Informes/a_Descargar'))
 
 // remove this line if you want to keep the file
 if (WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Informes/a_Descargar'), GlobalVariable.G_timeout)) {
-    WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Informes/span_Informes_ui-icon ui-icon-closethick'), GlobalVariable.G_timeout)
+    WebUI.waitForElementClickable(findTestObject('6_Configuración/5_Informes/span_Informes_ui-icon ui-icon-closethick'), 
+        GlobalVariable.G_timeout)
 
     WebUI.click(findTestObject('6_Configuración/5_Informes/span_Informes_ui-icon ui-icon-closethick'))
 }

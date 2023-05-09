@@ -6,12 +6,13 @@
    <elementGuidId>0db92869-4b6d-48ba-b60e-805e025621cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[7]/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-icon.ui-icon-pencil</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[7]/div/a[1]/span
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>022c55d3-d696-42fa-b40d-f06b2ee9883a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-pencil</value>
+      <webElementGuid>0dbdd0e8-a0b1-4dab-a5f3-68aa1680de20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formulario_archivoPagos:tablaAjuste2:0:j_idt944&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;]</value>
+      <webElementGuid>07d937a4-d8b3-47ae-8229-82e77147b511</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formulario_archivoPagos:tablaAjuste2:0:j_idt944']/a/span</value>
+      <webElementGuid>3ec9a8dc-ec84-4f4e-b047-06e28fbf48ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]/div/a/span</value>
+      <webElementGuid>23bb5e12-1028-4096-b566-baadadc50551</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

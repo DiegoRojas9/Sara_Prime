@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Certifica Laboral - Copy</name>
+   <tag></tag>
+   <elementGuidId>e78ecd62-b245-45cf-a12a-dc4c05a28ad7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-odd.ui-datatable-selectable.ui-state-hover > td</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[2]/span/div[2]/form/div[2]/div[3]/div/div/div/div/div[1]/div/div/div/table/tbody/tr[2]/td[1]/span
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>95226513-6103-4d96-84be-1a79f06efe53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>3ed0f9a3-ec1b-424e-8b52-d2adacaab2d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Certifica Laboral</value>
+      <webElementGuid>56891f58-cbd6-4966-bcb9-3d973e194fd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_solicitudesEmpleado:tabsSolicitudes:j_idt186_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable ui-state-hover&quot;]/td[1]</value>
+      <webElementGuid>452b56ab-091a-43a4-90d2-a70cb98919a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='form_solicitudesEmpleado:tabsSolicitudes:j_idt186_data']/tr[2]/td</value>
+      <webElementGuid>5f5728f3-b0b2-411b-a0a3-ff164eb694ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CERTIFICACIÓN LABORAL (CON SUELDO)'])[1]/following::td[1]</value>
+      <webElementGuid>14b38be4-d659-4652-b8ab-4b8329a763c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Certifica Laboral'])[1]/following::td[2]</value>
+      <webElementGuid>0bd94acc-9b4e-49f2-a15e-83e20c63927a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CERTIFICACIÓN LABORAL (SIN SUELDO)'])[1]/preceding::td[1]</value>
+      <webElementGuid>1b378881-9664-4c43-bc73-8a05d588c258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td</value>
+      <webElementGuid>88df4824-4549-4635-a284-82a08cfc0f76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Certifica Laboral' or . = 'Certifica Laboral')]</value>
+      <webElementGuid>41efb2ff-d4db-45f3-9260-55363fd32d7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -36,6 +36,10 @@ if (WebUI.waitForElementClickable(findTestObject('3_Nómina/2_Archivo_pagos/Page
 
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/a_Ajuste_formulario_archivoPagos'))
 
+WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/icon_lapiz'))
+
+WebUI.waitForElementVisible(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANDREA_pencil'), 0)
+
 WebUI.click(findTestObject('3_Nómina/2_Archivo_pagos/Page_/span_AGUDELO ROJAS ANDREA_pencil'))
 
 WebUI.selectOptionByIndex(findTestObject('3_Nómina/2_Archivo_pagos/Page_/select_-- Seleccione --Av VillasBanco De Occidente'), 

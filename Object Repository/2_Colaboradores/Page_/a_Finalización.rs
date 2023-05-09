@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ifram_onePage</name>
+   <name>a_Finalización</name>
    <tag></tag>
-   <elementGuidId>289c737f-88f1-4664-9087-214c4247c7c1</elementGuidId>
+   <elementGuidId>35a391ac-b866-472e-9d78-37c992919d6a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[18]/iframe</value>
+         <value>//body/div[1]/div[2]/span/form[7]/div/div[2]/div[3]/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
