@@ -6,12 +6,12 @@
    <elementGuidId>3fb8820e-b8f6-41bd-a8ff-701a832c5fb2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//body/div[1]/div[2]/span/div[2]/div/form[2]/div[3]/div[2]/div[1]/table/tbody/tr[3]/td[7]/a[1]
 </value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ec55a22d-b601-4f32-bd2d-d53f1424930f</webElementGuid>
+      <webElementGuid>fbb19ba5-9e2b-47cf-8718-d4e3568891d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formulario_nomina:j_idt486:9:verConceptosNomina</value>
-      <webElementGuid>d671792f-79fe-4a4e-88fd-1837f3d0bec2</webElementGuid>
+      <webElementGuid>c12636c1-f80a-4161-a296-43cd9e320b3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>fa32dc99-5920-4d20-b7c1-87bed3019bd4</webElementGuid>
+      <webElementGuid>0bca0030-586d-4179-90ad-e8282bc3ab0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('formulario_nomina'),{'formulario_nomina:j_idt486:9:verConceptosNomina':'formulario_nomina:j_idt486:9:verConceptosNomina','empleadoVer':'co.com.unionsoluciones.saraprime.logica.dto.EmpleadoPeriodoNominaDTO@24c0a0ed'},'');return false</value>
-      <webElementGuid>da35eeb7-dafb-4dd9-9a1e-8a38f65c15e0</webElementGuid>
+      <webElementGuid>e77543b8-169d-42ae-853b-fc2cfeac05fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>glyphicons glyphicons-edit</value>
-      <webElementGuid>ebfabe49-89f0-4d67-b254-7718c7ca2574</webElementGuid>
+      <webElementGuid>cc64d726-ce6c-48f6-8e25-08b1a93ac425</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formulario_nomina:j_idt486:9:verConceptosNomina&quot;)</value>
-      <webElementGuid>351b8216-9a74-4ee0-af1a-5b15edc1f847</webElementGuid>
+      <webElementGuid>1e5ed098-e514-416d-b02c-52bf2da9ed78</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='formulario_nomina:j_idt486:9:verConceptosNomina']</value>
-      <webElementGuid>89e94a0f-a0af-4f26-a9be-7a77b31d81b5</webElementGuid>
+      <webElementGuid>861d9d91-8269-4b6a-a88d-c19e6485fb26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formulario_nomina:j_idt486_data']/tr[10]/td[7]/a</value>
-      <webElementGuid>11429955-0b8f-45e5-9554-dfe34c08c97b</webElementGuid>
+      <webElementGuid>cd9591a6-1d21-4fee-8617-4a8b07106889</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[72]</value>
-      <webElementGuid>b33b55ba-30aa-43cf-9667-73a823c6985f</webElementGuid>
+      <webElementGuid>20852913-eb09-4dd5-8ab9-288413396faf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[10]/td[7]/a</value>
-      <webElementGuid>f587437f-ea53-41ef-91b4-ffc0134d9a2d</webElementGuid>
+      <webElementGuid>668a0d82-b9b1-4aca-86b3-b6fc5ede3b67</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

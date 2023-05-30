@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[2]/span/div[2]/form/div[2]/div[3]/div/div/div/div/div[1]/div/div/div/table/tbody/tr[2]/td[1]/span
+         <value>//form/div[2]/div[3]/div/div/div/div/div[1]/div/div/div/table/tbody/tr[2]/td[1]/span
 </value>
       </entry>
    </selectorCollection>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>95226513-6103-4d96-84be-1a79f06efe53</webElementGuid>
+      <webElementGuid>04ac9a93-8798-411c-a458-04406bc668df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>3ed0f9a3-ec1b-424e-8b52-d2adacaab2d8</webElementGuid>
+      <webElementGuid>3d115eab-ad11-4743-bc8a-ade82d8aa5c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Certifica Laboral</value>
-      <webElementGuid>56891f58-cbd6-4966-bcb9-3d973e194fd6</webElementGuid>
+      <webElementGuid>14c69f68-6ac3-4531-b341-7e5f5c236702</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_solicitudesEmpleado:tabsSolicitudes:j_idt186_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable ui-state-hover&quot;]/td[1]</value>
-      <webElementGuid>452b56ab-091a-43a4-90d2-a70cb98919a9</webElementGuid>
+      <webElementGuid>5a067e7a-529c-491f-b3c2-6e7eef730021</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_solicitudesEmpleado:tabsSolicitudes:j_idt186_data']/tr[2]/td</value>
-      <webElementGuid>5f5728f3-b0b2-411b-a0a3-ff164eb694ba</webElementGuid>
+      <webElementGuid>17a632c5-ceee-4d98-bf2d-84c592b6abb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CERTIFICACIÓN LABORAL (CON SUELDO)'])[1]/following::td[1]</value>
-      <webElementGuid>14b38be4-d659-4652-b8ab-4b8329a763c3</webElementGuid>
+      <webElementGuid>a9bb2fa8-e58b-4513-a8c0-32ebbdf50076</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Certifica Laboral'])[1]/following::td[2]</value>
-      <webElementGuid>0bd94acc-9b4e-49f2-a15e-83e20c63927a</webElementGuid>
+      <webElementGuid>d4edeaec-6902-420f-879f-9ba403f7936a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CERTIFICACIÓN LABORAL (SIN SUELDO)'])[1]/preceding::td[1]</value>
-      <webElementGuid>1b378881-9664-4c43-bc73-8a05d588c258</webElementGuid>
+      <webElementGuid>20f06607-a6e7-416b-988e-4bbca5d09096</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td</value>
-      <webElementGuid>88df4824-4549-4635-a284-82a08cfc0f76</webElementGuid>
+      <webElementGuid>62a703ca-7cbd-4911-b8cb-8870646e0ce7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Certifica Laboral' or . = 'Certifica Laboral')]</value>
-      <webElementGuid>41efb2ff-d4db-45f3-9260-55363fd32d7e</webElementGuid>
+      <webElementGuid>d910ed19-1ad5-44b8-ab07-e233f74c89fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

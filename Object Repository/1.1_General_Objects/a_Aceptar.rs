@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p</name>
+   <name>a_Aceptar</name>
    <tag></tag>
-   <elementGuidId>420db89a-b014-42d2-82c2-ceb677cf40c1</elementGuidId>
+   <elementGuidId>c72b018d-1ced-479f-87d0-5a1951794876</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[1]/div/div[4]/p[1]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

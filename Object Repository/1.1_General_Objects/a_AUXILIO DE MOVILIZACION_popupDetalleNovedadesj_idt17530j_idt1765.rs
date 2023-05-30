@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>d78d8dd0-b87c-4b94-95e2-5b28f59efa7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupDetalleNovedades:j_idt1753:0:j_idt1765</value>
+      <webElementGuid>a63d7099-8b2b-4bbd-8aeb-81adebe53c78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>43183d3c-0b64-47d8-861d-9201781eaa7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-icon-deleted</value>
+      <webElementGuid>acd79c30-52a1-4198-90a8-a53d0535976c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupDetalleNovedades:j_idt1753:0:j_idt1765&quot;,f:&quot;popupDetalleNovedades&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>59256894-7253-49d7-929c-a1f6875a7928</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupDetalleNovedades:j_idt1753:0:j_idt1765&quot;)</value>
+      <webElementGuid>ac82eeb0-d3db-4261-81e7-510ad5853fd1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupDetalleNovedades:j_idt1753:0:j_idt1765']</value>
+      <webElementGuid>27372057-080b-4d31-bc57-6f5b6f3eb0d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='popupDetalleNovedades:j_idt1753_data']/tr/td[6]/a</value>
+      <webElementGuid>1600815b-03d7-4955-afc7-8d39121f0d0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[103]</value>
+      <webElementGuid>85b6cf01-7143-4970-b48f-e5f0ac8f88de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[6]/a</value>
+      <webElementGuid>89282479-15a1-4823-87e4-5d738a1f76b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

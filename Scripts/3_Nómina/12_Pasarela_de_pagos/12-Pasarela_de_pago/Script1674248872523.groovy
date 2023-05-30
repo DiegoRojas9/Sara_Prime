@@ -108,6 +108,8 @@ WebUI.click(findTestObject('3_Nómina/12_Pasarela_de_pago/img_ePayco'))
 
 WebUI.waitForElementVisible(findTestObject('3_Nómina/12_Pasarela_de_pago/ifram_onePage'), 0)
 
+WebUI.waitForElementVisible(findTestObject('3_Nómina/12_Pasarela_de_pago/ifram_onePage'), 0)
+
 WebUI.waitForElementVisible(findTestObject('3_Nómina/12_Pasarela_de_pago/input_correo'), 0)
 
 WebUI.setText(findTestObject('3_Nómina/12_Pasarela_de_pago/input_correo'), 'autotestus1994@gmail.com')

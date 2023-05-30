@@ -6,11 +6,12 @@
    <elementGuidId>22dc3708-1679-46db-bb78-a09e070f14f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'... [ver más]')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'... [ver más]')]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0c264a07-90eb-4d8c-8e72-690b112254dd</webElementGuid>
+      <webElementGuid>cc018680-488d-4942-b6fe-95f90838bdbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formulario_nomina:j_idt486:14:j_idt508</value>
-      <webElementGuid>86ea2866-ebb7-4370-8bf2-720fb5e38fbf</webElementGuid>
+      <webElementGuid>de70ca0b-7f76-4545-b761-f9c1474743ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>2adee1ff-c418-4e55-a4cf-569675b6ad63</webElementGuid>
+      <webElementGuid>bc48a378-8d9b-4cbf-a68d-33070225fff0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-link-tabla text-left</value>
-      <webElementGuid>0924a554-92f2-4540-8756-681a54cacd3a</webElementGuid>
+      <webElementGuid>78070d24-eeae-4700-8425-27d178d5b888</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formulario_nomina:j_idt486:14:j_idt508&quot;,f:&quot;formulario_nomina&quot;,u:&quot;popupDetalleNovedades&quot;});return false;</value>
-      <webElementGuid>13d0d44f-4490-4724-9345-2c25fc4638c8</webElementGuid>
+      <webElementGuid>e116ccdd-51dd-4cc4-bfe6-e3351338fff6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +63,7 @@
       <type>Main</type>
       <value>... [ver más]
 							</value>
-      <webElementGuid>34e39fcf-108e-490c-8861-98664bf460ff</webElementGuid>
+      <webElementGuid>e1363618-9098-4c79-a2c4-47605a90fabc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formulario_nomina:j_idt486:14:j_idt508&quot;)</value>
-      <webElementGuid>a71bda75-6bc0-4209-acd0-9d5d79b1936b</webElementGuid>
+      <webElementGuid>ae38a1d1-c588-41b2-b1b8-3f10f5678f9f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='formulario_nomina:j_idt486:1:j_idt508']</value>
-      <webElementGuid>af2d4b23-dd03-4ebd-a485-cd572bd199f0</webElementGuid>
+      <webElementGuid>9b347912-b82c-4dac-863b-afef99256204</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formulario_nomina:j_idt486_data']/tr[2]/td[6]/div/a</value>
-      <webElementGuid>1a319d3e-a794-4f8a-b4b8-94fda796be32</webElementGuid>
+      <webElementGuid>aa732571-3626-45c4-be58-8297d5415176</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'... [ver más]')]</value>
-      <webElementGuid>b69d9051-538d-4269-a7d8-6e949a746aa1</webElementGuid>
+      <webElementGuid>28015129-529a-4d4d-a9f1-db1c7c6b69fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha: 10/05/2021'])[1]/following::a[1]</value>
-      <webElementGuid>4ce3ceb3-daac-4300-a39e-8a003babbf2e</webElementGuid>
+      <webElementGuid>e7b6dc02-76fd-469a-abcf-90bbc0f49181</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NO RELACIONADO'])[1]/following::a[1]</value>
-      <webElementGuid>9b003230-a4ef-4db5-995c-b5e684123ef9</webElementGuid>
+      <webElementGuid>5aaa04bf-8e67-4b99-98e2-eac9cebc442d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AGUDELO ROJAS ANGELA MARÍA'])[2]/preceding::a[5]</value>
-      <webElementGuid>2eae672a-2fa1-442f-b670-dfc59304c0c0</webElementGuid>
+      <webElementGuid>91bbaa92-3f8b-4496-abe4-79b5db585d29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='URREGO CAMACHO MARIANA1004563'])[1]/preceding::a[10]</value>
-      <webElementGuid>2fb20df8-f435-4e18-aabb-4d43736846cb</webElementGuid>
+      <webElementGuid>cad513bd-ec67-4fb3-878f-e0eff116d265</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='... [ver más]']/parent::*</value>
-      <webElementGuid>c838832b-fb54-434a-8ebf-35523729ca9a</webElementGuid>
+      <webElementGuid>3757dd4f-4a14-4ce3-915c-51311d10b9d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +143,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[31]</value>
-      <webElementGuid>50fbd385-b3e6-4141-9258-5c8bb12b466d</webElementGuid>
+      <webElementGuid>ff535421-85ca-4a25-a809-b509a0f6478c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +151,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[6]/div/a</value>
-      <webElementGuid>ef07d916-6e35-4e51-852d-c694e5f6c834</webElementGuid>
+      <webElementGuid>a6913296-b8fa-48f9-a21b-2dd6b2e37430</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

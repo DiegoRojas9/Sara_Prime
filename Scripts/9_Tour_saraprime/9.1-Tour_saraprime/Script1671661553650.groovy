@@ -138,10 +138,16 @@ WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/img_continuar tour 
 
 WebUI.doubleClick(findTestObject('9_Tour_saraprime/img_continuar tour - Copy'))
 
-WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Siguiente0'), 0)
-
+if(WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Siguiente0'), 0))
+{
 WebUI.click(findTestObject('9_Tour_saraprime/a_Siguiente0'))
-
+}else {
+	WebUI.doubleClick(findTestObject('9_Tour_saraprime/img_continuar tour - Copy'))
+	
+	WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/a_Siguiente0'), 0)
+	
+	WebUI.click(findTestObject('9_Tour_saraprime/a_Siguiente0'))
+}
 if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/span_E_ui-icon ui-icon-closethick'), 1)) {
     WebUI.click(findTestObject('9_Tour_saraprime/span_E_ui-icon ui-icon-closethick'))
 } else if (WebUI.waitForElementVisible(findTestObject('9_Tour_saraprime/span_E_ui-icon ui-icon-closethick - 1'), 1)) {
